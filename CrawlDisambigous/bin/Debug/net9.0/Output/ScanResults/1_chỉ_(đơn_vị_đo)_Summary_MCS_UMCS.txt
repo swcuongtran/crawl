@@ -1,0 +1,824 @@
+================================================================================
+TỔNG HỢP TOÀN BỘ KẾT QUẢ SCAN TẬP MCS VÀ UMCS CỦA TẤT CẢ CÁC BÀI VIẾT
+THỰC THỂ NGUỒN: [1] chỉ (đơn vị đo)
+TỔNG SỐ BÀI VIẾT ĐÃ CÀO: 1
+THỜI GIAN HOÀN THÀNH: 2026-10-17 15:36:34
+================================================================================
+
+--------------------------------------------------------------------------------
+[1] TỔNG HỢP TẬP MCS (CHỈ HIỂN THỊ CÁC MENTIONS CÓ > 1 CANDIDATE TRONG CSDL)
+--------------------------------------------------------------------------------
+Số lượng: 52 mentions có > 1 candidate
+#  1. Mention: "quy" (Tổng xuất hiện: 19 lần)
+      -> EREL khuyên chọn: [ID: 261733] Quy
+      * Candidates trong KB (2):
+        - ID: 261733 | WikiName: Quy                       | Sig: 1     [CHỌN]
+        - ID: 524246 | WikiName: Bộ Rùa                    | Sig: 1    
+#  2. Mention: "vàng" (Tổng xuất hiện: 18 lần)
+      -> EREL khuyên chọn: [ID: 3118] Vàng
+      * Candidates trong KB (4):
+        - ID: 3118   | WikiName: Vàng                      | Sig: 1     [CHỌN]
+        - ID: 3880   | WikiName: Vàng (màu)                | Sig: 1    
+        - ID: 4203   | WikiName: Vàng kim loại (màu)       | Sig: 1    
+        - ID: 19850812 | WikiName: Huy chương vàng           | Sig: 1    
+#  3. Mention: "1" (Tổng xuất hiện: 13 lần)
+      -> EREL khuyên chọn: [ID: 49660] 1 (số)
+      * Candidates trong KB (5):
+        - ID: 2230   | WikiName: Hydro                     | Sig: 1    
+        - ID: 49660  | WikiName: 1 (số)                    | Sig: 1     [CHỌN]
+        - ID: 494583 | WikiName: 1                         | Sig: 1    
+        - ID: 541091 | WikiName: 1 TCN                     | Sig: 1    
+        - ID: 1239082 | WikiName: 1 (album của The Beatles) | Sig: 1    
+#  4. Mention: "Chỉ" (Tổng xuất hiện: 12 lần)
+      -> EREL khuyên chọn: [ID: 25397] Chỉ
+      * Candidates trong KB (4):
+        - ID: 3101   | WikiName: Chỉ (đơn vị đo)           | Sig: 1    
+        - ID: 12992  | WikiName: Chỉ (Phật giáo)           | Sig: 1    
+        - ID: 25397  | WikiName: Chỉ                       | Sig: 1     [CHỌN]
+        - ID: 531997 | WikiName: Chỉ (thực vật)            | Sig: 1    
+#  5. Mention: "ĐƠN VỊ" (Tổng xuất hiện: 12 lần)
+      -> EREL khuyên chọn: [ID: 3270] Đơn vị đo
+      * Candidates trong KB (2):
+        - ID: 3270   | WikiName: Đơn vị đo                 | Sig: 1     [CHỌN]
+        - ID: 190004874 | WikiName: đơn vị                    | Sig: 1    
+#  6. Mention: "Lượng" (Tổng xuất hiện: 8 lần)
+      -> EREL khuyên chọn: [ID: 2927] Lượng (kim hoàn)
+      * Candidates trong KB (2):
+        - ID: 2927   | WikiName: Lượng (kim hoàn)          | Sig: 1     [CHỌN]
+        - ID: 620886 | WikiName: Lượng                     | Sig: 1    
+#  7. Mention: "Phân" (Tổng xuất hiện: 7 lần)
+      -> EREL khuyên chọn: [ID: 99561] Phân bón
+      * Candidates trong KB (2):
+        - ID: 32131  | WikiName: Phân                      | Sig: 1    
+        - ID: 99561  | WikiName: Phân bón                  | Sig: 1     [CHỌN]
+#  8. Mention: "giá trị" (Tổng xuất hiện: 7 lần)
+      -> EREL khuyên chọn: [ID: 151639] Giá trị (kinh tế học)
+      * Candidates trong KB (3):
+        - ID: 151455 | WikiName: Giá trị                   | Sig: 1    
+        - ID: 151639 | WikiName: Giá trị (kinh tế học)     | Sig: 1     [CHỌN]
+        - ID: 14398214 | WikiName: Giá trị quan              | Sig: 1    
+#  9. Mention: "Gam" (Tổng xuất hiện: 6 lần)
+      -> EREL khuyên chọn: [ID: 2656] Gam
+      * Candidates trong KB (2):
+        - ID: 2656   | WikiName: Gam                       | Sig: 1     [CHỌN]
+        - ID: 828015 | WikiName: Âm giai                   | Sig: 1    
+# 10. Mention: "Bạn" (Tổng xuất hiện: 6 lần)
+      -> EREL khuyên chọn: [ID: 190000747] bạn
+      * Candidates trong KB (2):
+        - ID: 190695 | WikiName: Tình bạn                  | Sig: 1    
+        - ID: 190000747 | WikiName: bạn                       | Sig: 1     [CHỌN]
+# 11. Mention: "bằng" (Tổng xuất hiện: 5 lần)
+      -> EREL khuyên chọn: [ID: 19495589] Bằng
+      * Candidates trong KB (2):
+        - ID: 15491616 | WikiName: Giấy phép                 | Sig: 1    
+        - ID: 19495589 | WikiName: Bằng                      | Sig: 1     [CHỌN]
+# 12. Mention: "lường" (Tổng xuất hiện: 4 lần)
+      -> EREL khuyên chọn: [ID: 190011720] lường
+      * Candidates trong KB (2):
+        - ID: 19560015 | WikiName: Lường (họ)                | Sig: 1    
+        - ID: 190011720 | WikiName: lường                     | Sig: 1     [CHỌN]
+# 13. Mention: "2" (Tổng xuất hiện: 3 lần)
+      -> EREL khuyên chọn: [ID: 49659] 2 (số)
+      * Candidates trong KB (3):
+        - ID: 49659  | WikiName: 2 (số)                    | Sig: 1     [CHỌN]
+        - ID: 541001 | WikiName: 2                         | Sig: 1    
+        - ID: 541099 | WikiName: 2 TCN                     | Sig: 1    
+# 14. Mention: "Công cụ" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 190053696] công cụ
+      * Candidates trong KB (2):
+        - ID: 453719 | WikiName: Dụng cụ                   | Sig: 1    
+        - ID: 190053696 | WikiName: công cụ                   | Sig: 1     [CHỌN]
+# 15. Mention: "Cây" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 2927] Lượng (kim hoàn)
+      * Candidates trong KB (6):
+        - ID: 2927   | WikiName: Lượng (kim hoàn)          | Sig: 1     [CHỌN]
+        - ID: 54438  | WikiName: Cây (lý thuyết đồ thị)    | Sig: 1    
+        - ID: 96391  | WikiName: Cây (cấu trúc dữ liệu)    | Sig: 1    
+        - ID: 147089 | WikiName: Thực vật có mạch          | Sig: 1    
+        - ID: 362423 | WikiName: Kilômét                   | Sig: 1    
+        - ID: 384352 | WikiName: Cây                       | Sig: 1    
+# 16. Mention: "thực hiện" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 190024328] thực hiện
+      * Candidates trong KB (2):
+        - ID: 16384421 | WikiName: Triển khai                | Sig: 1    
+        - ID: 190024328 | WikiName: thực hiện                 | Sig: 1     [CHỌN]
+# 17. Mention: "câu" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 520529] Câu (hành động)
+      * Candidates trong KB (3):
+        - ID: 520529 | WikiName: Câu (hành động)           | Sig: 1     [CHỌN]
+        - ID: 2352576 | WikiName: Câu (ngữ pháp)            | Sig: 1    
+        - ID: 190002494 | WikiName: câu                       | Sig: 1    
+# 18. Mention: "ký" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 147814] Ký
+      * Candidates trong KB (2):
+        - ID: 147814 | WikiName: Ký                        | Sig: 1     [CHỌN]
+        - ID: 241065 | WikiName: Ký Châu                   | Sig: 1    
+# 19. Mention: "một" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 49660] 1 (số)
+      * Candidates trong KB (2):
+        - ID: 49660  | WikiName: 1 (số)                    | Sig: 1     [CHỌN]
+        - ID: 190012909 | WikiName: một                       | Sig: 1    
+# 20. Mention: "không" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 494403] 0
+      * Candidates trong KB (5):
+        - ID: 35669  | WikiName: 0 (số)                    | Sig: 1    
+        - ID: 494403 | WikiName: 0                         | Sig: 1     [CHỌN]
+        - ID: 19659948 | WikiName: Không (bài hát)           | Sig: 1    
+        - ID: 19688828 | WikiName: Không (phim)              | Sig: 1    
+        - ID: 190009227 | WikiName: không                     | Sig: 1    
+# 21. Mention: "Bảng" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 19568325] Table
+      * Candidates trong KB (3):
+        - ID: 19568325 | WikiName: Table                     | Sig: 1     [CHỌN]
+        - ID: 19583120 | WikiName: Bảng (thông tin)          | Sig: 1    
+        - ID: 190000861 | WikiName: bảng                      | Sig: 1    
+# 22. Mention: "⚠️" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 39516] Mèo
+      * Candidates trong KB (129):
+        - ID: 5969   | WikiName: Hổ                        | Sig: 1    
+        - ID: 7340   | WikiName: Cá mập                    | Sig: 1    
+        - ID: 9877   | WikiName: Chim                      | Sig: 1    
+        - ID: 10417  | WikiName: Truyền hình               | Sig: 1    
+        - ID: 10870  | WikiName: Cá sấu                    | Sig: 1    
+        - ID: 11827  | WikiName: Kiến                      | Sig: 1    
+        - ID: 12138  | WikiName: Hamburger                 | Sig: 1    
+        - ID: 18329  | WikiName: Khỉ                       | Sig: 1    
+        - ID: 25177  | WikiName: Tê giác                   | Sig: 1    
+        - ID: 26131  | WikiName: Koala                     | Sig: 1    
+        - ID: 28210  | WikiName: Dương cầm                 | Sig: 1    
+        - ID: 30817  | WikiName: Chó                       | Sig: 1    
+        - ID: 33585  | WikiName: Pizza                     | Sig: 1    
+        - ID: 35512  | WikiName: Dừa                       | Sig: 1    
+        - ID: 36956  | WikiName: Cá                        | Sig: 1    
+        - ID: 39516  | WikiName: Mèo                       | Sig: 1     [CHỌN]
+        - ID: 41691  | WikiName: Chim cánh cụt             | Sig: 1    
+        - ID: 42871  | WikiName: Trâu                      | Sig: 1    
+        - ID: 44299  | WikiName: Voi                       | Sig: 1    
+        - ID: 45078  | WikiName: Chi Lợn                   | Sig: 1    
+        - ID: 59875  | WikiName: Nho                       | Sig: 1    
+        - ID: 61202  | WikiName: Phân thứ bộ Cua           | Sig: 1    
+        - ID: 61276  | WikiName: Tôm                       | Sig: 1    
+        - ID: 61394  | WikiName: Bọ cạp                    | Sig: 1    
+        - ID: 61408  | WikiName: Nhện                      | Sig: 1    
+        - ID: 61599  | WikiName: Rắn                       | Sig: 1    
+        - ID: 62109  | WikiName: Bạch tuộc                 | Sig: 1    
+        - ID: 79008  | WikiName: Thỏ                       | Sig: 1    
+        - ID: 80952  | WikiName: Moai                      | Sig: 1    
+        - ID: 87825  | WikiName: Dưa hấu                   | Sig: 1    
+        - ID: 103065 | WikiName: Kíp Lào                   | Sig: 1    
+        - ID: 103202 | WikiName: Riel Campuchia            | Sig: 1    
+        - ID: 103359 | WikiName: Peso Philippines          | Sig: 1    
+        - ID: 111446 | WikiName: Chi Gà tây                | Sig: 1    
+        - ID: 121443 | WikiName: Vịt                       | Sig: 1    
+        - ID: 122661 | WikiName: Dâu tây                   | Sig: 1    
+        - ID: 123707 | WikiName: Gà                        | Sig: 1    
+        - ID: 146082 | WikiName: SOS                       | Sig: 1    
+        - ID: 172661 | WikiName: Bọ rùa                    | Sig: 1    
+        - ID: 188994 | WikiName: Pháo hoa                  | Sig: 1    
+        - ID: 194145 | WikiName: Bộ Dơi                    | Sig: 1    
+        - ID: 223181 | WikiName: Anh đào                   | Sig: 1    
+        - ID: 270495 | WikiName: Rúp Nga                   | Sig: 1    
+        - ID: 292053 | WikiName: Khỉ đột                   | Sig: 1    
+        - ID: 304512 | WikiName: Dê                        | Sig: 1    
+        - ID: 306929 | WikiName: Bộ Cú                     | Sig: 1    
+        - ID: 316868 | WikiName: Ngựa                      | Sig: 1    
+        - ID: 332172 | WikiName: Bơi                       | Sig: 1    
+        - ID: 396186 | WikiName: Lợn rừng                  | Sig: 1    
+        - ID: 438360 | WikiName: Đại bàng                  | Sig: 1    
+        - ID: 479571 | WikiName: Khủng long chân thằn lằn  | Sig: 1    
+        - ID: 494952 | WikiName: Dứa                       | Sig: 1    
+        - ID: 524246 | WikiName: Bộ Rùa                    | Sig: 1    
+        - ID: 525201 | WikiName: Cá heo                    | Sig: 1    
+        - ID: 579267 | WikiName: Kéo                       | Sig: 1    
+        - ID: 795809 | WikiName: Lê (thực vật)             | Sig: 1    
+        - ID: 796790 | WikiName: Cá voi                    | Sig: 1    
+        - ID: 991692 | WikiName: Thằn lằn                  | Sig: 1    
+        - ID: 1133459 | WikiName: Ong mật                   | Sig: 1    
+        - ID: 1296739 | WikiName: Drachma                   | Sig: 1    
+        - ID: 1739018 | WikiName: Rồng Trung Hoa            | Sig: 1    
+        - ID: 1745367 | WikiName: Bitcoin                   | Sig: 1    
+        - ID: 2991862 | WikiName: Cá nhiệt đới              | Sig: 1    
+        - ID: 3127981 | WikiName: Chó săn vịt               | Sig: 1    
+        - ID: 3264469 | WikiName: Manat Azerbaijan          | Sig: 1    
+        - ID: 3374832 | WikiName: Rupee                     | Sig: 1    
+        - ID: 14521767 | WikiName: San (chữ cái)             | Sig: 1    
+        - ID: 14521780 | WikiName: Koppa (chữ cái)           | Sig: 1    
+        - ID: 14628318 | WikiName: Ꞗ                         | Sig: 1    
+        - ID: 19220612 | WikiName: Bộ Quy (龜)                | Sig: 1    
+        - ID: 19526679 | WikiName: Người tuyết               | Sig: 1    
+        - ID: 19715769 | WikiName: Bánh bơ giòn              | Sig: 1    
+        - ID: 19790245 | WikiName: ꙮ                         | Sig: 1    
+        - ID: 19805221 | WikiName: Lari Gruzia               | Sig: 1    
+        - ID: 19812682 | WikiName: Ꙉ                         | Sig: 1    
+        - ID: 19813603 | WikiName: Ꙟ                         | Sig: 1    
+        - ID: 19814697 | WikiName: Ԙ                         | Sig: 1    
+        - ID: 19814728 | WikiName: Ԝ                         | Sig: 1    
+        - ID: 19814916 | WikiName: Ԅ                         | Sig: 1    
+        - ID: 19815206 | WikiName: Ꚙ                         | Sig: 1    
+        - ID: 19815645 | WikiName: Ԑ                         | Sig: 1    
+        - ID: 19815724 | WikiName: Ӕ                         | Sig: 1    
+        - ID: 19815742 | WikiName: Ꙇ                         | Sig: 1    
+        - ID: 19816408 | WikiName: Ԭ                         | Sig: 1    
+        - ID: 19816670 | WikiName: Ꚛ                         | Sig: 1    
+        - ID: 19816983 | WikiName: Ԁ                         | Sig: 1    
+        - ID: 19817017 | WikiName: Ԃ                         | Sig: 1    
+        - ID: 19817509 | WikiName: Ԇ                         | Sig: 1    
+        - ID: 19817511 | WikiName: Ԏ                         | Sig: 1    
+        - ID: 19817512 | WikiName: Ԍ                         | Sig: 1    
+        - ID: 19817931 | WikiName: Ԉ                         | Sig: 1    
+        - ID: 19819567 | WikiName: Ԯ                         | Sig: 1    
+        - ID: 19819571 | WikiName: Ꚓ                         | Sig: 1    
+        - ID: 19819577 | WikiName: Ꚍ                         | Sig: 1    
+        - ID: 19820581 | WikiName: Ԋ                         | Sig: 1    
+        - ID: 19823323 | WikiName: Ԕ                         | Sig: 1    
+        - ID: 19826433 | WikiName: Ӵ                         | Sig: 1    
+        - ID: 19855291 | WikiName: Ө                         | Sig: 1    
+        - ID: 19855470 | WikiName: Ꚅ                         | Sig: 1    
+        - ID: 19856024 | WikiName: ა                         | Sig: 1    
+        - ID: 19856033 | WikiName: ბ                         | Sig: 1    
+        - ID: 19856042 | WikiName: გ                         | Sig: 1    
+        - ID: 19856050 | WikiName: დ                         | Sig: 1    
+        - ID: 19856061 | WikiName: ე                         | Sig: 1    
+        - ID: 19856139 | WikiName: ვ                         | Sig: 1    
+        - ID: 19856143 | WikiName: ზ                         | Sig: 1    
+        - ID: 19856158 | WikiName: თ                         | Sig: 1    
+        - ID: 19856167 | WikiName: ი                         | Sig: 1    
+        - ID: 19856240 | WikiName: კ                         | Sig: 1    
+        - ID: 19856246 | WikiName: ლ                         | Sig: 1    
+        - ID: 19856302 | WikiName: მ                         | Sig: 1    
+        - ID: 19856315 | WikiName: ნ                         | Sig: 1    
+        - ID: 19856437 | WikiName: ჲ                         | Sig: 1    
+        - ID: 19856453 | WikiName: ო                         | Sig: 1    
+        - ID: 19856684 | WikiName: პ                         | Sig: 1    
+        - ID: 19856707 | WikiName: ჟ                         | Sig: 1    
+        - ID: 19856712 | WikiName: რ                         | Sig: 1    
+        - ID: 19857012 | WikiName: ს                         | Sig: 1    
+        - ID: 19857017 | WikiName: ტ                         | Sig: 1    
+        - ID: 19857021 | WikiName: ჳ                         | Sig: 1    
+        - ID: 19857025 | WikiName: ჱ                         | Sig: 1    
+        - ID: 19857173 | WikiName: უ                         | Sig: 1    
+        - ID: 19857178 | WikiName: ფ                         | Sig: 1    
+        - ID: 19857182 | WikiName: ქ                         | Sig: 1    
+        - ID: 19857395 | WikiName: ღ                         | Sig: 1    
+        - ID: 19857400 | WikiName: ყ                         | Sig: 1    
+        - ID: 19857405 | WikiName: შ                         | Sig: 1    
+        - ID: 19857547 | WikiName: ჩ                         | Sig: 1    
+        - ID: 19857555 | WikiName: ც                         | Sig: 1    
+# 23. Mention: "số dương" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 38987] Số tự nhiên
+      * Candidates trong KB (2):
+        - ID: 38987  | WikiName: Số tự nhiên               | Sig: 1     [CHỌN]
+        - ID: 190020141 | WikiName: số dương                  | Sig: 1    
+# 24. Mention: "0" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 494403] 0
+      * Candidates trong KB (14):
+        - ID: 687    | WikiName: O                         | Sig: 1    
+        - ID: 23432  | WikiName: Đường kính                | Sig: 1    
+        - ID: 35669  | WikiName: 0 (số)                    | Sig: 1    
+        - ID: 470179 | WikiName: Những cái hố (tiểu thuyết) | Sig: 1    
+        - ID: 494403 | WikiName: 0                         | Sig: 1     [CHỌN]
+        - ID: 494578 | WikiName: 0°                        | Sig: 1    
+        - ID: 829202 | WikiName: 0 A.D.                    | Sig: 1    
+        - ID: 845526 | WikiName: Theta                     | Sig: 1    
+        - ID: 1279692 | WikiName: Thập niên 0 TCN           | Sig: 1    
+        - ID: 1279739 | WikiName: Thập niên 0               | Sig: 1    
+        - ID: 2353945 | WikiName: Phi (chữ cái)             | Sig: 1    
+        - ID: 19659447 | WikiName: /dev/zero                 | Sig: 1    
+        - ID: 19659741 | WikiName: Null                      | Sig: 1    
+        - ID: 19736429 | WikiName: Ø                         | Sig: 1    
+# 25. Mention: "Nút này" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 2360041] Nút (đơn vị)
+      * Candidates trong KB (2):
+        - ID: 2360041 | WikiName: Nút (đơn vị)              | Sig: 1     [CHỌN]
+        - ID: 190016375 | WikiName: nút                       | Sig: 1    
+# 26. Mention: "màu" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 4116] Màu sắc
+      * Candidates trong KB (3):
+        - ID: 4116   | WikiName: Màu sắc                   | Sig: 1     [CHỌN]
+        - ID: 4313   | WikiName: Màu                       | Sig: 1    
+        - ID: 866252 | WikiName: Hoa màu                   | Sig: 1    
+# 27. Mention: "hiệu" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 190007106] hiệu
+      * Candidates trong KB (2):
+        - ID: 63348  | WikiName: Tên hiệu                  | Sig: 1    
+        - ID: 190007106 | WikiName: hiệu                      | Sig: 1     [CHỌN]
+# 28. Mention: "chuột" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 138393] Chuột (máy tính)
+      * Candidates trong KB (15):
+        - ID: 53204  | WikiName: Chuột rút                 | Sig: 1    
+        - ID: 138393 | WikiName: Chuột (máy tính)          | Sig: 1     [CHỌN]
+        - ID: 188892 | WikiName: Bộ Gặm nhấm               | Sig: 1    
+        - ID: 239335 | WikiName: Chuột Minnie              | Sig: 1    
+        - ID: 527189 | WikiName: Chuột cống                | Sig: 1    
+        - ID: 1456217 | WikiName: Họ Chuột                  | Sig: 1    
+        - ID: 2106248 | WikiName: Nanh chuột                | Sig: 1    
+        - ID: 3308449 | WikiName: Chuột (phim)              | Sig: 1    
+        - ID: 3354079 | WikiName: Phân họ Chuột đồng        | Sig: 1    
+        - ID: 3374786 | WikiName: Chuột nhà                 | Sig: 1    
+        - ID: 15414710 | WikiName: Chuột nhắt                | Sig: 1    
+        - ID: 17992406 | WikiName: Panzer VIII Maus          | Sig: 1    
+        - ID: 18013876 | WikiName: Cơ nhị đầu cánh tay       | Sig: 1    
+        - ID: 19543037 | WikiName: Chuột                     | Sig: 1    
+        - ID: 19546157 | WikiName: Chuột xạ                  | Sig: 1    
+# 29. Mention: "qua" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 190017764] qua
+      * Candidates trong KB (2):
+        - ID: 1741063 | WikiName: Qua (nước)                | Sig: 1    
+        - ID: 190017764 | WikiName: qua                       | Sig: 1     [CHỌN]
+# 30. Mention: "Tên" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 801986] Tên
+      * Candidates trong KB (5):
+        - ID: 29106  | WikiName: Tên lửa                   | Sig: 1    
+        - ID: 801986 | WikiName: Tên                       | Sig: 1     [CHỌN]
+        - ID: 801987 | WikiName: Tên gọi                   | Sig: 1    
+        - ID: 2360397 | WikiName: Mũi tên                   | Sig: 1    
+        - ID: 2384192 | WikiName: Tên thánh                 | Sig: 1    
+# 31. Mention: "xác" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 1336486] Xác chết
+      * Candidates trong KB (2):
+        - ID: 1336486 | WikiName: Xác chết                  | Sig: 1     [CHỌN]
+        - ID: 190029558 | WikiName: xác                       | Sig: 1    
+# 32. Mention: "tự động" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 190027752] tự động
+      * Candidates trong KB (2):
+        - ID: 3215668 | WikiName: Tự động hóa               | Sig: 1    
+        - ID: 190027752 | WikiName: tự động                   | Sig: 1     [CHỌN]
+# 33. Mention: "dư" (Tổng xuất hiện: 2 lần)
+      -> EREL khuyên chọn: [ID: 3513812] Dư
+      * Candidates trong KB (3):
+        - ID: 236740 | WikiName: Dư (họ)                   | Sig: 1    
+        - ID: 3513812 | WikiName: Dư                        | Sig: 1     [CHỌN]
+        - ID: 15677620 | WikiName: Số dư                     | Sig: 1    
+# 34. Mention: "ra" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 43966] Ra
+      * Candidates trong KB (3):
+        - ID: 8360   | WikiName: Xích kinh                 | Sig: 1    
+        - ID: 43966  | WikiName: Ra                        | Sig: 1     [CHỌN]
+        - ID: 797485 | WikiName: Ra (tỉnh)                 | Sig: 1    
+# 35. Mention: "mục đích" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 190012995] mục đích
+      * Candidates trong KB (2):
+        - ID: 3270067 | WikiName: Mục đích cuối cùng        | Sig: 1    
+        - ID: 190012995 | WikiName: mục đích                  | Sig: 1     [CHỌN]
+# 36. Mention: "công cụ này" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 453719] Dụng cụ
+      * Candidates trong KB (2):
+        - ID: 453719 | WikiName: Dụng cụ                   | Sig: 1     [CHỌN]
+        - ID: 190053696 | WikiName: công cụ                   | Sig: 1    
+# 37. Mention: "thập phân" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 190022878] thập phân
+      * Candidates trong KB (2):
+        - ID: 44303  | WikiName: Hệ thập phân              | Sig: 1    
+        - ID: 190022878 | WikiName: thập phân                 | Sig: 1     [CHỌN]
+# 38. Mention: "thời gian" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 2563] Thời gian
+      * Candidates trong KB (3):
+        - ID: 2563   | WikiName: Thời gian                 | Sig: 1     [CHỌN]
+        - ID: 444978 | WikiName: Thời gian (album của Microwave) | Sig: 1    
+        - ID: 14669608 | WikiName: Mỹ Linh Tour 2018 – Thời gian | Sig: 1    
+# 39. Mention: "giao dịch" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 61887] Giao dịch tài chính
+      * Candidates trong KB (3):
+        - ID: 5938   | WikiName: Giao dịch                 | Sig: 1    
+        - ID: 5939   | WikiName: Giao dịch cơ sở dữ liệu   | Sig: 1    
+        - ID: 61887  | WikiName: Giao dịch tài chính       | Sig: 1     [CHỌN]
+# 40. Mention: "📌" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 39516] Mèo
+      * Candidates trong KB (129):
+        - ID: 5969   | WikiName: Hổ                        | Sig: 1    
+        - ID: 7340   | WikiName: Cá mập                    | Sig: 1    
+        - ID: 9877   | WikiName: Chim                      | Sig: 1    
+        - ID: 10417  | WikiName: Truyền hình               | Sig: 1    
+        - ID: 10870  | WikiName: Cá sấu                    | Sig: 1    
+        - ID: 11827  | WikiName: Kiến                      | Sig: 1    
+        - ID: 12138  | WikiName: Hamburger                 | Sig: 1    
+        - ID: 18329  | WikiName: Khỉ                       | Sig: 1    
+        - ID: 25177  | WikiName: Tê giác                   | Sig: 1    
+        - ID: 26131  | WikiName: Koala                     | Sig: 1    
+        - ID: 28210  | WikiName: Dương cầm                 | Sig: 1    
+        - ID: 30817  | WikiName: Chó                       | Sig: 1    
+        - ID: 33585  | WikiName: Pizza                     | Sig: 1    
+        - ID: 35512  | WikiName: Dừa                       | Sig: 1    
+        - ID: 36956  | WikiName: Cá                        | Sig: 1    
+        - ID: 39516  | WikiName: Mèo                       | Sig: 1     [CHỌN]
+        - ID: 41691  | WikiName: Chim cánh cụt             | Sig: 1    
+        - ID: 42871  | WikiName: Trâu                      | Sig: 1    
+        - ID: 44299  | WikiName: Voi                       | Sig: 1    
+        - ID: 45078  | WikiName: Chi Lợn                   | Sig: 1    
+        - ID: 59875  | WikiName: Nho                       | Sig: 1    
+        - ID: 61202  | WikiName: Phân thứ bộ Cua           | Sig: 1    
+        - ID: 61276  | WikiName: Tôm                       | Sig: 1    
+        - ID: 61394  | WikiName: Bọ cạp                    | Sig: 1    
+        - ID: 61408  | WikiName: Nhện                      | Sig: 1    
+        - ID: 61599  | WikiName: Rắn                       | Sig: 1    
+        - ID: 62109  | WikiName: Bạch tuộc                 | Sig: 1    
+        - ID: 79008  | WikiName: Thỏ                       | Sig: 1    
+        - ID: 80952  | WikiName: Moai                      | Sig: 1    
+        - ID: 87825  | WikiName: Dưa hấu                   | Sig: 1    
+        - ID: 103065 | WikiName: Kíp Lào                   | Sig: 1    
+        - ID: 103202 | WikiName: Riel Campuchia            | Sig: 1    
+        - ID: 103359 | WikiName: Peso Philippines          | Sig: 1    
+        - ID: 111446 | WikiName: Chi Gà tây                | Sig: 1    
+        - ID: 121443 | WikiName: Vịt                       | Sig: 1    
+        - ID: 122661 | WikiName: Dâu tây                   | Sig: 1    
+        - ID: 123707 | WikiName: Gà                        | Sig: 1    
+        - ID: 146082 | WikiName: SOS                       | Sig: 1    
+        - ID: 172661 | WikiName: Bọ rùa                    | Sig: 1    
+        - ID: 188994 | WikiName: Pháo hoa                  | Sig: 1    
+        - ID: 194145 | WikiName: Bộ Dơi                    | Sig: 1    
+        - ID: 223181 | WikiName: Anh đào                   | Sig: 1    
+        - ID: 270495 | WikiName: Rúp Nga                   | Sig: 1    
+        - ID: 292053 | WikiName: Khỉ đột                   | Sig: 1    
+        - ID: 304512 | WikiName: Dê                        | Sig: 1    
+        - ID: 306929 | WikiName: Bộ Cú                     | Sig: 1    
+        - ID: 316868 | WikiName: Ngựa                      | Sig: 1    
+        - ID: 332172 | WikiName: Bơi                       | Sig: 1    
+        - ID: 396186 | WikiName: Lợn rừng                  | Sig: 1    
+        - ID: 438360 | WikiName: Đại bàng                  | Sig: 1    
+        - ID: 479571 | WikiName: Khủng long chân thằn lằn  | Sig: 1    
+        - ID: 494952 | WikiName: Dứa                       | Sig: 1    
+        - ID: 524246 | WikiName: Bộ Rùa                    | Sig: 1    
+        - ID: 525201 | WikiName: Cá heo                    | Sig: 1    
+        - ID: 579267 | WikiName: Kéo                       | Sig: 1    
+        - ID: 795809 | WikiName: Lê (thực vật)             | Sig: 1    
+        - ID: 796790 | WikiName: Cá voi                    | Sig: 1    
+        - ID: 991692 | WikiName: Thằn lằn                  | Sig: 1    
+        - ID: 1133459 | WikiName: Ong mật                   | Sig: 1    
+        - ID: 1296739 | WikiName: Drachma                   | Sig: 1    
+        - ID: 1739018 | WikiName: Rồng Trung Hoa            | Sig: 1    
+        - ID: 1745367 | WikiName: Bitcoin                   | Sig: 1    
+        - ID: 2991862 | WikiName: Cá nhiệt đới              | Sig: 1    
+        - ID: 3127981 | WikiName: Chó săn vịt               | Sig: 1    
+        - ID: 3264469 | WikiName: Manat Azerbaijan          | Sig: 1    
+        - ID: 3374832 | WikiName: Rupee                     | Sig: 1    
+        - ID: 14521767 | WikiName: San (chữ cái)             | Sig: 1    
+        - ID: 14521780 | WikiName: Koppa (chữ cái)           | Sig: 1    
+        - ID: 14628318 | WikiName: Ꞗ                         | Sig: 1    
+        - ID: 19220612 | WikiName: Bộ Quy (龜)                | Sig: 1    
+        - ID: 19526679 | WikiName: Người tuyết               | Sig: 1    
+        - ID: 19715769 | WikiName: Bánh bơ giòn              | Sig: 1    
+        - ID: 19790245 | WikiName: ꙮ                         | Sig: 1    
+        - ID: 19805221 | WikiName: Lari Gruzia               | Sig: 1    
+        - ID: 19812682 | WikiName: Ꙉ                         | Sig: 1    
+        - ID: 19813603 | WikiName: Ꙟ                         | Sig: 1    
+        - ID: 19814697 | WikiName: Ԙ                         | Sig: 1    
+        - ID: 19814728 | WikiName: Ԝ                         | Sig: 1    
+        - ID: 19814916 | WikiName: Ԅ                         | Sig: 1    
+        - ID: 19815206 | WikiName: Ꚙ                         | Sig: 1    
+        - ID: 19815645 | WikiName: Ԑ                         | Sig: 1    
+        - ID: 19815724 | WikiName: Ӕ                         | Sig: 1    
+        - ID: 19815742 | WikiName: Ꙇ                         | Sig: 1    
+        - ID: 19816408 | WikiName: Ԭ                         | Sig: 1    
+        - ID: 19816670 | WikiName: Ꚛ                         | Sig: 1    
+        - ID: 19816983 | WikiName: Ԁ                         | Sig: 1    
+        - ID: 19817017 | WikiName: Ԃ                         | Sig: 1    
+        - ID: 19817509 | WikiName: Ԇ                         | Sig: 1    
+        - ID: 19817511 | WikiName: Ԏ                         | Sig: 1    
+        - ID: 19817512 | WikiName: Ԍ                         | Sig: 1    
+        - ID: 19817931 | WikiName: Ԉ                         | Sig: 1    
+        - ID: 19819567 | WikiName: Ԯ                         | Sig: 1    
+        - ID: 19819571 | WikiName: Ꚓ                         | Sig: 1    
+        - ID: 19819577 | WikiName: Ꚍ                         | Sig: 1    
+        - ID: 19820581 | WikiName: Ԋ                         | Sig: 1    
+        - ID: 19823323 | WikiName: Ԕ                         | Sig: 1    
+        - ID: 19826433 | WikiName: Ӵ                         | Sig: 1    
+        - ID: 19855291 | WikiName: Ө                         | Sig: 1    
+        - ID: 19855470 | WikiName: Ꚅ                         | Sig: 1    
+        - ID: 19856024 | WikiName: ა                         | Sig: 1    
+        - ID: 19856033 | WikiName: ბ                         | Sig: 1    
+        - ID: 19856042 | WikiName: გ                         | Sig: 1    
+        - ID: 19856050 | WikiName: დ                         | Sig: 1    
+        - ID: 19856061 | WikiName: ე                         | Sig: 1    
+        - ID: 19856139 | WikiName: ვ                         | Sig: 1    
+        - ID: 19856143 | WikiName: ზ                         | Sig: 1    
+        - ID: 19856158 | WikiName: თ                         | Sig: 1    
+        - ID: 19856167 | WikiName: ი                         | Sig: 1    
+        - ID: 19856240 | WikiName: კ                         | Sig: 1    
+        - ID: 19856246 | WikiName: ლ                         | Sig: 1    
+        - ID: 19856302 | WikiName: მ                         | Sig: 1    
+        - ID: 19856315 | WikiName: ნ                         | Sig: 1    
+        - ID: 19856437 | WikiName: ჲ                         | Sig: 1    
+        - ID: 19856453 | WikiName: ო                         | Sig: 1    
+        - ID: 19856684 | WikiName: პ                         | Sig: 1    
+        - ID: 19856707 | WikiName: ჟ                         | Sig: 1    
+        - ID: 19856712 | WikiName: რ                         | Sig: 1    
+        - ID: 19857012 | WikiName: ს                         | Sig: 1    
+        - ID: 19857017 | WikiName: ტ                         | Sig: 1    
+        - ID: 19857021 | WikiName: ჳ                         | Sig: 1    
+        - ID: 19857025 | WikiName: ჱ                         | Sig: 1    
+        - ID: 19857173 | WikiName: უ                         | Sig: 1    
+        - ID: 19857178 | WikiName: ფ                         | Sig: 1    
+        - ID: 19857182 | WikiName: ქ                         | Sig: 1    
+        - ID: 19857395 | WikiName: ღ                         | Sig: 1    
+        - ID: 19857400 | WikiName: ყ                         | Sig: 1    
+        - ID: 19857405 | WikiName: შ                         | Sig: 1    
+        - ID: 19857547 | WikiName: ჩ                         | Sig: 1    
+        - ID: 19857555 | WikiName: ც                         | Sig: 1    
+# 41. Mention: "ô" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 29552] Trầu không
+      * Candidates trong KB (3):
+        - ID: 11505  | WikiName: Ô                         | Sig: 1    
+        - ID: 29552  | WikiName: Trầu không                | Sig: 1     [CHỌN]
+        - ID: 982845 | WikiName: Ô (vật dụng)              | Sig: 1    
+# 42. Mention: "từ" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 364426] Từ
+      * Candidates trong KB (6):
+        - ID: 5998   | WikiName: Từ học                    | Sig: 1    
+        - ID: 236583 | WikiName: Từ (họ)                   | Sig: 1    
+        - ID: 364426 | WikiName: Từ                        | Sig: 1     [CHỌN]
+        - ID: 801416 | WikiName: Từ (thể loại văn học)     | Sig: 1    
+        - ID: 1678637 | WikiName: Từ (nước)                 | Sig: 1    
+        - ID: 3338594 | WikiName: Từ đường họ Mạc           | Sig: 1    
+# 43. Mention: "menu" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 19488207] Menu (điện toán)
+      * Candidates trong KB (3):
+        - ID: 1328650 | WikiName: Thực đơn                  | Sig: 1    
+        - ID: 1328653 | WikiName: Menu                      | Sig: 1    
+        - ID: 19488207 | WikiName: Menu (điện toán)          | Sig: 1     [CHỌN]
+# 44. Mention: "3" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 49658] 3 (số)
+      * Candidates trong KB (6):
+        - ID: 49658  | WikiName: 3 (số)                    | Sig: 1     [CHỌN]
+        - ID: 63673  | WikiName: Chicago (ban nhạc)        | Sig: 1    
+        - ID: 541100 | WikiName: 3 TCN                     | Sig: 1    
+        - ID: 624766 | WikiName: 3                         | Sig: 1    
+        - ID: 819060 | WikiName: Take That                 | Sig: 1    
+        - ID: 3179478 | WikiName: The Script                | Sig: 1    
+# 45. Mention: "nút" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 2360041] Nút (đơn vị)
+      * Candidates trong KB (2):
+        - ID: 2360041 | WikiName: Nút (đơn vị)              | Sig: 1     [CHỌN]
+        - ID: 190016375 | WikiName: nút                       | Sig: 1    
+# 46. Mention: "thị" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 188779] Thị
+      * Candidates trong KB (4):
+        - ID: 70823  | WikiName: Thị trường                | Sig: 1    
+        - ID: 188779 | WikiName: Thị                       | Sig: 1     [CHỌN]
+        - ID: 321437 | WikiName: Thị trưởng                | Sig: 1    
+        - ID: 348639 | WikiName: Thị giác                  | Sig: 1    
+# 47. Mention: "lưới" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 1765691] Lưới (toán học)
+      * Candidates trong KB (3):
+        - ID: 76468  | WikiName: Lưới B40                  | Sig: 1    
+        - ID: 1765691 | WikiName: Lưới (toán học)           | Sig: 1     [CHỌN]
+        - ID: 1765716 | WikiName: Lưới                      | Sig: 1    
+# 48. Mention: "cột" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 15761536] Cột (tàu thuyền)
+      * Candidates trong KB (3):
+        - ID: 823669 | WikiName: Cột trụ                   | Sig: 1    
+        - ID: 15761536 | WikiName: Cột (tàu thuyền)          | Sig: 1     [CHỌN]
+        - ID: 190003701 | WikiName: cột                       | Sig: 1    
+# 49. Mention: "thấy" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 16174546] Thấy (phim truyền hình)
+      * Candidates trong KB (3):
+        - ID: 348639 | WikiName: Thị giác                  | Sig: 1    
+        - ID: 16174546 | WikiName: Thấy (phim truyền hình)   | Sig: 1     [CHỌN]
+        - ID: 190022973 | WikiName: thấy                      | Sig: 1    
+# 50. Mention: "❓" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 39516] Mèo
+      * Candidates trong KB (129):
+        - ID: 5969   | WikiName: Hổ                        | Sig: 1    
+        - ID: 7340   | WikiName: Cá mập                    | Sig: 1    
+        - ID: 9877   | WikiName: Chim                      | Sig: 1    
+        - ID: 10417  | WikiName: Truyền hình               | Sig: 1    
+        - ID: 10870  | WikiName: Cá sấu                    | Sig: 1    
+        - ID: 11827  | WikiName: Kiến                      | Sig: 1    
+        - ID: 12138  | WikiName: Hamburger                 | Sig: 1    
+        - ID: 18329  | WikiName: Khỉ                       | Sig: 1    
+        - ID: 25177  | WikiName: Tê giác                   | Sig: 1    
+        - ID: 26131  | WikiName: Koala                     | Sig: 1    
+        - ID: 28210  | WikiName: Dương cầm                 | Sig: 1    
+        - ID: 30817  | WikiName: Chó                       | Sig: 1    
+        - ID: 33585  | WikiName: Pizza                     | Sig: 1    
+        - ID: 35512  | WikiName: Dừa                       | Sig: 1    
+        - ID: 36956  | WikiName: Cá                        | Sig: 1    
+        - ID: 39516  | WikiName: Mèo                       | Sig: 1     [CHỌN]
+        - ID: 41691  | WikiName: Chim cánh cụt             | Sig: 1    
+        - ID: 42871  | WikiName: Trâu                      | Sig: 1    
+        - ID: 44299  | WikiName: Voi                       | Sig: 1    
+        - ID: 45078  | WikiName: Chi Lợn                   | Sig: 1    
+        - ID: 59875  | WikiName: Nho                       | Sig: 1    
+        - ID: 61202  | WikiName: Phân thứ bộ Cua           | Sig: 1    
+        - ID: 61276  | WikiName: Tôm                       | Sig: 1    
+        - ID: 61394  | WikiName: Bọ cạp                    | Sig: 1    
+        - ID: 61408  | WikiName: Nhện                      | Sig: 1    
+        - ID: 61599  | WikiName: Rắn                       | Sig: 1    
+        - ID: 62109  | WikiName: Bạch tuộc                 | Sig: 1    
+        - ID: 79008  | WikiName: Thỏ                       | Sig: 1    
+        - ID: 80952  | WikiName: Moai                      | Sig: 1    
+        - ID: 87825  | WikiName: Dưa hấu                   | Sig: 1    
+        - ID: 103065 | WikiName: Kíp Lào                   | Sig: 1    
+        - ID: 103202 | WikiName: Riel Campuchia            | Sig: 1    
+        - ID: 103359 | WikiName: Peso Philippines          | Sig: 1    
+        - ID: 111446 | WikiName: Chi Gà tây                | Sig: 1    
+        - ID: 121443 | WikiName: Vịt                       | Sig: 1    
+        - ID: 122661 | WikiName: Dâu tây                   | Sig: 1    
+        - ID: 123707 | WikiName: Gà                        | Sig: 1    
+        - ID: 146082 | WikiName: SOS                       | Sig: 1    
+        - ID: 172661 | WikiName: Bọ rùa                    | Sig: 1    
+        - ID: 188994 | WikiName: Pháo hoa                  | Sig: 1    
+        - ID: 194145 | WikiName: Bộ Dơi                    | Sig: 1    
+        - ID: 223181 | WikiName: Anh đào                   | Sig: 1    
+        - ID: 270495 | WikiName: Rúp Nga                   | Sig: 1    
+        - ID: 292053 | WikiName: Khỉ đột                   | Sig: 1    
+        - ID: 304512 | WikiName: Dê                        | Sig: 1    
+        - ID: 306929 | WikiName: Bộ Cú                     | Sig: 1    
+        - ID: 316868 | WikiName: Ngựa                      | Sig: 1    
+        - ID: 332172 | WikiName: Bơi                       | Sig: 1    
+        - ID: 396186 | WikiName: Lợn rừng                  | Sig: 1    
+        - ID: 438360 | WikiName: Đại bàng                  | Sig: 1    
+        - ID: 479571 | WikiName: Khủng long chân thằn lằn  | Sig: 1    
+        - ID: 494952 | WikiName: Dứa                       | Sig: 1    
+        - ID: 524246 | WikiName: Bộ Rùa                    | Sig: 1    
+        - ID: 525201 | WikiName: Cá heo                    | Sig: 1    
+        - ID: 579267 | WikiName: Kéo                       | Sig: 1    
+        - ID: 795809 | WikiName: Lê (thực vật)             | Sig: 1    
+        - ID: 796790 | WikiName: Cá voi                    | Sig: 1    
+        - ID: 991692 | WikiName: Thằn lằn                  | Sig: 1    
+        - ID: 1133459 | WikiName: Ong mật                   | Sig: 1    
+        - ID: 1296739 | WikiName: Drachma                   | Sig: 1    
+        - ID: 1739018 | WikiName: Rồng Trung Hoa            | Sig: 1    
+        - ID: 1745367 | WikiName: Bitcoin                   | Sig: 1    
+        - ID: 2991862 | WikiName: Cá nhiệt đới              | Sig: 1    
+        - ID: 3127981 | WikiName: Chó săn vịt               | Sig: 1    
+        - ID: 3264469 | WikiName: Manat Azerbaijan          | Sig: 1    
+        - ID: 3374832 | WikiName: Rupee                     | Sig: 1    
+        - ID: 14521767 | WikiName: San (chữ cái)             | Sig: 1    
+        - ID: 14521780 | WikiName: Koppa (chữ cái)           | Sig: 1    
+        - ID: 14628318 | WikiName: Ꞗ                         | Sig: 1    
+        - ID: 19220612 | WikiName: Bộ Quy (龜)                | Sig: 1    
+        - ID: 19526679 | WikiName: Người tuyết               | Sig: 1    
+        - ID: 19715769 | WikiName: Bánh bơ giòn              | Sig: 1    
+        - ID: 19790245 | WikiName: ꙮ                         | Sig: 1    
+        - ID: 19805221 | WikiName: Lari Gruzia               | Sig: 1    
+        - ID: 19812682 | WikiName: Ꙉ                         | Sig: 1    
+        - ID: 19813603 | WikiName: Ꙟ                         | Sig: 1    
+        - ID: 19814697 | WikiName: Ԙ                         | Sig: 1    
+        - ID: 19814728 | WikiName: Ԝ                         | Sig: 1    
+        - ID: 19814916 | WikiName: Ԅ                         | Sig: 1    
+        - ID: 19815206 | WikiName: Ꚙ                         | Sig: 1    
+        - ID: 19815645 | WikiName: Ԑ                         | Sig: 1    
+        - ID: 19815724 | WikiName: Ӕ                         | Sig: 1    
+        - ID: 19815742 | WikiName: Ꙇ                         | Sig: 1    
+        - ID: 19816408 | WikiName: Ԭ                         | Sig: 1    
+        - ID: 19816670 | WikiName: Ꚛ                         | Sig: 1    
+        - ID: 19816983 | WikiName: Ԁ                         | Sig: 1    
+        - ID: 19817017 | WikiName: Ԃ                         | Sig: 1    
+        - ID: 19817509 | WikiName: Ԇ                         | Sig: 1    
+        - ID: 19817511 | WikiName: Ԏ                         | Sig: 1    
+        - ID: 19817512 | WikiName: Ԍ                         | Sig: 1    
+        - ID: 19817931 | WikiName: Ԉ                         | Sig: 1    
+        - ID: 19819567 | WikiName: Ԯ                         | Sig: 1    
+        - ID: 19819571 | WikiName: Ꚓ                         | Sig: 1    
+        - ID: 19819577 | WikiName: Ꚍ                         | Sig: 1    
+        - ID: 19820581 | WikiName: Ԋ                         | Sig: 1    
+        - ID: 19823323 | WikiName: Ԕ                         | Sig: 1    
+        - ID: 19826433 | WikiName: Ӵ                         | Sig: 1    
+        - ID: 19855291 | WikiName: Ө                         | Sig: 1    
+        - ID: 19855470 | WikiName: Ꚅ                         | Sig: 1    
+        - ID: 19856024 | WikiName: ა                         | Sig: 1    
+        - ID: 19856033 | WikiName: ბ                         | Sig: 1    
+        - ID: 19856042 | WikiName: გ                         | Sig: 1    
+        - ID: 19856050 | WikiName: დ                         | Sig: 1    
+        - ID: 19856061 | WikiName: ე                         | Sig: 1    
+        - ID: 19856139 | WikiName: ვ                         | Sig: 1    
+        - ID: 19856143 | WikiName: ზ                         | Sig: 1    
+        - ID: 19856158 | WikiName: თ                         | Sig: 1    
+        - ID: 19856167 | WikiName: ი                         | Sig: 1    
+        - ID: 19856240 | WikiName: კ                         | Sig: 1    
+        - ID: 19856246 | WikiName: ლ                         | Sig: 1    
+        - ID: 19856302 | WikiName: მ                         | Sig: 1    
+        - ID: 19856315 | WikiName: ნ                         | Sig: 1    
+        - ID: 19856437 | WikiName: ჲ                         | Sig: 1    
+        - ID: 19856453 | WikiName: ო                         | Sig: 1    
+        - ID: 19856684 | WikiName: პ                         | Sig: 1    
+        - ID: 19856707 | WikiName: ჟ                         | Sig: 1    
+        - ID: 19856712 | WikiName: რ                         | Sig: 1    
+        - ID: 19857012 | WikiName: ს                         | Sig: 1    
+        - ID: 19857017 | WikiName: ტ                         | Sig: 1    
+        - ID: 19857021 | WikiName: ჳ                         | Sig: 1    
+        - ID: 19857025 | WikiName: ჱ                         | Sig: 1    
+        - ID: 19857173 | WikiName: უ                         | Sig: 1    
+        - ID: 19857178 | WikiName: ფ                         | Sig: 1    
+        - ID: 19857182 | WikiName: ქ                         | Sig: 1    
+        - ID: 19857395 | WikiName: ღ                         | Sig: 1    
+        - ID: 19857400 | WikiName: ყ                         | Sig: 1    
+        - ID: 19857405 | WikiName: შ                         | Sig: 1    
+        - ID: 19857547 | WikiName: ჩ                         | Sig: 1    
+        - ID: 19857555 | WikiName: ც                         | Sig: 1    
+# 51. Mention: "THƯỜNG" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 237434] Thường (họ)
+      * Candidates trong KB (2):
+        - ID: 237434 | WikiName: Thường (họ)               | Sig: 1     [CHỌN]
+        - ID: 19834966 | WikiName: Thường                    | Sig: 1    
+# 52. Mention: "số thập phân" (Tổng xuất hiện: 1 lần)
+      -> EREL khuyên chọn: [ID: 190020211] số thập phân
+      * Candidates trong KB (2):
+        - ID: 44303  | WikiName: Hệ thập phân              | Sig: 1    
+        - ID: 190020211 | WikiName: số thập phân              | Sig: 1     [CHỌN]
+
+--------------------------------------------------------------------------------
+[2] TỔNG HỢP TẬP UMCS (TẤT CẢ CÁC TỪ CHƯA CÓ TRONG CSDL QUA CÁC LINK)
+--------------------------------------------------------------------------------
+    1. "•" (Tổng xuất hiện: 22 lần)
+    2. "=>" (Tổng xuất hiện: 6 lần)
+    3. "0.375g" (Tổng xuất hiện: 3 lần)
+    4. "3.75g" (Tổng xuất hiện: 3 lần)
+    5. "37.5g" (Tổng xuất hiện: 3 lần)
+    6. "1000g" (Tổng xuất hiện: 3 lần)
+    7. "31.1035g" (Tổng xuất hiện: 3 lần)
+    8. "hiển" (Tổng xuất hiện: 3 lần)
+    9. "---
+
+---" (Tổng xuất hiện: 2 lần)
+   10. "---
+•" (Tổng xuất hiện: 2 lần)
+   11. "10.5" (Tổng xuất hiện: 2 lần)
+   12. "0.0375" (Tổng xuất hiện: 2 lần)
+   13. "===" (Tổng xuất hiện: 1 lần)
+   14. "===
+Quy" (Tổng xuất hiện: 1 lần)
+   15. "tại
+
+---" (Tổng xuất hiện: 1 lần)
+   16. "---
+Công" (Tổng xuất hiện: 1 lần)
+   17. "vàng
+•" (Tổng xuất hiện: 1 lần)
+   18. "---" (Tổng xuất hiện: 1 lần)
+   19. "0.75…" (Tổng xuất hiện: 1 lần)
+   20. "0.75…
+•" (Tổng xuất hiện: 1 lần)
+   21. "37.5" (Tổng xuất hiện: 1 lần)
+   22. "Kg…
+•" (Tổng xuất hiện: 1 lần)
+   23. "Kg…
+
+---" (Tổng xuất hiện: 1 lần)
+
+--------------------------------------------------------------------------------
+[3] BẢNG TỔNG HỢP CẶP LIÊN KẾT (Entity1: [1] chỉ (đơn vị đo) -> Entity2)
+--------------------------------------------------------------------------------
+1|261733|19  -->  (chỉ (đơn vị đo) -> Quy: 19 lần)
+1|3118|18  -->  (chỉ (đơn vị đo) -> Vàng: 18 lần)
+1|3270|12  -->  (chỉ (đơn vị đo) -> Đơn vị đo: 12 lần)
+1|2230|12  -->  (chỉ (đơn vị đo) -> Hydro: 12 lần)
+1|3101|11  -->  (chỉ (đơn vị đo) -> Chỉ (đơn vị đo): 11 lần)
+1|2927|10  -->  (chỉ (đơn vị đo) -> Lượng (kim hoàn): 10 lần)
+1|2656|6  -->  (chỉ (đơn vị đo) -> Gam: 6 lần)
+1|32131|6  -->  (chỉ (đơn vị đo) -> Phân: 6 lần)
+1|151455|6  -->  (chỉ (đơn vị đo) -> Giá trị: 6 lần)
+1|190695|5  -->  (chỉ (đơn vị đo) -> Tình bạn: 5 lần)
+1|15491616|4  -->  (chỉ (đơn vị đo) -> Giấy phép: 4 lần)
+1|19560015|3  -->  (chỉ (đơn vị đo) -> Lường (họ): 3 lần)
+1|49660|3  -->  (chỉ (đơn vị đo) -> 1 (số): 3 lần)
+1|49659|3  -->  (chỉ (đơn vị đo) -> 2 (số): 3 lần)
+1|39516|3  -->  (chỉ (đơn vị đo) -> Mèo: 3 lần)
+1|2360041|3  -->  (chỉ (đơn vị đo) -> Nút (đơn vị): 3 lần)
+1|190053696|2  -->  (chỉ (đơn vị đo) -> công cụ: 2 lần)
+1|520529|2  -->  (chỉ (đơn vị đo) -> Câu (hành động): 2 lần)
+1|147814|2  -->  (chỉ (đơn vị đo) -> Ký: 2 lần)
+1|494403|2  -->  (chỉ (đơn vị đo) -> 0: 2 lần)
+1|19568325|2  -->  (chỉ (đơn vị đo) -> Table: 2 lần)
+1|38987|2  -->  (chỉ (đơn vị đo) -> Số tự nhiên: 2 lần)
+1|4116|2  -->  (chỉ (đơn vị đo) -> Màu sắc: 2 lần)
+1|1336486|2  -->  (chỉ (đơn vị đo) -> Xác chết: 2 lần)
+1|190011720|1  -->  (chỉ (đơn vị đo) -> lường: 1 lần)
+1|99561|1  -->  (chỉ (đơn vị đo) -> Phân bón: 1 lần)
+1|25397|1  -->  (chỉ (đơn vị đo) -> Chỉ: 1 lần)
+1|151639|1  -->  (chỉ (đơn vị đo) -> Giá trị (kinh tế học): 1 lần)
+1|43966|1  -->  (chỉ (đơn vị đo) -> Ra: 1 lần)
+1|190012995|1  -->  (chỉ (đơn vị đo) -> mục đích: 1 lần)
+1|190024328|1  -->  (chỉ (đơn vị đo) -> thực hiện: 1 lần)
+1|190000747|1  -->  (chỉ (đơn vị đo) -> bạn: 1 lần)
+1|19495589|1  -->  (chỉ (đơn vị đo) -> Bằng: 1 lần)
+1|453719|1  -->  (chỉ (đơn vị đo) -> Dụng cụ: 1 lần)
+1|190022878|1  -->  (chỉ (đơn vị đo) -> thập phân: 1 lần)
+1|2563|1  -->  (chỉ (đơn vị đo) -> Thời gian: 1 lần)
+1|16384421|1  -->  (chỉ (đơn vị đo) -> Triển khai: 1 lần)
+1|61887|1  -->  (chỉ (đơn vị đo) -> Giao dịch tài chính: 1 lần)
+1|29552|1  -->  (chỉ (đơn vị đo) -> Trầu không: 1 lần)
+1|5969|1  -->  (chỉ (đơn vị đo) -> Hổ: 1 lần)
+1|687|1  -->  (chỉ (đơn vị đo) -> O: 1 lần)
+1|364426|1  -->  (chỉ (đơn vị đo) -> Từ: 1 lần)
+1|19488207|1  -->  (chỉ (đơn vị đo) -> Menu (điện toán): 1 lần)
+1|49658|1  -->  (chỉ (đơn vị đo) -> 3 (số): 1 lần)
+1|190007106|1  -->  (chỉ (đơn vị đo) -> hiệu: 1 lần)
+1|138393|1  -->  (chỉ (đơn vị đo) -> Chuột (máy tính): 1 lần)
+1|190017764|1  -->  (chỉ (đơn vị đo) -> qua: 1 lần)
+1|63348|1  -->  (chỉ (đơn vị đo) -> Tên hiệu: 1 lần)
+1|53204|1  -->  (chỉ (đơn vị đo) -> Chuột rút: 1 lần)
+1|1741063|1  -->  (chỉ (đơn vị đo) -> Qua (nước): 1 lần)
+1|188779|1  -->  (chỉ (đơn vị đo) -> Thị: 1 lần)
+1|1765691|1  -->  (chỉ (đơn vị đo) -> Lưới (toán học): 1 lần)
+1|15761536|1  -->  (chỉ (đơn vị đo) -> Cột (tàu thuyền): 1 lần)
+1|801986|1  -->  (chỉ (đơn vị đo) -> Tên: 1 lần)
+1|29106|1  -->  (chỉ (đơn vị đo) -> Tên lửa: 1 lần)
+1|16174546|1  -->  (chỉ (đơn vị đo) -> Thấy (phim truyền hình): 1 lần)
+1|237434|1  -->  (chỉ (đơn vị đo) -> Thường (họ): 1 lần)
+1|190020211|1  -->  (chỉ (đơn vị đo) -> số thập phân: 1 lần)
+1|190027752|1  -->  (chỉ (đơn vị đo) -> tự động: 1 lần)
+1|3513812|1  -->  (chỉ (đơn vị đo) -> Dư: 1 lần)
+1|3215668|1  -->  (chỉ (đơn vị đo) -> Tự động hóa: 1 lần)
+1|236740|1  -->  (chỉ (đơn vị đo) -> Dư (họ): 1 lần)
+1|35669|1  -->  (chỉ (đơn vị đo) -> 0 (số): 1 lần)

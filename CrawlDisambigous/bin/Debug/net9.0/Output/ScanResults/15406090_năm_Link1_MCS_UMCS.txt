@@ -1,0 +1,856 @@
+================================================================================
+KẾT QUẢ QUÉT TẬP MCS VÀ UMCS CỦA CÁC TỪ TRONG VĂN BẢN
+THỰC THỂ NGUỒN (Entity 1): [15406090] năm
+BÀI VIẾT #1: Năm – Wikipedia tiếng Việt
+URL: https://vi.wikipedia.org/wiki/N%C4%83m
+THỜI GIAN QUÉT: 2026-10-17 16:08:25
+================================================================================
+
+--------------------------------------------------------------------------------
+[1] TẬP MCS (Chỉ hiển thị các Mentions có > 1 Candidate trong CSDL)
+Số lượng: 61 mentions
+--------------------------------------------------------------------------------
+[1] Mention: "Năm"
+    - Số lần xuất hiện trong doc: 13
+    - POS Tag: N | Loại: datetime
+    - EREL Chọn (Disambiguated): [ID: 23781] Năm Julius (thiên văn) (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 3370   | WikiName: Năm chí tuyến             | RealName: năm chí tuyến        | Sig: 1     | Điểm M: 1.53
+        (2) ID: 13874  | WikiName: Năm thiên văn             | RealName: Năm thiên văn        | Sig: 1     | Điểm M: 2.16
+        (3) ID: 23781  | WikiName: Năm Julius (thiên văn)    | RealName: Năm Julius           | Sig: 1     | Điểm M: 2.28 [EREL CHỌN]
+        (4) ID: 49656  | WikiName: 5 (số)                    | RealName: 5                    | Sig: 1     | Điểm M: 1.00
+        (5) ID: 384353 | WikiName: Năm                       | RealName: năm                  | Sig: 1     | Điểm M: 2.00
+        (6) ID: 15406090 | WikiName: Năm (lịch)                | RealName: năm                  | Sig: 1     | Điểm M: 1.22
+
+[2] Mention: "khoảng"
+    - Số lần xuất hiện trong doc: 8
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2645] Khoảng cách (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 2645   | WikiName: Khoảng cách               | RealName: khoảng cách          | Sig: 1     | Điểm M: 2.67 [EREL CHỌN]
+        (2) ID: 31911  | WikiName: Khoảng (toán học)         | RealName: khoảng               | Sig: 1     | Điểm M: 2.00
+        (3) ID: 19271132 | WikiName: Phép xấp xỉ               | RealName: Phép xấp xỉ          | Sig: 1     | Điểm M: 1.00
+        (4) ID: 19899189 | WikiName: Khoảng                    | RealName: Khoảng               | Sig: 1     | Điểm M: 2.00
+
+[3] Mention: "thời gian"
+    - Số lần xuất hiện trong doc: 10
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2563] Thời gian (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 2563   | WikiName: Thời gian                 | RealName: thời gian            | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 444978 | WikiName: Thời gian (album của Microwave) | RealName: Thời gian            | Sig: 1     | Điểm M: 1.00
+        (3) ID: 14669608 | WikiName: Mỹ Linh Tour 2018 – Thời gian | RealName: Mỹ Linh Tour 2018 – Thời gian | Sig: 1     | Điểm M: 1.00
+
+[4] Mention: "một"
+    - Số lần xuất hiện trong doc: 24
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49660] 1 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 49660  | WikiName: 1 (số)                    | RealName: 1                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 190012909 | WikiName: một                       | RealName: một                  | Sig: 1     | Điểm M: 2.00
+
+[5] Mention: "vòng"
+    - Số lần xuất hiện trong doc: 4
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19769180] Vòng (hình học) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 15441203 | WikiName: Vòng (họ)                 | RealName: Vòng                 | Sig: 1     | Điểm M: 1.00
+        (2) ID: 19769180 | WikiName: Vòng (hình học)           | RealName: vòng                 | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 190029308 | WikiName: vòng                      | RealName: vòng                 | Sig: 1     | Điểm M: 2.00
+
+[6] Mention: "quay"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3305343] Quay (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 24549  | WikiName: Chuyển động quay          | RealName: chuyển động quay     | Sig: 1     | Điểm M: 2.75
+        (2) ID: 613006 | WikiName: Quay (ẩm thực)            | RealName: quay                 | Sig: 1     | Điểm M: 2.25
+        (3) ID: 3305343 | WikiName: Quay                      | RealName: quay                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (4) ID: 15832341 | WikiName: Xoay                      | RealName: Xoay                 | Sig: 1     | Điểm M: 1.50
+        (5) ID: 19480708 | WikiName: Quay phim                 | RealName: Quay phim            | Sig: 1     | Điểm M: 1.00
+
+[7] Mention: "Ngày nay"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19926377] Ngày Nay (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 3280161 | WikiName: Ngày Nay (tạp chí)        | RealName: Ngày Nay             | Sig: 1     | Điểm M: 2.00
+        (2) ID: 3373001 | WikiName: Ngày Nay (tuần báo)       | RealName: Ngày Nay             | Sig: 1     | Điểm M: 2.00
+        (3) ID: 19926377 | WikiName: Ngày Nay                  | RealName: Ngày Nay             | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[8] Mention: "thường"
+    - Số lần xuất hiện trong doc: 6
+    - POS Tag: R | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 237434] Thường (họ) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 237434 | WikiName: Thường (họ)               | RealName: Thường               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 19834966 | WikiName: Thường                    | RealName: thường               | Sig: 1     | Điểm M: 2.00
+
+[9] Mention: "tính"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 15253456] Tính (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 7657   | WikiName: Họ                        | RealName: họ                   | Sig: 1     | Điểm M: 2.20
+        (2) ID: 18417  | WikiName: Giới                      | RealName: giới                 | Sig: 1     | Điểm M: 2.60
+        (3) ID: 26272  | WikiName: Tính cách                 | RealName: tính cách            | Sig: 1     | Điểm M: 2.00
+        (4) ID: 268671 | WikiName: Giới tính                 | RealName: giới tính            | Sig: 1     | Điểm M: 2.80
+        (5) ID: 14401781 | WikiName: Tính toán                 | RealName: tính toán            | Sig: 1     | Điểm M: 2.00
+        (6) ID: 15253456 | WikiName: Tính                      | RealName: tính                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[10] Mention: "365"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: M | Loại: datetime
+    - EREL Chọn (Disambiguated): [ID: 541014] 365 (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 541014 | WikiName: 365                       | RealName: 365                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 800193 | WikiName: Microsoft 365             | RealName: Microsoft 365        | Sig: 1     | Điểm M: 1.00
+        (3) ID: 3138248 | WikiName: 365 TCN                   | RealName: 365 TCN              | Sig: 1     | Điểm M: 1.00
+        (4) ID: 3367327 | WikiName: 365 (số)                  | RealName: 365                  | Sig: 1     | Điểm M: 3.00
+        (5) ID: 3427409 | WikiName: 365daband                 | RealName: 365daband            | Sig: 1     | Điểm M: 3.00
+        (6) ID: 18807251 | WikiName: 365 (bài hát)             | RealName: 365                  | Sig: 1     | Điểm M: 3.00
+
+[11] Mention: "ngày"
+    - Số lần xuất hiện trong doc: 7
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 7105] Ngày Julius (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 7105   | WikiName: Ngày Julius               | RealName: Ngày Julius          | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 384379 | WikiName: Ngày                      | RealName: ngày                 | Sig: 1     | Điểm M: 0.00
+
+[12] Mention: "hoàng đạo"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 7302] Hoàng đạo (Importance Score: 0.30)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 7302   | WikiName: Hoàng đạo                 | RealName: hoàng đạo            | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 43471  | WikiName: Hoàng Đạo (nhà văn)       | RealName: Hoàng Đạo            | Sig: 1     | Điểm M: 1.07
+        (3) ID: 139407 | WikiName: Đai Hoàng Đạo             | RealName: Đai Hoàng Đạo        | Sig: 1     | Điểm M: 1.50
+
+[13] Mention: "đơn vị"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3270] Đơn vị đo (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3270   | WikiName: Đơn vị đo                 | RealName: Đơn vị đo            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190004874 | WikiName: đơn vị                    | RealName: đơn vị               | Sig: 1     | Điểm M: 2.00
+
+[14] Mention: "x"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 546919] Phép nhân (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 696    | WikiName: X                         | RealName: X                    | Sig: 1     | Điểm M: 1.00
+        (2) ID: 18024  | WikiName: Tích vectơ                | RealName: tích vectơ           | Sig: 1     | Điểm M: 2.00
+        (3) ID: 49580  | WikiName: 10 (số)                   | RealName: 10                   | Sig: 1     | Điểm M: 2.00
+        (4) ID: 256869 | WikiName: X (album của Kylie Minogue) | RealName: x                    | Sig: 1     | Điểm M: 2.00
+        (5) ID: 371936 | WikiName: Twitter                   | RealName: Twitter              | Sig: 1     | Điểm M: 1.00
+        (6) ID: 546919 | WikiName: Phép nhân                 | RealName: phép nhân            | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (7) ID: 625706 | WikiName: X/1999                    | RealName: X/1999               | Sig: 1     | Điểm M: 1.00
+
+[15] Mention: "Do"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3099350] DO (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (8 Candidates):
+        (1) ID: 38324  | WikiName: Cộng hòa Dominica         | RealName: Cộng hòa Dominica    | Sig: 1     | Điểm M: 2.00
+        (2) ID: 61508  | WikiName: Dầu diesel                | RealName: Dầu diesel           | Sig: 1     | Điểm M: 2.00
+        (3) ID: 103769 | WikiName: .do                       | RealName: .do                  | Sig: 1     | Điểm M: 1.00
+        (4) ID: 258589 | WikiName: Air Vallée                | RealName: Air Vallée           | Sig: 1     | Điểm M: 2.00
+        (5) ID: 899939 | WikiName: D.O.                      | RealName: D.O.                 | Sig: 1     | Điểm M: 2.00
+        (6) ID: 923320 | WikiName: Oxy hòa tan               | RealName: Oxy hòa tan          | Sig: 1     | Điểm M: 2.00
+        (7) ID: 1439111 | WikiName: D.O. (ca sĩ)              | RealName: D.O.                 | Sig: 1     | Điểm M: 2.00
+        (8) ID: 3099350 | WikiName: DO                        | RealName: DO                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[16] Mention: "đánh dấu"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: V | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 190051659] đánh dấu (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 22385  | WikiName: Ngôn ngữ đánh dấu         | RealName: Ngôn ngữ đánh dấu    | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190051659 | WikiName: đánh dấu                  | RealName: đánh dấu             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[17] Mention: "thay đổi"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190022983] thay đổi (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 9320   | WikiName: Vô thường                 | RealName: Vô thường            | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190022983 | WikiName: thay đổi                  | RealName: thay đổi             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[18] Mention: "chúng"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: P | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 190003340] chúng (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 19686431 | WikiName: Chúng (họ)                | RealName: Chúng                | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190003340 | WikiName: chúng                     | RealName: chúng                | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[19] Mention: "xa"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 190029495] xa (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 13480815 | WikiName: Xa (họ)                   | RealName: Xa                   | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190029495 | WikiName: xa                        | RealName: xa                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[20] Mention: "thu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: event
+    - EREL Chọn (Disambiguated): [ID: 18790] Mùa thu (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 18790  | WikiName: Mùa thu                   | RealName: mùa thu              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 90616  | WikiName: Cá thu                    | RealName: Cá thu               | Sig: 1     | Điểm M: 1.27
+        (3) ID: 469487 | WikiName: Động từ                   | RealName: động từ              | Sig: 1     | Điểm M: 2.09
+        (4) ID: 532575 | WikiName: Thu                       | RealName: Thu                  | Sig: 1     | Điểm M: 1.18
+
+[21] Mention: "đông"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: event
+    - EREL Chọn (Disambiguated): [ID: 52157] Mùa đông (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 52157  | WikiName: Mùa đông                  | RealName: Mùa đông             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 60997  | WikiName: Đông                      | RealName: Đông                 | Sig: 1     | Điểm M: 1.30
+        (3) ID: 794944 | WikiName: Quận Đông                 | RealName: Quận Đông            | Sig: 1     | Điểm M: 1.00
+
+[22] Mention: "mặt"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 118964] Mặt (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 118964 | WikiName: Mặt                       | RealName: Mặt                  | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 118965 | WikiName: Mặt (tô pô)               | RealName: mặt                  | Sig: 1     | Điểm M: 0.00
+        (3) ID: 2339703 | WikiName: Mặt (sinh học)            | RealName: mặt                  | Sig: 1     | Điểm M: 0.00
+        (4) ID: 7473500 | WikiName: Mặt (hình học)            | RealName: Mặt                  | Sig: 1     | Điểm M: 0.00
+
+[23] Mention: "thiên văn"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 1426] Thiên văn học (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1426   | WikiName: Thiên văn học             | RealName: thiên văn học        | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 190023389 | WikiName: thiên văn                 | RealName: thiên văn            | Sig: 1     | Điểm M: 0.00
+
+[24] Mention: "điểm"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 24548] Chất điểm (Importance Score: 0.30)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 24548  | WikiName: Chất điểm                 | RealName: chất điểm            | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 132015 | WikiName: Điểm                      | RealName: Điểm                 | Sig: 1     | Điểm M: 1.25
+        (3) ID: 132258 | WikiName: Điểm (hình học)           | RealName: điểm                 | Sig: 1     | Điểm M: 2.12
+
+[25] Mention: "xuân phân"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2574] Xuân phân (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 2574   | WikiName: Xuân phân                 | RealName: Xuân phân            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 19533974 | WikiName: Xuân phân (tọa độ thiên văn) | RealName: Xuân phân            | Sig: 1     | Điểm M: 1.82
+
+[26] Mention: "độ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 7313] Độ (góc) (Importance Score: 0.30)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 7313   | WikiName: Độ (góc)                  | RealName: độ                   | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 264499 | WikiName: Khẩu độ                   | RealName: Khẩu độ              | Sig: 1     | Điểm M: 0.00
+        (3) ID: 19548346 | WikiName: Độ Mixi                   | RealName: Độ Mixi              | Sig: 1     | Điểm M: 0.00
+        (4) ID: 190004714 | WikiName: độ                        | RealName: độ                   | Sig: 1     | Điểm M: 0.00
+
+[27] Mention: "khu vực"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 190009288] khu vực (Importance Score: 0.30)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3241993 | WikiName: Vùng                      | RealName: vùng                 | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190009288 | WikiName: khu vực                   | RealName: khu vực              | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[28] Mention: "chỉ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: R | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3101] Chỉ (đơn vị đo) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 3101   | WikiName: Chỉ (đơn vị đo)           | RealName: chỉ                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 12992  | WikiName: Chỉ (Phật giáo)           | RealName: chỉ                  | Sig: 1     | Điểm M: 2.00
+        (3) ID: 25397  | WikiName: Chỉ                       | RealName: Chỉ                  | Sig: 1     | Điểm M: 1.02
+        (4) ID: 531997 | WikiName: Chỉ (thực vật)            | RealName: Chỉ                  | Sig: 1     | Điểm M: 1.00
+
+[29] Mention: "2"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49659] 2 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 49659  | WikiName: 2 (số)                    | RealName: 2                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 541001 | WikiName: 2                         | RealName: 2                    | Sig: 1     | Điểm M: 2.25
+        (3) ID: 541099 | WikiName: 2 TCN                     | RealName: 2 TCN                | Sig: 1     | Điểm M: 1.25
+
+[30] Mention: "xấp xỉ"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190029596] xấp xỉ (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 19271132 | WikiName: Phép xấp xỉ               | RealName: Phép xấp xỉ          | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190029596 | WikiName: xấp xỉ                    | RealName: xấp xỉ               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[31] Mention: "chu kỳ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 4440] Chu kỳ (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 4440   | WikiName: Chu kỳ                    | RealName: chu kỳ               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 77655  | WikiName: Chu kỳ (bảng tuần hoàn)   | RealName: chu kỳ               | Sig: 1     | Điểm M: 2.00
+
+[32] Mention: "trung bình"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: language
+    - EREL Chọn (Disambiguated): [ID: 32425] Số bình quân (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 32425  | WikiName: Số bình quân              | RealName: số bình quân         | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 640380 | WikiName: Trung Bình                | RealName: Trung Bình           | Sig: 1     | Điểm M: 1.00
+
+[33] Mention: "hiện đại"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190007071] hiện đại (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 407347 | WikiName: Chủ nghĩa hiện đại        | RealName: Chủ nghĩa hiện đại   | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190007071 | WikiName: hiện đại                  | RealName: hiện đại             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[34] Mention: "1"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49660] 1 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 2230   | WikiName: Hydro                     | RealName: hydro                | Sig: 1     | Điểm M: 2.33
+        (2) ID: 49660  | WikiName: 1 (số)                    | RealName: 1                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 494583 | WikiName: 1                         | RealName: 1                    | Sig: 1     | Điểm M: 2.17
+        (4) ID: 541091 | WikiName: 1 TCN                     | RealName: 1 TCN                | Sig: 1     | Điểm M: 1.17
+        (5) ID: 1239082 | WikiName: 1 (album của The Beatles) | RealName: 1                    | Sig: 1     | Điểm M: 2.00
+
+[35] Mention: "Từ"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 236583] Từ (họ) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 5998   | WikiName: Từ học                    | RealName: từ học               | Sig: 1     | Điểm M: 1.50
+        (2) ID: 236583 | WikiName: Từ (họ)                   | RealName: Từ                   | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 364426 | WikiName: Từ                        | RealName: từ                   | Sig: 1     | Điểm M: 1.50
+        (4) ID: 801416 | WikiName: Từ (thể loại văn học)     | RealName: từ                   | Sig: 1     | Điểm M: 1.50
+        (5) ID: 1678637 | WikiName: Từ (nước)                 | RealName: Từ                   | Sig: 1     | Điểm M: 2.00
+        (6) ID: 3338594 | WikiName: Từ đường họ Mạc           | RealName: Từ đường họ Mạc      | Sig: 1     | Điểm M: 2.00
+
+[36] Mention: "không"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: R | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 35669] 0 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 35669  | WikiName: 0 (số)                    | RealName: 0                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 494403 | WikiName: 0                         | RealName: 0                    | Sig: 1     | Điểm M: 2.00
+        (3) ID: 19659948 | WikiName: Không (bài hát)           | RealName: Không                | Sig: 1     | Điểm M: 1.00
+        (4) ID: 19688828 | WikiName: Không (phim)              | RealName: không                | Sig: 1     | Điểm M: 2.20
+        (5) ID: 190009227 | WikiName: không                     | RealName: không                | Sig: 1     | Điểm M: 2.00
+
+[37] Mention: "v"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: letter
+    - EREL Chọn (Disambiguated): [ID: 694] V (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 694    | WikiName: V                         | RealName: v                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 129176 | WikiName: V (album của Vanessa Hudgens) | RealName: v                    | Sig: 1     | Điểm M: 2.00
+        (3) ID: 12311758 | WikiName: V (ca sĩ)                 | RealName: v                    | Sig: 1     | Điểm M: 2.00
+        (4) ID: 13518201 | WikiName: V (album của Maroon 5)    | RealName: v                    | Sig: 1     | Điểm M: 2.00
+        (5) ID: 14126212 | WikiName: V (tạp chí)               | RealName: v                    | Sig: 1     | Điểm M: 2.00
+
+[38] Mention: "mở rộng"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 15439209] Mở rộng (siêu hình học) (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 15439209 | WikiName: Mở rộng (siêu hình học)   | RealName: mở rộng              | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190050528 | WikiName: mở rộng                   | RealName: mở rộng              | Sig: 1     | Điểm M: 2.00
+
+[39] Mention: "Kim"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 1581] Sao Kim (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (8 Candidates):
+        (1) ID: 1581   | WikiName: Sao Kim                   | RealName: Sao Kim              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 2793   | WikiName: Nhà Kim                   | RealName: Nhà Kim              | Sig: 1     | Điểm M: 2.00
+        (3) ID: 66901  | WikiName: Kim chi                   | RealName: kim chi              | Sig: 1     | Điểm M: 1.00
+        (4) ID: 234907 | WikiName: Kim                       | RealName: Kim                  | Sig: 1     | Điểm M: 2.15
+        (5) ID: 236848 | WikiName: Kim (họ)                  | RealName: Kim                  | Sig: 1     | Điểm M: 2.23
+        (6) ID: 524094 | WikiName: Kim (Ngũ hành)            | RealName: Kim                  | Sig: 1     | Điểm M: 2.08
+        (7) ID: 13618183 | WikiName: Kim khâu                  | RealName: Kim khâu             | Sig: 1     | Điểm M: 2.00
+        (8) ID: 19515468 | WikiName: Bộ Kim (金)                | RealName: Bộ Kim               | Sig: 1     | Điểm M: 2.00
+
+[40] Mention: "Hỏa"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 524089] Hỏa (Ngũ hành) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 524089 | WikiName: Hỏa (Ngũ hành)            | RealName: Hỏa                  | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 524090 | WikiName: Hỏa                       | RealName: Hỏa                  | Sig: 1     | Điểm M: 0.00
+        (3) ID: 811457 | WikiName: Hỏa táng                  | RealName: Hỏa táng             | Sig: 1     | Điểm M: 0.00
+        (4) ID: 3208300 | WikiName: Hỏa hoạn                  | RealName: hỏa hoạn             | Sig: 1     | Điểm M: 0.00
+        (5) ID: 19514612 | WikiName: Bộ Hỏa (火)                | RealName: Bộ Hỏa               | Sig: 1     | Điểm M: 0.00
+
+[41] Mention: "quỹ đạo"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 24182] Quỹ đạo (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 24182  | WikiName: Quỹ đạo                   | RealName: quỹ đạo              | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 3138557 | WikiName: Quỹ đạo (thiên thể)       | RealName: quỹ đạo              | Sig: 1     | Điểm M: 0.00
+
+[42] Mention: "Thuật ngữ này"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+P | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 5601] Thuật ngữ tiếng Ý trong âm nhạc (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 5601   | WikiName: Thuật ngữ tiếng Ý trong âm nhạc | RealName: Thuật ngữ tiếng Ý trong âm nhạc | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 19107  | WikiName: Thuật ngữ ngữ âm học      | RealName: Thuật ngữ ngữ âm học | Sig: 1     | Điểm M: 0.00
+        (3) ID: 47556  | WikiName: Thuật ngữ tin học         | RealName: Thuật ngữ tin học    | Sig: 1     | Điểm M: 0.00
+        (4) ID: 70776  | WikiName: Thuật ngữ thiên văn học   | RealName: Thuật ngữ thiên văn học | Sig: 1     | Điểm M: 0.00
+        (5) ID: 87910  | WikiName: Thuật ngữ                 | RealName: Thuật ngữ            | Sig: 1     | Điểm M: 0.00
+        (6) ID: 100761 | WikiName: Thuật ngữ võ thuật        | RealName: Thuật ngữ võ thuật   | Sig: 1     | Điểm M: 0.00
+        (7) ID: 109797 | WikiName: Thuật ngữ cưới hỏi người Việt | RealName: Thuật ngữ cưới hỏi người Việt | Sig: 1     | Điểm M: 0.00
+        (8) ID: 113388 | WikiName: Thuật ngữ văn học Nhật Bản | RealName: Thuật ngữ văn học Nhật Bản | Sig: 1     | Điểm M: 0.00
+        (9) ID: 3584680 | WikiName: Thuật ngữ anime và manga  | RealName: Thuật ngữ anime và manga | Sig: 1     | Điểm M: 0.00
+        (10) ID: 14934654 | WikiName: Thuật ngữ giải phẫu cử động | RealName: thuật ngữ giải phẫu cử động | Sig: 1     | Điểm M: 0.00
+
+[43] Mention: "chu kỳ nào"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+P | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 4440] Chu kỳ (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 4440   | WikiName: Chu kỳ                    | RealName: chu kỳ               | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 77655  | WikiName: Chu kỳ (bảng tuần hoàn)   | RealName: chu kỳ               | Sig: 1     | Điểm M: 0.00
+
+[44] Mention: "sự kiện"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 14501088] Sự kiện (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (11 Candidates):
+        (1) ID: 6835   | WikiName: Thể thao                  | RealName: thể thao             | Sig: 1     | Điểm M: 2.30
+        (2) ID: 6905   | WikiName: Chân trời sự kiện         | RealName: chân trời sự kiện    | Sig: 1     | Điểm M: 2.10
+        (3) ID: 150285 | WikiName: Biến cố (lý thuyết xác suất) | RealName: biến cố              | Sig: 1     | Điểm M: 2.00
+        (4) ID: 407002 | WikiName: Lễ hội                    | RealName: lễ hội               | Sig: 1     | Điểm M: 2.00
+        (5) ID: 476652 | WikiName: Sự kiện tuyệt chủng       | RealName: Sự kiện tuyệt chủng  | Sig: 1     | Điểm M: 1.20
+        (6) ID: 782412 | WikiName: Bữa tiệc                  | RealName: bữa tiệc             | Sig: 1     | Điểm M: 2.00
+        (7) ID: 3416276 | WikiName: Hội thảo                  | RealName: hội thảo             | Sig: 1     | Điểm M: 2.00
+        (8) ID: 13484353 | WikiName: Tổ chức sự kiện           | RealName: tổ chức sự kiện      | Sig: 1     | Điểm M: 2.10
+        (9) ID: 14501088 | WikiName: Sự kiện                   | RealName: sự kiện              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (10) ID: 15324139 | WikiName: Sự kiện (điện toán)       | RealName: sự kiện              | Sig: 1     | Điểm M: 2.00
+        (11) ID: 19923656 | WikiName: Sự kiện truyền thông      | RealName: sự kiện truyền thông | Sig: 1     | Điểm M: 2.10
+
+[45] Mention: "lũ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190011421] lũ (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 407855 | WikiName: Lụt                       | RealName: lụt                  | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190011421 | WikiName: lũ                        | RealName: lũ                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[46] Mention: "con"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Nc | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 2832689] Con trai (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 2607423 | WikiName: Con gái                   | RealName: con gái              | Sig: 1     | Điểm M: 2.67
+        (2) ID: 2832689 | WikiName: Con trai                  | RealName: con trai             | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 15349152 | WikiName: Con cái                   | RealName: con cái              | Sig: 1     | Điểm M: 2.33
+        (4) ID: 19849027 | WikiName: Con                       | RealName: Con                  | Sig: 1     | Điểm M: 1.00
+
+[47] Mention: "di cư"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: event
+    - EREL Chọn (Disambiguated): [ID: 3631480] Động vật di cư (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3282645 | WikiName: Di cư                     | RealName: Di cư                | Sig: 1     | Điểm M: 1.00
+        (2) ID: 3631480 | WikiName: Động vật di cư            | RealName: Động vật di cư       | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[48] Mention: "chim"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 9877] Chim (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 9877   | WikiName: Chim                      | RealName: chim                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 32055  | WikiName: Dương vật                 | RealName: dương vật            | Sig: 1     | Điểm M: 2.50
+
+[49] Mention: "ra"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 8360] Xích kinh (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 8360   | WikiName: Xích kinh                 | RealName: xích kinh            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 43966  | WikiName: Ra                        | RealName: Ra                   | Sig: 1     | Điểm M: 1.00
+        (3) ID: 797485 | WikiName: Ra (tỉnh)                 | RealName: Ra                   | Sig: 1     | Điểm M: 1.00
+
+[50] Mention: "hoa"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 32874] Thực vật có hoa (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (8 Candidates):
+        (1) ID: 5331   | WikiName: Chữ Hán                   | RealName: Chữ Hán              | Sig: 1     | Điểm M: 1.00
+        (2) ID: 32874  | WikiName: Thực vật có hoa           | RealName: thực vật có hoa      | Sig: 1     | Điểm M: 2.50 [EREL CHỌN]
+        (3) ID: 140495 | WikiName: Hoa                       | RealName: hoa                  | Sig: 1     | Điểm M: 2.00
+        (4) ID: 237459 | WikiName: Hoa (họ)                  | RealName: Hoa                  | Sig: 1     | Điểm M: 2.00
+        (5) ID: 3283151 | WikiName: Người Hoa                 | RealName: Người Hoa            | Sig: 1     | Điểm M: 1.00
+        (6) ID: 3698131 | WikiName: Hóa (họ)                  | RealName: Hóa                  | Sig: 1     | Điểm M: 2.00
+        (7) ID: 16987669 | WikiName: Flower                    | RealName: Flower               | Sig: 1     | Điểm M: 1.00
+        (8) ID: 19639001 | WikiName: Hoa (trò chơi điện tử)    | RealName: Hoa                  | Sig: 1     | Điểm M: 1.50
+
+[51] Mention: "thực vật"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 1561] Thực vật học (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1561   | WikiName: Thực vật học              | RealName: thực vật học         | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 5243   | WikiName: Thực vật                  | RealName: thực vật             | Sig: 1     | Điểm M: 0.00
+        (3) ID: 15192598 | WikiName: Sống thực vật             | RealName: sống thực vật        | Sig: 1     | Điểm M: 0.00
+
+[52] Mention: "sương giá"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190020768] sương giá (Importance Score: 0.60)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 253513 | WikiName: Sương muối                | RealName: sương muối           | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190020768 | WikiName: sương giá                 | RealName: sương giá            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[53] Mention: "sự kiện này"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+P | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 6835] Thể thao (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (11 Candidates):
+        (1) ID: 6835   | WikiName: Thể thao                  | RealName: thể thao             | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 6905   | WikiName: Chân trời sự kiện         | RealName: chân trời sự kiện    | Sig: 1     | Điểm M: 0.00
+        (3) ID: 150285 | WikiName: Biến cố (lý thuyết xác suất) | RealName: biến cố              | Sig: 1     | Điểm M: 0.00
+        (4) ID: 407002 | WikiName: Lễ hội                    | RealName: lễ hội               | Sig: 1     | Điểm M: 0.00
+        (5) ID: 476652 | WikiName: Sự kiện tuyệt chủng       | RealName: Sự kiện tuyệt chủng  | Sig: 1     | Điểm M: 0.00
+        (6) ID: 782412 | WikiName: Bữa tiệc                  | RealName: bữa tiệc             | Sig: 1     | Điểm M: 0.00
+        (7) ID: 3416276 | WikiName: Hội thảo                  | RealName: hội thảo             | Sig: 1     | Điểm M: 0.00
+        (8) ID: 13484353 | WikiName: Tổ chức sự kiện           | RealName: tổ chức sự kiện      | Sig: 1     | Điểm M: 0.00
+        (9) ID: 14501088 | WikiName: Sự kiện                   | RealName: sự kiện              | Sig: 1     | Điểm M: 0.00
+        (10) ID: 15324139 | WikiName: Sự kiện (điện toán)       | RealName: sự kiện              | Sig: 1     | Điểm M: 0.00
+        (11) ID: 19923656 | WikiName: Sự kiện truyền thông      | RealName: sự kiện truyền thông | Sig: 1     | Điểm M: 0.00
+
+[54] Mention: "năm này"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+P | Loại: datetime
+    - EREL Chọn (Disambiguated): [ID: 3370] Năm chí tuyến (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 3370   | WikiName: Năm chí tuyến             | RealName: năm chí tuyến        | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 13874  | WikiName: Năm thiên văn             | RealName: Năm thiên văn        | Sig: 1     | Điểm M: 0.00
+        (3) ID: 23781  | WikiName: Năm Julius (thiên văn)    | RealName: Năm Julius           | Sig: 1     | Điểm M: 0.00
+        (4) ID: 49656  | WikiName: 5 (số)                    | RealName: 5                    | Sig: 1     | Điểm M: 0.00
+        (5) ID: 384353 | WikiName: Năm                       | RealName: năm                  | Sig: 1     | Điểm M: 0.00
+        (6) ID: 15406090 | WikiName: Năm (lịch)                | RealName: năm                  | Sig: 1     | Điểm M: 0.00
+
+[55] Mention: "cách"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 348900] Cách (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 348900 | WikiName: Cách                      | RealName: Cách                 | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 3198564 | WikiName: Cách (ngữ pháp)           | RealName: cách                 | Sig: 1     | Điểm M: 0.00
+
+[56] Mention: "bằng"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19495589] Bằng (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 15491616 | WikiName: Giấy phép                 | RealName: giấy phép            | Sig: 1     | Điểm M: 2.00
+        (2) ID: 19495589 | WikiName: Bằng                      | RealName: bằng                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[57] Mention: "thực hiện"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190024328] thực hiện (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 16384421 | WikiName: Triển khai                | RealName: triển khai           | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190024328 | WikiName: thực hiện                 | RealName: thực hiện            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[58] Mention: "chung"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 190003338] chung (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 236753 | WikiName: Chung (họ)                | RealName: Chung                | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190003338 | WikiName: chung                     | RealName: chung                | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[59] Mention: "kéo dài"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 190050214] kéo dài (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190008410 | WikiName: kéo dài                  | RealName: kéo dài             | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190050214 | WikiName: kéo dài                   | RealName: kéo dài              | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[60] Mention: "cân bằng"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2041] Cân bằng nội môi (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (9 Candidates):
+        (1) ID: 2041   | WikiName: Cân bằng nội môi          | RealName: cân bằng nội môi     | Sig: 1     | Điểm M: 2.33 [EREL CHỌN]
+        (2) ID: 69908  | WikiName: Cân bằng quyền lực        | RealName: cân bằng quyền lực   | Sig: 1     | Điểm M: 2.00
+        (3) ID: 77959  | WikiName: Cân bằng cơ học           | RealName: cân bằng cơ học      | Sig: 1     | Điểm M: 2.00
+        (4) ID: 450073 | WikiName: Cân bằng Nash             | RealName: Cân bằng Nash        | Sig: 1     | Điểm M: 1.00
+        (5) ID: 518958 | WikiName: Cân bằng sinh thái        | RealName: Cân bằng sinh thái   | Sig: 1     | Điểm M: 2.00
+        (6) ID: 3187366 | WikiName: Cân bằng thủy tĩnh        | RealName: Cân bằng thủy tĩnh   | Sig: 1     | Điểm M: 1.33
+        (7) ID: 10550933 | WikiName: Cân bằng                  | RealName: Cân bằng             | Sig: 1     | Điểm M: 1.00
+        (8) ID: 13975105 | WikiName: Cân bằng dịch cơ thể      | RealName: Cân bằng dịch cơ thể | Sig: 1     | Điểm M: 1.00
+        (9) ID: 14642842 | WikiName: Cân bằng hóa học          | RealName: cân bằng hóa học     | Sig: 1     | Điểm M: 2.00
+
+[61] Mention: "dư"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 236740] Dư (họ) (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 236740 | WikiName: Dư (họ)                   | RealName: Dư                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 3513812 | WikiName: Dư                        | RealName: Dư                   | Sig: 1     | Điểm M: 1.00
+        (3) ID: 15677620 | WikiName: Số dư                     | RealName: số dư                | Sig: 1     | Điểm M: 2.00
+
+--------------------------------------------------------------------------------
+[2] TẬP UMCS (Unmatched Candidate Set - Các từ/cụm từ KHÔNG có trong CSDL)
+Tổng số mentions chưa nhận diện: 11
+--------------------------------------------------------------------------------
+Danh sách các từ/cụm từ quét được nhưng không có alias trong CSDL:
+    1. "year" (Số lần xuất hiện: 2)
+    2. "---" (Số lần xuất hiện: 2)
+    3. "年" (Số lần xuất hiện: 1)
+    4. "365,25" (Số lần xuất hiện: 1)
+    5. "86.400" (Số lần xuất hiện: 1)
+    6. "giây/ngày" (Số lần xuất hiện: 1)
+    7. "365,2425" (Số lần xuất hiện: 1)
+    8. "---
+Một" (Số lần xuất hiện: 1)
+    9. "---
+Các" (Số lần xuất hiện: 1)
+
+--------------------------------------------------------------------------------
+[3] DANH SÁCH ENTITY2 ĐƯỢC CHỌN ĐỂ KẾT NỐI VỚI ENTITY1 [15406090 - năm]
+--------------------------------------------------------------------------------
+  [1] EntityId: 23781  | WikiName: Năm Julius (thiên văn)         | Số lần xuất hiện: 3
+  [2] EntityId: 190006998 | WikiName: hay                            | Số lần xuất hiện: 2
+  [3] EntityId: 190015719 | WikiName: niên                           | Số lần xuất hiện: 1
+  [4] EntityId: 796    | WikiName: Tiếng Anh                      | Số lần xuất hiện: 1
+  [5] EntityId: 5331   | WikiName: Chữ Hán                        | Số lần xuất hiện: 1
+  [6] EntityId: 190009824 | WikiName: là                             | Số lần xuất hiện: 12
+  [7] EntityId: 2645   | WikiName: Khoảng cách                    | Số lần xuất hiện: 8
+  [8] EntityId: 2563   | WikiName: Thời gian                      | Số lần xuất hiện: 10
+  [9] EntityId: 49660  | WikiName: 1 (số)                         | Số lần xuất hiện: 25
+  [10] EntityId: 1478   | WikiName: Hành tinh                      | Số lần xuất hiện: 2
+  [11] EntityId: 190027001 | WikiName: trong                          | Số lần xuất hiện: 6
+  [12] EntityId: 1633   | WikiName: Hệ Mặt Trời                    | Số lần xuất hiện: 1
+  [13] EntityId: 230231 | WikiName: Hoàn Thành                     | Số lần xuất hiện: 2
+  [14] EntityId: 190007045 | WikiName: hết                            | Số lần xuất hiện: 1
+  [15] EntityId: 19769180 | WikiName: Vòng (hình học)                | Số lần xuất hiện: 1
+  [16] EntityId: 3305343 | WikiName: Quay                           | Số lần xuất hiện: 1
+  [17] EntityId: 190050812 | WikiName: xung quanh                     | Số lần xuất hiện: 2
+  [18] EntityId: 3729   | WikiName: Mặt Trời                       | Số lần xuất hiện: 5
+  [19] EntityId: 19926377 | WikiName: Ngày Nay                       | Số lần xuất hiện: 1
+  [20] EntityId: 190008833 | WikiName: khi                            | Số lần xuất hiện: 1
+  [21] EntityId: 190015871 | WikiName: nói                            | Số lần xuất hiện: 2
+  [22] EntityId: 190004501 | WikiName: đến                            | Số lần xuất hiện: 3
+  [23] EntityId: 3370   | WikiName: Năm chí tuyến                  | Số lần xuất hiện: 12
+  [24] EntityId: 1107496 | WikiName: Thì                            | Số lần xuất hiện: 1
+  [25] EntityId: 190014537 | WikiName: người ta                       | Số lần xuất hiện: 1
+  [26] EntityId: 237434 | WikiName: Thường (họ)                    | Số lần xuất hiện: 6
+  [27] EntityId: 190050292 | WikiName: đề cập                         | Số lần xuất hiện: 1
+  [28] EntityId: 1638   | WikiName: Trái Đất                       | Số lần xuất hiện: 7
+  [29] EntityId: 190005076 | WikiName: được                           | Số lần xuất hiện: 10
+  [30] EntityId: 15253456 | WikiName: Tính                           | Số lần xuất hiện: 1
+  [31] EntityId: 24549  | WikiName: Chuyển động quay               | Số lần xuất hiện: 2
+  [32] EntityId: 190029737 | WikiName: xong                           | Số lần xuất hiện: 1
+  [33] EntityId: 190029322 | WikiName: vòng quanh                     | Số lần xuất hiện: 1
+  [34] EntityId: 541014 | WikiName: 365                            | Số lần xuất hiện: 3
+  [35] EntityId: 7105   | WikiName: Ngày Julius                    | Số lần xuất hiện: 7
+  [36] EntityId: 540995 | WikiName: 6                              | Số lần xuất hiện: 1
+  [37] EntityId: 2566   | WikiName: Giờ                            | Số lần xuất hiện: 2
+  [38] EntityId: 190050114 | WikiName: đối với                        | Số lần xuất hiện: 1
+  [39] EntityId: 19831404 | WikiName: Người quan sát (thuyết tương đối hẹp) | Số lần xuất hiện: 1
+  [40] EntityId: 190026596 | WikiName: trên                           | Số lần xuất hiện: 2
+  [41] EntityId: 119943 | WikiName: Điều                           | Số lần xuất hiện: 1
+  [42] EntityId: 190028378 | WikiName: tương ứng                      | Số lần xuất hiện: 1
+  [43] EntityId: 190029300 | WikiName: với                            | Số lần xuất hiện: 4
+  [44] EntityId: 49766  | WikiName: Thời gian Mặt Trời             | Số lần xuất hiện: 1
+  [45] EntityId: 15441203 | WikiName: Vòng (họ)                      | Số lần xuất hiện: 3
+  [46] EntityId: 123798 | WikiName: Dọc                            | Số lần xuất hiện: 1
+  [47] EntityId: 190023133 | WikiName: theo                           | Số lần xuất hiện: 8
+  [48] EntityId: 7302   | WikiName: Hoàng đạo                      | Số lần xuất hiện: 1
+  [49] EntityId: 1426   | WikiName: Thiên văn học                  | Số lần xuất hiện: 3
+  [50] EntityId: 3270   | WikiName: Đơn vị đo                      | Số lần xuất hiện: 1
+  [51] EntityId: 49611  | WikiName: Định nghĩa                     | Số lần xuất hiện: 1
+  [52] EntityId: 546919 | WikiName: Phép nhân                      | Số lần xuất hiện: 1
+  [53] EntityId: 190003779 | WikiName: của                            | Số lần xuất hiện: 15
+  [54] EntityId: 362412 | WikiName: Hệ đo lường quốc tế            | Số lần xuất hiện: 1
+  [55] EntityId: 13630552 | WikiName: Vô                             | Số lần xuất hiện: 1
+  [56] EntityId: 5724   | WikiName: Giây nhuận                     | Số lần xuất hiện: 1
+  [57] EntityId: 3099350 | WikiName: DO                             | Số lần xuất hiện: 1
+  [58] EntityId: 26056  | WikiName: Độ nghiêng trục quay           | Số lần xuất hiện: 1
+  [59] EntityId: 190017823 | WikiName: quá trình                      | Số lần xuất hiện: 1
+  [60] EntityId: 190003354 | WikiName: chứng kiến                     | Số lần xuất hiện: 1
+  [61] EntityId: 9320   | WikiName: Vô thường                      | Số lần xuất hiện: 1
+  [62] EntityId: 190028118 | WikiName: tuần tự                        | Số lần xuất hiện: 1
+  [63] EntityId: 190001933 | WikiName: các                            | Số lần xuất hiện: 11
+  [64] EntityId: 13867  | WikiName: Mùa                            | Số lần xuất hiện: 7
+  [65] EntityId: 190051659 | WikiName: đánh dấu                       | Số lần xuất hiện: 1
+  [66] EntityId: 190001620 | WikiName: bởi                            | Số lần xuất hiện: 2
+  [67] EntityId: 190015646 | WikiName: những                          | Số lần xuất hiện: 2
+  [68] EntityId: 190022983 | WikiName: thay đổi                       | Số lần xuất hiện: 1
+  [69] EntityId: 190028943 | WikiName: về                             | Số lần xuất hiện: 2
+  [70] EntityId: 163247 | WikiName: Thời tiết                      | Số lần xuất hiện: 1
+  [71] EntityId: 3291796 | WikiName: Ban ngày                       | Số lần xuất hiện: 1
+  [72] EntityId: 3128002 | WikiName: Thảm thực vật                  | Số lần xuất hiện: 1
+  [73] EntityId: 190028663 | WikiName: và                             | Số lần xuất hiện: 7
+  [74] EntityId: 14777267 | WikiName: Khả năng sinh sản              | Số lần xuất hiện: 1
+  [75] EntityId: 190003340 | WikiName: chúng                          | Số lần xuất hiện: 1
+  [76] EntityId: 190016389 | WikiName: ở                              | Số lần xuất hiện: 2
+  [77] EntityId: 3241993 | WikiName: Vùng                           | Số lần xuất hiện: 1
+  [78] EntityId: 57835  | WikiName: Ôn đới                         | Số lần xuất hiện: 1
+  [79] EntityId: 190029495 | WikiName: xa                             | Số lần xuất hiện: 1
+  [80] EntityId: 558871 | WikiName: Địa cực                        | Số lần xuất hiện: 1
+  [81] EntityId: 190003430 | WikiName: có                             | Số lần xuất hiện: 7
+  [82] EntityId: 812654 | WikiName: Bốn mùa (Tchaikovsky)          | Số lần xuất hiện: 1
+  [83] EntityId: 190003676 | WikiName: công nhận                      | Số lần xuất hiện: 1
+  [84] EntityId: 19541783 | WikiName: Xuân Hạ (diễn viên)            | Số lần xuất hiện: 1
+  [85] EntityId: 18790  | WikiName: Mùa thu                        | Số lần xuất hiện: 1
+  [86] EntityId: 52157  | WikiName: Mùa đông                       | Số lần xuất hiện: 1
+  [87] EntityId: 118964 | WikiName: Mặt                            | Số lần xuất hiện: 1
+  [88] EntityId: 22385  | WikiName: Ngôn ngữ đánh dấu              | Số lần xuất hiện: 1
+  [89] EntityId: 24548  | WikiName: Chất điểm                      | Số lần xuất hiện: 2
+  [90] EntityId: 2574   | WikiName: Xuân phân                      | Số lần xuất hiện: 1
+  [91] EntityId: 362598 | WikiName: Hạ chí                         | Số lần xuất hiện: 1
+  [92] EntityId: 2707   | WikiName: Thu phân                       | Số lần xuất hiện: 1
+  [93] EntityId: 2706   | WikiName: Đông chí                       | Số lần xuất hiện: 1
+  [94] EntityId: 1750177 | WikiName: Đường đi (lý thuyết đồ thị)    | Số lần xuất hiện: 1
+  [95] EntityId: 190011971 | WikiName: mặc dù                         | Số lần xuất hiện: 1
+  [96] EntityId: 326211 | WikiName: Khí hậu                        | Số lần xuất hiện: 1
+  [97] EntityId: 7313   | WikiName: Độ (góc)                       | Số lần xuất hiện: 1
+  [98] EntityId: 190026574 | WikiName: trễ                            | Số lần xuất hiện: 1
+  [99] EntityId: 244254 | WikiName: So                             | Số lần xuất hiện: 1
+  [100] EntityId: 190004381 | WikiName: dấu hiệu                       | Số lần xuất hiện: 1
+  [101] EntityId: 190050132 | WikiName: một số                         | Số lần xuất hiện: 1
+  [102] EntityId: 190009288 | WikiName: khu vực                        | Số lần xuất hiện: 1
+  [103] EntityId: 18563  | WikiName: Nhiệt đới                      | Số lần xuất hiện: 1
+  [104] EntityId: 18561  | WikiName: Cận nhiệt đới                  | Số lần xuất hiện: 1
+  [105] EntityId: 3101   | WikiName: Chỉ (đơn vị đo)                | Số lần xuất hiện: 1
+  [106] EntityId: 49659  | WikiName: 2 (số)                         | Số lần xuất hiện: 1
+  [107] EntityId: 18584  | WikiName: Mùa mưa                        | Số lần xuất hiện: 1
+  [108] EntityId: 18583  | WikiName: Mùa khô                        | Số lần xuất hiện: 1
+  [109] EntityId: 190013209 | WikiName: năm dương lịch                 | Số lần xuất hiện: 3
+  [110] EntityId: 190029596 | WikiName: xấp xỉ                         | Số lần xuất hiện: 1
+  [111] EntityId: 4440   | WikiName: Chu kỳ                         | Số lần xuất hiện: 2
+  [112] EntityId: 3309392 | WikiName: Chuyển động của Trái Đất quanh Mặt Trời | Số lần xuất hiện: 1
+  [113] EntityId: 5664   | WikiName: Lịch                           | Số lần xuất hiện: 5
+  [114] EntityId: 190003769 | WikiName: cụ thể                         | Số lần xuất hiện: 1
+  [115] EntityId: 190013260 | WikiName: năm trong                      | Số lần xuất hiện: 3
+  [116] EntityId: 37831  | WikiName: Lịch Gregorius                 | Số lần xuất hiện: 2
+  [117] EntityId: 190051172 | WikiName: cũng như                       | Số lần xuất hiện: 1
+  [118] EntityId: 23800  | WikiName: Lịch Julius                    | Số lần xuất hiện: 1
+  [119] EntityId: 190007321 | WikiName: hoặc                           | Số lần xuất hiện: 8
+  [120] EntityId: 541015 | WikiName: 366                            | Số lần xuất hiện: 1
+  [121] EntityId: 3283   | WikiName: Năm nhuận                      | Số lần xuất hiện: 3
+  [122] EntityId: 2644   | WikiName: Chiều dài                      | Số lần xuất hiện: 1
+  [123] EntityId: 32425  | WikiName: Số bình quân                   | Số lần xuất hiện: 1
+  [124] EntityId: 190007071 | WikiName: hiện đại                       | Số lần xuất hiện: 1
+  [125] EntityId: 7657   | WikiName: Họ                             | Số lần xuất hiện: 2
+  [126] EntityId: 190018532 | WikiName: quy tắc                        | Số lần xuất hiện: 1
+  [127] EntityId: 190003114 | WikiName: cho                            | Số lần xuất hiện: 3
+  [128] EntityId: 408364 | WikiName: Thiên niên kỷ                  | Số lần xuất hiện: 1
+  [129] EntityId: 236583 | WikiName: Từ (họ)                        | Số lần xuất hiện: 1
+  [130] EntityId: 190003838 | WikiName: cũng                           | Số lần xuất hiện: 2
+  [131] EntityId: 190020557 | WikiName: sử dụng                        | Số lần xuất hiện: 1
+  [132] EntityId: 190050213 | WikiName: một cách                       | Số lần xuất hiện: 1
+  [133] EntityId: 190054417 | WikiName: lỏng lẻo                       | Số lần xuất hiện: 1
+  [134] EntityId: 1250164 | WikiName: Liên Quan                      | Số lần xuất hiện: 1
+  [135] EntityId: 190015645 | WikiName: nhưng                          | Số lần xuất hiện: 1
+  [136] EntityId: 35669  | WikiName: 0 (số)                         | Số lần xuất hiện: 1
+  [137] EntityId: 190006428 | WikiName: giống hệt                      | Số lần xuất hiện: 1
+  [138] EntityId: 13874  | WikiName: Năm thiên văn                  | Số lần xuất hiện: 2
+  [139] EntityId: 190002685 | WikiName: chẳng hạn                      | Số lần xuất hiện: 2
+  [140] EntityId: 190015555 | WikiName: như                            | Số lần xuất hiện: 3
+  [141] EntityId: 81075  | WikiName: Năm tài chính                  | Số lần xuất hiện: 1
+  [142] EntityId: 190013214 | WikiName: năm học                        | Số lần xuất hiện: 1
+  [143] EntityId: 694    | WikiName: V                              | Số lần xuất hiện: 2
+  [144] EntityId: 190013920 | WikiName: nghĩa                          | Số lần xuất hiện: 1
+  [145] EntityId: 15439209 | WikiName: Mở rộng (siêu hình học)        | Số lần xuất hiện: 2
+  [146] EntityId: 190003524 | WikiName: có thể                         | Số lần xuất hiện: 2
+  [147] EntityId: 190003500 | WikiName: có nghĩa                       | Số lần xuất hiện: 1
+  [148] EntityId: 23731  | WikiName: Chu kỳ quỹ đạo                 | Số lần xuất hiện: 1
+  [149] EntityId: 190050514 | WikiName: bất cứ                         | Số lần xuất hiện: 1
+  [150] EntityId: 190013358 | WikiName: nào                            | Số lần xuất hiện: 1
+  [151] EntityId: 190050571 | WikiName: ví dụ                          | Số lần xuất hiện: 1
+  [152] EntityId: 808975 | WikiName: Năm Sao Hỏa                    | Số lần xuất hiện: 1
+  [153] EntityId: 1581   | WikiName: Sao Kim                        | Số lần xuất hiện: 2
+  [154] EntityId: 190054427 | WikiName: mà sao                         | Số lần xuất hiện: 1
+  [155] EntityId: 524089 | WikiName: Hỏa (Ngũ hành)                 | Số lần xuất hiện: 1
+  [156] EntityId: 190004541 | WikiName: đi                             | Số lần xuất hiện: 1
+  [157] EntityId: 190004971 | WikiName: đủ                             | Số lần xuất hiện: 1
+  [158] EntityId: 24182  | WikiName: Quỹ đạo                        | Số lần xuất hiện: 1
+  [159] EntityId: 190019036 | WikiName: riêng                          | Số lần xuất hiện: 1
+  [160] EntityId: 5601   | WikiName: Thuật ngữ tiếng Ý trong âm nhạc | Số lần xuất hiện: 1
+  [161] EntityId: 190000435 | WikiName: áp dụng                        | Số lần xuất hiện: 1
+  [162] EntityId: 190013942 | WikiName: nghĩa rộng                     | Số lần xuất hiện: 1
+  [163] EntityId: 190007689 | WikiName: hơn                            | Số lần xuất hiện: 2
+  [164] EntityId: 190051431 | WikiName: bất kỳ                         | Số lần xuất hiện: 1
+  [165] EntityId: 190004048 | WikiName: dài                            | Số lần xuất hiện: 1
+  [166] EntityId: 287368 | WikiName: Mô hình GREAT                  | Số lần xuất hiện: 1
+  [167] EntityId: 190006470 | WikiName: giữa                           | Số lần xuất hiện: 1
+  [168] EntityId: 190021038 | WikiName: tái phát                       | Số lần xuất hiện: 1
+  [169] EntityId: 190010810 | WikiName: liên tiếp                      | Số lần xuất hiện: 1
+  [170] EntityId: 14501088 | WikiName: Sự kiện                        | Số lần xuất hiện: 1
+  [171] EntityId: 190011421 | WikiName: lũ                             | Số lần xuất hiện: 1
+  [172] EntityId: 2832689 | WikiName: Con trai                       | Số lần xuất hiện: 1
+  [173] EntityId: 36771  | WikiName: Sông                           | Số lần xuất hiện: 1
+  [174] EntityId: 190020544 | WikiName: sự                             | Số lần xuất hiện: 3
+  [175] EntityId: 3631480 | WikiName: Động vật di cư                 | Số lần xuất hiện: 1
+  [176] EntityId: 5333   | WikiName: Loài                           | Số lần xuất hiện: 2
+  [177] EntityId: 9877   | WikiName: Chim                           | Số lần xuất hiện: 1
+  [178] EntityId: 8360   | WikiName: Xích kinh                      | Số lần xuất hiện: 1
+  [179] EntityId: 32874  | WikiName: Thực vật có hoa                | Số lần xuất hiện: 1
+  [180] EntityId: 1561   | WikiName: Thực vật học                   | Số lần xuất hiện: 1
+  [181] EntityId: 190020768 | WikiName: sương giá                      | Số lần xuất hiện: 1
+  [182] EntityId: 190050079 | WikiName: đầu tiên                       | Số lần xuất hiện: 2
+  [183] EntityId: 471166 | WikiName: Trò chơi                       | Số lần xuất hiện: 1
+  [184] EntityId: 190050040 | WikiName: dự kiến                        | Số lần xuất hiện: 1
+  [185] EntityId: 6835   | WikiName: Thể thao                       | Số lần xuất hiện: 2
+  [186] EntityId: 190021754 | WikiName: tất cả                         | Số lần xuất hiện: 1
+  [187] EntityId: 190008491 | WikiName: khác biệt                      | Số lần xuất hiện: 1
+  [188] EntityId: 190011232 | WikiName: lớn                            | Số lần xuất hiện: 1
+  [189] EntityId: 328448 | WikiName: Tháng                          | Số lần xuất hiện: 1
+  [190] EntityId: 5998   | WikiName: Từ học                         | Số lần xuất hiện: 1
+  [191] EntityId: 190019698 | WikiName: sang năm                       | Số lần xuất hiện: 1
+  [192] EntityId: 190008486 | WikiName: khác                           | Số lần xuất hiện: 2
+  [193] EntityId: 190011070 | WikiName: loại                           | Số lần xuất hiện: 2
+  [194] EntityId: 190005082 | WikiName: dưới                           | Số lần xuất hiện: 1
+  [195] EntityId: 190004418 | WikiName: đây                            | Số lần xuất hiện: 1
+  [196] EntityId: 190004532 | WikiName: đều                            | Số lần xuất hiện: 2
+  [197] EntityId: 5524   | WikiName: Chuyển động                    | Số lần xuất hiện: 2
+  [198] EntityId: 348900 | WikiName: Cách                           | Số lần xuất hiện: 2
+  [199] EntityId: 19495589 | WikiName: Bằng                           | Số lần xuất hiện: 1
+  [200] EntityId: 190011885 | WikiName: mà                             | Số lần xuất hiện: 1
+  [201] EntityId: 190024328 | WikiName: thực hiện                      | Số lần xuất hiện: 1
+  [202] EntityId: 190018216 | WikiName: quanh                          | Số lần xuất hiện: 1
+  [203] EntityId: 190003592 | WikiName: còn                            | Số lần xuất hiện: 1
+  [204] EntityId: 190006582 | WikiName: gọi là                         | Số lần xuất hiện: 2
+  [205] EntityId: 27720  | WikiName: Dương lịch                     | Số lần xuất hiện: 1
+  [206] EntityId: 19686431 | WikiName: Chúng (họ)                     | Số lần xuất hiện: 1
+  [207] EntityId: 190003338 | WikiName: chung                          | Số lần xuất hiện: 1
+  [208] EntityId: 190050214 | WikiName: kéo dài                        | Số lần xuất hiện: 1
+  [209] EntityId: 15491616 | WikiName: Giấy phép                      | Số lần xuất hiện: 2
+  [210] EntityId: 19271132 | WikiName: Phép xấp xỉ                    | Số lần xuất hiện: 1
+  [211] EntityId: 190004832 | WikiName: đôi khi                        | Số lần xuất hiện: 1
+  [212] EntityId: 190004463 | WikiName: để                             | Số lần xuất hiện: 2
+  [213] EntityId: 2041   | WikiName: Cân bằng nội môi               | Số lần xuất hiện: 1
+  [214] EntityId: 190001590 | WikiName: bổ sung                        | Số lần xuất hiện: 1
+  [215] EntityId: 190023110 | WikiName: thêm                           | Số lần xuất hiện: 1
+  [216] EntityId: 2230   | WikiName: Hydro                          | Số lần xuất hiện: 1
+  [217] EntityId: 236740 | WikiName: Dư (họ)                        | Số lần xuất hiện: 1
+  [218] EntityId: 5660   | WikiName: Nhuận                          | Số lần xuất hiện: 1
+  [219] EntityId: 190021685 | WikiName: tạo thành                      | Số lần xuất hiện: 1
+  [220] EntityId: 190019833 | WikiName: sau                            | Số lần xuất hiện: 1
+  [221] EntityId: 190012803 | WikiName: mỗi một                        | Số lần xuất hiện: 1
+  [222] EntityId: 190015108 | WikiName: nhất định                      | Số lần xuất hiện: 1
+  [223] EntityId: 190028682 | WikiName: vài                            | Số lần xuất hiện: 1

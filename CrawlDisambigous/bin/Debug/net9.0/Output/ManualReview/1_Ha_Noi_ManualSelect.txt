@@ -1,0 +1,310 @@
+# ==============================================================================
+# BẢNG ĐÁNH DẤU CHỌN ENTITY CHO CÁC MENTION CÓ NHIỀU ỨNG VIÊN (> 1 CANDIDATE)
+# THỰC THỂ NGUỒN: [1] Ha Noi
+# THỜI GIAN TẠO: 2026-10-27 10:10:46
+# ------------------------------------------------------------------------------
+# HƯỚNG DẪN DÀNH CHO BẠN:
+# 1. Đặt dấu [x] hoặc [X] vào trước ứng viên bạn muốn chọn cho mỗi Mention.
+# 2. Mặc định EREL đã đánh dấu sẵn [x] vào ứng viên được dự đoán tốt nhất.
+# 3. Bạn có thể chuyển [x] sang ứng viên khác nếu thấy phù hợp hơn.
+# 4. Nếu không muốn tính Mention này vào bất kỳ Entity nào, hãy xóa [x] (để [ ] hết).
+# 5. KHÔNG sửa đổi cấu trúc dòng có 'ID: <số>' và tên Mention.
+# 6. Sau khi chỉnh sửa xong, nhấn LƯU FILE (Ctrl + S), rồi quay lại Console nhấn [ENTER].
+# ==============================================================================
+
+[1] Mention: "as" | Xuất hiện: 5 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 1739891  | WikiName: Hội chứng Asperger           | RealName: Hội chứng Asperger   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190000444 | WikiName: as                           | RealName: as                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[2] Mention: "In" | Xuất hiện: 5 lần | POS: V | Loại: verb
+    [ ] (1) ID: 3919     | WikiName: Màu gốc in ấn                | RealName: Màu gốc in ấn        | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (2) ID: 7697     | WikiName: Đồ họa in ấn                 | RealName: Đồ họa in ấn         | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 7769     | WikiName: In offset                    | RealName: in offset            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 7772     | WikiName: In màu                       | RealName: In màu               | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (5) ID: 8412     | WikiName: In thạch bản                 | RealName: in thạch bản         | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (6) ID: 25705    | WikiName: In lụa                       | RealName: in lụa               | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (7) ID: 26676    | WikiName: In ấn                        | RealName: in ấn                | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (8) ID: 29398    | WikiName: Giấy in phun                 | RealName: Giấy in phun         | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (9) ID: 41431    | WikiName: Máy in mã vạch               | RealName: Máy in mã vạch       | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (10) ID: 48124    | WikiName: Mạch in                      | RealName: mạch in              | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (11) ID: 122858   | WikiName: Ta in                        | RealName: Ta in                | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (12) ID: 125316   | WikiName: Máy in                       | RealName: Máy in               | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (13) ID: 176065   | WikiName: In                           | RealName: in                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (14) ID: 214198   | WikiName: Indi                         | RealName: indi                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [x] (15) ID: 311002376 | WikiName: In                           | RealName: In                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+
+[3] Mention: "s" | Xuất hiện: 3 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 691      | WikiName: S                            | RealName: S                    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 15716134 | WikiName: S (dịch vụ tàu điện ngầm Thành phố New York) | RealName: s                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[4] Mention: "Thăng Long" | Xuất hiện: 3 lần | POS: Np | Loại: location
+    [x] (1) ID: 734      | WikiName: Thăng Long                   | RealName: Thăng Long           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 15644    | WikiName: Hoàng thành Thăng Long       | RealName: Hoàng thành Thăng Long | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 35814    | WikiName: Cầu Thăng Long               | RealName: Cầu Thăng Long       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 37338    | WikiName: Đại lộ Thăng Long            | RealName: Đại lộ Thăng Long    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 73456    | WikiName: Thăng Long tứ trấn           | RealName: Thăng Long tứ trấn   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 93071    | WikiName: Trường Đại học Thăng Long    | RealName: Trường Đại học Thăng Long | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 145681   | WikiName: Thang Long                   | RealName: Thang Long           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 185585   | WikiName: Trận Thăng Long              | RealName: Trận Thăng Long      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 247245   | WikiName: Ban hợp ca Thăng Long        | RealName: Ban hợp ca Thăng Long | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 309079   | WikiName: Thăng Long tứ quán           | RealName: Thăng Long tứ quán   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (11) ID: 543548   | WikiName: Thăng Long, Đông Hưng        | RealName: Thăng Long, Đông Hưng | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (12) ID: 1252996  | WikiName: Thăng Long, Kinh Môn         | RealName: Thăng Long, Kinh Môn | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (13) ID: 1252997  | WikiName: Thăng Long, Nông Cống        | RealName: Thăng Long, Nông Cống | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (14) ID: 1577046  | WikiName: Thăng Long (nhạc sĩ)         | RealName: Thăng Long           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (15) ID: 18468828 | WikiName: Trường Trung học phổ thông Thăng Long | RealName: Trường Trung học phổ thông Thăng Long | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (16) ID: 19748997 | WikiName: Hà Phạm Thăng Long           | RealName: Hà Phạm Thăng Long   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (17) ID: 19780818 | WikiName: Trường Tiểu học Thăng Long, Hà Nội | RealName: Trường Tiểu học Thăng Long, Hà Nội | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[5] Mention: "Long Biên" | Xuất hiện: 3 lần | POS: Np | Loại: location
+    [x] (1) ID: 16311    | WikiName: Long Biên                    | RealName: Long Biên            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 34151    | WikiName: Cầu Long Biên                | RealName: Cầu Long Biên        | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 117918   | WikiName: Long Biên (huyện)            | RealName: Long Biên            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 244559   | WikiName: Long Biên (phường)           | RealName: Long Biên            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 387105   | WikiName: Chợ Long Biên                | RealName: Chợ Long Biên        | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[6] Mention: "p" | Xuất hiện: 3 lần | POS: N | Loại: letter
+    [x] (1) ID: 688      | WikiName: P                            | RealName: p                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 25697    | WikiName: Phosphor                     | RealName: phosphor             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 796316   | WikiName: P (độ phức tạp)              | RealName: p                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 19828221 | WikiName: Р                            | RealName: Р                    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[7] Mention: "a" | Xuất hiện: 2 lần | POS: V | Loại: verb
+    [ ] (1) ID: 673      | WikiName: A                            | RealName: a                    | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (2) ID: 332853   | WikiName: A (diện tích)                | RealName: a                    | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [x] (3) ID: 311001756 | WikiName: A                            | RealName: A                    | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+
+[8] Mention: "Lý Thái Tổ" | Xuất hiện: 2 lần | POS: Np | Loại: person
+    [x] (1) ID: 735      | WikiName: Lý Thái Tổ                   | RealName: Lý Thái Tổ           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 812510   | WikiName: Lý Thái Tổ (HQ-012)          | RealName: Lý Thái Tổ           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 15463424 | WikiName: Lý Thái Tổ (miếu hiệu)       | RealName: Lý Thái Tổ           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[9] Mention: "Nguyễn" | Xuất hiện: 2 lần | POS: Np | Loại: unknown
+    [x] (1) ID: 3049     | WikiName: Nguyễn                       | RealName: Nguyễn               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 4997     | WikiName: Nhà Nguyễn                   | RealName: Nhà Nguyễn           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 5298     | WikiName: Chúa Nguyễn                  | RealName: Chúa Nguyễn          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 1201463  | WikiName: Nhà Lê trung hưng            | RealName: Nhà Lê trung hưng    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 3372185  | WikiName: Nguyễn (nước)                | RealName: Nguyễn               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[10] Mention: "Tang" | Xuất hiện: 2 lần | POS: Np | Loại: unknown
+    [ ] (1) ID: 10714    | WikiName: Hàm lượng giác               | RealName: hàm lượng giác       | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190021571 | WikiName: tang                         | RealName: tang                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+
+[11] Mention: "Hà Nội" | Xuất hiện: 1 lần | POS: Np | Loại: location
+    [x] (1) ID: 80       | WikiName: Hà Nội                       | RealName: Hà Nội               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 29883    | WikiName: Hà Nội (tỉnh)                | RealName: Hà Nội               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 45446    | WikiName: Ga Hà Nội                    | RealName: Ga Hà Nội            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 55109    | WikiName: Tiểu hành tinh               | RealName: tiểu hành tinh       | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 239819   | WikiName: Vùng thủ đô Hà Nội           | RealName: Vùng thủ đô Hà Nội   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 497176   | WikiName: Tháp Hà Nội                  | RealName: Tháp Hà Nội          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 2421780  | WikiName: Hà Nội, Hà Nội               | RealName: Hà Nội, Hà Nội       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 3424288  | WikiName: Hà Nội (HQ-182)              | RealName: Hà Nội               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 3700033  | WikiName: Đường Hà Nội, Hồng Kông      | RealName: Đường Hà Nội, Hồng Kông | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 11684569 | WikiName: Hà Nội và tôi                | RealName: Hà Nội và tôi        | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[12] Mention: "an" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 3912     | WikiName: AN                           | RealName: an                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 243701   | WikiName: An (họ)                      | RealName: An                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 543970   | WikiName: ISO 639                      | RealName: ISO 639              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 1319609  | WikiName: Șanț                         | RealName: Șanț                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[13] Mention: "Ho" | Xuất hiện: 1 lần | POS: Np | Loại: location
+    [ ] (1) ID: 29301    | WikiName: Tiếng Ho                     | RealName: Tiếng Ho             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 39118    | WikiName: Ho (Ghana)                   | RealName: Ho                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 39121    | WikiName: Holmi                        | RealName: Holmi                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 364765   | WikiName: Chương trình Ra đi Có trật tự | RealName: Chương trình Ra đi Có trật tự | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 808534   | WikiName: Ho                           | RealName: ho                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 311002315 | WikiName: Ho                           | RealName: Ho                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[14] Mention: "Chi" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [x] (1) ID: 10000    | WikiName: Chi (sinh học)               | RealName: Chi                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 61572    | WikiName: Chi phí                      | RealName: chi phí              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 7460659  | WikiName: Chi (giải phẫu học)          | RealName: chi                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 190002890 | WikiName: chi                          | RealName: chi                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[15] Mention: "Minh" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [ ] (1) ID: 45917    | WikiName: Nhà Minh                     | RealName: Nhà Minh             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 47811    | WikiName: Minh                         | RealName: Minh                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 110400   | WikiName: Mani giáo                    | RealName: Mani giáo            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 335957   | WikiName: Minh (Nội Mông Cổ)           | RealName: minh                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 375318   | WikiName: Hồ Chí Minh                  | RealName: Hồ Chí Minh          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 14821864 | WikiName: Minh (họ)                    | RealName: Minh                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[16] Mention: "Hoàn Kiếm" | Xuất hiện: 1 lần | POS: Np | Loại: N/A
+    [ ] (1) ID: 15360    | WikiName: Hồ Hoàn Kiếm                 | RealName: Hồ Hoàn Kiếm         | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 48595    | WikiName: Hoàn Kiếm                    | RealName: Hoàn Kiếm            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 119925   | WikiName: Thôn                         | RealName: thôn                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 355717   | WikiName: Phố Hồ Hoàn Kiếm             | RealName: Phố Hồ Hoàn Kiếm     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[17] Mention: "Ba Vì" | Xuất hiện: 1 lần | POS: Np | Loại: N/A
+    [ ] (1) ID: 67264    | WikiName: Dãy núi Ba Vì                | RealName: Dãy núi Ba Vì        | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 116507   | WikiName: Vườn quốc gia Ba Vì          | RealName: Vườn quốc gia Ba Vì  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (3) ID: 127783   | WikiName: Ba Vì                        | RealName: Ba Vì                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 1242365  | WikiName: Ba Vì, Ba Tơ                 | RealName: Ba Vì, Ba Tơ         | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 1242366  | WikiName: Ba Vì (xã), Ba Vì            | RealName: Ba Vì (xã), Ba Vì    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[18] Mention: "Lý" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [ ] (1) ID: 1419     | WikiName: Vật lý học                   | RealName: vật lý học           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 24981    | WikiName: Hải lý                       | RealName: hải lý               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 37993    | WikiName: Lý                           | RealName: Lý                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 89220    | WikiName: Lý (họ)                      | RealName: Lý                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 108725   | WikiName: Lý (âm nhạc)                 | RealName: lý                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 369961   | WikiName: Lý (họ người)                | RealName: Lý                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 17561032 | WikiName: Lý (họ 理)                    | RealName: Lý                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 19804517 | WikiName: Lý (đơn vị đo lường)         | RealName: Lý                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[19] Mention: "king" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 8489     | WikiName: Vương                        | RealName: Vương                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 8668     | WikiName: Martin Luther King           | RealName: Martin Luther King   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 31838    | WikiName: Stephen King                 | RealName: Stephen King         | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 235394   | WikiName: King City, Oregon            | RealName: King City, Oregon    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (5) ID: 513867   | WikiName: King                         | RealName: King                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+
+[20] Mention: "Lê Lợi" | Xuất hiện: 1 lần | POS: Np | Loại: N/A
+    [ ] (1) ID: 11686    | WikiName: Quy Nhơn                     | RealName: Quy Nhơn             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 14911    | WikiName: Bắc Giang (thành phố)        | RealName: Bắc Giang            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 40351    | WikiName: Sơn Tây (thị xã)             | RealName: Sơn Tây              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 41069    | WikiName: Lê Thái Tổ                   | RealName: Lê Thái Tổ           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 89906    | WikiName: Ngô Quyền (quận)             | RealName: Ngô Quyền            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 841966   | WikiName: Lê Lợi, Thạch An             | RealName: Lê Lợi, Thạch An     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 1250096  | WikiName: Lê Lợi, An Dương             | RealName: Lê Lợi, An Dương     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 1250098  | WikiName: Lê Lợi, Chí Linh             | RealName: Lê Lợi, Chí Linh     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 1250099  | WikiName: Lê Lợi, Gia Lộc              | RealName: Lê Lợi, Gia Lộc      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 1250100  | WikiName: Lê Lợi, Hạ Long              | RealName: Lê Lợi, Hạ Long      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (11) ID: 1250101  | WikiName: Lê Lợi, thành phố Hưng Yên   | RealName: Lê Lợi, thành phố Hưng Yên | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (12) ID: 1250102  | WikiName: Lê Lợi, Kiến Xương           | RealName: Lê Lợi, Kiến Xương   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (13) ID: 1250103  | WikiName: Lê Lợi, thành phố Kon Tum    | RealName: Lê Lợi, thành phố Kon Tum | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (14) ID: 1250108  | WikiName: Lê Lợi, Nậm Nhùn             | RealName: Lê Lợi, Nậm Nhùn     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (15) ID: 1250110  | WikiName: Lê Lợi, Thường Tín           | RealName: Lê Lợi, Thường Tín   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (16) ID: 1250111  | WikiName: Lê Lợi, Vinh                 | RealName: Lê Lợi, Vinh         | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (17) ID: 19729256 | WikiName: Đường Lê Lợi, Thành phố Hồ Chí Minh | RealName: Đường Lê Lợi, Thành phố Hồ Chí Minh | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (18) ID: 190010550 | WikiName: lê lợi                       | RealName: lê lợi               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[21] Mention: "Đông Kinh" | Xuất hiện: 1 lần | POS: Np | Loại: N/A
+    [ ] (1) ID: 80       | WikiName: Hà Nội                       | RealName: Hà Nội               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 734      | WikiName: Thăng Long                   | RealName: Thăng Long           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 2794     | WikiName: Ngân Xuyên                   | RealName: Ngân Xuyên           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (4) ID: 21968    | WikiName: Đông Kinh                    | RealName: Đông Kinh            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (5) ID: 30916    | WikiName: Tokyo                        | RealName: Tokyo                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 35954    | WikiName: Đông Kinh Nghĩa Thục         | RealName: Đông Kinh Nghĩa Thục | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 37345    | WikiName: Vịnh Bắc Bộ                  | RealName: Vịnh Bắc Bộ          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 67377    | WikiName: Khai Phong                   | RealName: Khai Phong           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 77286    | WikiName: Liêu Dương                   | RealName: Liêu Dương           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 270496   | WikiName: Đông Kết                     | RealName: Đông Kết             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (11) ID: 1243688  | WikiName: Đông Kinh (phường)           | RealName: Đông Kinh            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[22] Mention: "Huế" | Xuất hiện: 1 lần | POS: Np | Loại: location
+    [x] (1) ID: 866      | WikiName: Huế (thành phố thuộc tỉnh)   | RealName: Huế                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 11244    | WikiName: Huế                          | RealName: Huế                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 52289    | WikiName: Cố đô Huế                    | RealName: Cố đô Huế            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 65402    | WikiName: Quần thể di tích Cố đô Huế   | RealName: Quần thể di tích Cố đô Huế | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 229895   | WikiName: Kinh thành Huế               | RealName: Kinh thành Huế       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 3350346  | WikiName: Tỉnh (Việt Nam)              | RealName: tỉnh                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 17830502 | WikiName: Phố Huế                      | RealName: Phố Huế              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[23] Mention: "country" | Xuất hiện: 1 lần | POS: N | Loại: location
+    [x] (1) ID: 1361     | WikiName: Quốc gia                     | RealName: quốc gia             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 208501   | WikiName: Nhạc đồng quê                | RealName: nhạc đồng quê        | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 231159   | WikiName: Country                      | RealName: Country              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[24] Mention: "first" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 49660    | WikiName: 1 (số)                       | RealName: 1                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 494589   | WikiName: First                        | RealName: First                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 15151700 | WikiName: Ruth First                   | RealName: Ruth First           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[25] Mention: "time" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2563     | WikiName: Thời gian                    | RealName: thời gian            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 111748   | WikiName: Time (tạp chí)               | RealName: Time                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 1542378  | WikiName: Time, Illinois               | RealName: Time, Illinois       | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[26] Mention: "long" | Xuất hiện: 1 lần | POS: A | Loại: N/A
+    [ ] (1) ID: 18333    | WikiName: Từ Hán-Việt                  | RealName: Từ Hán-Việt          | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 243484   | WikiName: Long (họ)                    | RealName: Long                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 296950   | WikiName: Long, Phrae                  | RealName: Long, Phrae          | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 796442   | WikiName: Long, Luangnamtha            | RealName: Long, Luangnamtha    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (5) ID: 190011279 | WikiName: long                         | RealName: long                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[27] Mention: "Red" | Xuất hiện: 1 lần | POS: Np | Loại: music
+    [x] (1) ID: 242558   | WikiName: Red (album của Aikawa Nanase) | RealName: Red                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 841453   | WikiName: Red (album của Dia Frampton) | RealName: Red                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 1561850  | WikiName: Red (album của Taylor Swift) | RealName: Red                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 1610086  | WikiName: Red (bài hát của Taylor Swift) | RealName: Red                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 1617456  | WikiName: Red                          | RealName: Red                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 13505343 | WikiName: C.I.A tái xuất               | RealName: C.I.A tái xuất       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 13555832 | WikiName: C.I.A tái xuất 2             | RealName: C.I.A tái xuất 2     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 19627686 | WikiName: Red (Taylor's Version)       | RealName: Red                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[28] Mention: "La Thành" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [ ] (1) ID: 42197    | WikiName: Đại La                       | RealName: Đại La               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 66802    | WikiName: Đống Đa                      | RealName: Đống Đa              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 107042   | WikiName: Huyện (Trung Quốc)           | RealName: huyện                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (4) ID: 228863   | WikiName: La Thành                     | RealName: La Thành             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (5) ID: 514357   | WikiName: La Thành Tây Đô              | RealName: La Thành Tây Đô      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 814638   | WikiName: La Thành (tướng)             | RealName: La Thành             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[29] Mention: "La" | Xuất hiện: 1 lần | POS: V | Loại: verb
+    [ ] (1) ID: 104      | WikiName: Los Angeles                  | RealName: Los Angeles          | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (2) ID: 11204    | WikiName: Long An                      | RealName: Long An              | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 46631    | WikiName: Louisiana                    | RealName: Louisiana            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 99539    | WikiName: .la                          | RealName: .la                  | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (5) ID: 123483   | WikiName: La (động vật)                | RealName: la                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (6) ID: 123506   | WikiName: La                           | RealName: La                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (7) ID: 214420   | WikiName: Lanthan                      | RealName: lanthan              | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (8) ID: 236610   | WikiName: La (họ)                      | RealName: La                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (9) ID: 14714364 | WikiName: La (nốt nhạc)                | RealName: La                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [x] (10) ID: 311002461 | WikiName: La                           | RealName: La                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+
+# ==============================================================================
+# DANH SÁCH 50 MENTION CÓ 1 CANDIDATE (ĐÃ ĐƯỢC TỰ ĐỘNG TÍNH COUNT, KHÔNG CẦN CHỌN):
+# ------------------------------------------------------------------------------
+# (1) Mention: "to" -> [ID: 190025530] to | Xuất hiện: 11 lần
+# (2) Mention: "Hanoi" -> [ID: 80] Hà Nội | Xuất hiện: 10 lần
+# (3) Mention: "It" -> [ID: 4706] Công nghệ thông tin | Xuất hiện: 7 lần
+# (4) Mention: "Vietnam" -> [ID: 151863] Việt Nam | Xuất hiện: 5 lần
+# (5) Mention: "lit" -> [ID: 5554] Lít | Xuất hiện: 5 lần
+# (6) Mention: "dynasty" -> [ID: 13389664] Dynasty (phim truyền hình 2017) | Xuất hiện: 4 lần
+# (7) Mention: "has" -> [ID: 1323146] Has (huyện) | Xuất hiện: 2 lần
+# (8) Mention: "1010" -> [ID: 519911] 1010 | Xuất hiện: 2 lần
+# (9) Mention: "name" -> [ID: 1695783] Name (manga) | Xuất hiện: 2 lần
+# (10) Mention: "1949" -> [ID: 107933] 1949 | Xuất hiện: 2 lần
+# (11) Mention: "1954" -> [ID: 824] 1954 | Xuất hiện: 2 lần
+# (12) Mention: "1976" -> [ID: 63996] 1976 | Xuất hiện: 2 lần
+# (13) Mention: "75" -> [ID: 540887] 75 | Xuất hiện: 1 lần
+# (14) Mention: "is" -> [ID: 2615787] Nhà nước Hồi giáo Iraq và Levant | Xuất hiện: 1 lần
+# (15) Mention: "km2" -> [ID: 86038] Kilômét vuông | Xuất hiện: 1 lần
+# (16) Mention: "mi2" -> [ID: 12865] Dặm vuông Anh | Xuất hiện: 1 lần
+# (17) Mention: "2026" -> [ID: 3347499] 2026 | Xuất hiện: 1 lần
+# (18) Mention: "2023" -> [ID: 3347496] 2023 | Xuất hiện: 1 lần
+# (19) Mention: "Ho Chi Minh City" -> [ID: 39] Thành phố Hồ Chí Minh | Xuất hiện: 1 lần
+# (20) Mention: "78" -> [ID: 540884] 78 | Xuất hiện: 1 lần
+# (21) Mention: "People" -> [ID: 461650] People (tạp chí) | Xuất hiện: 1 lần
+# (22) Mention: "2022" -> [ID: 3291806] 2022 | Xuất hiện: 1 lần
+# (23) Mention: "emperor" -> [ID: 24968] Hoàng Đế | Xuất hiện: 1 lần
+# (24) Mention: "nation" -> [ID: 52300] Dân tộc (cộng đồng) | Xuất hiện: 1 lần
+# (25) Mention: "Đại Việt" -> [ID: 27583] Đại Việt | Xuất hiện: 1 lần
+# (26) Mention: "1428" -> [ID: 530395] 1428 | Xuất hiện: 1 lần
+# (27) Mention: "with" -> [ID: 7833138] WITH (album của TVXQ) | Xuất hiện: 1 lần
+# (28) Mention: "1789" -> [ID: 37852] 1789 | Xuất hiện: 1 lần
+# (29) Mention: "1802" -> [ID: 250073] 1802 | Xuất hiện: 1 lần
+# (30) Mention: "1831" -> [ID: 392164] 1831 | Xuất hiện: 1 lần
+# (31) Mention: "French Indochina" -> [ID: 1293] Liên bang Đông Dương | Xuất hiện: 1 lần
+# (32) Mention: "1902" -> [ID: 107810] 1902 | Xuất hiện: 1 lần
+# (33) Mention: "1945" -> [ID: 14007] 1945 | Xuất hiện: 1 lần
+# (34) Mention: "Tonkin" -> [ID: 29685] Miền Bắc (Việt Nam) | Xuất hiện: 1 lần
+# (35) Mention: "1883" -> [ID: 263693] 1883 | Xuất hiện: 1 lần
+# (36) Mention: "After" -> [ID: 13502177] After (The Walking Dead) | Xuất hiện: 1 lần
+# (37) Mention: "August" -> [ID: 788706] August (công ty) | Xuất hiện: 1 lần
+# (38) Mention: "Revolution" -> [ID: 2429602] Revolution (bài hát) | Xuất hiện: 1 lần
+# (39) Mention: "independent" -> [ID: 311001499] Independent | Xuất hiện: 1 lần
+# (40) Mention: "again" -> [ID: 2426640] Again (EP của T-ara) | Xuất hiện: 1 lần
+# (41) Mention: "Socialist Republic of Vietnam" -> [ID: 151863] Việt Nam | Xuất hiện: 1 lần
+# (42) Mention: "then" -> [ID: 190023121] then | Xuất hiện: 1 lần
+# (43) Mention: "Tống Bình" -> [ID: 112304] Tống Bình | Xuất hiện: 1 lần
+# (44) Mention: "Song" -> [ID: 1374040] Song | Xuất hiện: 1 lần
+# (45) Mention: "Long Đỗ" -> [ID: 308944] Long Đỗ | Xuất hiện: 1 lần
+# (46) Mention: "450" -> [ID: 531911] 450 | Xuất hiện: 1 lần
+# (47) Mention: "River" -> [ID: 3142918] River (bài hát của Joni Mitchell) | Xuất hiện: 1 lần
+# (48) Mention: "866" -> [ID: 530854] 866 | Xuất hiện: 1 lần
+# (49) Mention: "Gao" -> [ID: 11041] Gao | Xuất hiện: 1 lần
+# (50) Mention: "Đại La" -> [ID: 42197] Đại La | Xuất hiện: 1 lần
+# ==============================================================================

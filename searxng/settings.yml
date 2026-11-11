@@ -1,0 +1,25 @@
+use_default_settings: true
+
+general:
+  debug: false
+  instance_name: "CrawlDisambigous Search"
+
+search:
+  safe_search: 0
+  autocomplete: "bing"
+  default_lang: "vi-VN"
+  formats:
+    - html
+    - json
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "crawldisambigous_searxng_secret_key_change_me_super_secure"
+  limiter: false
+  image_proxy: false
+
+ui:
+  static_use_hash: true
+  default_locale: "vi"
+

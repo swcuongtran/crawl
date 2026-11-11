@@ -1,0 +1,77 @@
+================================================================================
+KẾT QUẢ QUÉT TẬP MCS VÀ UMCS CỦA CÁC TỪ TRONG VĂN BẢN
+THỰC THỂ NGUỒN (Entity 1): [2] Công cụ
+BÀI VIẾT #6: Hướng dẫn kế toán Tài khoản 153 Công cụ, dụng cụ theo Thông tư …
+URL: https://thuvienphapluat.vn/phap-luat/huong-dan-ke-toan-tai-khoan-153-cong-cu-dung-cu-theo-thong-tu-992025ttbtc-tu-01012026-cu-the-245774.html
+THỜI GIAN QUÉT: 2026-10-22 14:36:53
+================================================================================
+
+--------------------------------------------------------------------------------
+[1] TẬP MCS (Chỉ hiển thị các Mentions có > 1 Candidate trong CSDL)
+Số lượng: 2 mentions
+--------------------------------------------------------------------------------
+[1] Mention: "a"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: letter
+    - EREL Chọn (Disambiguated): [ID: 673] A (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 673    | WikiName: A                         | RealName: a                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 332853 | WikiName: A (diện tích)             | RealName: a                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 311001756 | WikiName: A                         | RealName: A                    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[2] Mention: "bot"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 68830] Bot (Importance Score: 0.65)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 25196  | WikiName: Ý                         | RealName: Ý                    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (2) ID: 51623  | WikiName: Tổ chức Hàng không Dân dụng Quốc tế | RealName: Tổ chức Hàng không Dân dụng Quốc tế | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 68830  | WikiName: Bot                       | RealName: bot                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (4) ID: 68884  | WikiName: Botnet                    | RealName: botnet               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 248805 | WikiName: Đầu tư BOT                | RealName: Đầu tư BOT           | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 261402 | WikiName: Ủy ban Olympic Quốc tế    | RealName: Ủy ban Olympic Quốc tế | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+--------------------------------------------------------------------------------
+[2] TẬP UMCS (Unmatched Candidate Set - Các từ/cụm từ KHÔNG có trong CSDL)
+Tổng số mentions chưa nhận diện: 27
+--------------------------------------------------------------------------------
+Danh sách các từ/cụm từ quét được nhưng không có alias trong CSDL:
+    1. "thuvienphapluat.vn" (Số lần xuất hiện: 2)
+    2. "security" (Số lần xuất hiện: 2)
+    3. "verification" (Số lần xuất hiện: 2)
+    4. "---" (Số lần xuất hiện: 2)
+    5. "===" (Số lần xuất hiện: 1)
+    6. "===
+
+---" (Số lần xuất hiện: 1)
+    7. "---
+This" (Số lần xuất hiện: 1)
+    8. "uses" (Số lần xuất hiện: 1)
+    9. "protect" (Số lần xuất hiện: 1)
+   10. "against" (Số lần xuất hiện: 1)
+   11. "malicious" (Số lần xuất hiện: 1)
+   12. "bots" (Số lần xuất hiện: 1)
+   13. "This" (Số lần xuất hiện: 1)
+   14. "page" (Số lần xuất hiện: 1)
+   15. "displayed" (Số lần xuất hiện: 1)
+   16. "while" (Số lần xuất hiện: 1)
+   17. "the" (Số lần xuất hiện: 1)
+   18. "verifies" (Số lần xuất hiện: 1)
+   19. "not" (Số lần xuất hiện: 1)
+   20. "successful" (Số lần xuất hiện: 1)
+   21. "Waiting" (Số lần xuất hiện: 1)
+   22. "for" (Số lần xuất hiện: 1)
+   23. "respond" (Số lần xuất hiện: 1)
+
+--------------------------------------------------------------------------------
+[3] DANH SÁCH ENTITY2 ĐƯỢC CHỌN ĐỂ KẾT NỐI VỚI ENTITY1 [2 - Công cụ]
+--------------------------------------------------------------------------------
+  [1] EntityId: 18533390 | WikiName: Trình diễn                     | Số lần xuất hiện: 1
+  [2] EntityId: 29823  | WikiName: Website                        | Số lần xuất hiện: 2
+  [3] EntityId: 673    | WikiName: A                              | Số lần xuất hiện: 2
+  [4] EntityId: 13483370 | WikiName: Service (The Walking Dead)     | Số lần xuất hiện: 1
+  [5] EntityId: 190025530 | WikiName: to                             | Số lần xuất hiện: 2
+  [6] EntityId: 2615787 | WikiName: Nhà nước Hồi giáo Iraq và Levant | Số lần xuất hiện: 1
+  [7] EntityId: 3254281 | WikiName: You (bài hát của Janet Jackson) | Số lần xuất hiện: 1
+  [8] EntityId: 332853 | WikiName: A (diện tích)                  | Số lần xuất hiện: 1
+  [9] EntityId: 68830  | WikiName: Bot                            | Số lần xuất hiện: 1

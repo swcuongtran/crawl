@@ -1,0 +1,1643 @@
+# ==============================================================================
+# BẢNG ĐÁNH DẤU CHỌN ENTITY CHO CÁC MENTION CÓ NHIỀU ỨNG VIÊN (> 1 CANDIDATE)
+# THỰC THỂ NGUỒN: [2] Công cụ
+# THỜI GIAN TẠO: 2026-10-22 14:40:32
+# ------------------------------------------------------------------------------
+# HƯỚNG DẪN DÀNH CHO BẠN:
+# 1. Đặt dấu [x] hoặc [X] vào trước ứng viên bạn muốn chọn cho mỗi Mention.
+# 2. Mặc định EREL đã đánh dấu sẵn [x] vào ứng viên được dự đoán tốt nhất.
+# 3. Bạn có thể chuyển [x] sang ứng viên khác nếu thấy phù hợp hơn.
+# 4. Nếu không muốn tính Mention này vào bất kỳ Entity nào, hãy xóa [x] (để [ ] hết).
+# 5. KHÔNG sửa đổi cấu trúc dòng có 'ID: <số>' và tên Mention.
+# 6. Sau khi chỉnh sửa xong, nhấn LƯU FILE (Ctrl + S), rồi quay lại Console nhấn [ENTER].
+# ==============================================================================
+
+[1] Mention: "Máy" | Xuất hiện: 42 lần | POS: N | Loại: technology
+    [x] (1) ID: 491735   | WikiName: Máy móc                      | RealName: máy móc              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190012398 | WikiName: máy                          | RealName: máy                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[2] Mention: "Công Cụ" | Xuất hiện: 29 lần | POS: Np | Loại: unknown
+    [x] (1) ID: 453719   | WikiName: Dụng cụ                      | RealName: dụng cụ              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190053696 | WikiName: công cụ                      | RealName: công cụ              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[3] Mention: "Thang" | Xuất hiện: 19 lần | POS: Np | Loại: unknown
+    [x] (1) ID: 243584   | WikiName: Thang (họ)                   | RealName: Thang                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 520555   | WikiName: Cầu thang                    | RealName: cầu thang            | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 520614   | WikiName: Thang                        | RealName: Thang                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 541310   | WikiName: Thang máy                    | RealName: thang máy            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[4] Mention: "doanh nghiệp" | Xuất hiện: 14 lần | POS: N | Loại: organization
+    [x] (1) ID: 84154    | WikiName: Doanh nghiệp                 | RealName: doanh nghiệp         | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002171 | WikiName: Doanh nghiệp                 | RealName: Doanh nghiệp         | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[5] Mention: "Phụ" | Xuất hiện: 11 lần | POS: Nc | Loại: unknown
+    [x] (1) ID: 199477   | WikiName: Phụ nữ                       | RealName: phụ nữ               | M=1.33 | Me=0.33 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 474862   | WikiName: Vợ                           | RealName: vợ                   | M=1.67 | Me=0.67 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 544103   | WikiName: Phụ âm                       | RealName: Phụ âm               | M=2.33 | Me=0.33 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 19815382 | WikiName: Phụ                          | RealName: Phụ                  | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 311002785 | WikiName: Phụ                          | RealName: Phụ                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[6] Mention: "Từ" | Xuất hiện: 10 lần | POS: E | Loại: unknown
+    [x] (1) ID: 5998     | WikiName: Từ học                       | RealName: từ học               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 236583   | WikiName: Từ (họ)                      | RealName: Từ                   | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 364426   | WikiName: Từ                           | RealName: từ                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 801416   | WikiName: Từ (thể loại văn học)        | RealName: từ                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 1678637  | WikiName: Từ (nước)                    | RealName: Từ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 3338594  | WikiName: Từ đường họ Mạc              | RealName: Từ đường họ Mạc      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 311003159 | WikiName: Từ                           | RealName: Từ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[7] Mention: "ra" | Xuất hiện: 10 lần | POS: R | Loại: unknown
+    [x] (1) ID: 8360     | WikiName: Xích kinh                    | RealName: xích kinh            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 43966    | WikiName: Ra                           | RealName: Ra                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 797485   | WikiName: Ra (tỉnh)                    | RealName: Ra                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311002828 | WikiName: Ra                           | RealName: Ra                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[8] Mention: "hàng" | Xuất hiện: 9 lần | POS: N | Loại: unknown
+    [x] (1) ID: 68616    | WikiName: Hàng hóa                     | RealName: hàng hóa             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 800510   | WikiName: Hàng                         | RealName: Hàng                 | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 14934049 | WikiName: Hàng (họ)                    | RealName: Hàng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311002291 | WikiName: Hàng                         | RealName: Hàng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[9] Mention: "1" | Xuất hiện: 7 lần | POS: M | Loại: unknown
+    [x] (1) ID: 49660    | WikiName: 1 (số)                       | RealName: 1                    | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 1239082  | WikiName: 1 (album của The Beatles)    | RealName: 1                    | M=2.25 | Me=0.25 | Mc=1.00 | Ms=1.00
+
+[10] Mention: "3" | Xuất hiện: 7 lần | POS: M | Loại: unknown
+    [x] (1) ID: 49658    | WikiName: 3 (số)                       | RealName: 3                    | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 63673    | WikiName: Chicago (ban nhạc)           | RealName: Chicago              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 819060   | WikiName: Take That                    | RealName: Take That            | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 3179478  | WikiName: The Script                   | RealName: The Script           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[11] Mention: "Dùng" | Xuất hiện: 6 lần | POS: V | Loại: N/A
+    [x] (1) ID: 1263419  | WikiName: Dùng (thị trấn)              | RealName: Dùng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190005045 | WikiName: dùng                         | RealName: dùng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 311002201 | WikiName: dùng                         | RealName: dùng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[12] Mention: "Cầm" | Xuất hiện: 6 lần | POS: V | Loại: unknown
+    [x] (1) ID: 19517675 | WikiName: Cầm (họ)                     | RealName: Cầm                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190001994 | WikiName: cầm                          | RealName: cầm                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[13] Mention: "Xe" | Xuất hiện: 6 lần | POS: N | Loại: unknown
+    [x] (1) ID: 27283    | WikiName: Xe                           | RealName: xe                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 2263408  | WikiName: Xe (cờ vua)                  | RealName: Xe                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[14] Mention: "đóng" | Xuất hiện: 6 lần | POS: V | Loại: unknown
+    [x] (1) ID: 7574485  | WikiName: Đóng (phép toán)             | RealName: đóng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190004879 | WikiName: đóng                         | RealName: đóng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[15] Mention: "ứng dụng" | Xuất hiện: 6 lần | POS: V | Loại: technology
+    [x] (1) ID: 3084     | WikiName: Khoa học ứng dụng            | RealName: Khoa học ứng dụng    | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190028591 | WikiName: ứng dụng                     | RealName: ứng dụng             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311003203 | WikiName: ứng dụng                     | RealName: ứng dụng             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[16] Mention: "kinh doanh" | Xuất hiện: 6 lần | POS: V | Loại: organization
+    [x] (1) ID: 97703    | WikiName: Kinh doanh                   | RealName: Kinh doanh           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002454 | WikiName: Kinh doanh                   | RealName: Kinh doanh           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[17] Mention: "AI" | Xuất hiện: 6 lần | POS: P | Loại: technology
+    [x] (1) ID: 8570     | WikiName: Trí tuệ nhân tạo             | RealName: trí tuệ nhân tạo     | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190000060 | WikiName: ai                           | RealName: ai                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[18] Mention: "Giao" | Xuất hiện: 5 lần | POS: V | Loại: unknown
+    [x] (1) ID: 203973   | WikiName: Giao, Đồng Lăng              | RealName: Giao, Đồng Lăng      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 212074   | WikiName: Giao, Giai Mộc Tư            | RealName: Giao, Giai Mộc Tư    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 213225   | WikiName: Giao, Dương Tuyền            | RealName: Giao, Dương Tuyền    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 1794038  | WikiName: Giao (cây)                   | RealName: Giao                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 190006059 | WikiName: giao                         | RealName: giao                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[19] Mention: "Vít" | Xuất hiện: 5 lần | POS: Np | Loại: unknown
+    [ ] (1) ID: 470584   | WikiName: Ốc vít                       | RealName: ốc vít               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190029212 | WikiName: vít                          | RealName: vít                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311003243 | WikiName: vít                          | RealName: vít                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[20] Mention: "công nghệ" | Xuất hiện: 5 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 1568     | WikiName: Công nghệ                    | RealName: công nghệ            | M=2.43 | Me=0.43 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 2206     | WikiName: Kỹ thuật                     | RealName: kỹ thuật             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[21] Mention: "sản xuất" | Xuất hiện: 5 lần | POS: V | Loại: unknown
+    [x] (1) ID: 89294    | WikiName: Sản xuất                     | RealName: sản xuất             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002855 | WikiName: Sản xuất                     | RealName: Sản xuất             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[22] Mention: "đồng" | Xuất hiện: 5 lần | POS: Nu | Loại: unknown
+    [x] (1) ID: 3798     | WikiName: Đồng (đơn vị tiền tệ)        | RealName: đồng                 | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 4215     | WikiName: Đồng (màu)                   | RealName: đồng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 5065     | WikiName: Đồng                         | RealName: đồng                 | M=2.17 | Me=0.17 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 103051   | WikiName: Đồng (tiền Việt Nam Cộng hòa) | RealName: đồng                 | M=2.17 | Me=0.17 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 103177   | WikiName: Đồng (tiền Việt Nam Dân chủ Cộng hòa) | RealName: đồng                 | M=2.17 | Me=0.17 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 115680   | WikiName: Đồng (tiền Mặt trận Dân tộc Giải phóng miền Nam Việt Nam) | RealName: đồng                 | M=2.17 | Me=0.17 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 124488   | WikiName: Đồng bạc Đông Dương          | RealName: Đồng bạc Đông Dương  | M=1.33 | Me=0.33 | Mc=0.00 | Ms=1.00
+    [ ] (8) ID: 243579   | WikiName: Đồng (họ)                    | RealName: Đồng                 | M=1.17 | Me=0.17 | Mc=0.00 | Ms=1.00
+    [ ] (9) ID: 284884   | WikiName: Đồng bằng                    | RealName: đồng bằng            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 797032   | WikiName: Đồng (đơn vị tiền cổ)        | RealName: đồng                 | M=2.83 | Me=0.83 | Mc=1.00 | Ms=1.00
+
+[23] Mention: "dữ liệu" | Xuất hiện: 5 lần | POS: N | Loại: unknown
+    [x] (1) ID: 51288    | WikiName: Dữ liệu                      | RealName: dữ liệu              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 12089321 | WikiName: Dữ liệu (máy tính)           | RealName: dữ liệu              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[24] Mention: "vận chuyển" | Xuất hiện: 5 lần | POS: V | Loại: unknown
+    [x] (1) ID: 407005   | WikiName: Vận tải                      | RealName: vận tải              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190028718 | WikiName: vận chuyển                   | RealName: vận chuyển           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311003216 | WikiName: vận chuyển                   | RealName: vận chuyển           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[25] Mention: "Điện" | Xuất hiện: 4 lần | POS: Np | Loại: verb
+    [x] (1) ID: 78327    | WikiName: Điện                         | RealName: điện                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002137 | WikiName: Điện                         | RealName: Điện                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[26] Mention: "Hàn" | Xuất hiện: 4 lần | POS: Np | Loại: unknown
+    [x] (1) ID: 9824     | WikiName: Hàn (công nghệ)              | RealName: hàn                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 9828     | WikiName: Hàn                          | RealName: Hàn                  | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 15383    | WikiName: Hàn Quốc                     | RealName: Hàn Quốc             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 28699    | WikiName: Hàn lộ                       | RealName: Hàn lộ               | M=2.15 | Me=0.15 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 40294    | WikiName: Triều Tiên                   | RealName: Triều Tiên           | M=2.46 | Me=0.46 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 88239    | WikiName: Sông Hàn                     | RealName: Sông Hàn             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 95116    | WikiName: Người Triều Tiên             | RealName: Người Triều Tiên     | M=2.15 | Me=0.15 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 235413   | WikiName: Hàn (họ)                     | RealName: Hàn                  | M=2.15 | Me=0.15 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 369317   | WikiName: Hàn (nước)                   | RealName: Hàn                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 372816   | WikiName: Cộng hòa Dân chủ Nhân dân Triều Tiên | RealName: Cộng hòa Dân chủ Nhân dân Triều Tiên | M=2.23 | Me=0.23 | Mc=1.00 | Ms=1.00
+    [ ] (11) ID: 434456   | WikiName: Hàn vương Thành              | RealName: Hàn vương Thành      | M=2.08 | Me=0.08 | Mc=1.00 | Ms=1.00
+    [ ] (12) ID: 1295967  | WikiName: Hàn (Tây Chu)                | RealName: Hàn                  | M=2.08 | Me=0.08 | Mc=1.00 | Ms=1.00
+    [ ] (13) ID: 2314269  | WikiName: Hàn (Hạ)                     | RealName: Hàn                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[27] Mention: "Bộ" | Xuất hiện: 4 lần | POS: N | Loại: technology
+    [x] (1) ID: 83484    | WikiName: Bộ gõ tiếng Việt             | RealName: Bộ gõ tiếng Việt     | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 102100   | WikiName: Foot                         | RealName: foot                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 107145   | WikiName: Bộ                           | RealName: Bộ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 119336   | WikiName: Bộ (sinh học)                | RealName: bộ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (5) ID: 3159001  | WikiName: Bộ (Chính phủ Việt Nam)      | RealName: Bộ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[28] Mention: "cơ khí" | Xuất hiện: 4 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 13697    | WikiName: Kỹ thuật cơ khí              | RealName: Kỹ thuật cơ khí      | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190052344 | WikiName: cơ khí                       | RealName: cơ khí               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[29] Mention: "tay" | Xuất hiện: 4 lần | POS: N | Loại: unknown
+    [x] (1) ID: 44217    | WikiName: Đại Từ                       | RealName: Đại Từ               | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 506879   | WikiName: Bàn tay                      | RealName: bàn tay              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 506881   | WikiName: Tay                          | RealName: tay                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 16950296 | WikiName: Cánh tay                     | RealName: cánh tay             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[30] Mention: "bạn" | Xuất hiện: 4 lần | POS: N | Loại: person
+    [ ] (1) ID: 190695   | WikiName: Tình bạn                     | RealName: tình bạn             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190000747 | WikiName: bạn                          | RealName: bạn                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311001798 | WikiName: bạn                          | RealName: bạn                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[31] Mention: "4" | Xuất hiện: 4 lần | POS: M | Loại: unknown
+    [x] (1) ID: 49657    | WikiName: 4 (số)                       | RealName: 4                    | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 794155   | WikiName: 4 (album của Beyoncé)        | RealName: 4                    | M=2.20 | Me=0.20 | Mc=1.00 | Ms=1.00
+
+[32] Mention: "tăng" | Xuất hiện: 4 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 146854   | WikiName: Phạm Tăng                    | RealName: Phạm Tăng            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 236612   | WikiName: Tăng (họ)                    | RealName: Tăng                 | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 237248   | WikiName: Tăng                         | RealName: Tăng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311002925 | WikiName: Tăng                         | RealName: Tăng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[33] Mention: "phân" | Xuất hiện: 4 lần | POS: N | Loại: unknown
+    [x] (1) ID: 32131    | WikiName: Phân                         | RealName: phân                 | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 99561    | WikiName: Phân bón                     | RealName: phân bón             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311002730 | WikiName: Phân                         | RealName: Phân                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[34] Mention: "thái" | Xuất hiện: 4 lần | POS: V | Loại: unknown
+    [x] (1) ID: 4862     | WikiName: Thái Lan                     | RealName: Thái Lan             | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 77747    | WikiName: Tiếng Thái                   | RealName: Tiếng Thái           | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 241650   | WikiName: Thái (họ)                    | RealName: Thái                 | M=1.75 | Me=0.75 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 334560   | WikiName: Sái (nước)                   | RealName: Sái                  | M=1.25 | Me=0.25 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 3387131  | WikiName: Thái                         | RealName: Thái                 | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+
+[35] Mention: "vật chất" | Xuất hiện: 4 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2512     | WikiName: Vật chất                     | RealName: vật chất             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 456122   | WikiName: Vật chất (triết học)         | RealName: vật chất             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[36] Mention: "năm" | Xuất hiện: 4 lần | POS: N | Loại: datetime
+    [x] (1) ID: 3370     | WikiName: Năm chí tuyến                | RealName: năm chí tuyến        | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 13874    | WikiName: Năm thiên văn                | RealName: Năm thiên văn        | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 23781    | WikiName: Năm Julius (thiên văn)       | RealName: Năm Julius           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 49656    | WikiName: 5 (số)                       | RealName: 5                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 15406090 | WikiName: Năm (lịch)                   | RealName: năm                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[37] Mention: "trị" | Xuất hiện: 4 lần | POS: N | Loại: verb
+    [x] (1) ID: 3435962  | WikiName: Trị (nước)                   | RealName: Trị                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190026638 | WikiName: trị                          | RealName: trị                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[38] Mention: "Thiết Kế" | Xuất hiện: 4 lần | POS: Np | Loại: location
+    [x] (1) ID: 796724   | WikiName: Thiết Kế                     | RealName: Thiết Kế             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002993 | WikiName: Thiết Kế                     | RealName: Thiết Kế             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[39] Mention: "miễn phí" | Xuất hiện: 3 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 52069    | WikiName: Phần mềm miễn phí            | RealName: phần mềm miễn phí    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 103536   | WikiName: Báo miễn phí                 | RealName: báo miễn phí         | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 13831607 | WikiName: Truyền hình miễn phí         | RealName: Truyền hình miễn phí | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (4) ID: 19486530 | WikiName: Miễn phí                     | RealName: miễn phí             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (5) ID: 311002571 | WikiName: Miễn phí                     | RealName: Miễn phí             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[40] Mention: "Tư vấn" | Xuất hiện: 3 lần | POS: V | Loại: person
+    [ ] (1) ID: 16722775 | WikiName: Chuyên gia tư vấn            | RealName: chuyên gia tư vấn    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190028029 | WikiName: tư vấn                       | RealName: tư vấn               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311003182 | WikiName: tư vấn                       | RealName: tư vấn               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[41] Mention: "xây dựng" | Xuất hiện: 3 lần | POS: V | Loại: unknown
+    [x] (1) ID: 5631     | WikiName: Xây dựng                     | RealName: xây dựng             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311003264 | WikiName: Xây dựng                     | RealName: Xây dựng             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[42] Mention: "nhà sản xuất" | Xuất hiện: 3 lần | POS: N | Loại: person
+    [x] (1) ID: 2314512  | WikiName: Bầu sô                       | RealName: bầu sô               | M=2.33 | Me=0.33 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 2413485  | WikiName: Giám đốc sản xuất            | RealName: Giám đốc sản xuất    | M=1.17 | Me=0.17 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 2415623  | WikiName: Nhà sản xuất                 | RealName: Nhà sản xuất         | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 13398949 | WikiName: Nhà sản xuất phim truyền hình | RealName: Nhà sản xuất phim truyền hình | M=1.67 | Me=0.67 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 18655056 | WikiName: Nhà sản xuất phim            | RealName: Nhà sản xuất phim    | M=1.17 | Me=0.17 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 19365039 | WikiName: Nhà sản xuất truyền hình     | RealName: Nhà sản xuất truyền hình | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 19365053 | WikiName: Nhà sản xuất phát thanh      | RealName: Nhà sản xuất phát thanh | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[43] Mention: "nổi tiếng" | Xuất hiện: 3 lần | POS: A | Loại: unknown
+    [ ] (1) ID: 19364050 | WikiName: Người nổi tiếng              | RealName: người nổi tiếng      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190016021 | WikiName: nổi tiếng                    | RealName: nổi tiếng            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[44] Mention: "ngành" | Xuất hiện: 3 lần | POS: N | Loại: N/A
+    [x] (1) ID: 120017   | WikiName: Ngành (sinh học)             | RealName: Ngành                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 290229   | WikiName: Ngành (quản trị kinh doanh)  | RealName: Ngành                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 190013666 | WikiName: ngành                        | RealName: ngành                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[45] Mention: "lại" | Xuất hiện: 3 lần | POS: R | Loại: unknown
+    [x] (1) ID: 237444   | WikiName: Lại (họ)                     | RealName: Lại                  | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 242469   | WikiName: Bộ Lại                       | RealName: Bộ Lại               | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 19909685 | WikiName: Lại                          | RealName: Lại                  | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311002468 | WikiName: Lại                          | RealName: Lại                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[46] Mention: "thị trường" | Xuất hiện: 3 lần | POS: N | Loại: unknown
+    [x] (1) ID: 69395    | WikiName: Thị trường tiền tệ (vốn)     | RealName: Thị trường tiền tệ   | M=1.33 | Me=0.33 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 70823    | WikiName: Thị trường                   | RealName: thị trường           | M=2.67 | Me=0.67 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 81315    | WikiName: Thị trường chứng khoán       | RealName: thị trường chứng khoán | M=2.33 | Me=0.33 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 84924    | WikiName: Lao động (kinh tế học)       | RealName: lao động             | M=2.33 | Me=0.33 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 89205    | WikiName: Thị trường tài chính         | RealName: thị trường tài chính | M=2.67 | Me=0.67 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 230842   | WikiName: Thị trường ngoại hối         | RealName: thị trường ngoại hối | M=2.67 | Me=0.67 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 452068   | WikiName: Thị trường chứng khoán thứ cấp | RealName: thị trường chứng khoán thứ cấp | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+
+[47] Mention: "Do" | Xuất hiện: 3 lần | POS: E | Loại: location
+    [x] (1) ID: 38324    | WikiName: Cộng hòa Dominica            | RealName: Cộng hòa Dominica    | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 61508    | WikiName: Dầu diesel                   | RealName: Dầu diesel           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 103769   | WikiName: .do                          | RealName: .do                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 258589   | WikiName: Air Vallée                   | RealName: Air Vallée           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 899939   | WikiName: D.O.                         | RealName: D.O.                 | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 923320   | WikiName: Oxy hòa tan                  | RealName: Oxy hòa tan          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 1439111  | WikiName: D.O. (ca sĩ)                 | RealName: D.O.                 | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 3099350  | WikiName: DO                           | RealName: DO                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[48] Mention: "giá" | Xuất hiện: 3 lần | POS: N | Loại: unknown
+    [x] (1) ID: 8238     | WikiName: Giá đỗ                       | RealName: giá đỗ               | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 40226    | WikiName: Giá (toán học)               | RealName: giá                  | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 42744    | WikiName: Giá                          | RealName: Giá                  | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[49] Mention: "Cách" | Xuất hiện: 3 lần | POS: V | Loại: unknown
+    [x] (1) ID: 348900   | WikiName: Cách                         | RealName: Cách                 | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 3198564  | WikiName: Cách (ngữ pháp)              | RealName: cách                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 311001896 | WikiName: Cách                         | RealName: Cách                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[50] Mention: "chu kỳ" | Xuất hiện: 3 lần | POS: N | Loại: unknown
+    [x] (1) ID: 4440     | WikiName: Chu kỳ                       | RealName: chu kỳ               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 77655    | WikiName: Chu kỳ (bảng tuần hoàn)      | RealName: chu kỳ               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[51] Mention: "điều kiện" | Xuất hiện: 3 lần | POS: N | Loại: unknown
+    [x] (1) ID: 15320077 | WikiName: Điều kiện (lập trình máy tính) | RealName: điều kiện            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190050046 | WikiName: điều kiện                    | RealName: điều kiện            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[52] Mention: "nội dung" | Xuất hiện: 3 lần | POS: N | Loại: unknown
+    [x] (1) ID: 19892685 | WikiName: Nội dung (truyền thông)      | RealName: nội dung             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190015923 | WikiName: nội dung                     | RealName: nội dung             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[53] Mention: "chỉ" | Xuất hiện: 3 lần | POS: R | Loại: unknown
+    [x] (1) ID: 3101     | WikiName: Chỉ (đơn vị đo)              | RealName: chỉ                  | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 12992    | WikiName: Chỉ (Phật giáo)              | RealName: chỉ                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 25397    | WikiName: Chỉ                          | RealName: Chỉ                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 531997   | WikiName: Chỉ (thực vật)               | RealName: Chỉ                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 311001972 | WikiName: Chỉ                          | RealName: Chỉ                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[54] Mention: "Dự Đoán" | Xuất hiện: 3 lần | POS: Np | Loại: verb
+    [x] (1) ID: 19377532 | WikiName: Dự đoán                      | RealName: dự đoán              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002195 | WikiName: Dự đoán                      | RealName: Dự đoán              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[55] Mention: "Chiến Lược" | Xuất hiện: 3 lần | POS: Np | Loại: language
+    [x] (1) ID: 31471    | WikiName: Lý thuyết trò chơi           | RealName: lý thuyết trò chơi   | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 51619    | WikiName: Chiến lược quân sự           | RealName: Chiến lược quân sự   | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 79545    | WikiName: Quản trị chiến lược          | RealName: Quản trị chiến lược  | M=2.25 | Me=0.25 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 514111   | WikiName: Chiến lược                   | RealName: chiến lược           | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 3268229  | WikiName: Chiến lược tiếp thị          | RealName: chiến lược tiếp thị  | M=1.25 | Me=0.25 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 3306607  | WikiName: Chiến lược (lý thuyết trò chơi) | RealName: chiến lược           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 13297771 | WikiName: Trò chơi chiến lược          | RealName: Trò chơi chiến lược  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 13826646 | WikiName: Đại chiến lược               | RealName: Đại chiến lược       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 13838372 | WikiName: Chiến lược kinh doanh        | RealName: chiến lược kinh doanh | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (10) ID: 13838605 | WikiName: Chiến lược chính trị         | RealName: chiến lược chính trị | M=1.75 | Me=0.75 | Mc=0.00 | Ms=1.00
+
+[56] Mention: "khám phá" | Xuất hiện: 3 lần | POS: V | Loại: unknown
+    [x] (1) ID: 44248    | WikiName: Khám phá                     | RealName: Khám phá             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002402 | WikiName: Khám phá                     | RealName: Khám phá             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[57] Mention: "cho phép" | Xuất hiện: 3 lần | POS: V | Loại: N/A
+    [x] (1) ID: 190003138 | WikiName: cho phép                    | RealName: cho phép            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190050347 | WikiName: cho phép                     | RealName: cho phép             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[58] Mention: "12" | Xuất hiện: 3 lần | POS: M | Loại: datetime
+    [x] (1) ID: 3506     | WikiName: Tháng mười hai               | RealName: Tháng mười hai       | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 49578    | WikiName: 12 (số)                      | RealName: 12                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 107820   | WikiName: 1912                         | RealName: 1912                 | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 530831   | WikiName: 2012                         | RealName: 2012                 | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 540974   | WikiName: 12                           | RealName: 12                   | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 541111   | WikiName: 12 TCN                       | RealName: 12 TCN               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[59] Mention: "Cưa" | Xuất hiện: 3 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2421157  | WikiName: Cưa                          | RealName: Cưa                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002031 | WikiName: Cưa                          | RealName: Cưa                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[60] Mention: "Hà Nội" | Xuất hiện: 3 lần | POS: Np | Loại: location
+    [x] (1) ID: 80       | WikiName: Hà Nội                       | RealName: Hà Nội               | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 29883    | WikiName: Hà Nội (tỉnh)                | RealName: Hà Nội               | M=2.05 | Me=0.05 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 45446    | WikiName: Ga Hà Nội                    | RealName: Ga Hà Nội            | M=2.05 | Me=0.05 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 55109    | WikiName: Tiểu hành tinh               | RealName: tiểu hành tinh       | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 239819   | WikiName: Vùng thủ đô Hà Nội           | RealName: Vùng thủ đô Hà Nội   | M=2.14 | Me=0.14 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 497176   | WikiName: Tháp Hà Nội                  | RealName: Tháp Hà Nội          | M=2.05 | Me=0.05 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 2421780  | WikiName: Hà Nội, Hà Nội               | RealName: Hà Nội, Hà Nội       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 3424288  | WikiName: Hà Nội (HQ-182)              | RealName: Hà Nội               | M=2.09 | Me=0.09 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 3700033  | WikiName: Đường Hà Nội, Hồng Kông      | RealName: Đường Hà Nội, Hồng Kông | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 11684569 | WikiName: Hà Nội và tôi                | RealName: Hà Nội và tôi        | M=2.05 | Me=0.05 | Mc=1.00 | Ms=1.00
+    [ ] (11) ID: 36771    | WikiName: Sông                         | RealName: sông                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (12) ID: 236506   | WikiName: Hà (họ)                      | RealName: Hà                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (13) ID: 1756119  | WikiName: Hà                           | RealName: hà                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[61] Mention: "chế tạo" | Xuất hiện: 2 lần | POS: V | Loại: unknown
+    [x] (1) ID: 88796    | WikiName: Sản xuất chế tạo             | RealName: sản xuất chế tạo     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 1243128  | WikiName: Chế Tạo                      | RealName: Chế Tạo              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 311001966 | WikiName: Chế Tạo                      | RealName: Chế Tạo              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[62] Mention: "nhà cửa" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 4763     | WikiName: Nhà                          | RealName: nhà                  | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190014699 | WikiName: nhà cửa                      | RealName: nhà cửa              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[63] Mention: "làm vườn" | Xuất hiện: 2 lần | POS: V | Loại: unknown
+    [x] (1) ID: 3147327  | WikiName: Làm vườn                     | RealName: Làm vườn             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002476 | WikiName: Làm vườn                     | RealName: Làm vườn             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[64] Mention: "vệ sinh" | Xuất hiện: 2 lần | POS: V | Loại: unknown
+    [x] (1) ID: 2420792  | WikiName: Vệ sinh                      | RealName: vệ sinh              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311003233 | WikiName: Vệ sinh                      | RealName: Vệ sinh              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[65] Mention: "mang" | Xuất hiện: 2 lần | POS: V | Loại: unknown
+    [x] (1) ID: 7340     | WikiName: Cá mập                       | RealName: cá mập               | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 40748    | WikiName: Phổi                         | RealName: phổi                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 1409388  | WikiName: Nòng nọc                     | RealName: nòng nọc             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 1748847  | WikiName: Mang                         | RealName: mang                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 1748973  | WikiName: Khe mang                     | RealName: Khe mang             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 1749311  | WikiName: Phân thứ lớp Cá xương thật   | RealName: Phân thứ lớp Cá xương thật | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 2217768  | WikiName: Cá mút đá                    | RealName: Cá mút đá            | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (8) ID: 3706238  | WikiName: Mang cá                      | RealName: mang cá              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 311002562 | WikiName: Mang                         | RealName: Mang                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[66] Mention: "góc" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 25814    | WikiName: Góc                          | RealName: góc                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 3501211  | WikiName: Góc phương vị                | RealName: góc phương vị        | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[67] Mention: "con người" | Xuất hiện: 2 lần | POS: N | Loại: person
+    [x] (1) ID: 46840    | WikiName: Người                        | RealName: người                | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190050070 | WikiName: con người                    | RealName: con người            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[68] Mention: "tốt" | Xuất hiện: 2 lần | POS: A | Loại: unknown
+    [x] (1) ID: 477235   | WikiName: Tốt (cờ vua)                 | RealName: tốt                  | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 19914346 | WikiName: Tốt                          | RealName: Tốt                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[69] Mention: "a" | Xuất hiện: 2 lần | POS: N | Loại: letter
+    [x] (1) ID: 673      | WikiName: A                            | RealName: a                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 332853   | WikiName: A (diện tích)                | RealName: a                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311001756 | WikiName: A                            | RealName: A                    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[70] Mention: "chi phí" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 61572    | WikiName: Chi phí                      | RealName: chi phí              | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311001974 | WikiName: Chi phí                      | RealName: Chi phí              | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[71] Mention: "thông tin" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 209397   | WikiName: Thông tin                    | RealName: thông tin            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311003014 | WikiName: Thông tin                    | RealName: Thông tin            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[72] Mention: "thời gian" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2563     | WikiName: Thời gian                    | RealName: thời gian            | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 444978   | WikiName: Thời gian (album của Microwave) | RealName: Thời gian            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 14669608 | WikiName: Mỹ Linh Tour 2018 – Thời gian | RealName: Mỹ Linh Tour 2018 – Thời gian | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[73] Mention: "giống" | Xuất hiện: 2 lần | POS: A | Loại: unknown
+    [x] (1) ID: 19434621 | WikiName: Giống (hình học)             | RealName: giống                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190006423 | WikiName: giống                        | RealName: giống                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[74] Mention: "hình" | Xuất hiện: 2 lần | POS: N | Loại: technology
+    [x] (1) ID: 1355     | WikiName: Hình học                     | RealName: hình học             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 243532   | WikiName: Hình (họ)                    | RealName: Hình                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 330879   | WikiName: Bộ Hình                      | RealName: Bộ Hình              | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 384019   | WikiName: Hình (nước)                  | RealName: Hình                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (5) ID: 2417179  | WikiName: Hình ảnh                     | RealName: Hình ảnh             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (6) ID: 11533643 | WikiName: Hình                         | RealName: hình                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[75] Mention: "thu" | Xuất hiện: 2 lần | POS: V | Loại: event
+    [x] (1) ID: 18790    | WikiName: Mùa thu                      | RealName: mùa thu              | M=2.33 | Me=0.33 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 90616    | WikiName: Cá thu                       | RealName: Cá thu               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 469487   | WikiName: Động từ                      | RealName: động từ              | M=2.33 | Me=0.33 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 532575   | WikiName: Thu                          | RealName: Thu                  | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 311003015 | WikiName: Thu                          | RealName: Thu                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[76] Mention: "nguyên" | Xuất hiện: 2 lần | POS: A | Loại: unknown
+    [ ] (1) ID: 44012    | WikiName: Nhà Nguyên                   | RealName: Nhà Nguyên           | M=1.25 | Me=0.25 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 47818    | WikiName: Nguyên                       | RealName: Nguyên               | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 54135    | WikiName: Số nguyên                    | RealName: số nguyên            | M=2.38 | Me=0.38 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 103523   | WikiName: Yuan Trung Quốc              | RealName: Yuan Trung Quốc      | M=1.12 | Me=0.12 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 198277   | WikiName: Sông Nguyên                  | RealName: Sông Nguyên          | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 1023199  | WikiName: Bắc Nguyên                   | RealName: Bắc Nguyên           | M=1.12 | Me=0.12 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 1060689  | WikiName: Đại Bột Hải                  | RealName: Đại Bột Hải          | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (8) ID: 1180851  | WikiName: Yuan                         | RealName: Yuan                 | M=1.62 | Me=0.62 | Mc=0.00 | Ms=1.00
+    [ ] (9) ID: 19820121 | WikiName: Nguyên (họ người)            | RealName: Nguyên               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[77] Mention: "uy tín" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 183347   | WikiName: Uy Tín, Chiêu Thông          | RealName: Uy Tín, Chiêu Thông  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190028650 | WikiName: uy tín                       | RealName: uy tín               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[78] Mention: "tổng" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 104839   | WikiName: Tổng (đơn vị hành chính cũ Việt Nam) | RealName: tổng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 109942   | WikiName: Tương Đàm                    | RealName: Tương Đàm            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 124825   | WikiName: Tổng                         | RealName: Tổng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (4) ID: 1296587  | WikiName: Phép lấy tổng                | RealName: phép lấy tổng        | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[79] Mention: "điểm" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 24548    | WikiName: Chất điểm                    | RealName: chất điểm            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 132015   | WikiName: Điểm                         | RealName: Điểm                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 132258   | WikiName: Điểm (hình học)              | RealName: điểm                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[80] Mention: "hóa" | Xuất hiện: 2 lần | POS: V | Loại: technology
+    [x] (1) ID: 981      | WikiName: Hóa học                      | RealName: hóa học              | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190007253 | WikiName: hóa                          | RealName: hóa                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311002321 | WikiName: hóa                          | RealName: hóa                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[81] Mention: "tôi" | Xuất hiện: 2 lần | POS: P | Loại: unknown
+    [x] (1) ID: 121022   | WikiName: Tôi (nhiệt luyện)            | RealName: tôi                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190025751 | WikiName: tôi                          | RealName: tôi                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311003077 | WikiName: tôi                          | RealName: tôi                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[82] Mention: "Xu Hướng" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 306682   | WikiName: Xu hướng tính dục            | RealName: xu hướng tính dục    | M=1.25 | Me=0.25 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 1938752  | WikiName: Xu hướng thị trường          | RealName: xu hướng thị trường  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 3189556  | WikiName: Xu hướng cảm xúc             | RealName: xu hướng cảm xúc     | M=1.25 | Me=0.25 | Mc=0.00 | Ms=1.00
+    [x] (4) ID: 14500645 | WikiName: Xu hướng                     | RealName: Xu hướng             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (5) ID: 18230052 | WikiName: Mốt và xu hướng              | RealName: Mốt và xu hướng      | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+
+[83] Mention: "Sáng Tạo" | Xuất hiện: 2 lần | POS: Np | Loại: film
+    [ ] (1) ID: 7676     | WikiName: Tư duy sáng tạo              | RealName: tư duy sáng tạo      | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 865971   | WikiName: Sáng tạo (phim 2009)         | RealName: Sáng tạo             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 190019716 | WikiName: sáng tạo                     | RealName: sáng tạo             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311002858 | WikiName: sáng tạo                     | RealName: sáng tạo             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[84] Mention: "nhà" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 4763     | WikiName: Nhà                          | RealName: nhà                  | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 894094   | WikiName: Nhà (chiêm tinh học)         | RealName: nhà                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 912892   | WikiName: Chỗ ở                        | RealName: chỗ ở                | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+
+[85] Mention: "ảnh" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2417179  | WikiName: Hình ảnh                     | RealName: Hình ảnh             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 19430516 | WikiName: Ảnh (toán học)               | RealName: ảnh                  | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 190000383 | WikiName: ảnh                          | RealName: ảnh                  | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[86] Mention: "họ" | Xuất hiện: 2 lần | POS: P | Loại: unknown
+    [ ] (1) ID: 7657     | WikiName: Họ                           | RealName: họ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 119319   | WikiName: Họ (sinh học)                | RealName: họ                   | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[87] Mention: "Kiến Trúc" | Xuất hiện: 2 lần | POS: Np | Loại: verb
+    [ ] (1) ID: 5699     | WikiName: Kiến trúc                    | RealName: kiến trúc            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311002449 | WikiName: Kiến trúc                    | RealName: Kiến trúc            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[88] Mention: "đầu" | Xuất hiện: 2 lần | POS: N | Loại: unknown
+    [x] (1) ID: 543929   | WikiName: Đầu                          | RealName: Đầu                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002101 | WikiName: Đầu                          | RealName: Đầu                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[89] Mention: "Thợ" | Xuất hiện: 2 lần | POS: N | Loại: organization
+    [x] (1) ID: 412133   | WikiName: Người lao động               | RealName: Người lao động       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190023572 | WikiName: thợ                          | RealName: thợ                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[90] Mention: "Thanh toán" | Xuất hiện: 2 lần | POS: V | Loại: verb
+    [ ] (1) ID: 284106   | WikiName: Thanh toán                   | RealName: thanh toán           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311002966 | WikiName: Thanh toán                   | RealName: Thanh toán           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[91] Mention: "phương thức" | Xuất hiện: 2 lần | POS: N | Loại: language
+    [x] (1) ID: 399616   | WikiName: Phương thức (lập trình máy tính) | RealName: phương thức          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190017727 | WikiName: phương thức                  | RealName: phương thức          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[92] Mention: "Đại lý" | Xuất hiện: 2 lần | POS: N | Loại: person
+    [ ] (1) ID: 1529     | WikiName: Trung Quốc                   | RealName: Trung Quốc           | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 60256    | WikiName: Đại Lý                       | RealName: Đại Lý               | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 172838   | WikiName: Đại Lý, Vân Nam              | RealName: Đại Lý, Vân Nam      | M=2.17 | Me=0.17 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 571661   | WikiName: Đại Lý (thành phố cấp huyện) | RealName: Đại Lý               | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+
+[93] Mention: "Cửa hàng" | Xuất hiện: 2 lần | POS: N | Loại: location
+    [x] (1) ID: 813663   | WikiName: Cửa hàng bán lẻ              | RealName: Cửa hàng bán lẻ      | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190003790 | WikiName: cửa hàng                     | RealName: cửa hàng             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[94] Mention: "Tiêu Dùng" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [x] (1) ID: 364142   | WikiName: Tiêu dùng                    | RealName: Tiêu dùng            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311003058 | WikiName: Tiêu dùng                    | RealName: Tiêu dùng            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[95] Mention: "tiết" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 2558     | WikiName: Tiết khí                     | RealName: tiết khí             | M=2.67 | Me=0.67 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 3227     | WikiName: Thủy Trạch Tiết              | RealName: Thủy Trạch Tiết      | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 163247   | WikiName: Thời tiết                    | RealName: thời tiết            | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 237368   | WikiName: Tiết (họ)                    | RealName: Tiết                 | M=1.67 | Me=0.67 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 567131   | WikiName: Huyết (thực phẩm)            | RealName: huyết                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 1585059  | WikiName: Tiết                         | RealName: Tiết                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 311003053 | WikiName: Tiết                         | RealName: Tiết                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[96] Mention: "Khí" | Xuất hiện: 1 lần | POS: Np | Loại: technology
+    [ ] (1) ID: 66104    | WikiName: Chất khí                     | RealName: chất khí             | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 66123    | WikiName: Khí (triết học)              | RealName: Khí                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (3) ID: 326211   | WikiName: Khí hậu                      | RealName: khí hậu              | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 499227   | WikiName: Không khí                    | RealName: Không khí            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 506208   | WikiName: Khí công                     | RealName: khí công             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 523822   | WikiName: Khí quyển                    | RealName: Khí quyển            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 190008835 | WikiName: khí                          | RealName: khí                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[97] Mention: "Nước" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2426     | WikiName: Nước                         | RealName: nước                 | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 265659   | WikiName: Nước siêu nặng               | RealName: nước siêu nặng       | M=1.17 | Me=0.17 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 266153   | WikiName: Nước nặng                    | RealName: nước nặng            | M=1.17 | Me=0.17 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 3646951  | WikiName: Nước (chính trị)             | RealName: nước                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[98] Mention: "Danh mục" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 151852   | WikiName: Phạm trù                     | RealName: phạm trù             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 501406   | WikiName: Từ loại                      | RealName: từ loại              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 2420067  | WikiName: Danh mục                     | RealName: Danh mục             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[99] Mention: "cách" | Xuất hiện: 1 lần | POS: CH | Loại: unknown
+    [ ] (1) ID: 348900   | WikiName: Cách                         | RealName: Cách                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 3198564  | WikiName: Cách (ngữ pháp)              | RealName: cách                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311001896 | WikiName: Cách                         | RealName: Cách                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[100] Mention: "Chữ" | Xuất hiện: 1 lần | POS: Np | Loại: language
+    [x] (1) ID: 4151     | WikiName: Ngôn ngữ                     | RealName: ngôn ngữ             | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 319272   | WikiName: Chữ                          | RealName: Chữ                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 364426   | WikiName: Từ                           | RealName: từ                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 583963   | WikiName: Âm tiết                      | RealName: âm tiết              | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+
+[101] Mention: "Cơ" | Xuất hiện: 1 lần | POS: Np | Loại: organization
+    [ ] (1) ID: 54582    | WikiName: Cơ (sinh học)                | RealName: cơ                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 235764   | WikiName: Cơ (họ)                      | RealName: Cơ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 348132   | WikiName: Cơ                           | RealName: Cơ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[102] Mention: "Con" | Xuất hiện: 1 lần | POS: Nc | Loại: person
+    [x] (1) ID: 2607423  | WikiName: Con gái                      | RealName: con gái              | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 2832689  | WikiName: Con trai                     | RealName: con trai             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 15349152 | WikiName: Con cái                      | RealName: con cái              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 19849027 | WikiName: Con                          | RealName: Con                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[103] Mention: "Đội" | Xuất hiện: 1 lần | POS: Np | Loại: organization
+    [x] (1) ID: 19758720 | WikiName: Tập thể                      | RealName: Tập thể              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190004818 | WikiName: đội                          | RealName: đội                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 311002176 | WikiName: đội                          | RealName: đội                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[104] Mention: "Kích" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [x] (1) ID: 64754    | WikiName: Kích (vũ khí)                | RealName: kích                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190009437 | WikiName: kích                         | RealName: kích                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 311002438 | WikiName: kích                         | RealName: kích                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[105] Mention: "Thủy" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [ ] (1) ID: 2426     | WikiName: Nước                         | RealName: nước                 | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 8477     | WikiName: Thủy ngân                    | RealName: thủy ngân            | M=1.12 | Me=0.12 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 15576    | WikiName: Thủy triều                   | RealName: thủy triều           | M=1.25 | Me=0.25 | Mc=0.00 | Ms=1.00
+    [x] (4) ID: 362428   | WikiName: Sao Thủy                     | RealName: Sao Thủy             | M=2.25 | Me=0.25 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (5) ID: 524099   | WikiName: Thủy (Ngũ hành)              | RealName: Thủy                 | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 524100   | WikiName: Thủy                         | RealName: Thủy                 | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 19514366 | WikiName: Bộ Thủy (水)                  | RealName: Bộ Thủy              | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 19828621 | WikiName: Thủy (nguyên tố cổ điển)     | RealName: Thủy                 | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+
+[106] Mention: "Chạy" | Xuất hiện: 1 lần | POS: V | Loại: verb
+    [ ] (1) ID: 3426135  | WikiName: Chạy                         | RealName: chạy                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311001960 | WikiName: Chạy                         | RealName: Chạy                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[107] Mention: "Khuyến mãi" | Xuất hiện: 1 lần | POS: N | Loại: verb
+    [ ] (1) ID: 70010    | WikiName: Khuyến mãi                   | RealName: khuyến mãi           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311002435 | WikiName: Khuyến mãi                   | RealName: Khuyến mãi           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[108] Mention: "tùy" | Xuất hiện: 1 lần | POS: N | Loại: location
+    [x] (1) ID: 12202    | WikiName: Nhà Tùy                      | RealName: Nhà Tùy              | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 809897   | WikiName: Tùy, Tùy Châu                | RealName: Tùy, Tùy Châu        | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 1678667  | WikiName: Tùy (nước)                   | RealName: Tùy                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 17394911 | WikiName: Tùy (họ)                     | RealName: Tùy                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 190028405 | WikiName: tùy                          | RealName: tùy                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[109] Mention: "hiện đại" | Xuất hiện: 1 lần | POS: A | Loại: unknown
+    [ ] (1) ID: 407347   | WikiName: Chủ nghĩa hiện đại           | RealName: Chủ nghĩa hiện đại   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190007071 | WikiName: hiện đại                     | RealName: hiện đại             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[110] Mention: "nhà thầu" | Xuất hiện: 1 lần | POS: N | Loại: person
+    [ ] (1) ID: 3254298  | WikiName: Chủ doanh nghiệp             | RealName: chủ doanh nghiệp     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190054877 | WikiName: nhà thầu                     | RealName: nhà thầu             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[111] Mention: "Đáp ứng" | Xuất hiện: 1 lần | POS: V | Loại: person
+    [x] (1) ID: 2119091  | WikiName: Đáp ứng (hậu cung)           | RealName: Đáp ứng              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 19856832 | WikiName: Đáp ứng                      | RealName: Đáp ứng              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[112] Mention: "tiến trình" | Xuất hiện: 1 lần | POS: N | Loại: technology
+    [x] (1) ID: 7292     | WikiName: Tiến trình (khoa học máy tính) | RealName: tiến trình           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190025082 | WikiName: tiến trình                   | RealName: tiến trình           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[113] Mention: "gạch" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 1276753  | WikiName: Gạch (cua)                   | RealName: gạch                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190005349 | WikiName: gạch                         | RealName: gạch                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[114] Mention: "gấp" | Xuất hiện: 1 lần | POS: V | Loại: technology
+    [ ] (1) ID: 419852   | WikiName: Nếp uốn (địa chất)           | RealName: nếp uốn              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 7458821  | WikiName: Xe đạp gấp                   | RealName: xe đạp gấp           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 14934654 | WikiName: Thuật ngữ giải phẫu cử động  | RealName: thuật ngữ giải phẫu cử động | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 19746552 | WikiName: Gấp                          | RealName: Gấp                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 311002218 | WikiName: Gấp                          | RealName: Gấp                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[115] Mention: "tính" | Xuất hiện: 1 lần | POS: N | Loại: person
+    [x] (1) ID: 7657     | WikiName: Họ                           | RealName: họ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 18417    | WikiName: Giới                         | RealName: giới                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 26272    | WikiName: Tính cách                    | RealName: tính cách            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 268671   | WikiName: Giới tính                    | RealName: giới tính            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (5) ID: 14401781 | WikiName: Tính toán                    | RealName: tính toán            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (6) ID: 15253456 | WikiName: Tính                         | RealName: tính                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (7) ID: 311003066 | WikiName: Tính                         | RealName: Tính                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[116] Mention: "tung" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 505847   | WikiName: Lê Tung                      | RealName: Lê Tung              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 2153854  | WikiName: Heteropanax                  | RealName: Heteropanax          | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 2264571  | WikiName: Tung                         | RealName: Tung                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 311003187 | WikiName: Tung                         | RealName: Tung                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[117] Mention: "ghế" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 528996   | WikiName: Ghế                          | RealName: ghế                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002225 | WikiName: Ghế                          | RealName: Ghế                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[118] Mention: "bán" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 421955   | WikiName: Bán                          | RealName: Bán                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311001796 | WikiName: Bán                          | RealName: Bán                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[119] Mention: "Mỹ" | Xuất hiện: 1 lần | POS: Np | Loại: location
+    [x] (1) ID: 57       | WikiName: Hoa Kỳ                       | RealName: Hoa Kỳ               | M=2.00 | Me=1.00 | Mc=1.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 855      | WikiName: Bắc Mỹ                       | RealName: Bắc Mỹ               | M=1.09 | Me=0.09 | Mc=1.00 | Ms=0.00
+    [ ] (3) ID: 7698     | WikiName: Mỹ thuật                     | RealName: mỹ thuật             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 8720     | WikiName: Đô la Mỹ                     | RealName: Đô la Mỹ             | M=1.00 | Me=0.00 | Mc=1.00 | Ms=0.00
+    [ ] (5) ID: 13324    | WikiName: Mỹ học                       | RealName: Mỹ học               | M=1.00 | Me=0.00 | Mc=1.00 | Ms=0.00
+    [ ] (6) ID: 47452    | WikiName: Nam Mỹ                       | RealName: Nam Mỹ               | M=1.09 | Me=0.09 | Mc=1.00 | Ms=0.00
+    [ ] (7) ID: 78103    | WikiName: Trung Mỹ                     | RealName: Trung Mỹ             | M=1.00 | Me=0.00 | Mc=1.00 | Ms=0.00
+    [ ] (8) ID: 83574    | WikiName: Châu Mỹ                      | RealName: Châu Mỹ              | M=1.00 | Me=0.00 | Mc=1.00 | Ms=0.00
+    [ ] (9) ID: 829260   | WikiName: Thẩm mỹ viện                 | RealName: thẩm mỹ viện         | M=0.09 | Me=0.09 | Mc=0.00 | Ms=0.00
+    [ ] (10) ID: 311001143 | WikiName: Mỹ                           | RealName: Mỹ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[120] Mention: "Hàn Quốc" | Xuất hiện: 1 lần | POS: Np | Loại: location
+    [ ] (1) ID: 15383    | WikiName: Hàn Quốc                     | RealName: Hàn Quốc             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 40294    | WikiName: Triều Tiên                   | RealName: Triều Tiên           | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 369317   | WikiName: Hàn (nước)                   | RealName: Hàn                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 372816   | WikiName: Cộng hòa Dân chủ Nhân dân Triều Tiên | RealName: Cộng hòa Dân chủ Nhân dân Triều Tiên | M=2.60 | Me=0.60 | Mc=1.00 | Ms=1.00
+
+[121] Mention: "Đài Loan" | Xuất hiện: 1 lần | POS: Np | Loại: location
+    [x] (1) ID: 49103    | WikiName: Đài Loan                     | RealName: Đài Loan             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 240892   | WikiName: Đài Loan (tỉnh của Cộng hòa Nhân dân Trung Hoa) | RealName: Đài Loan             | M=2.25 | Me=0.25 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 362385   | WikiName: Đài Loan (đảo)               | RealName: Đài Loan             | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 804207   | WikiName: Đài Loan (Trung Quốc)        | RealName: Đài Loan             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 14795315 | WikiName: Đạo luật Quan hệ Đài Loan    | RealName: Đạo luật Quan hệ Đài Loan | M=2.25 | Me=0.25 | Mc=1.00 | Ms=1.00
+
+[122] Mention: "bot" | Xuất hiện: 1 lần | POS: N | Loại: technology
+    [ ] (1) ID: 25196    | WikiName: Ý                            | RealName: Ý                    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 51623    | WikiName: Tổ chức Hàng không Dân dụng Quốc tế | RealName: Tổ chức Hàng không Dân dụng Quốc tế | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 68830    | WikiName: Bot                          | RealName: bot                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 68884    | WikiName: Botnet                       | RealName: botnet               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 248805   | WikiName: Đầu tư BOT                   | RealName: Đầu tư BOT           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 261402   | WikiName: Ủy ban Olympic Quốc tế       | RealName: Ủy ban Olympic Quốc tế | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[123] Mention: "lượng" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 2927     | WikiName: Lượng (kim hoàn)             | RealName: lượng                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 620886   | WikiName: Lượng                        | RealName: Lượng                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 311002533 | WikiName: Lượng                        | RealName: Lượng                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[124] Mention: "tham khảo" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 68819    | WikiName: Tham khảo                    | RealName: tham khảo            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002949 | WikiName: Tham khảo                    | RealName: Tham khảo            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[125] Mention: "đạt" | Xuất hiện: 1 lần | POS: V | Loại: location
+    [ ] (1) ID: 198955   | WikiName: Đạt Xuyên                    | RealName: Đạt Xuyên            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190004338 | WikiName: đạt                          | RealName: đạt                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311002099 | WikiName: đạt                          | RealName: đạt                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[126] Mention: "thỏa mãn" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 19225189 | WikiName: Hài lòng                     | RealName: hài lòng             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190023713 | WikiName: thỏa mãn                     | RealName: thỏa mãn             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311003003 | WikiName: thỏa mãn                     | RealName: thỏa mãn             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[127] Mention: "quản lý" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 26294    | WikiName: Quản lý                      | RealName: quản lý              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002799 | WikiName: Quản lý                      | RealName: Quản lý              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[128] Mention: "vô cùng" | Xuất hiện: 1 lần | POS: R | Loại: unknown
+    [x] (1) ID: 16834    | WikiName: Vô tận                       | RealName: vô tận               | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190050253 | WikiName: vô cùng                      | RealName: vô cùng              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[129] Mention: "thường" | Xuất hiện: 1 lần | POS: R | Loại: unknown
+    [ ] (1) ID: 237434   | WikiName: Thường (họ)                  | RealName: Thường               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 19834966 | WikiName: Thường                       | RealName: thường               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311003035 | WikiName: Thường                       | RealName: Thường               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[130] Mention: "hạ" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 2787     | WikiName: Tây Hạ                       | RealName: Tây Hạ               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 11042    | WikiName: Hạ                           | RealName: Hạ                   | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 118774   | WikiName: Hạ (họ)                      | RealName: Hạ                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 300830   | WikiName: Hạ (thập lục quốc)           | RealName: Hạ                   | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 1204253  | WikiName: Đông Hạ                      | RealName: Đông Hạ              | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 1751923  | WikiName: Đậu Kiến Đức                 | RealName: Đậu Kiến Đức         | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 311002281 | WikiName: Hạ                           | RealName: Hạ                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[131] Mention: "doanh thu" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 61565    | WikiName: Doanh thu                    | RealName: doanh thu            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 13904846 | WikiName: Doanh thu (kế toán)          | RealName: doanh thu            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[132] Mention: "thấy" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 348639   | WikiName: Thị giác                     | RealName: thị giác             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 16174546 | WikiName: Thấy (phim truyền hình)      | RealName: thấy                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 190022973 | WikiName: thấy                         | RealName: thấy                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 311002978 | WikiName: thấy                         | RealName: thấy                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[133] Mention: "triệu" | Xuất hiện: 1 lần | POS: M | Loại: event
+    [ ] (1) ID: 27216    | WikiName: Bà Triệu                     | RealName: Bà Triệu             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 32861    | WikiName: Nhà Triệu                    | RealName: Nhà Triệu            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 33493    | WikiName: Ngũ Hồ thập lục quốc         | RealName: Ngũ Hồ thập lục quốc | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 42129    | WikiName: Hán Triệu                    | RealName: Hán Triệu            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 42234    | WikiName: Hậu Triệu                    | RealName: Hậu Triệu            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 46330    | WikiName: Triệu                        | RealName: triệu                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 235219   | WikiName: Triệu (họ)                   | RealName: Triệu                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (8) ID: 378510   | WikiName: Triệu (nước)                 | RealName: Triệu                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (9) ID: 1297730  | WikiName: Triệu (Ngũ đại)              | RealName: Triệu                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (10) ID: 311003119 | WikiName: Triệu                        | RealName: Triệu                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[134] Mention: "không" | Xuất hiện: 1 lần | POS: R | Loại: unknown
+    [x] (1) ID: 35669    | WikiName: 0 (số)                       | RealName: 0                    | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 494403   | WikiName: 0                            | RealName: 0                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 19659948 | WikiName: Không (bài hát)              | RealName: Không                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 19688828 | WikiName: Không (phim)                 | RealName: không                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 190009227 | WikiName: không                        | RealName: không                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[135] Mention: "Bảng" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 19568325 | WikiName: Table                        | RealName: Table                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 19583120 | WikiName: Bảng (thông tin)             | RealName: bảng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 190000861 | WikiName: bảng                         | RealName: bảng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[136] Mention: "so sánh" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 19470546 | WikiName: So sánh (văn học)            | RealName: so sánh              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190020197 | WikiName: so sánh                      | RealName: so sánh              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[137] Mention: "cái" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2411892  | WikiName: Cái (họ)                     | RealName: Cái                  | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 19686740 | WikiName: Cái                          | RealName: Cái                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[138] Mention: "nhìn" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 348639   | WikiName: Thị giác                     | RealName: thị giác             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190015331 | WikiName: nhìn                         | RealName: nhìn                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311002675 | WikiName: nhìn                         | RealName: nhìn                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[139] Mention: "quan" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 243575   | WikiName: Quan (họ)                    | RealName: Quan                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 796720   | WikiName: Quan (tiền)                  | RealName: quan                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 19651368 | WikiName: Quan lại                     | RealName: quan lại             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 19651370 | WikiName: Quan                         | RealName: Quan                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[140] Mention: "mua" | Xuất hiện: 1 lần | POS: V | Loại: person
+    [ ] (1) ID: 353910   | WikiName: Chi Mua                      | RealName: Chi Mua              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 354243   | WikiName: Mua                          | RealName: Mua                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 14592448 | WikiName: Chuyên gia trang điểm        | RealName: chuyên gia trang điểm | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 311002584 | WikiName: Mua                          | RealName: Mua                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[141] Mention: "bằng" | Xuất hiện: 1 lần | POS: E | Loại: unknown
+    [ ] (1) ID: 15491616 | WikiName: Giấy phép                    | RealName: giấy phép            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 19495589 | WikiName: Bằng                         | RealName: bằng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311001808 | WikiName: Bằng                         | RealName: Bằng                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[142] Mention: "phút" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 2567     | WikiName: Phút                         | RealName: phút                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 2429981  | WikiName: Phút (góc)                   | RealName: phút                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[143] Mention: "chẩn đoán" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 541175   | WikiName: Chẩn đoán                    | RealName: Chẩn đoán            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311001947 | WikiName: Chẩn đoán                    | RealName: Chẩn đoán            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[144] Mention: "thuốc" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 124947   | WikiName: Dược phẩm                    | RealName: dược phẩm            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190024425 | WikiName: thuốc                        | RealName: thuốc                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311003033 | WikiName: thuốc                        | RealName: thuốc                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[145] Mention: "mục tiêu" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 16204    | WikiName: Mục tiêu giáo dục            | RealName: mục tiêu giáo dục    | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 3265811  | WikiName: Thị trường mục tiêu          | RealName: thị trường mục tiêu  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 13482080 | WikiName: Mục tiêu                     | RealName: mục tiêu             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 13497277 | WikiName: Thiết lập mục tiêu cá nhân   | RealName: Thiết lập mục tiêu cá nhân | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 13914773 | WikiName: Mục tiêu bán hàng dựa trên lợi nhuận | RealName: mục tiêu bán hàng dựa trên lợi nhuận | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 15114804 | WikiName: Mục tiêu chiến lược (quân sự) | RealName: Mục tiêu chiến lược  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[146] Mention: "quảng cáo" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 53515    | WikiName: Quảng cáo                    | RealName: quảng cáo            | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002805 | WikiName: Quảng cáo                    | RealName: Quảng cáo            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[147] Mention: "Giáo Dục" | Xuất hiện: 1 lần | POS: Np | Loại: verb
+    [ ] (1) ID: 16203    | WikiName: Giáo dục                     | RealName: giáo dục             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311002259 | WikiName: Giáo dục                     | RealName: Giáo dục             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[148] Mention: "tài liệu" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 68822    | WikiName: Văn kiện                     | RealName: Văn kiện             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190021018 | WikiName: tài liệu                     | RealName: tài liệu             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[149] Mention: "học tập" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 1761463  | WikiName: Học                          | RealName: học                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190007504 | WikiName: học tập                      | RealName: học tập              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311002338 | WikiName: học tập                      | RealName: học tập              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[150] Mention: "tự động hóa" | Xuất hiện: 1 lần | POS: V | Loại: technology
+    [x] (1) ID: 3215668  | WikiName: Tự động hóa                  | RealName: tự động hóa          | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311003163 | WikiName: Tự động hóa                  | RealName: Tự động hóa          | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[151] Mention: "chấm" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 9237     | WikiName: Chấm (da liễu học)           | RealName: chấm                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190002608 | WikiName: chấm                         | RealName: chấm                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[152] Mention: "mô phỏng" | Xuất hiện: 1 lần | POS: A | Loại: unknown
+    [x] (1) ID: 18607275 | WikiName: Mô phỏng                     | RealName: mô phỏng             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002579 | WikiName: Mô phỏng                     | RealName: Mô phỏng             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[153] Mention: "hỗ trợ" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 812281   | WikiName: Hỗ Trợ                       | RealName: Hỗ Trợ               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002319 | WikiName: Hỗ Trợ                       | RealName: Hỗ Trợ               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[154] Mention: "viết" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 131775   | WikiName: Chữ viết                     | RealName: chữ viết             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 516031   | WikiName: Sến xanh                     | RealName: sến xanh             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 2314857  | WikiName: Manilkara kauki              | RealName: Manilkara kauki      | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 190029041 | WikiName: viết                         | RealName: viết                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 311003239 | WikiName: viết                         | RealName: viết                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[155] Mention: "danh sách" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 8851     | WikiName: Danh sách danh sách          | RealName: danh sách danh sách  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190004262 | WikiName: danh sách                    | RealName: danh sách            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[156] Mention: "ứng dụng AI tạo sinh" | Xuất hiện: 1 lần | POS: N+Np | Loại: technology
+    [x] (1) ID: 3084     | WikiName: Khoa học ứng dụng            | RealName: Khoa học ứng dụng    | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190028591 | WikiName: ứng dụng                     | RealName: ứng dụng             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 311003203 | WikiName: ứng dụng                     | RealName: ứng dụng             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[157] Mention: "ứng dụng này" | Xuất hiện: 1 lần | POS: N+P | Loại: technology
+    [x] (1) ID: 3084     | WikiName: Khoa học ứng dụng            | RealName: Khoa học ứng dụng    | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190028591 | WikiName: ứng dụng                     | RealName: ứng dụng             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 311003203 | WikiName: ứng dụng                     | RealName: ứng dụng             | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[158] Mention: "chung" | Xuất hiện: 1 lần | POS: A | Loại: verb
+    [ ] (1) ID: 236753   | WikiName: Chung (họ)                   | RealName: Chung                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190003338 | WikiName: chung                        | RealName: chung                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[159] Mention: "tiên tiến" | Xuất hiện: 1 lần | POS: A | Loại: N/A
+    [x] (1) ID: 125398   | WikiName: Tiên Lãng                    | RealName: Tiên Lãng            | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 1253553  | WikiName: Tiên Tiến                    | RealName: Tiên Tiến            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[160] Mention: "sinh" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 188458   | WikiName: Sinh                         | RealName: sinh                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 19130731 | WikiName: Sinh (Phật giáo)             | RealName: sinh                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311002872 | WikiName: Sinh                         | RealName: Sinh                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[161] Mention: "hướng" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 201445   | WikiName: Hướng (họ)                   | RealName: Hướng                | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 1374998  | WikiName: Phương hướng                 | RealName: phương hướng         | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 190008009 | WikiName: hướng                        | RealName: hướng                | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[162] Mention: "gợi ý" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 190050447 | WikiName: gợi ý                        | RealName: gợi ý                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002277 | WikiName: gợi ý                        | RealName: gợi ý                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[163] Mention: "Phát triển" | Xuất hiện: 1 lần | POS: V | Loại: verb
+    [ ] (1) ID: 3634789  | WikiName: Phát triển                   | RealName: phát triển           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311002758 | WikiName: Phát triển                   | RealName: Phát triển           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[164] Mention: "biến" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 3041     | WikiName: Biến số                      | RealName: biến số              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 3687724  | WikiName: Biến (khoa học máy tính)     | RealName: biến                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 190001280 | WikiName: biến                         | RealName: biến                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 311001848 | WikiName: biến                         | RealName: biến                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[165] Mention: "thành" | Xuất hiện: 1 lần | POS: V | Loại: location
+    [ ] (1) ID: 213142   | WikiName: Thành, Dương Tuyền           | RealName: Thành, Dương Tuyền   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 213228   | WikiName: Thành, Trường Trị            | RealName: Thành, Trường Trị    | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 213257   | WikiName: Thành, Tấn Thành             | RealName: Thành, Tấn Thành     | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 812225   | WikiName: Lâu đài                      | RealName: lâu đài              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 14203419 | WikiName: Thành (họ)                   | RealName: Thành                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (6) ID: 190022527 | WikiName: thành                        | RealName: thành                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (7) ID: 311002959 | WikiName: thành                        | RealName: thành                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[166] Mention: "mộng" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 93770    | WikiName: Giấc mơ                      | RealName: giấc mơ              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190012862 | WikiName: mộng                         | RealName: mộng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[167] Mention: "mơ" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 84994    | WikiName: Mơ                           | RealName: mơ                   | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 143061   | WikiName: Mơ (cây)                     | RealName: mơ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 525602   | WikiName: Mơ Armenia                   | RealName: Mơ Armenia           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 13508134 | WikiName: Prunus sibirica              | RealName: Prunus sibirica      | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 311002575 | WikiName: Mơ                           | RealName: Mơ                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[168] Mention: "diễn" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 18646108 | WikiName: Diễn xuất                    | RealName: Diễn xuất            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190004610 | WikiName: diễn                         | RealName: diễn                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311002135 | WikiName: diễn                         | RealName: diễn                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[169] Mention: "họa" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 7434     | WikiName: Hội họa                      | RealName: hội họa              | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 1180124  | WikiName: Vẽ                           | RealName: vẽ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 19845157 | WikiName: Họa                          | RealName: Họa                  | M=1.33 | Me=0.33 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311002323 | WikiName: Họa                          | RealName: Họa                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[170] Mention: "nội thất" | Xuất hiện: 1 lần | POS: N | Loại: organization
+    [ ] (1) ID: 73243    | WikiName: Thiết kế nội thất            | RealName: thiết kế nội thất    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190052585 | WikiName: nội thất                     | RealName: nội thất             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[171] Mention: "dụng" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 19705152 | WikiName: Dụng                         | RealName: Dụng                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002202 | WikiName: Dụng                         | RealName: Dụng                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[172] Mention: "Bảo hộ" | Xuất hiện: 1 lần | POS: V | Loại: verb
+    [ ] (1) ID: 316371   | WikiName: Bảo hộ                       | RealName: bảo hộ               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311001821 | WikiName: Bảo hộ                       | RealName: Bảo hộ               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[173] Mention: "lao" | Xuất hiện: 1 lần | POS: N | Loại: organization
+    [ ] (1) ID: 56       | WikiName: Lào                          | RealName: Lào                  | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (2) ID: 5669     | WikiName: Lao                          | RealName: lao                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (3) ID: 31080    | WikiName: Nhà tù                       | RealName: nhà tù               | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 98027    | WikiName: Lao Sơn                      | RealName: Lao Sơn              | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 101579   | WikiName: Hiệp hội Vận tải Hàng không Quốc tế | RealName: Hiệp hội Vận tải Hàng không Quốc tế | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 237805   | WikiName: Lao Airlines                 | RealName: Lao Airlines         | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 311002488 | WikiName: Lao                          | RealName: Lao                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[174] Mention: "đo" | Xuất hiện: 1 lần | POS: V | Loại: verb
+    [ ] (1) ID: 19526747 | WikiName: Đo (Apple)                   | RealName: Đo                   | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190004705 | WikiName: đo                           | RealName: đo                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[175] Mention: "hoa" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 5331     | WikiName: Chữ Hán                      | RealName: Chữ Hán              | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 32874    | WikiName: Thực vật có hoa              | RealName: thực vật có hoa      | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 140495   | WikiName: Hoa                          | RealName: hoa                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 237459   | WikiName: Hoa (họ)                     | RealName: Hoa                  | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 3283151  | WikiName: Người Hoa                    | RealName: Người Hoa            | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 3698131  | WikiName: Hóa (họ)                     | RealName: Hóa                  | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (7) ID: 16987669 | WikiName: Flower                       | RealName: Flower               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (8) ID: 19639001 | WikiName: Hoa (trò chơi điện tử)       | RealName: Hoa                  | M=1.50 | Me=0.50 | Mc=0.00 | Ms=1.00
+    [ ] (9) ID: 311002320 | WikiName: Hoa                          | RealName: Hoa                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[176] Mention: "nơ" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 3197629  | WikiName: Nơ bướm                      | RealName: Nơ bướm              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190015819 | WikiName: nơ                           | RealName: nơ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311002684 | WikiName: nơ                           | RealName: nơ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[177] Mention: "lưỡi" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 143311   | WikiName: Lưỡi                         | RealName: lưỡi                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 19863520 | WikiName: Lưỡi (bộ phận của vũ khí)    | RealName: lưỡi                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[178] Mention: "Búa" | Xuất hiện: 1 lần | POS: Np | Loại: verb
+    [ ] (1) ID: 447690   | WikiName: Búa                          | RealName: búa                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 311001887 | WikiName: Búa                          | RealName: Búa                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[179] Mention: "Đục" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 19825397 | WikiName: Đục (dụng cụ)                | RealName: đục                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190005025 | WikiName: đục                          | RealName: đục                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[180] Mention: "ren" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 2418925  | WikiName: Đăng ten                     | RealName: đăng ten             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190018973 | WikiName: ren                          | RealName: ren                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311002832 | WikiName: ren                          | RealName: ren                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[181] Mention: "bào" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 3293740  | WikiName: Bào (họ)                     | RealName: Bào                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 15333522 | WikiName: Bào (dụng cụ)                | RealName: bào                  | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 15333651 | WikiName: Bào                          | RealName: Bào                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311001814 | WikiName: Bào                          | RealName: Bào                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[182] Mention: "bảo trì" | Xuất hiện: 1 lần | POS: V | Loại: location
+    [x] (1) ID: 1241531  | WikiName: Bảo Trì                      | RealName: Bảo Trì              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311001827 | WikiName: Bảo Trì                      | RealName: Bảo Trì              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[183] Mention: "công" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 15741    | WikiName: Công (vật lý học)            | RealName: công                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 24885    | WikiName: Công suất                    | RealName: công suất            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 24886    | WikiName: Công                         | RealName: công                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 248551   | WikiName: Công (đơn vị đo)             | RealName: Công                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (5) ID: 1589196  | WikiName: Công tước                    | RealName: Công tước            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (6) ID: 311002027 | WikiName: Công                         | RealName: Công                 | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[184] Mention: "ốc" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 257164   | WikiName: Đai ốc                       | RealName: Đai ốc               | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 262389   | WikiName: Ốc                           | RealName: ốc                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[185] Mention: "kiếm" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 33626    | WikiName: Kiếm                         | RealName: kiếm                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002441 | WikiName: Kiếm                         | RealName: Kiếm                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[186] Mention: "lọng" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 982845   | WikiName: Ô (vật dụng)                 | RealName: ô                    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190011284 | WikiName: lọng                         | RealName: lọng                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[187] Mention: "khoan" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 243118   | WikiName: Khoan (thăm dò)              | RealName: khoan                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 257197   | WikiName: Khoan                        | RealName: khoan                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311002420 | WikiName: Khoan                        | RealName: Khoan                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[188] Mention: "19" | Xuất hiện: 1 lần | POS: M | Loại: unknown
+    [x] (1) ID: 49529    | WikiName: 19 (số)                      | RealName: 19                   | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 540954   | WikiName: 19                           | RealName: 19                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 1000837  | WikiName: 19 (album của Adele)         | RealName: 19                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 19583609 | WikiName: 19 (ban nhạc)                | RealName: 19                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[189] Mention: "gia" | Xuất hiện: 1 lần | POS: N | Loại: film
+    [x] (1) ID: 799647   | WikiName: Gia                          | RealName: Gia                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002234 | WikiName: Gia                          | RealName: Gia                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[190] Mention: "thông" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 66694    | WikiName: Chi Thông                    | RealName: Chi Thông            | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 190023894 | WikiName: thông                        | RealName: thông                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 311003011 | WikiName: thông                        | RealName: thông                | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[191] Mention: "Chăn nuôi" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 349027   | WikiName: Chăn nuôi                    | RealName: Chăn nuôi            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311001950 | WikiName: Chăn nuôi                    | RealName: Chăn nuôi            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[192] Mention: "thú" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 63027    | WikiName: Thú                          | RealName: Thú                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 71243    | WikiName: Lớp Thú                      | RealName: Lớp Thú              | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 1682928  | WikiName: Bộ Đơn huyệt                 | RealName: Bộ Đơn huyệt         | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 311003016 | WikiName: Thú                          | RealName: Thú                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[193] Mention: "độ" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 7313     | WikiName: Độ (góc)                     | RealName: độ                   | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 264499   | WikiName: Khẩu độ                      | RealName: Khẩu độ              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 19548346 | WikiName: Độ Mixi                      | RealName: Độ Mixi              | M=1.10 | Me=0.10 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 190004714 | WikiName: độ                           | RealName: độ                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[194] Mention: "Du" | Xuất hiện: 1 lần | POS: N | Loại: person
+    [x] (1) ID: 1008     | WikiName: Nguyễn Du                    | RealName: Nguyễn Du            | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 38193    | WikiName: Họ Du                        | RealName: Họ Du                | M=2.14 | Me=0.14 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 234005   | WikiName: Du                           | RealName: Du                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 13715608 | WikiName: Du (họ)                      | RealName: Du                   | M=2.29 | Me=0.29 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 311002190 | WikiName: Du                           | RealName: Du                   | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[195] Mention: "đơn vị" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 3270     | WikiName: Đơn vị đo                    | RealName: Đơn vị đo            | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190004874 | WikiName: đơn vị                       | RealName: đơn vị               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[196] Mention: "COD" | Xuất hiện: 1 lần | POS: Ny | Loại: location
+    [x] (1) ID: 37568    | WikiName: Cộng hòa Dân chủ Congo       | RealName: Cộng hòa Dân chủ Congo | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 104943   | WikiName: Nhu cầu oxy hóa học          | RealName: nhu cầu oxy hóa học  | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 354373   | WikiName: Dịch vụ Phát hàng thu tiền hộ | RealName: Dịch vụ Phát hàng thu tiền hộ | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 626169   | WikiName: COD                          | RealName: COD                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[197] Mention: "yên tâm" | Xuất hiện: 1 lần | POS: A | Loại: location
+    [x] (1) ID: 1254681  | WikiName: Yên Tâm                      | RealName: Yên Tâm              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311003290 | WikiName: Yên Tâm                      | RealName: Yên Tâm              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[198] Mention: "kiểm tra" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 19628681 | WikiName: Kiểm tra                     | RealName: kiểm tra             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002444 | WikiName: Kiểm tra                     | RealName: Kiểm tra             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[199] Mention: "chất lượng" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [x] (1) ID: 1709908  | WikiName: Chất lượng (kinh doanh)      | RealName: chất lượng           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 2360953  | WikiName: Chất lượng                   | RealName: chất lượng           | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[200] Mention: "đánh giá" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 1469025  | WikiName: Đánh giá                     | RealName: đánh giá             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002080 | WikiName: Đánh giá                     | RealName: Đánh giá             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[201] Mention: "đội ngũ" | Xuất hiện: 1 lần | POS: N | Loại: organization
+    [ ] (1) ID: 19758720 | WikiName: Tập thể                      | RealName: Tập thể              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190050601 | WikiName: đội ngũ                      | RealName: đội ngũ              | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[202] Mention: "thanh" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 32428    | WikiName: Tuổi trẻ                     | RealName: tuổi trẻ             | M=2.14 | Me=0.14 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 49576    | WikiName: Nhà Thanh                    | RealName: Nhà Thanh            | M=1.29 | Me=0.29 | Mc=0.00 | Ms=1.00
+    [ ] (3) ID: 213084   | WikiName: Thanh giáo                   | RealName: Thanh giáo           | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (4) ID: 233599   | WikiName: Thanh                        | RealName: Thanh                | M=1.14 | Me=0.14 | Mc=0.00 | Ms=1.00
+    [ ] (5) ID: 1253006  | WikiName: Thanh (xã)                   | RealName: Thanh                | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [ ] (6) ID: 3203766  | WikiName: Thanh Hóa                    | RealName: Thanh Hóa            | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00
+
+[203] Mention: "trả" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 190026029 | WikiName: trả                          | RealName: trả                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311003085 | WikiName: trả                          | RealName: trả                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[204] Mention: "bảo vệ" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 190001020 | WikiName: bảo vệ                       | RealName: bảo vệ               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311001829 | WikiName: bảo vệ                       | RealName: bảo vệ               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[205] Mention: "tiêu" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [ ] (1) ID: 32133    | WikiName: Tiêu (nhạc cụ)               | RealName: tiêu                 | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 66344    | WikiName: Tiêu                         | RealName: tiêu                 | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 311003055 | WikiName: Tiêu                         | RealName: Tiêu                 | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[206] Mention: "đại" | Xuất hiện: 1 lần | POS: N | Loại: location
+    [ ] (1) ID: 44475    | WikiName: Đại (địa chất)               | RealName: đại                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (2) ID: 118016   | WikiName: Đại                          | RealName: Đại                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (3) ID: 258486   | WikiName: Đại (nước)                   | RealName: Đại                  | M=2.00 | Me=1.00 | Mc=0.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (4) ID: 1698316  | WikiName: Đại (Xuân Thu)               | RealName: Đại                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[207] Mention: "ngõ" | Xuất hiện: 1 lần | POS: N | Loại: unknown
+    [ ] (1) ID: 19813384 | WikiName: Hẻm                          | RealName: hẻm                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 190014038 | WikiName: ngõ                          | RealName: ngõ                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+[208] Mention: "Tân Xuân" | Xuất hiện: 1 lần | POS: Np | Loại: N/A
+    [ ] (1) ID: 347953   | WikiName: Tân Xuân, Vân Hồ             | RealName: Tân Xuân, Vân Hồ     | M=2.50 | Me=0.50 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 1241899  | WikiName: Tân Xuân, Hóc Môn            | RealName: Tân Xuân, Hóc Môn    | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 1252847  | WikiName: Tân Xuân, Ba Tri             | RealName: Tân Xuân, Ba Tri     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 1252848  | WikiName: Tân Xuân (phường)            | RealName: Tân Xuân             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 1252849  | WikiName: Tân Xuân, Hàm Tân            | RealName: Tân Xuân, Hàm Tân    | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 1252850  | WikiName: Tân Xuân, Tân Kỳ             | RealName: Tân Xuân, Tân Kỳ     | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 190021567 | WikiName: tân xuân                     | RealName: tân xuân             | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[209] Mention: "Sài Gòn" | Xuất hiện: 1 lần | POS: Np | Loại: location
+    [x] (1) ID: 39       | WikiName: Thành phố Hồ Chí Minh        | RealName: Thành phố Hồ Chí Minh | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 23877    | WikiName: Little Saigon                | RealName: Little Saigon        | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (3) ID: 37624    | WikiName: Thủ đô Việt Nam              | RealName: Thủ đô Việt Nam      | M=2.38 | Me=0.38 | Mc=1.00 | Ms=1.00
+    [ ] (4) ID: 52436    | WikiName: Nhà thờ chính tòa Đức Bà Sài Gòn | RealName: Nhà thờ chính tòa Đức Bà Sài Gòn | M=2.31 | Me=0.31 | Mc=1.00 | Ms=1.00
+    [ ] (5) ID: 60583    | WikiName: Sông Sài Gòn                 | RealName: Sông Sài Gòn         | M=2.06 | Me=0.06 | Mc=1.00 | Ms=1.00
+    [ ] (6) ID: 80351    | WikiName: Cảng Sài Gòn                 | RealName: Cảng Sài Gòn         | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (7) ID: 80555    | WikiName: Ga Sài Gòn                   | RealName: Ga Sài Gòn           | M=2.06 | Me=0.06 | Mc=1.00 | Ms=1.00
+    [ ] (8) ID: 85026    | WikiName: Saigon (ca sĩ)               | RealName: Saigon               | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (9) ID: 87695    | WikiName: Lịch sử Sài Gòn – Thành phố Hồ Chí Minh | RealName: Lịch sử Sài Gòn – Thành phố Hồ Chí Minh | M=2.31 | Me=0.31 | Mc=1.00 | Ms=1.00
+    [ ] (10) ID: 88306    | WikiName: Thành Gia Định               | RealName: Thành Gia Định       | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (11) ID: 88501    | WikiName: Cầu Sài Gòn                  | RealName: Cầu Sài Gòn          | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (12) ID: 132839   | WikiName: Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn | RealName: Tổng công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn | M=2.12 | Me=0.12 | Mc=1.00 | Ms=1.00
+    [ ] (13) ID: 138563   | WikiName: Biltine, Tchad               | RealName: Biltine, Tchad       | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (14) ID: 257281   | WikiName: Lịch sử hành chính Thành phố Hồ Chí Minh | RealName: Lịch sử hành chính Thành phố Hồ Chí Minh | M=2.19 | Me=0.19 | Mc=1.00 | Ms=1.00
+    [ ] (15) ID: 1739682  | WikiName: Hamilton, New Zealand        | RealName: Hamilton, New Zealand | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+    [ ] (16) ID: 3208804  | WikiName: Đường Sài Gòn, Hồng Kông     | RealName: Đường Sài Gòn, Hồng Kông | M=2.06 | Me=0.06 | Mc=1.00 | Ms=1.00
+    [ ] (17) ID: 19724927 | WikiName: Sài Gòn (bài hát)            | RealName: Sài Gòn              | M=2.06 | Me=0.06 | Mc=1.00 | Ms=1.00
+    [ ] (18) ID: 190019512 | WikiName: sài gòn                      | RealName: sài gòn              | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+
+[210] Mention: "Bình Thới" | Xuất hiện: 1 lần | POS: Np | Loại: unknown
+    [ ] (1) ID: 40495    | WikiName: Bình Sơn                     | RealName: Bình Sơn             | M=2.20 | Me=0.20 | Mc=1.00 | Ms=1.00
+    [x] (2) ID: 86039    | WikiName: Gia Định (tỉnh)              | RealName: Gia Định             | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (3) ID: 1242825  | WikiName: Bình Thới                    | RealName: Bình Thới            | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[211] Mention: "TP" | Xuất hiện: 1 lần | POS: Ny | Loại: unknown
+    [x] (1) ID: 3810     | WikiName: TP                           | RealName: TP                   | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 101579   | WikiName: Hiệp hội Vận tải Hàng không Quốc tế | RealName: Hiệp hội Vận tải Hàng không Quốc tế | M=3.00 | Me=1.00 | Mc=1.00 | Ms=1.00
+
+[212] Mention: "Hồ" | Xuất hiện: 1 lần | POS: Np | Loại: person
+    [x] (1) ID: 6322     | WikiName: Hồ Quý Ly                    | RealName: Hồ Quý Ly            | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00 [EREL GỢI Ý]
+    [ ] (2) ID: 6780     | WikiName: Nhà Hồ                       | RealName: Nhà Hồ               | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (3) ID: 7795     | WikiName: Hồ                           | RealName: Hồ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (4) ID: 28651    | WikiName: Hồ Xuân Hương                | RealName: Hồ Xuân Hương        | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (5) ID: 35255    | WikiName: Hồ Nguyên Trừng              | RealName: Hồ Nguyên Trừng      | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (6) ID: 35257    | WikiName: Hồ Ngọc Hà                   | RealName: Hồ Ngọc Hà           | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (7) ID: 84980    | WikiName: Hồ Hán Thương                | RealName: Hồ Hán Thương        | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (8) ID: 114116   | WikiName: Hồ (họ)                      | RealName: Hồ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (9) ID: 224309   | WikiName: Hồ (phường)                  | RealName: Hồ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (10) ID: 375318   | WikiName: Hồ Chí Minh                  | RealName: Hồ Chí Minh          | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (11) ID: 1336798  | WikiName: Hồ Định Hân                  | RealName: Hồ Định Hân          | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+    [ ] (12) ID: 311002317 | WikiName: Hồ                           | RealName: Hồ                   | M=0.00 | Me=0.00 | Mc=0.00 | Ms=0.00
+
+[213] Mention: "Đặt hàng" | Xuất hiện: 1 lần | POS: V | Loại: unknown
+    [x] (1) ID: 420237   | WikiName: Đặt hàng                     | RealName: Đặt hàng             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+    [ ] (2) ID: 311002100 | WikiName: Đặt hàng                     | RealName: Đặt hàng             | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00
+
+[214] Mention: "qua" | Xuất hiện: 1 lần | POS: E | Loại: verb
+    [ ] (1) ID: 1741063  | WikiName: Qua (nước)                   | RealName: Qua                  | M=1.00 | Me=0.00 | Mc=0.00 | Ms=1.00
+    [x] (2) ID: 190017764 | WikiName: qua                          | RealName: qua                  | M=2.00 | Me=0.00 | Mc=1.00 | Ms=1.00 [EREL GỢI Ý]
+
+# ==============================================================================
+# DANH SÁCH 439 MENTION CÓ 1 CANDIDATE (ĐÃ ĐƯỢC TỰ ĐỘNG TÍNH COUNT, KHÔNG CẦN CHỌN):
+# ------------------------------------------------------------------------------
+# (1) Mention: "Các" -> [ID: 190001933] các | Xuất hiện: 53 lần
+# (2) Mention: "và" -> [ID: 190028663] và | Xuất hiện: 46 lần
+# (3) Mention: "Dụng Cụ" -> [ID: 453719] Dụng cụ | Xuất hiện: 42 lần
+# (4) Mention: "của" -> [ID: 190003779] của | Xuất hiện: 30 lần
+# (5) Mention: "sử dụng" -> [ID: 190020557] sử dụng | Xuất hiện: 23 lần
+# (6) Mention: "là" -> [ID: 190009824] là | Xuất hiện: 23 lần
+# (7) Mention: "trong" -> [ID: 190027001] trong | Xuất hiện: 22 lần
+# (8) Mention: "được" -> [ID: 190005076] được | Xuất hiện: 21 lần
+# (9) Mention: "Thiết Bị" -> [ID: 15610081] Thiết bị | Xuất hiện: 17 lần
+# (10) Mention: "cho" -> [ID: 190003114] cho | Xuất hiện: 17 lần
+# (11) Mention: "loại" -> [ID: 190011070] loại | Xuất hiện: 13 lần
+# (12) Mention: "với" -> [ID: 190029300] với | Xuất hiện: 13 lần
+# (13) Mention: "tạo" -> [ID: 190021650] tạo | Xuất hiện: 13 lần
+# (14) Mention: "cắt" -> [ID: 190002443] cắt | Xuất hiện: 12 lần
+# (15) Mention: "có" -> [ID: 190003430] có | Xuất hiện: 11 lần
+# (16) Mention: "nhiều" -> [ID: 190015318] nhiều | Xuất hiện: 11 lần
+# (17) Mention: "để" -> [ID: 190004463] để | Xuất hiện: 10 lần
+# (18) Mention: "những" -> [ID: 190015646] những | Xuất hiện: 10 lần
+# (19) Mention: "sẽ" -> [ID: 190019903] sẽ | Xuất hiện: 10 lần
+# (20) Mention: "Vặn" -> [ID: 190028699] vặn | Xuất hiện: 9 lần
+# (21) Mention: "nhu cầu" -> [ID: 66432] Nhu cầu | Xuất hiện: 9 lần
+# (22) Mention: "một" -> [ID: 49660] 1 (số) | Xuất hiện: 9 lần
+# (23) Mention: "như" -> [ID: 190015555] như | Xuất hiện: 8 lần
+# (24) Mention: "có thể" -> [ID: 190003524] có thể | Xuất hiện: 8 lần
+# (25) Mention: "2" -> [ID: 49659] 2 (số) | Xuất hiện: 7 lần
+# (26) Mention: "sự" -> [ID: 190020544] sự | Xuất hiện: 7 lần
+# (27) Mention: "nhôm" -> [ID: 5438] Nhôm | Xuất hiện: 6 lần
+# (28) Mention: "Kiện" -> [ID: 190009482] kiện | Xuất hiện: 6 lần
+# (29) Mention: "vai trò" -> [ID: 190028685] vai trò | Xuất hiện: 6 lần
+# (30) Mention: "quan trọng" -> [ID: 190018042] quan trọng | Xuất hiện: 6 lần
+# (31) Mention: "Máy rửa xe" -> [ID: 3149559] Máy phun rửa áp lực | Xuất hiện: 6 lần
+# (32) Mention: "máy khoan" -> [ID: 16121] Máy khoan | Xuất hiện: 6 lần
+# (33) Mention: "Việc" -> [ID: 190029016] việc | Xuất hiện: 6 lần
+# (34) Mention: "tài sản" -> [ID: 85782] Tài sản | Xuất hiện: 6 lần
+# (35) Mention: "10" -> [ID: 49580] 10 (số) | Xuất hiện: 6 lần
+# (36) Mention: "AI tạo sinh" -> [ID: 19815435] Trí tuệ nhân tạo tạo sinh | Xuất hiện: 6 lần
+# (37) Mention: "chúng tôi" -> [ID: 190050107] chúng tôi | Xuất hiện: 6 lần
+# (38) Mention: "chính sách" -> [ID: 338610] Chính sách | Xuất hiện: 6 lần
+# (39) Mention: "-" -> [ID: 15873094] Dấu gạch nối | Xuất hiện: 5 lần
+# (40) Mention: "Sản phẩm" -> [ID: 298345] Sản phẩm | Xuất hiện: 5 lần
+# (41) Mention: "Mài" -> [ID: 190012014] mài | Xuất hiện: 5 lần
+# (42) Mention: "đã" -> [ID: 190003978] đã | Xuất hiện: 5 lần
+# (43) Mention: "công việc" -> [ID: 640909] Công việc | Xuất hiện: 5 lần
+# (44) Mention: "hiện nay" -> [ID: 190007080] hiện nay | Xuất hiện: 5 lần
+# (45) Mention: "vào" -> [ID: 190028902] vào | Xuất hiện: 5 lần
+# (46) Mention: "giúp" -> [ID: 190006497] giúp | Xuất hiện: 5 lần
+# (47) Mention: "đây" -> [ID: 190004418] đây | Xuất hiện: 5 lần
+# (48) Mention: "Trên" -> [ID: 190026596] trên | Xuất hiện: 5 lần
+# (49) Mention: "cụ" -> [ID: 190003722] cụ | Xuất hiện: 5 lần
+# (50) Mention: "nổi bật" -> [ID: 190015883] nổi bật | Xuất hiện: 4 lần
+# (51) Mention: "mới" -> [ID: 190012786] mới | Xuất hiện: 4 lần
+# (52) Mention: "ngày càng" -> [ID: 190013742] ngày càng | Xuất hiện: 4 lần
+# (53) Mention: "này" -> [ID: 190013421] này | Xuất hiện: 4 lần
+# (54) Mention: "phục vụ" -> [ID: 190017671] phục vụ | Xuất hiện: 4 lần
+# (55) Mention: "phun" -> [ID: 190017673] phun | Xuất hiện: 4 lần
+# (56) Mention: "xịt" -> [ID: 190029691] xịt | Xuất hiện: 4 lần
+# (57) Mention: "rửa" -> [ID: 190019238] rửa | Xuất hiện: 4 lần
+# (58) Mention: "bắt" -> [ID: 190001035] bắt | Xuất hiện: 4 lần
+# (59) Mention: "người dùng" -> [ID: 15333387] Người dùng (điện toán) | Xuất hiện: 4 lần
+# (60) Mention: "khác nhau" -> [ID: 190054692] khác nhau | Xuất hiện: 4 lần
+# (61) Mention: "đến" -> [ID: 190004501] đến | Xuất hiện: 4 lần
+# (62) Mention: "lợi ích" -> [ID: 190011174] lợi ích | Xuất hiện: 4 lần
+# (63) Mention: "gì" -> [ID: 190005659] gì | Xuất hiện: 4 lần
+# (64) Mention: "bổ" -> [ID: 190001529] bổ | Xuất hiện: 4 lần
+# (65) Mention: "có giá" -> [ID: 190052191] có giá | Xuất hiện: 4 lần
+# (66) Mention: "tài sản cố định" -> [ID: 85877] Tài sản cố định | Xuất hiện: 4 lần
+# (67) Mention: "về" -> [ID: 190028943] về | Xuất hiện: 4 lần
+# (68) Mention: "hình ảnh" -> [ID: 2417179] Hình ảnh | Xuất hiện: 4 lần
+# (69) Mention: "tại" -> [ID: 190020979] tại | Xuất hiện: 4 lần
+# (70) Mention: "Nghệ Thuật" -> [ID: 6517] Nghệ thuật | Xuất hiện: 4 lần
+# (71) Mention: "18" -> [ID: 540958] 18 | Xuất hiện: 4 lần
+# (72) Mention: "Nghề" -> [ID: 190013797] nghề | Xuất hiện: 4 lần
+# (73) Mention: "Pin" -> [ID: 190017747] pin | Xuất hiện: 3 lần
+# (74) Mention: "đánh" -> [ID: 190004242] đánh | Xuất hiện: 3 lần
+# (75) Mention: "Đa" -> [ID: 9539] Đa | Xuất hiện: 3 lần
+# (76) Mention: "đa năng" -> [ID: 190051297] đa năng | Xuất hiện: 3 lần
+# (77) Mention: "tính năng" -> [ID: 190025437] tính năng | Xuất hiện: 3 lần
+# (78) Mention: "tối ưu" -> [ID: 190025811] tối ưu | Xuất hiện: 3 lần
+# (79) Mention: "dễ" -> [ID: 190004458] dễ | Xuất hiện: 3 lần
+# (80) Mention: "người" -> [ID: 46840] Người | Xuất hiện: 3 lần
+# (81) Mention: "hay" -> [ID: 190006998] hay | Xuất hiện: 3 lần
+# (82) Mention: "xe máy" -> [ID: 29338] Xe máy | Xuất hiện: 3 lần
+# (83) Mention: "chuyên nghiệp" -> [ID: 190050395] chuyên nghiệp | Xuất hiện: 3 lần
+# (84) Mention: "thương hiệu" -> [ID: 31417] Thương hiệu | Xuất hiện: 3 lần
+# (85) Mention: "rất" -> [ID: 190018880] rất | Xuất hiện: 3 lần
+# (86) Mention: "phù hợp" -> [ID: 190017544] phù hợp | Xuất hiện: 3 lần
+# (87) Mention: "từng" -> [ID: 190028215] từng | Xuất hiện: 3 lần
+# (88) Mention: "cũng" -> [ID: 190003838] cũng | Xuất hiện: 3 lần
+# (89) Mention: "đặc điểm" -> [ID: 190050427] đặc điểm | Xuất hiện: 3 lần
+# (90) Mention: "chi phí sản xuất" -> [ID: 61572] Chi phí | Xuất hiện: 3 lần
+# (91) Mention: "vận hành" -> [ID: 190028751] vận hành | Xuất hiện: 3 lần
+# (92) Mention: "tham gia" -> [ID: 190022249] tham gia | Xuất hiện: 3 lần
+# (93) Mention: "tài sản cố định hữu hình" -> [ID: 85877] Tài sản cố định | Xuất hiện: 3 lần
+# (94) Mention: "chưa" -> [ID: 190003295] chưa | Xuất hiện: 3 lần
+# (95) Mention: "Theo" -> [ID: 190023133] theo | Xuất hiện: 3 lần
+# (96) Mention: "cụ thể" -> [ID: 190003769] cụ thể | Xuất hiện: 3 lần
+# (97) Mention: "giữ" -> [ID: 190006456] giữ | Xuất hiện: 3 lần
+# (98) Mention: "ghi nhận" -> [ID: 190050670] ghi nhận | Xuất hiện: 3 lần
+# (99) Mention: "bàn ghế" -> [ID: 190053166] bàn ghế | Xuất hiện: 3 lần
+# (100) Mention: "văn bản" -> [ID: 812942] Văn bản | Xuất hiện: 3 lần
+# (101) Mention: "bao gồm" -> [ID: 190000964] bao gồm | Xuất hiện: 3 lần
+# (102) Mention: "Bán Hàng" -> [ID: 13503057] Bán hàng | Xuất hiện: 3 lần
+# (103) Mention: "đổi" -> [ID: 190004817] đổi | Xuất hiện: 3 lần
+# (104) Mention: "tác phẩm nghệ thuật" -> [ID: 19425499] Tác phẩm nghệ thuật | Xuất hiện: 3 lần
+# (105) Mention: "nghệ sĩ" -> [ID: 321504] Nghệ sĩ | Xuất hiện: 3 lần
+# (106) Mention: "bởi" -> [ID: 190001620] bởi | Xuất hiện: 3 lần
+# (107) Mention: "5" -> [ID: 49656] 5 (số) | Xuất hiện: 3 lần
+# (108) Mention: "9" -> [ID: 49581] 9 (số) | Xuất hiện: 3 lần
+# (109) Mention: "Cần" -> [ID: 190002179] cần | Xuất hiện: 3 lần
+# (110) Mention: "11" -> [ID: 540977] 11 | Xuất hiện: 3 lần
+# (111) Mention: "13" -> [ID: 540971] 13 | Xuất hiện: 3 lần
+# (112) Mention: "17" -> [ID: 540960] 17 | Xuất hiện: 3 lần
+# (113) Mention: "sửa" -> [ID: 190020615] sửa | Xuất hiện: 3 lần
+# (114) Mention: "Mũi" -> [ID: 469939] Mũi | Xuất hiện: 3 lần
+# (115) Mention: "Quý khách" -> [ID: 190018510] quý khách | Xuất hiện: 3 lần
+# (116) Mention: "Điện thoại" -> [ID: 25487] Điện thoại | Xuất hiện: 3 lần
+# (117) Mention: "Kết Nối" -> [ID: 190051730] kết nối | Xuất hiện: 2 lần
+# (118) Mention: "Hãng" -> [ID: 190006879] hãng | Xuất hiện: 2 lần
+# (119) Mention: "Video" -> [ID: 8374] Video | Xuất hiện: 2 lần
+# (120) Mention: "Nâng Đỡ" -> [ID: 190013311] nâng đỡ | Xuất hiện: 2 lần
+# (121) Mention: "Linh Kiện" -> [ID: 190010887] linh kiện | Xuất hiện: 2 lần
+# (122) Mention: "Bộ Dụng" -> [ID: 19520661] Bộ Dụng (用) | Xuất hiện: 2 lần
+# (123) Mention: "Chà" -> [ID: 190002579] chà | Xuất hiện: 2 lần
+# (124) Mention: "xem" -> [ID: 190029637] xem | Xuất hiện: 2 lần
+# (125) Mention: "thiết yếu" -> [ID: 190023436] thiết yếu | Xuất hiện: 2 lần
+# (126) Mention: "sửa chữa" -> [ID: 190020617] sửa chữa | Xuất hiện: 2 lần
+# (127) Mention: "lắp đặt" -> [ID: 190050227] lắp đặt | Xuất hiện: 2 lần
+# (128) Mention: "máy móc" -> [ID: 491735] Máy móc | Xuất hiện: 2 lần
+# (129) Mention: "tất cả" -> [ID: 190021754] tất cả | Xuất hiện: 2 lần
+# (130) Mention: "đều" -> [ID: 190004532] đều | Xuất hiện: 2 lần
+# (131) Mention: "cải tiến" -> [ID: 190001984] cải tiến | Xuất hiện: 2 lần
+# (132) Mention: "phổ biến" -> [ID: 190017322] phổ biến | Xuất hiện: 2 lần
+# (133) Mention: "chuyên dụng" -> [ID: 190051899] chuyên dụng | Xuất hiện: 2 lần
+# (134) Mention: "xe ô tô" -> [ID: 37062] Ô tô | Xuất hiện: 2 lần
+# (135) Mention: "còn" -> [ID: 190003592] còn | Xuất hiện: 2 lần
+# (136) Mention: "đem" -> [ID: 190004491] đem | Xuất hiện: 2 lần
+# (137) Mention: "lựa chọn" -> [ID: 190050472] lựa chọn | Xuất hiện: 2 lần
+# (138) Mention: "nhanh" -> [ID: 190015040] nhanh | Xuất hiện: 2 lần
+# (139) Mention: "hơn" -> [ID: 190007689] hơn | Xuất hiện: 2 lần
+# (140) Mention: "người tiêu dùng" -> [ID: 397984] Người tiêu dùng | Xuất hiện: 2 lần
+# (141) Mention: "chuyên" -> [ID: 190003409] chuyên | Xuất hiện: 2 lần
+# (142) Mention: "website" -> [ID: 29823] Website | Xuất hiện: 2 lần
+# (143) Mention: "to" -> [ID: 190025530] to | Xuất hiện: 2 lần
+# (144) Mention: "quản lý công" -> [ID: 406026] Hành chính công | Xuất hiện: 2 lần
+# (145) Mention: "Hãy" -> [ID: 190007000] hãy | Xuất hiện: 2 lần
+# (146) Mention: "tư liệu lao động" -> [ID: 801221] Tư liệu lao động | Xuất hiện: 2 lần
+# (147) Mention: "thì" -> [ID: 1107496] Thì | Xuất hiện: 2 lần
+# (148) Mention: "bị" -> [ID: 190001241] bị | Xuất hiện: 2 lần
+# (149) Mention: "hao mòn" -> [ID: 190006948] hao mòn | Xuất hiện: 2 lần
+# (150) Mention: "tuy nhiên" -> [ID: 190028418] tuy nhiên | Xuất hiện: 2 lần
+# (151) Mention: "đủ" -> [ID: 190004971] đủ | Xuất hiện: 2 lần
+# (152) Mention: "quy định" -> [ID: 190018496] quy định | Xuất hiện: 2 lần
+# (153) Mention: "nguyên hình" -> [ID: 190014608] nguyên hình | Xuất hiện: 2 lần
+# (154) Mention: "phải" -> [ID: 190016778] phải | Xuất hiện: 2 lần
+# (155) Mention: "kinh tế" -> [ID: 64004] Kinh tế | Xuất hiện: 2 lần
+# (156) Mention: "hoạt động" -> [ID: 190007452] hoạt động | Xuất hiện: 2 lần
+# (157) Mention: "nên" -> [ID: 190013469] nên | Xuất hiện: 2 lần
+# (158) Mention: "nếu" -> [ID: 420434] Nếu | Xuất hiện: 2 lần
+# (159) Mention: "giữa" -> [ID: 190006470] giữa | Xuất hiện: 2 lần
+# (160) Mention: "dựa" -> [ID: 190005007] dựa | Xuất hiện: 2 lần
+# (161) Mention: "dụng cụ đó" -> [ID: 453719] Dụng cụ | Xuất hiện: 2 lần
+# (162) Mention: "dưới" -> [ID: 190005082] dưới | Xuất hiện: 2 lần
+# (163) Mention: "tới" -> [ID: 190025757] tới | Xuất hiện: 2 lần
+# (164) Mention: "khi" -> [ID: 190008833] khi | Xuất hiện: 2 lần
+# (165) Mention: "cách mạng" -> [ID: 51251] Cách mạng | Xuất hiện: 2 lần
+# (166) Mention: "Vọt" -> [ID: 190029328] vọt | Xuất hiện: 2 lần
+# (167) Mention: "thế giới" -> [ID: 98438] Thế giới | Xuất hiện: 2 lần
+# (168) Mention: "lĩnh vực" -> [ID: 190010914] lĩnh vực | Xuất hiện: 2 lần
+# (169) Mention: "2025" -> [ID: 3347498] 2025 | Xuất hiện: 2 lần
+# (170) Mention: "rằng" -> [ID: 190018811] rằng | Xuất hiện: 2 lần
+# (171) Mention: "cả" -> [ID: 190001864] cả | Xuất hiện: 2 lần
+# (172) Mention: "thể hiện" -> [ID: 190023044] thể hiện | Xuất hiện: 2 lần
+# (173) Mention: "nó" -> [ID: 190015810] nó | Xuất hiện: 2 lần
+# (174) Mention: "cá nhân hóa" -> [ID: 19333859] Cá nhân hóa | Xuất hiện: 2 lần
+# (175) Mention: "nâng cao" -> [ID: 190013308] nâng cao | Xuất hiện: 2 lần
+# (176) Mention: "khách hàng" -> [ID: 296896] Khách hàng | Xuất hiện: 2 lần
+# (177) Mention: "chuyển" -> [ID: 190003412] chuyển | Xuất hiện: 2 lần
+# (178) Mention: "độc đáo" -> [ID: 190051301] độc đáo | Xuất hiện: 2 lần
+# (179) Mention: "thử nghiệm" -> [ID: 190052346] thử nghiệm | Xuất hiện: 2 lần
+# (180) Mention: "phong cách" -> [ID: 190017403] phong cách | Xuất hiện: 2 lần
+# (181) Mention: "14" -> [ID: 540966] 14 | Xuất hiện: 2 lần
+# (182) Mention: "20" -> [ID: 540953] 20 | Xuất hiện: 2 lần
+# (183) Mention: "23" -> [ID: 540943] 23 | Xuất hiện: 2 lần
+# (184) Mention: "vật tư" -> [ID: 190050283] vật tư | Xuất hiện: 2 lần
+# (185) Mention: "Bảo" -> [ID: 190000937] bảo | Xuất hiện: 2 lần
+# (186) Mention: "6" -> [ID: 49655] 6 (số) | Xuất hiện: 2 lần
+# (187) Mention: "7" -> [ID: 49585] 7 (số) | Xuất hiện: 2 lần
+# (188) Mention: "8" -> [ID: 49584] 8 (số) | Xuất hiện: 2 lần
+# (189) Mention: "15" -> [ID: 540962] 15 | Xuất hiện: 2 lần
+# (190) Mention: "16" -> [ID: 540961] 16 | Xuất hiện: 2 lần
+# (191) Mention: "cước" -> [ID: 1241495] Cước | Xuất hiện: 2 lần
+# (192) Mention: "Đà Nẵng" -> [ID: 999] Đà Nẵng | Xuất hiện: 2 lần
+# (193) Mention: "toàn quốc" -> [ID: 190025688] toàn quốc | Xuất hiện: 2 lần
+# (194) Mention: "nhận" -> [ID: 190014881] nhận | Xuất hiện: 2 lần
+# (195) Mention: "100%" -> [ID: 7801394] 100% (nhóm nhạc) | Xuất hiện: 1 lần
+# (196) Mention: "Phụ Tùng" -> [ID: 190017608] phụ tùng | Xuất hiện: 1 lần
+# (197) Mention: "Nén" -> [ID: 190013468] nén | Xuất hiện: 1 lần
+# (198) Mention: "bán chạy" -> [ID: 190052285] bán chạy | Xuất hiện: 1 lần
+# (199) Mention: "Nâng" -> [ID: 190013299] nâng | Xuất hiện: 1 lần
+# (200) Mention: "Tuyển Tập" -> [ID: 792426] Tuyển tập | Xuất hiện: 1 lần
+# (201) Mention: "Xe Đẩy" -> [ID: 190051153] xe đẩy | Xuất hiện: 1 lần
+# (202) Mention: "Pa Lăng" -> [ID: 18932839] Pa lăng | Xuất hiện: 1 lần
+# (203) Mention: "Chức" -> [ID: 190003317] chức | Xuất hiện: 1 lần
+# (204) Mention: "Biến Thế" -> [ID: 190052023] biến thế | Xuất hiện: 1 lần
+# (205) Mention: "Máy Cắt Cỏ" -> [ID: 100970] Máy cắt cỏ | Xuất hiện: 1 lần
+# (206) Mention: "Bu Lông" -> [ID: 146394] Bu lông | Xuất hiện: 1 lần
+# (207) Mention: "nhãn hàng" -> [ID: 56383] Nhãn hiệu | Xuất hiện: 1 lần
+# (208) Mention: "Ngoài ra" -> [ID: 190014144] ngoài ra | Xuất hiện: 1 lần
+# (209) Mention: "thuộc" -> [ID: 190024426] thuộc | Xuất hiện: 1 lần
+# (210) Mention: "sân" -> [ID: 190019583] sân | Xuất hiện: 1 lần
+# (211) Mention: "vườn" -> [ID: 405173] Vườn | Xuất hiện: 1 lần
+# (212) Mention: "nhà xưởng" -> [ID: 340341] Nhà xưởng | Xuất hiện: 1 lần
+# (213) Mention: "chuồng trại" -> [ID: 14671422] Chuồng trại | Xuất hiện: 1 lần
+# (214) Mention: "gia đình" -> [ID: 41345] Gia đình | Xuất hiện: 1 lần
+# (215) Mention: "Oshima" -> [ID: 19836798] Oshima (phó tỉnh) | Xuất hiện: 1 lần
+# (216) Mention: "không chỉ" -> [ID: 190052045] không chỉ | Xuất hiện: 1 lần
+# (217) Mention: "công trình" -> [ID: 190050097] công trình | Xuất hiện: 1 lần
+# (218) Mention: "mà còn" -> [ID: 190050396] mà còn | Xuất hiện: 1 lần
+# (219) Mention: "rộng rãi" -> [ID: 190019198] rộng rãi | Xuất hiện: 1 lần
+# (220) Mention: "hộ gia đình" -> [ID: 1407252] Hộ gia đình | Xuất hiện: 1 lần
+# (221) Mention: "ra đời" -> [ID: 190018673] ra đời | Xuất hiện: 1 lần
+# (222) Mention: "Hitachi" -> [ID: 213391] Hitachi | Xuất hiện: 1 lần
+# (223) Mention: "đáng kể" -> [ID: 190004225] đáng kể | Xuất hiện: 1 lần
+# (224) Mention: "thi công" -> [ID: 190023167] thi công | Xuất hiện: 1 lần
+# (225) Mention: "đẩy" -> [ID: 190004422] đẩy | Xuất hiện: 1 lần
+# (226) Mention: "hiệu quả kinh tế" -> [ID: 14318541] Hiệu quả kinh tế | Xuất hiện: 1 lần
+# (227) Mention: "chủ đầu tư" -> [ID: 3254298] Chủ doanh nghiệp | Xuất hiện: 1 lần
+# (228) Mention: "Bởi vậy" -> [ID: 190054322] bởi vậy | Xuất hiện: 1 lần
+# (229) Mention: "ưa" -> [ID: 190028565] ưa | Xuất hiện: 1 lần
+# (230) Mention: "kim loại" -> [ID: 5827] Kim loại | Xuất hiện: 1 lần
+# (231) Mention: "máy cưa xích" -> [ID: 3259532] Máy cưa xích | Xuất hiện: 1 lần
+# (232) Mention: "mức giá" -> [ID: 19365200] Mức giá | Xuất hiện: 1 lần
+# (233) Mention: "hợp lý" -> [ID: 190007817] hợp lý | Xuất hiện: 1 lần
+# (234) Mention: "gọn" -> [ID: 190006606] gọn | Xuất hiện: 1 lần
+# (235) Mention: "đời sống" -> [ID: 190004840] đời sống | Xuất hiện: 1 lần
+# (236) Mention: "lớn" -> [ID: 190011232] lớn | Xuất hiện: 1 lần
+# (237) Mention: "kéo theo" -> [ID: 190052681] kéo theo | Xuất hiện: 1 lần
+# (238) Mention: "đó" -> [ID: 190004707] đó | Xuất hiện: 1 lần
+# (239) Mention: "đồng loạt" -> [ID: 190050638] đồng loạt | Xuất hiện: 1 lần
+# (240) Mention: "hàng loạt" -> [ID: 190006892] hàng loạt | Xuất hiện: 1 lần
+# (241) Mention: "chữ A" -> [ID: 673] A | Xuất hiện: 1 lần
+# (242) Mention: "rút" -> [ID: 190019378] rút | Xuất hiện: 1 lần
+# (243) Mention: "trượt" -> [ID: 190027584] trượt | Xuất hiện: 1 lần
+# (244) Mention: "Nhật Bản" -> [ID: 362397] Nhật Bản | Xuất hiện: 1 lần
+# (245) Mention: "đảm bảo chất lượng" -> [ID: 2360974] Đảm bảo chất lượng | Xuất hiện: 1 lần
+# (246) Mention: "thiết bị này" -> [ID: 15610081] Thiết bị | Xuất hiện: 1 lần
+# (247) Mention: "Performing" -> [ID: 18533390] Trình diễn | Xuất hiện: 1 lần
+# (248) Mention: "service" -> [ID: 13483370] Service (The Walking Dead) | Xuất hiện: 1 lần
+# (249) Mention: "is" -> [ID: 2615787] Nhà nước Hồi giáo Iraq và Levant | Xuất hiện: 1 lần
+# (250) Mention: "you" -> [ID: 3254281] You (bài hát của Janet Jackson) | Xuất hiện: 1 lần
+# (251) Mention: "are" -> [ID: 332853] A (diện tích) | Xuất hiện: 1 lần
+# (252) Mention: "nắm bắt" -> [ID: 190051329] nắm bắt | Xuất hiện: 1 lần
+# (253) Mention: "kiểm soát" -> [ID: 190009473] kiểm soát | Xuất hiện: 1 lần
+# (254) Mention: "cùng" -> [ID: 190003836] cùng | Xuất hiện: 1 lần
+# (255) Mention: "sau đây" -> [ID: 190019846] sau đây | Xuất hiện: 1 lần
+# (256) Mention: "hiểu" -> [ID: 190007105] hiểu | Xuất hiện: 1 lần
+# (257) Mention: "rõ" -> [ID: 190019068] rõ | Xuất hiện: 1 lần
+# (258) Mention: "chu kỳ kinh doanh" -> [ID: 57167] Chu kỳ kinh tế | Xuất hiện: 1 lần
+# (259) Mention: "công nhận" -> [ID: 190003676] công nhận | Xuất hiện: 1 lần
+# (260) Mention: "Thông tư" -> [ID: 190023973] thông tư | Xuất hiện: 1 lần
+# (261) Mention: "số" -> [ID: 54401] Số | Xuất hiện: 1 lần
+# (262) Mention: "nhưng" -> [ID: 190015645] nhưng | Xuất hiện: 1 lần
+# (263) Mention: "vẫn" -> [ID: 190028696] vẫn | Xuất hiện: 1 lần
+# (264) Mention: "xác định" -> [ID: 190029561] xác định | Xuất hiện: 1 lần
+# (265) Mention: "nguồn" -> [ID: 190014543] nguồn | Xuất hiện: 1 lần
+# (266) Mention: "trở lên" -> [ID: 190026883] trở lên | Xuất hiện: 1 lần
+# (267) Mention: "chiếm" -> [ID: 190002960] chiếm | Xuất hiện: 1 lần
+# (268) Mention: "một tỷ" -> [ID: 46420] 1000000000 | Xuất hiện: 1 lần
+# (269) Mention: "trọng" -> [ID: 190027005] trọng | Xuất hiện: 1 lần
+# (270) Mention: "không hề" -> [ID: 190009244] không hề | Xuất hiện: 1 lần
+# (271) Mention: "nhỏ" -> [ID: 190015352] nhỏ | Xuất hiện: 1 lần
+# (272) Mention: "Do đó" -> [ID: 190050592] do đó | Xuất hiện: 1 lần
+# (273) Mention: "hiệu quả" -> [ID: 13375463] Hiệu quả | Xuất hiện: 1 lần
+# (274) Mention: "thấp" -> [ID: 190022859] thấp | Xuất hiện: 1 lần
+# (275) Mention: "lợi nhuận" -> [ID: 91362] Lợi nhuận | Xuất hiện: 1 lần
+# (276) Mention: "khác biệt" -> [ID: 190008491] khác biệt | Xuất hiện: 1 lần
+# (277) Mention: "vậy" -> [ID: 190028927] vậy | Xuất hiện: 1 lần
+# (278) Mention: "tiêu chuẩn" -> [ID: 3433864] Tiêu chuẩn | Xuất hiện: 1 lần
+# (279) Mention: "ta" -> [ID: 190020841] ta | Xuất hiện: 1 lần
+# (280) Mention: "30" -> [ID: 540925] 30 | Xuất hiện: 1 lần
+# (281) Mention: "quá trình" -> [ID: 190017823] quá trình | Xuất hiện: 1 lần
+# (282) Mention: "hỏng" -> [ID: 190007743] hỏng | Xuất hiện: 1 lần
+# (283) Mention: "nữa" -> [ID: 190016211] nữa | Xuất hiện: 1 lần
+# (284) Mention: "nhau" -> [ID: 190015150] nhau | Xuất hiện: 1 lần
+# (285) Mention: "Ví dụ" -> [ID: 190050571] ví dụ | Xuất hiện: 1 lần
+# (286) Mention: "mỗi" -> [ID: 190012783] mỗi | Xuất hiện: 1 lần
+# (287) Mention: "coi" -> [ID: 190003565] coi | Xuất hiện: 1 lần
+# (288) Mention: "gộp" -> [ID: 190006627] gộp | Xuất hiện: 1 lần
+# (289) Mention: "bộ lại" -> [ID: 242469] Bộ Lại | Xuất hiện: 1 lần
+# (290) Mention: "hệ thống" -> [ID: 451550] Hệ thống | Xuất hiện: 1 lần
+# (291) Mention: "lúc" -> [ID: 190011546] lúc | Xuất hiện: 1 lần
+# (292) Mention: "Khai phá" -> [ID: 190008553] khai phá | Xuất hiện: 1 lần
+# (293) Mention: "sức mạnh" -> [ID: 190020640] sức mạnh | Xuất hiện: 1 lần
+# (294) Mention: "vài" -> [ID: 190028682] vài | Xuất hiện: 1 lần
+# (295) Mention: "tháng 10" -> [ID: 3496] Tháng mười | Xuất hiện: 1 lần
+# (296) Mention: "năm 2022" -> [ID: 3291806] 2022 | Xuất hiện: 1 lần
+# (297) Mention: "chứng kiến" -> [ID: 190003354] chứng kiến | Xuất hiện: 1 lần
+# (298) Mention: "quan tâm" -> [ID: 190018020] quan tâm | Xuất hiện: 1 lần
+# (299) Mention: "phần lớn" -> [ID: 190016927] phần lớn | Xuất hiện: 1 lần
+# (300) Mention: "nhờ" -> [ID: 190015357] nhờ | Xuất hiện: 1 lần
+# (301) Mention: "ra mắt" -> [ID: 190018682] ra mắt | Xuất hiện: 1 lần
+# (302) Mention: "đột phá" -> [ID: 190054313] đột phá | Xuất hiện: 1 lần
+# (303) Mention: "ChatGPT" -> [ID: 19773491] ChatGPT | Xuất hiện: 1 lần
+# (304) Mention: "Gartner" -> [ID: 311001468] Gartner | Xuất hiện: 1 lần
+# (305) Mention: "thống lĩnh" -> [ID: 190023930] thống lĩnh | Xuất hiện: 1 lần
+# (306) Mention: "người ta" -> [ID: 190014537] người ta | Xuất hiện: 1 lần
+# (307) Mention: "ước tính" -> [ID: 190051134] ước tính | Xuất hiện: 1 lần
+# (308) Mention: "đóng góp" -> [ID: 190050550] đóng góp | Xuất hiện: 1 lần
+# (309) Mention: "tổng số" -> [ID: 190025952] tổng số | Xuất hiện: 1 lần
+# (310) Mention: "Định Hình" -> [ID: 190052165] định hình | Xuất hiện: 1 lần
+# (311) Mention: "Bối Cảnh" -> [ID: 190050439] bối cảnh | Xuất hiện: 1 lần
+# (312) Mention: "Dữ Liệu" -> [ID: 190004968] dữ | Xuất hiện: 1 lần
+# (313) Mention: "cho đến" -> [ID: 190051999] cho đến | Xuất hiện: 1 lần
+# (314) Mention: "ảnh hưởng" -> [ID: 190000392] ảnh hưởng | Xuất hiện: 1 lần
+# (315) Mention: "sâu rộng" -> [ID: 190019867] sâu rộng | Xuất hiện: 1 lần
+# (316) Mention: "đối với" -> [ID: 190050114] đối với | Xuất hiện: 1 lần
+# (317) Mention: "hệ sinh thái" -> [ID: 16162] Hệ sinh thái | Xuất hiện: 1 lần
+# (318) Mention: "năm 2023" -> [ID: 3347496] 2023 | Xuất hiện: 1 lần
+# (319) Mention: "nhất" -> [ID: 190015101] nhất | Xuất hiện: 1 lần
+# (320) Mention: "dạng" -> [ID: 190004203] dạng | Xuất hiện: 1 lần
+# (321) Mention: "vô giá" -> [ID: 190029242] vô giá | Xuất hiện: 1 lần
+# (322) Mention: "ngành công nghiệp" -> [ID: 97537] Công nghiệp | Xuất hiện: 1 lần
+# (323) Mention: "Chăm Sóc Sức Khỏe" -> [ID: 1370357] Y tế | Xuất hiện: 1 lần
+# (324) Mention: "chăm sóc" -> [ID: 190002629] chăm sóc | Xuất hiện: 1 lần
+# (325) Mention: "bệnh nhân" -> [ID: 14340900] Bệnh nhân | Xuất hiện: 1 lần
+# (326) Mention: "Marketing" -> [ID: 80204] Marketing | Xuất hiện: 1 lần
+# (327) Mention: "cải thiện" -> [ID: 190050263] cải thiện | Xuất hiện: 1 lần
+# (328) Mention: "nhắm" -> [ID: 190014851] nhắm | Xuất hiện: 1 lần
+# (329) Mention: "trải nghiệm người dùng" -> [ID: 19269228] Trải nghiệm người dùng | Xuất hiện: 1 lần
+# (330) Mention: "Tăng cường" -> [ID: 190021587] tăng cường | Xuất hiện: 1 lần
+# (331) Mention: "tương tác" -> [ID: 16374] Lực | Xuất hiện: 1 lần
+# (332) Mention: "nhập" -> [ID: 190015070] nhập | Xuất hiện: 1 lần
+# (333) Mention: "vai" -> [ID: 1422494] Vai | Xuất hiện: 1 lần
+# (334) Mention: "Dịch Vụ Khách Hàng" -> [ID: 14678067] Dịch vụ khách hàng | Xuất hiện: 1 lần
+# (335) Mention: "ChatBot" -> [ID: 19299780] Chatbot | Xuất hiện: 1 lần
+# (336) Mention: "trợ giúp" -> [ID: 190050280] trợ giúp | Xuất hiện: 1 lần
+# (337) Mention: "tức thì" -> [ID: 190028160] tức thì | Xuất hiện: 1 lần
+# (338) Mention: "mọi" -> [ID: 190012778] mọi | Xuất hiện: 1 lần
+# (339) Mention: "ngành nghề" -> [ID: 190013671] ngành nghề | Xuất hiện: 1 lần
+# (340) Mention: "bài" -> [ID: 190000694] bài | Xuất hiện: 1 lần
+# (341) Mention: "tổng hợp" -> [ID: 190025924] tổng hợp | Xuất hiện: 1 lần
+# (342) Mention: "100" -> [ID: 540862] 100 | Xuất hiện: 1 lần
+# (343) Mention: "trường hợp sử dụng" -> [ID: 127870] Trường hợp sử dụng | Xuất hiện: 1 lần
+# (344) Mention: "tiềm năng" -> [ID: 190024888] tiềm năng | Xuất hiện: 1 lần
+# (345) Mention: "tranh vẽ" -> [ID: 7434] Hội họa | Xuất hiện: 1 lần
+# (346) Mention: "bản vẽ" -> [ID: 190051298] bản vẽ | Xuất hiện: 1 lần
+# (347) Mention: "kỹ thuật số" -> [ID: 73145] Kỹ thuật số | Xuất hiện: 1 lần
+# (348) Mention: "tác phẩm" -> [ID: 190020958] tác phẩm | Xuất hiện: 1 lần
+# (349) Mention: "OpenAI" -> [ID: 19789298] OpenAI | Xuất hiện: 1 lần
+# (350) Mention: "tạo hình" -> [ID: 190021658] tạo hình | Xuất hiện: 1 lần
+# (351) Mention: "mô tả" -> [ID: 190012731] mô tả | Xuất hiện: 1 lần
+# (352) Mention: "cung cấp" -> [ID: 190050142] cung cấp | Xuất hiện: 1 lần
+# (353) Mention: "tương ứng" -> [ID: 190028378] tương ứng | Xuất hiện: 1 lần
+# (354) Mention: "Google" -> [ID: 4089] Google | Xuất hiện: 1 lần
+# (355) Mention: "siêu thực" -> [ID: 405752] Chủ nghĩa siêu thực | Xuất hiện: 1 lần
+# (356) Mention: "thú vị" -> [ID: 190024188] thú vị | Xuất hiện: 1 lần
+# (357) Mention: "khả năng" -> [ID: 19551920] Khả Năng | Xuất hiện: 1 lần
+# (358) Mention: "áp dụng" -> [ID: 190000435] áp dụng | Xuất hiện: 1 lần
+# (359) Mention: "lên" -> [ID: 190010614] lên | Xuất hiện: 1 lần
+# (360) Mention: "hơi hướng" -> [ID: 190007584] hơi hướng | Xuất hiện: 1 lần
+# (361) Mention: "thực tế" -> [ID: 469422] Thực tế | Xuất hiện: 1 lần
+# (362) Mention: "tòa nhà" -> [ID: 818951] Tòa nhà | Xuất hiện: 1 lần
+# (363) Mention: "không gian" -> [ID: 318625] Không gian | Xuất hiện: 1 lần
+# (364) Mention: "kiến trúc sư" -> [ID: 71627] Kiến trúc sư | Xuất hiện: 1 lần
+# (365) Mention: "hình dung" -> [ID: 190007130] hình dung | Xuất hiện: 1 lần
+# (366) Mention: "dự án" -> [ID: 44365] Dự án | Xuất hiện: 1 lần
+# (367) Mention: "Chứa đựng" -> [ID: 190003304] chứa đựng | Xuất hiện: 1 lần
+# (368) Mention: "khẩu" -> [ID: 190008757] khẩu | Xuất hiện: 1 lần
+# (369) Mention: "ống điếu" -> [ID: 190016638] ống điếu | Xuất hiện: 1 lần
+# (370) Mention: "xiết" -> [ID: 190029676] xiết | Xuất hiện: 1 lần
+# (371) Mention: "lực" -> [ID: 16374] Lực | Xuất hiện: 1 lần
+# (372) Mention: "lục giác" -> [ID: 1482710] Lục giác | Xuất hiện: 1 lần
+# (373) Mention: "đột" -> [ID: 190004957] đột | Xuất hiện: 1 lần
+# (374) Mention: "bấm" -> [ID: 190000736] bấm | Xuất hiện: 1 lần
+# (375) Mention: "kẹp" -> [ID: 190008424] kẹp | Xuất hiện: 1 lần
+# (376) Mention: "gá" -> [ID: 190005284] gá | Xuất hiện: 1 lần
+# (377) Mention: "ê" -> [ID: 11493] Ê | Xuất hiện: 1 lần
+# (378) Mention: "21" -> [ID: 540952] 21 | Xuất hiện: 1 lần
+# (379) Mention: "dính" -> [ID: 190004649] dính | Xuất hiện: 1 lần
+# (380) Mention: "gắn" -> [ID: 190005413] gắn | Xuất hiện: 1 lần
+# (381) Mention: "24" -> [ID: 540940] 24 | Xuất hiện: 1 lần
+# (382) Mention: "25" -> [ID: 540939] 25 | Xuất hiện: 1 lần
+# (383) Mention: "làm" -> [ID: 190009967] làm | Xuất hiện: 1 lần
+# (384) Mention: "26" -> [ID: 540937] 26 | Xuất hiện: 1 lần
+# (385) Mention: "dưỡng" -> [ID: 190005094] dưỡng | Xuất hiện: 1 lần
+# (386) Mention: "27" -> [ID: 540931] 27 | Xuất hiện: 1 lần
+# (387) Mention: "tháo" -> [ID: 190022825] tháo | Xuất hiện: 1 lần
+# (388) Mention: "28" -> [ID: 364430] 28 | Xuất hiện: 1 lần
+# (389) Mention: "Trang thiết bị" -> [ID: 190052034] trang thiết bị | Xuất hiện: 1 lần
+# (390) Mention: "29" -> [ID: 540928] 29 | Xuất hiện: 1 lần
+# (391) Mention: "động" -> [ID: 190004885] động | Xuất hiện: 1 lần
+# (392) Mention: "nhám" -> [ID: 190014842] nhám | Xuất hiện: 1 lần
+# (393) Mention: "rung" -> [ID: 190019275] rung | Xuất hiện: 1 lần
+# (394) Mention: "khoét" -> [ID: 190009161] khoét | Xuất hiện: 1 lần
+# (395) Mention: "chuôi" -> [ID: 190003374] chuôi | Xuất hiện: 1 lần
+# (396) Mention: "chuyên ngành" -> [ID: 190051846] chuyên ngành | Xuất hiện: 1 lần
+# (397) Mention: "Ngành điện" -> [ID: 19654748] Công nghiệp điện lực | Xuất hiện: 1 lần
+# (398) Mention: "sắt" -> [ID: 5245] Sắt | Xuất hiện: 1 lần
+# (399) Mention: "CNC" -> [ID: 15210] CNC | Xuất hiện: 1 lần
+# (400) Mention: "xây" -> [ID: 190029608] xây | Xuất hiện: 1 lần
+# (401) Mention: "trồng" -> [ID: 190027007] trồng | Xuất hiện: 1 lần
+# (402) Mention: "Ngư" -> [ID: 14313932] Ngư (họ) | Xuất hiện: 1 lần
+# (403) Mention: "Thủ" -> [ID: 190023995] thủ | Xuất hiện: 1 lần
+# (404) Mention: "TP Hồ Chí Minh" -> [ID: 39] Thành phố Hồ Chí Minh | Xuất hiện: 1 lần
+# (405) Mention: "hình thức" -> [ID: 190050176] hình thức | Xuất hiện: 1 lần
+# (406) Mention: "nội thành" -> [ID: 190016015] nội thành | Xuất hiện: 1 lần
+# (407) Mention: "thông qua" -> [ID: 190023946] thông qua | Xuất hiện: 1 lần
+# (408) Mention: "khác" -> [ID: 190008486] khác | Xuất hiện: 1 lần
+# (409) Mention: "công bố" -> [ID: 190003643] công bố | Xuất hiện: 1 lần
+# (410) Mention: "mức" -> [ID: 190012993] mức | Xuất hiện: 1 lần
+# (411) Mention: "hoặc" -> [ID: 190007321] hoặc | Xuất hiện: 1 lần
+# (412) Mention: "chi tiết" -> [ID: 190002939] chi tiết | Xuất hiện: 1 lần
+# (413) Mention: "hoàn toàn" -> [ID: 190007361] hoàn toàn | Xuất hiện: 1 lần
+# (414) Mention: "khi nào" -> [ID: 190008866] khi nào | Xuất hiện: 1 lần
+# (415) Mention: "xong" -> [ID: 190029737] xong | Xuất hiện: 1 lần
+# (416) Mention: "hàng hóa" -> [ID: 68616] Hàng hóa | Xuất hiện: 1 lần
+# (417) Mention: "cộng đồng" -> [ID: 102122] Cộng đồng | Xuất hiện: 1 lần
+# (418) Mention: "nhiệt tình" -> [ID: 190015315] nhiệt tình | Xuất hiện: 1 lần
+# (419) Mention: "đo đạc" -> [ID: 190050722] đo đạc | Xuất hiện: 1 lần
+# (420) Mention: "hiệu suất" -> [ID: 13491115] Hiệu suất | Xuất hiện: 1 lần
+# (421) Mention: "Lúc nào" -> [ID: 190051406] lúc nào | Xuất hiện: 1 lần
+# (422) Mention: "sẵn sàng" -> [ID: 190019642] sẵn sàng | Xuất hiện: 1 lần
+# (423) Mention: "giầu" -> [ID: 190006185] giầu | Xuất hiện: 1 lần
+# (424) Mention: "kinh nghiệm" -> [ID: 544482] Kinh nghiệm | Xuất hiện: 1 lần
+# (425) Mention: "gọi" -> [ID: 190006567] gọi | Xuất hiện: 1 lần
+# (426) Mention: "Hướng dẫn" -> [ID: 190008018] hướng dẫn | Xuất hiện: 1 lần
+# (427) Mention: "đặt" -> [ID: 190004341] đặt | Xuất hiện: 1 lần
+# (428) Mention: "giao nhận" -> [ID: 190050944] giao nhận | Xuất hiện: 1 lần
+# (429) Mention: "sản" -> [ID: 190019581] sản | Xuất hiện: 1 lần
+# (430) Mention: "thông tin cá nhân" -> [ID: 15667469] Dữ liệu cá nhân | Xuất hiện: 1 lần
+# (431) Mention: "Liên hệ" -> [ID: 190010789] liên hệ | Xuất hiện: 1 lần
+# (432) Mention: "bản đồ" -> [ID: 7306] Bản đồ | Xuất hiện: 1 lần
+# (433) Mention: "Nhấn" -> [ID: 190014878] nhấn | Xuất hiện: 1 lần
+# (434) Mention: "Tốt Số" -> [ID: 190026014] tốt số | Xuất hiện: 1 lần
+# (435) Mention: "ngách" -> [ID: 190013540] ngách | Xuất hiện: 1 lần
+# (436) Mention: "87" -> [ID: 540875] 87 | Xuất hiện: 1 lần
+# (437) Mention: "Bắc Từ Liêm" -> [ID: 2433753] Bắc Từ Liêm | Xuất hiện: 1 lần
+# (438) Mention: "Đồ Nghề" -> [ID: 190004738] đồ nghề | Xuất hiện: 1 lần
+# (439) Mention: "Chí" -> [ID: 190002893] chí | Xuất hiện: 1 lần
+# ==============================================================================

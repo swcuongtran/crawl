@@ -1,0 +1,1086 @@
+================================================================================
+KẾT QUẢ QUÉT TẬP MCS VÀ UMCS CỦA CÁC TỪ TRONG VĂN BẢN
+THỰC THỂ NGUỒN (Entity 1): [1] Hà nội
+BÀI VIẾT #1: Hà Nội – Wikipedia tiếng Việt
+URL: https://vi.wikipedia.org/wiki/H%C3%A0_N%E1%BB%99i
+THỜI GIAN QUÉT: 2026-10-22 10:54:56
+================================================================================
+
+--------------------------------------------------------------------------------
+[1] TẬP MCS (Chỉ hiển thị các Mentions có > 1 Candidate trong CSDL)
+Số lượng: 76 mentions
+--------------------------------------------------------------------------------
+[1] Mention: "Thành phố"
+    - Số lần xuất hiện trong doc: 8
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 48286] Thành phố (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 48286  | WikiName: Thành phố                 | RealName: thành phố            | Sig: 1     | Điểm M: 1.00 [EREL CHỌN]
+        (2) ID: 83560  | WikiName: Thành phố (Việt Nam)      | RealName: thành phố            | Sig: 1     | Điểm M: 1.00
+
+[2] Mention: "hòa"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 362397] Nhật Bản (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 26571  | WikiName: Trịnh Hòa                 | RealName: Trịnh Hòa            | Sig: 1     | Điểm M: 1.00
+        (2) ID: 236024 | WikiName: Hòa (họ)                  | RealName: Hòa                  | Sig: 1     | Điểm M: 1.22
+        (3) ID: 236158 | WikiName: Hòa                       | RealName: Hòa                  | Sig: 1     | Điểm M: 1.00
+        (4) ID: 362397 | WikiName: Nhật Bản                  | RealName: Nhật Bản             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (5) ID: 19732253 | WikiName: Hòa (cờ vua)              | RealName: hòa                  | Sig: 1     | Điểm M: 2.00
+        (6) ID: 311002322 | WikiName: Hòa                       | RealName: Hòa                  | Sig: 1     | Điểm M: 1.00
+
+[3] Mention: "ngàn"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190013591] ngàn (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 46437  | WikiName: 1000 (số)                 | RealName: 1000                 | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190013591 | WikiName: ngàn                      | RealName: ngàn                 | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[4] Mention: "năm"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: N | Loại: datetime
+    - EREL Chọn (Disambiguated): [ID: 3370] Năm chí tuyến (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 3370   | WikiName: Năm chí tuyến             | RealName: năm chí tuyến        | Sig: 1     | Điểm M: 2.80 [EREL CHỌN]
+        (2) ID: 13874  | WikiName: Năm thiên văn             | RealName: Năm thiên văn        | Sig: 1     | Điểm M: 1.40
+        (3) ID: 23781  | WikiName: Năm Julius (thiên văn)    | RealName: Năm Julius           | Sig: 1     | Điểm M: 2.00
+        (4) ID: 49656  | WikiName: 5 (số)                    | RealName: 5                    | Sig: 1     | Điểm M: 2.20
+        (5) ID: 15406090 | WikiName: Năm (lịch)                | RealName: năm                  | Sig: 1     | Điểm M: 2.20
+
+[5] Mention: "văn"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: literature
+    - EREL Chọn (Disambiguated): [ID: 146620] Văn học (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 146620 | WikiName: Văn học                   | RealName: văn học              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 230678 | WikiName: Văn, Lũng Nam             | RealName: Văn, Lũng Nam        | Sig: 1     | Điểm M: 1.12
+        (3) ID: 243698 | WikiName: Văn (họ)                  | RealName: Văn                  | Sig: 1     | Điểm M: 1.25
+        (4) ID: 3436013 | WikiName: Văn (nước)                | RealName: Văn                  | Sig: 1     | Điểm M: 1.12
+
+[6] Mention: "Đất"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2010] Người Tày (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 1685   | WikiName: Sao Thổ                   | RealName: Sao Thổ              | Sig: 1     | Điểm M: 2.33
+        (2) ID: 2010   | WikiName: Người Tày                 | RealName: Người Tày            | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 5690   | WikiName: Cơ học đất                | RealName: Cơ học đất           | Sig: 1     | Điểm M: 2.33
+        (4) ID: 8344   | WikiName: Đất (kinh tế học)         | RealName: đất                  | Sig: 1     | Điểm M: 1.00
+        (5) ID: 8391   | WikiName: Đất                       | RealName: đất                  | Sig: 1     | Điểm M: 1.17
+        (6) ID: 524093 | WikiName: Thổ (Ngũ hành)            | RealName: Thổ                  | Sig: 1     | Điểm M: 2.00
+        (7) ID: 799625 | WikiName: Người Thổ                 | RealName: Người Thổ            | Sig: 1     | Điểm M: 2.33
+        (8) ID: 799627 | WikiName: Người Thổ Nhĩ Kỳ          | RealName: Người Thổ Nhĩ Kỳ     | Sig: 1     | Điểm M: 2.17
+        (9) ID: 2439544 | WikiName: Địa                       | RealName: Địa                  | Sig: 1     | Điểm M: 2.83
+        (10) ID: 19208175 | WikiName: Bộ Thổ (土)                | RealName: Bộ Thổ               | Sig: 1     | Điểm M: 2.17
+
+[7] Mention: "kinh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2129] Người Việt (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 2129   | WikiName: Người Việt                | RealName: Người Việt           | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 2147   | WikiName: Kinh                      | RealName: Kinh                 | Sig: 1     | Điểm M: 1.08
+        (3) ID: 13735  | WikiName: Kinh nguyệt               | RealName: kinh nguyệt          | Sig: 1     | Điểm M: 2.00
+        (4) ID: 24122  | WikiName: Kinh điển Phật giáo       | RealName: Kinh điển Phật giáo  | Sig: 1     | Điểm M: 1.08
+        (5) ID: 39750  | WikiName: Kinh (Đông y)             | RealName: Kinh                 | Sig: 1     | Điểm M: 1.00
+
+[8] Mention: "Trái tim"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 43379] Tim (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 43379  | WikiName: Tim                       | RealName: tim                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190026178 | WikiName: trái tim                  | RealName: trái tim             | Sig: 1     | Điểm M: 1.00
+
+[9] Mention: "con"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: Nc | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 2607423] Con gái (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 2607423 | WikiName: Con gái                   | RealName: con gái              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 2832689 | WikiName: Con trai                  | RealName: con trai             | Sig: 1     | Điểm M: 2.17
+        (3) ID: 15349152 | WikiName: Con cái                   | RealName: con cái              | Sig: 1     | Điểm M: 2.00
+        (4) ID: 19849027 | WikiName: Con                       | RealName: Con                  | Sig: 1     | Điểm M: 1.50
+
+[10] Mention: "trăm"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190026192] trăm (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 48120  | WikiName: 100 (số)                  | RealName: 100                  | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190026192 | WikiName: trăm                      | RealName: trăm                 | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[11] Mention: "Tiểu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19755994] Tiểu (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 1426   | WikiName: Thiên văn học             | RealName: thiên văn học        | Sig: 1     | Điểm M: 1.67
+        (2) ID: 46840  | WikiName: Người                     | RealName: người                | Sig: 1     | Điểm M: 2.00
+        (3) ID: 19755994 | WikiName: Tiểu                      | RealName: Tiểu                 | Sig: 1     | Điểm M: 2.17 [EREL CHỌN]
+        (4) ID: 311003056 | WikiName: Tiểu                      | RealName: Tiểu                 | Sig: 1     | Điểm M: 2.00
+
+[12] Mention: "Paris"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 2584] Paris (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (11 Candidates):
+        (1) ID: 2584   | WikiName: Paris                     | RealName: Paris                | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 27760  | WikiName: Phán xét của Paris        | RealName: Phán xét của Paris   | Sig: 1     | Điểm M: 2.00
+        (3) ID: 28128  | WikiName: Paris Hilton              | RealName: Paris Hilton         | Sig: 1     | Điểm M: 2.05
+        (4) ID: 32203  | WikiName: Romeo và Juliet           | RealName: Romeo và Juliet      | Sig: 1     | Điểm M: 2.00
+        (5) ID: 239472 | WikiName: Paris (thần thoại)        | RealName: Paris                | Sig: 1     | Điểm M: 2.00
+        (6) ID: 1542125 | WikiName: Paris, Illinois           | RealName: Paris, Illinois      | Sig: 1     | Điểm M: 2.05
+        (7) ID: 1578418 | WikiName: Paris, Texas              | RealName: Paris, Texas         | Sig: 1     | Điểm M: 2.00
+        (8) ID: 1581660 | WikiName: Paris, Arkansas           | RealName: Paris, Arkansas      | Sig: 1     | Điểm M: 2.00
+        (9) ID: 1582501 | WikiName: New Paris, Ohio           | RealName: New Paris, Ohio      | Sig: 1     | Điểm M: 2.00
+        (10) ID: 1582655 | WikiName: St. Paris, Ohio           | RealName: St. Paris, Ohio      | Sig: 1     | Điểm M: 2.00
+        (11) ID: 1586205 | WikiName: New Paris, Pennsylvania   | RealName: New Paris, Pennsylvania | Sig: 1     | Điểm M: 2.00
+
+[13] Mention: "phương"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 236840] Phương (họ) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 10758  | WikiName: Người Cơ Tu               | RealName: Người Cơ Tu          | Sig: 1     | Điểm M: 1.67
+        (2) ID: 236840 | WikiName: Phương (họ)               | RealName: Phương               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 190017701 | WikiName: phương                    | RealName: phương               | Sig: 1     | Điểm M: 2.00
+
+[14] Mention: "thành phố trực thuộc trung ương"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 49882] Thành phố trực thuộc trung ương (Việt Nam) (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 49882  | WikiName: Thành phố trực thuộc trung ương (Việt Nam) | RealName: thành phố trực thuộc trung ương | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 473328 | WikiName: Thành phố trực thuộc trung ương | RealName: Thành phố trực thuộc trung ương | Sig: 1     | Điểm M: 1.00
+
+[15] Mention: "vị trí"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 14945763] Vị trí (vector) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 14945763 | WikiName: Vị trí (vector)           | RealName: vị trí               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190029008 | WikiName: vị trí                    | RealName: vị trí               | Sig: 1     | Điểm M: 2.00
+
+[16] Mention: "trung tâm"
+    - Số lần xuất hiện trong doc: 5
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 151863] Việt Nam (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 151863 | WikiName: Việt Nam                  | RealName: Việt Nam             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 827493 | WikiName: Trung Tâm (phường)        | RealName: Trung Tâm            | Sig: 1     | Điểm M: 1.05
+        (3) ID: 190027394 | WikiName: trung tâm                 | RealName: trung tâm            | Sig: 1     | Điểm M: 2.00
+
+[17] Mention: "văn hóa"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19815141] Văn Hòa (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 4114   | WikiName: Văn hóa                   | RealName: văn hóa              | Sig: 1     | Điểm M: 2.00
+        (2) ID: 89283  | WikiName: Đại học Văn hóa Trung Quốc | RealName: Đại học Văn hóa Trung Quốc | Sig: 1     | Điểm M: 1.00
+        (3) ID: 1675836 | WikiName: Munhwa Broadcasting Corporation | RealName: Munhwa Broadcasting Corporation | Sig: 1     | Điểm M: 1.00
+        (4) ID: 19815137 | WikiName: Bunka                     | RealName: Bunka                | Sig: 1     | Điểm M: 1.00
+        (5) ID: 19815141 | WikiName: Văn Hòa                   | RealName: Văn Hòa              | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[18] Mention: "giáo dục"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 16203] Giáo dục (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 16203  | WikiName: Giáo dục                  | RealName: giáo dục             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 311002259 | WikiName: Giáo dục                  | RealName: Giáo dục             | Sig: 1     | Điểm M: 1.00
+
+[19] Mention: "Việt Nam"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 98] Việt Nam Cộng hòa (Importance Score: 0.60)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 98     | WikiName: Việt Nam Cộng hòa         | RealName: Việt Nam Cộng hòa    | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 3366   | WikiName: Việt Nam Dân chủ Cộng hòa | RealName: Việt Nam Dân chủ Cộng hòa | Sig: 1     | Điểm M: 0.00
+        (3) ID: 27583  | WikiName: Đại Việt                  | RealName: Đại Việt             | Sig: 1     | Điểm M: 0.00
+        (4) ID: 38838  | WikiName: Đế quốc Việt Nam          | RealName: Đế quốc Việt Nam     | Sig: 1     | Điểm M: 0.00
+        (5) ID: 56474  | WikiName: Quốc gia Việt Nam         | RealName: Quốc gia Việt Nam    | Sig: 1     | Điểm M: 0.00
+        (6) ID: 76858  | WikiName: Nam Việt                  | RealName: Nam Việt             | Sig: 1     | Điểm M: 0.00
+        (7) ID: 151863 | WikiName: Việt Nam                  | RealName: Việt Nam             | Sig: 1     | Điểm M: 0.00
+
+[20] Mention: "Hà Nội"
+    - Số lần xuất hiện trong doc: 7
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 80] Hà Nội (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 80     | WikiName: Hà Nội                    | RealName: Hà Nội               | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 29883  | WikiName: Hà Nội (tỉnh)             | RealName: Hà Nội               | Sig: 1     | Điểm M: 2.24
+        (3) ID: 45446  | WikiName: Ga Hà Nội                 | RealName: Ga Hà Nội            | Sig: 1     | Điểm M: 2.03
+        (4) ID: 55109  | WikiName: Tiểu hành tinh            | RealName: tiểu hành tinh       | Sig: 1     | Điểm M: 1.03
+        (5) ID: 239819 | WikiName: Vùng thủ đô Hà Nội        | RealName: Vùng thủ đô Hà Nội   | Sig: 1     | Điểm M: 2.08
+        (6) ID: 497176 | WikiName: Tháp Hà Nội               | RealName: Tháp Hà Nội          | Sig: 1     | Điểm M: 2.03
+        (7) ID: 2421780 | WikiName: Hà Nội, Hà Nội            | RealName: Hà Nội, Hà Nội       | Sig: 1     | Điểm M: 2.01
+        (8) ID: 3424288 | WikiName: Hà Nội (HQ-182)           | RealName: Hà Nội               | Sig: 1     | Điểm M: 2.04
+        (9) ID: 3700033 | WikiName: Đường Hà Nội, Hồng Kông   | RealName: Đường Hà Nội, Hồng Kông | Sig: 1     | Điểm M: 2.00
+        (10) ID: 11684569 | WikiName: Hà Nội và tôi             | RealName: Hà Nội và tôi        | Sig: 1     | Điểm M: 2.03
+
+[21] Mention: "vùng"
+    - Số lần xuất hiện trong doc: 4
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 3241993] Vùng (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3241993 | WikiName: Vùng                      | RealName: vùng                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 311003252 | WikiName: Vùng                      | RealName: Vùng                 | Sig: 1     | Điểm M: 1.00
+
+[22] Mention: "xấp xỉ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19271132] Phép xấp xỉ (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 19271132 | WikiName: Phép xấp xỉ               | RealName: Phép xấp xỉ          | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190029596 | WikiName: xấp xỉ                    | RealName: xấp xỉ               | Sig: 1     | Điểm M: 2.00
+
+[23] Mention: "triệu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: organization
+    - EREL Chọn (Disambiguated): [ID: 32861] Nhà Triệu (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 27216  | WikiName: Bà Triệu                  | RealName: Bà Triệu             | Sig: 1     | Điểm M: 1.25
+        (2) ID: 32861  | WikiName: Nhà Triệu                 | RealName: Nhà Triệu            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 33493  | WikiName: Ngũ Hồ thập lục quốc      | RealName: Ngũ Hồ thập lục quốc | Sig: 1     | Điểm M: 1.12
+        (4) ID: 42129  | WikiName: Hán Triệu                 | RealName: Hán Triệu            | Sig: 1     | Điểm M: 1.00
+        (5) ID: 42234  | WikiName: Hậu Triệu                 | RealName: Hậu Triệu            | Sig: 1     | Điểm M: 1.00
+        (6) ID: 46330  | WikiName: Triệu                     | RealName: triệu                | Sig: 1     | Điểm M: 2.00
+        (7) ID: 235219 | WikiName: Triệu (họ)                | RealName: Triệu                | Sig: 1     | Điểm M: 1.50
+        (8) ID: 378510 | WikiName: Triệu (nước)              | RealName: Triệu                | Sig: 1     | Điểm M: 1.12
+        (9) ID: 1297730 | WikiName: Triệu (Ngũ đại)           | RealName: Triệu                | Sig: 1     | Điểm M: 1.00
+        (10) ID: 311003119 | WikiName: Triệu                     | RealName: Triệu                | Sig: 1     | Điểm M: 1.00
+
+[24] Mention: "người Hà Nội"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+CH+Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 26207] Người Hà Nội (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 26206  | WikiName: Người Hà Nội (bài hát)    | RealName: Người Hà Nội         | Sig: 1     | Điểm M: 2.67
+        (2) ID: 26207  | WikiName: Người Hà Nội              | RealName: Người Hà Nội         | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 1000954 | WikiName: Người Hà Nội (phim)       | RealName: Người Hà Nội         | Sig: 1     | Điểm M: 2.00
+
+[25] Mention: "đông"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: event
+    - EREL Chọn (Disambiguated): [ID: 52157] Mùa đông (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 52157  | WikiName: Mùa đông                  | RealName: Mùa đông             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 60997  | WikiName: Đông                      | RealName: Đông                 | Sig: 1     | Điểm M: 1.25
+        (3) ID: 794944 | WikiName: Quận Đông                 | RealName: Quận Đông            | Sig: 1     | Điểm M: 1.00
+        (4) ID: 311002180 | WikiName: Đông                      | RealName: Đông                 | Sig: 1     | Điểm M: 1.00
+
+[26] Mention: "dân"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 63613] Lê Nghi Dân (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 63613  | WikiName: Lê Nghi Dân               | RealName: Lê Nghi Dân          | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 242122 | WikiName: Dân                       | RealName: Dân                  | Sig: 1     | Điểm M: 0.00
+
+[27] Mention: "cao"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 235648] Cao (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (9 Candidates):
+        (1) ID: 6220   | WikiName: Cao Đài                   | RealName: Cao Đài              | Sig: 1     | Điểm M: 1.00
+        (2) ID: 19412  | WikiName: Calci oxide               | RealName: calci oxide          | Sig: 1     | Điểm M: 2.22
+        (3) ID: 48787  | WikiName: Thạch cao                 | RealName: thạch cao            | Sig: 1     | Điểm M: 2.00
+        (4) ID: 61584  | WikiName: Cao lầu                   | RealName: cao lầu              | Sig: 1     | Điểm M: 2.00
+        (5) ID: 78110  | WikiName: Triệu Cao                 | RealName: Triệu Cao            | Sig: 1     | Điểm M: 1.33
+        (6) ID: 235648 | WikiName: Cao                       | RealName: cao                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (7) ID: 236607 | WikiName: Cao (họ)                  | RealName: Cao                  | Sig: 1     | Điểm M: 1.67
+        (8) ID: 304758 | WikiName: Cao lanh                  | RealName: cao lanh             | Sig: 1     | Điểm M: 2.00
+        (9) ID: 16393608 | WikiName: Thanh Cao, Lương Sơn      | RealName: Thanh Cao, Lương Sơn | Sig: 1     | Điểm M: 1.33
+
+[28] Mention: "cấp"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 640407] Cấp (lý thuyết nhóm) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 640407 | WikiName: Cấp (lý thuyết nhóm)      | RealName: cấp                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190002424 | WikiName: cấp                       | RealName: cấp                  | Sig: 1     | Điểm M: 2.00
+
+[29] Mention: "phường"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 114098] Phường (Việt Nam) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 114098 | WikiName: Phường (Việt Nam)         | RealName: phường               | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 127483 | WikiName: Phường                    | RealName: Phường               | Sig: 1     | Điểm M: 1.17
+        (3) ID: 364451 | WikiName: Phường hội                | RealName: Phường hội           | Sig: 1     | Điểm M: 1.00
+
+[30] Mention: "xã"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 18004] Xã (Việt Nam) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 18004  | WikiName: Xã (Việt Nam)             | RealName: xã                   | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 286125 | WikiName: Xã                        | RealName: xã                   | Sig: 1     | Điểm M: 0.00
+        (3) ID: 396744 | WikiName: Xã của Hoa Kỳ             | RealName: Xã của Hoa Kỳ        | Sig: 1     | Điểm M: 0.00
+        (4) ID: 1681827 | WikiName: Xã của Pháp               | RealName: Xã của Pháp          | Sig: 1     | Điểm M: 0.00
+
+[31] Mention: "từ"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: E | Loại: literature
+    - EREL Chọn (Disambiguated): [ID: 801416] Từ (thể loại văn học) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 5998   | WikiName: Từ học                    | RealName: từ học               | Sig: 1     | Điểm M: 2.00
+        (2) ID: 236583 | WikiName: Từ (họ)                   | RealName: Từ                   | Sig: 1     | Điểm M: 1.50
+        (3) ID: 364426 | WikiName: Từ                        | RealName: từ                   | Sig: 1     | Điểm M: 2.00
+        (4) ID: 801416 | WikiName: Từ (thể loại văn học)     | RealName: từ                   | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (5) ID: 1678637 | WikiName: Từ (nước)                 | RealName: Từ                   | Sig: 1     | Điểm M: 1.50
+        (6) ID: 3338594 | WikiName: Từ đường họ Mạc           | RealName: Từ đường họ Mạc      | Sig: 1     | Điểm M: 1.25
+        (7) ID: 311003159 | WikiName: Từ                        | RealName: Từ                   | Sig: 1     | Điểm M: 1.00
+
+[32] Mention: "đầu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 543929] Đầu (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 543929 | WikiName: Đầu                       | RealName: Đầu                  | Sig: 1     | Điểm M: 1.00 [EREL CHỌN]
+        (2) ID: 311002101 | WikiName: Đầu                       | RealName: Đầu                  | Sig: 1     | Điểm M: 1.00
+
+[33] Mention: "giải trí"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 57920] Giải trí (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 57920  | WikiName: Giải trí                  | RealName: giải trí             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 311002241 | WikiName: Giải trí                  | RealName: Giải trí             | Sig: 1     | Điểm M: 1.00
+
+[34] Mention: "đất nước"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 8476] Xuân Diệu (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (8 Candidates):
+        (1) ID: 8476   | WikiName: Xuân Diệu                 | RealName: Xuân Diệu            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 19063  | WikiName: Chế Lan Viên              | RealName: Chế Lan Viên         | Sig: 1     | Điểm M: 2.00
+        (3) ID: 27204  | WikiName: Nguyễn Đình Thi           | RealName: Nguyễn Đình Thi      | Sig: 1     | Điểm M: 1.75
+        (4) ID: 74074  | WikiName: Nguyễn Khoa Điềm          | RealName: Nguyễn Khoa Điềm     | Sig: 1     | Điểm M: 1.25
+        (5) ID: 78309  | WikiName: Đất nước                  | RealName: Đất nước             | Sig: 1     | Điểm M: 1.00
+        (6) ID: 104238 | WikiName: Lưu Quang Vũ              | RealName: Lưu Quang Vũ         | Sig: 1     | Điểm M: 1.75
+        (7) ID: 282087 | WikiName: Đất nước đứng lên         | RealName: Đất nước đứng lên    | Sig: 1     | Điểm M: 1.25
+        (8) ID: 291375 | WikiName: Nguyễn Việt Chiến         | RealName: Nguyễn Việt Chiến    | Sig: 1     | Điểm M: 1.25
+
+[35] Mention: "tổ chức"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: V | Loại: organization
+    - EREL Chọn (Disambiguated): [ID: 511644] Tổ chức (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 511644 | WikiName: Tổ chức                   | RealName: tổ chức              | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 311003073 | WikiName: Tổ chức                   | RealName: Tổ chức              | Sig: 1     | Điểm M: 1.00
+
+[36] Mention: "sự kiện"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 14501088] Sự kiện (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (11 Candidates):
+        (1) ID: 6835   | WikiName: Thể thao                  | RealName: thể thao             | Sig: 1     | Điểm M: 3.00
+        (2) ID: 6905   | WikiName: Chân trời sự kiện         | RealName: chân trời sự kiện    | Sig: 1     | Điểm M: 2.00
+        (3) ID: 150285 | WikiName: Biến cố (lý thuyết xác suất) | RealName: biến cố              | Sig: 1     | Điểm M: 2.00
+        (4) ID: 407002 | WikiName: Lễ hội                    | RealName: lễ hội               | Sig: 1     | Điểm M: 3.00
+        (5) ID: 476652 | WikiName: Sự kiện tuyệt chủng       | RealName: Sự kiện tuyệt chủng  | Sig: 1     | Điểm M: 1.00
+        (6) ID: 782412 | WikiName: Bữa tiệc                  | RealName: bữa tiệc             | Sig: 1     | Điểm M: 2.50
+        (7) ID: 3416276 | WikiName: Hội thảo                  | RealName: hội thảo             | Sig: 1     | Điểm M: 2.00
+        (8) ID: 13484353 | WikiName: Tổ chức sự kiện           | RealName: tổ chức sự kiện      | Sig: 1     | Điểm M: 2.00
+        (9) ID: 14501088 | WikiName: Sự kiện                   | RealName: sự kiện              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (10) ID: 15324139 | WikiName: Sự kiện (điện toán)       | RealName: sự kiện              | Sig: 1     | Điểm M: 2.00
+        (11) ID: 19923656 | WikiName: Sự kiện truyền thông      | RealName: sự kiện truyền thông | Sig: 1     | Điểm M: 2.00
+
+[37] Mention: "quốc tế"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: language
+    - EREL Chọn (Disambiguated): [ID: 98438] Thế giới (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 98438  | WikiName: Thế giới                  | RealName: thế giới             | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 190018447 | WikiName: quốc tế                   | RealName: quốc tế              | Sig: 1     | Điểm M: 2.00
+
+[38] Mention: "làng nghề"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 190050090] làng nghề (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 48318  | WikiName: Làng nghề Việt Nam        | RealName: Làng nghề Việt Nam   | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190050090 | WikiName: làng nghề                 | RealName: làng nghề            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[39] Mention: "truyền thống"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190027641] truyền thống (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 406802 | WikiName: Phong tục                 | RealName: Phong tục            | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190027641 | WikiName: truyền thống              | RealName: truyền thống         | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[40] Mention: "1"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49660] 1 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 49660  | WikiName: 1 (số)                    | RealName: 1                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 1239082 | WikiName: 1 (album của The Beatles) | RealName: 1                    | Sig: 1     | Điểm M: 2.12
+
+[41] Mention: "3"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49658] 3 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 49658  | WikiName: 3 (số)                    | RealName: 3                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 63673  | WikiName: Chicago (ban nhạc)        | RealName: Chicago              | Sig: 1     | Điểm M: 1.33
+        (3) ID: 819060 | WikiName: Take That                 | RealName: Take That            | Sig: 1     | Điểm M: 1.00
+        (4) ID: 3179478 | WikiName: The Script                | RealName: The Script           | Sig: 1     | Điểm M: 1.00
+
+[42] Mention: "lễ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: event
+    - EREL Chọn (Disambiguated): [ID: 407002] Lễ hội (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 7031   | WikiName: Nho giáo                  | RealName: Nho giáo             | Sig: 1     | Điểm M: 2.00
+        (2) ID: 407002 | WikiName: Lễ hội                    | RealName: lễ hội               | Sig: 1     | Điểm M: 2.20 [EREL CHỌN]
+        (3) ID: 19841338 | WikiName: Lễ                        | RealName: Lễ                   | Sig: 1     | Điểm M: 1.10
+        (4) ID: 311002499 | WikiName: Lễ                        | RealName: Lễ                   | Sig: 1     | Điểm M: 1.00
+
+[43] Mention: "miền Bắc Việt Nam"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 29685] Miền Bắc (Việt Nam) (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 4073   | WikiName: Bắc Bộ                    | RealName: Bắc Bộ               | Sig: 1     | Điểm M: 2.86
+        (2) ID: 29685  | WikiName: Miền Bắc (Việt Nam)       | RealName: Miền Bắc             | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[44] Mention: "Nền"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 287887] Nền (địa chất) (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 287887 | WikiName: Nền (địa chất)            | RealName: nền                  | Sig: 1     | Điểm M: 1.00 [EREL CHỌN]
+        (2) ID: 190013470 | WikiName: nền                       | RealName: nền                  | Sig: 1     | Điểm M: 1.00
+
+[45] Mention: "hòa bình"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 141061] Tương Dương (huyện) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (37 Candidates):
+        (1) ID: 32165  | WikiName: Biên Hòa                  | RealName: Biên Hòa             | Sig: 1     | Điểm M: 1.25
+        (2) ID: 41843  | WikiName: Văn hóa Hòa Bình          | RealName: Văn hóa Hòa Bình     | Sig: 1     | Điểm M: 1.17
+        (3) ID: 43320  | WikiName: Nhà máy thủy điện Hòa Bình | RealName: Nhà máy thủy điện Hòa Bình | Sig: 1     | Điểm M: 1.50
+        (4) ID: 51456  | WikiName: Trạm vũ trụ Hòa Bình      | RealName: Trạm vũ trụ Hòa Bình | Sig: 1     | Điểm M: 1.08
+        (5) ID: 66245  | WikiName: Hòa Bình (thành phố)      | RealName: Hòa Bình             | Sig: 1     | Điểm M: 1.25
+        (6) ID: 78612  | WikiName: Hòa bình                  | RealName: hòa bình             | Sig: 1     | Điểm M: 2.00
+        (7) ID: 105962 | WikiName: Trương Hòa Bình           | RealName: Trương Hòa Bình      | Sig: 1     | Điểm M: 1.25
+        (8) ID: 141061 | WikiName: Tương Dương (huyện)       | RealName: Tương Dương          | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (9) ID: 186908 | WikiName: Hòa Bình, Thẩm Dương      | RealName: Hòa Bình, Thẩm Dương | Sig: 1     | Điểm M: 1.17
+        (10) ID: 229470 | WikiName: Hòa Bình, Hà Nguyên       | RealName: Hòa Bình, Hà Nguyên  | Sig: 1     | Điểm M: 1.08
+        (11) ID: 230254 | WikiName: Hòa Bình, Thiên Tân       | RealName: Hòa Bình, Thiên Tân  | Sig: 1     | Điểm M: 1.08
+        (12) ID: 372466 | WikiName: Hwapyong                  | RealName: Hwapyong             | Sig: 1     | Điểm M: 1.00
+        (13) ID: 451434 | WikiName: Hòa Bình, Vĩnh Bảo        | RealName: Hòa Bình, Vĩnh Bảo   | Sig: 1     | Điểm M: 1.25
+        (14) ID: 800062 | WikiName: Hòa Bình, Tam Nông (Đồng Tháp) | RealName: Hòa Bình, Tam Nông (Đồng Tháp) | Sig: 1     | Điểm M: 1.17
+        (15) ID: 803807 | WikiName: Hòa Bình Thạnh            | RealName: Hòa Bình Thạnh       | Sig: 1     | Điểm M: 1.17
+        (16) ID: 806867 | WikiName: Nguyễn Hòa Bình           | RealName: Nguyễn Hòa Bình      | Sig: 1     | Điểm M: 1.17
+        (17) ID: 816799 | WikiName: Hòa Bình, Đài Trung       | RealName: Hòa Bình, Đài Trung  | Sig: 1     | Điểm M: 1.08
+        (18) ID: 831308 | WikiName: Hòa Bình, Đồng Hỷ         | RealName: Hòa Bình, Đồng Hỷ    | Sig: 1     | Điểm M: 1.17
+        (19) ID: 1244393 | WikiName: Hòa Bình 1                | RealName: Hòa Bình 1           | Sig: 1     | Điểm M: 1.17
+        (20) ID: 1244395 | WikiName: Hòa Bình, Ayun Pa         | RealName: Hòa Bình, Ayun Pa    | Sig: 1     | Điểm M: 1.17
+        (21) ID: 1244396 | WikiName: Hòa Bình, Bình Gia        | RealName: Hòa Bình, Bình Gia   | Sig: 1     | Điểm M: 1.17
+        (22) ID: 1244397 | WikiName: Hòa Bình, Chi Lăng        | RealName: Hòa Bình, Chi Lăng   | Sig: 1     | Điểm M: 1.17
+        (23) ID: 1244398 | WikiName: Hòa Bình, Chợ Mới (An Giang) | RealName: Hòa Bình, Chợ Mới (An Giang) | Sig: 1     | Điểm M: 1.17
+        (24) ID: 1244400 | WikiName: Hòa Bình (thị trấn)       | RealName: Hòa Bình             | Sig: 1     | Điểm M: 1.08
+        (25) ID: 1244402 | WikiName: Hòa Bình, Hạ Long         | RealName: Hòa Bình, Hạ Long    | Sig: 1     | Điểm M: 1.17
+        (26) ID: 1244403 | WikiName: Hòa Bình, Hưng Hà         | RealName: Hòa Bình, Hưng Hà    | Sig: 1     | Điểm M: 1.33
+        (27) ID: 1244404 | WikiName: Hòa Bình, Hữu Lũng        | RealName: Hòa Bình, Hữu Lũng   | Sig: 1     | Điểm M: 1.17
+        (28) ID: 1244405 | WikiName: Hòa Bình, Kiến Xương      | RealName: Hòa Bình, Kiến Xương | Sig: 1     | Điểm M: 1.25
+        (29) ID: 1244406 | WikiName: Hòa Bình, thành phố Kon Tum | RealName: Hòa Bình, thành phố Kon Tum | Sig: 1     | Điểm M: 1.17
+        (30) ID: 1244407 | WikiName: Hòa Bình, Thường Tín      | RealName: Hòa Bình, Thường Tín | Sig: 1     | Điểm M: 1.42
+        (31) ID: 1244408 | WikiName: Hòa Bình, Thủy Nguyên     | RealName: Hòa Bình, Thủy Nguyên | Sig: 1     | Điểm M: 1.25
+        (32) ID: 1244409 | WikiName: Hòa Bình, Trà Ôn          | RealName: Hòa Bình, Trà Ôn     | Sig: 1     | Điểm M: 1.17
+        (33) ID: 1244410 | WikiName: Hòa Bình, Văn Quan        | RealName: Hòa Bình, Văn Quan   | Sig: 1     | Điểm M: 1.17
+        (34) ID: 1244412 | WikiName: Hòa Bình, Vũ Thư          | RealName: Hòa Bình, Vũ Thư     | Sig: 1     | Điểm M: 1.33
+        (35) ID: 1244413 | WikiName: Hòa Bình, Xuyên Mộc       | RealName: Hòa Bình, Xuyên Mộc  | Sig: 1     | Điểm M: 1.08
+        (36) ID: 1525599 | WikiName: Bến Nghé (phường)         | RealName: Bến Nghé             | Sig: 1     | Điểm M: 1.25
+        (37) ID: 19905643 | WikiName: Hòa Bình, Kim Thành       | RealName: Hòa Bình, Kim Thành  | Sig: 1     | Điểm M: 1.25
+
+[46] Mention: "ngày"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 384379] Ngày (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 7105   | WikiName: Ngày Julius               | RealName: Ngày Julius          | Sig: 1     | Điểm M: 2.00
+        (2) ID: 384379 | WikiName: Ngày                      | RealName: ngày                 | Sig: 1     | Điểm M: 2.40 [EREL CHỌN]
+
+[47] Mention: "Khu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 108424] Khu (Trung Quốc) (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 108424 | WikiName: Khu (Trung Quốc)          | RealName: Khu                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 462836 | WikiName: Khu (Đài Loan)            | RealName: khu                  | Sig: 1     | Điểm M: 1.00
+        (3) ID: 190009265 | WikiName: khu                       | RealName: khu                  | Sig: 1     | Điểm M: 1.00
+
+[48] Mention: "dùng"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 190005045] dùng (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1263419 | WikiName: Dùng (thị trấn)           | RealName: Dùng                 | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190005045 | WikiName: dùng                      | RealName: dùng                 | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 311002201 | WikiName: dùng                      | RealName: dùng                 | Sig: 1     | Điểm M: 2.00
+
+[49] Mention: "thứ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 120175] Thứ (thực vật học) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 120175 | WikiName: Thứ (thực vật học)        | RealName: thứ                  | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 143361 | WikiName: Thứ                       | RealName: thứ                  | Sig: 1     | Điểm M: 0.00
+        (3) ID: 311003017 | WikiName: Thứ                       | RealName: Thứ                  | Sig: 1     | Điểm M: 0.00
+
+[50] Mention: "12"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: datetime
+    - EREL Chọn (Disambiguated): [ID: 107820] 1912 (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 3506   | WikiName: Tháng mười hai            | RealName: Tháng mười hai       | Sig: 1     | Điểm M: 1.00
+        (2) ID: 49578  | WikiName: 12 (số)                   | RealName: 12                   | Sig: 1     | Điểm M: 2.25
+        (3) ID: 107820 | WikiName: 1912                      | RealName: 1912                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (4) ID: 530831 | WikiName: 2012                      | RealName: 2012                 | Sig: 1     | Điểm M: 2.75
+        (5) ID: 540974 | WikiName: 12                        | RealName: 12                   | Sig: 1     | Điểm M: 2.00
+        (6) ID: 541111 | WikiName: 12 TCN                    | RealName: 12 TCN               | Sig: 1     | Điểm M: 1.00
+
+[51] Mention: "tỉnh"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 18005] Tỉnh (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (22 Candidates):
+        (1) ID: 18005  | WikiName: Tỉnh                      | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 63050  | WikiName: Phân cấp hành chính Campuchia | RealName: Phân cấp hành chính Campuchia | Sig: 1     | Điểm M: 0.00
+        (3) ID: 63191  | WikiName: Tỉnh (Lào)                | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (4) ID: 72849  | WikiName: Tỉnh (Thái Lan)           | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (5) ID: 73300  | WikiName: Tỉnh (Indonesia)          | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (6) ID: 73609  | WikiName: Tỉnh (Philippines)        | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (7) ID: 105169 | WikiName: Tỉnh (Trung Quốc)         | RealName: Tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (8) ID: 200073 | WikiName: Tỉnh (Iraq)               | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (9) ID: 200300 | WikiName: Tỉnh (Ai Cập)             | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (10) ID: 250818 | WikiName: Phân cấp hành chính Thổ Nhĩ Kỳ | RealName: Phân cấp hành chính Thổ Nhĩ Kỳ | Sig: 1     | Điểm M: 0.00
+        (11) ID: 257972 | WikiName: Tỉnh (Nga)                | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (12) ID: 258249 | WikiName: Tỉnh (Chile)              | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (13) ID: 258300 | WikiName: Phân cấp hành chính Panama | RealName: Phân cấp hành chính Panama | Sig: 1     | Điểm M: 0.00
+        (14) ID: 258390 | WikiName: Tỉnh (Uruguay)            | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (15) ID: 269763 | WikiName: Tỉnh (Tây Ban Nha)        | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (16) ID: 327681 | WikiName: Tỉnh (Pháp)               | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (17) ID: 494725 | WikiName: Phân cấp hành chính Ba Lan | RealName: Phân cấp hành chính Ba Lan | Sig: 1     | Điểm M: 0.00
+        (18) ID: 500103 | WikiName: Phân cấp hành chính Colombia | RealName: Phân cấp hành chính Colombia | Sig: 1     | Điểm M: 0.00
+        (19) ID: 543285 | WikiName: Tỉnh (Thụy Điển)          | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (20) ID: 580895 | WikiName: Tỉnh (Argentina)          | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (21) ID: 840912 | WikiName: Tỉnh (Việt Nam Cộng hòa)  | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (22) ID: 3350346 | WikiName: Tỉnh (Việt Nam)           | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+
+[52] Mention: "tên"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 29106] Tên lửa (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 29106  | WikiName: Tên lửa                   | RealName: tên lửa              | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 801986 | WikiName: Tên                       | RealName: Tên                  | Sig: 1     | Điểm M: 0.00
+        (3) ID: 801987 | WikiName: Tên gọi                   | RealName: Tên gọi              | Sig: 1     | Điểm M: 0.00
+        (4) ID: 2360397 | WikiName: Mũi tên                   | RealName: Mũi tên              | Sig: 1     | Điểm M: 0.00
+        (5) ID: 2384192 | WikiName: Tên thánh                 | RealName: tên thánh            | Sig: 1     | Điểm M: 0.00
+
+[53] Mention: "thành lập"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: V | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 1250170] Liên Sơn, Lương Sơn (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1250170 | WikiName: Liên Sơn, Lương Sơn       | RealName: Liên Sơn, Lương Sơn  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190022630 | WikiName: thành lập                 | RealName: thành lập            | Sig: 1     | Điểm M: 2.00
+        (3) ID: 311002961 | WikiName: thành lập                 | RealName: thành lập            | Sig: 1     | Điểm M: 2.00
+
+[54] Mention: "viết"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 131775] Chữ viết (Importance Score: 0.20)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 131775 | WikiName: Chữ viết                  | RealName: chữ viết             | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 516031 | WikiName: Sến xanh                  | RealName: sến xanh             | Sig: 1     | Điểm M: 2.50
+        (3) ID: 2314857 | WikiName: Manilkara kauki           | RealName: Manilkara kauki      | Sig: 1     | Điểm M: 1.00
+        (4) ID: 190029041 | WikiName: viết                      | RealName: viết                 | Sig: 1     | Điểm M: 2.00
+        (5) ID: 311003239 | WikiName: viết                      | RealName: viết                 | Sig: 1     | Điểm M: 2.00
+
+[55] Mention: "bằng"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 15491616] Giấy phép (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 15491616 | WikiName: Giấy phép                 | RealName: giấy phép            | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 19495589 | WikiName: Bằng                      | RealName: bằng                 | Sig: 1     | Điểm M: 2.00
+        (3) ID: 311001808 | WikiName: Bằng                      | RealName: Bằng                 | Sig: 1     | Điểm M: 1.00
+
+[56] Mention: "bao"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 15028499] Bao (đơn vị) (Importance Score: 0.20)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 15028499 | WikiName: Bao (đơn vị)              | RealName: bao                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 15095505 | WikiName: Bao                       | RealName: Bao                  | Sig: 1     | Điểm M: 1.00
+        (3) ID: 311001812 | WikiName: Bao                       | RealName: Bao                  | Sig: 1     | Điểm M: 1.00
+
+[57] Mention: "địa lý"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 1364] Địa lý (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1364   | WikiName: Địa lý                    | RealName: Địa lý               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 507734 | WikiName: Địa Lý (châu)             | RealName: Địa Lý               | Sig: 1     | Điểm M: 1.33
+
+[58] Mention: "Tỉnh này"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+P | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 18005] Tỉnh (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (22 Candidates):
+        (1) ID: 18005  | WikiName: Tỉnh                      | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 63050  | WikiName: Phân cấp hành chính Campuchia | RealName: Phân cấp hành chính Campuchia | Sig: 1     | Điểm M: 0.00
+        (3) ID: 63191  | WikiName: Tỉnh (Lào)                | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (4) ID: 72849  | WikiName: Tỉnh (Thái Lan)           | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (5) ID: 73300  | WikiName: Tỉnh (Indonesia)          | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (6) ID: 73609  | WikiName: Tỉnh (Philippines)        | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (7) ID: 105169 | WikiName: Tỉnh (Trung Quốc)         | RealName: Tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (8) ID: 200073 | WikiName: Tỉnh (Iraq)               | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (9) ID: 200300 | WikiName: Tỉnh (Ai Cập)             | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (10) ID: 250818 | WikiName: Phân cấp hành chính Thổ Nhĩ Kỳ | RealName: Phân cấp hành chính Thổ Nhĩ Kỳ | Sig: 1     | Điểm M: 0.00
+        (11) ID: 257972 | WikiName: Tỉnh (Nga)                | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (12) ID: 258249 | WikiName: Tỉnh (Chile)              | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (13) ID: 258300 | WikiName: Phân cấp hành chính Panama | RealName: Phân cấp hành chính Panama | Sig: 1     | Điểm M: 0.00
+        (14) ID: 258390 | WikiName: Tỉnh (Uruguay)            | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (15) ID: 269763 | WikiName: Tỉnh (Tây Ban Nha)        | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (16) ID: 327681 | WikiName: Tỉnh (Pháp)               | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (17) ID: 494725 | WikiName: Phân cấp hành chính Ba Lan | RealName: Phân cấp hành chính Ba Lan | Sig: 1     | Điểm M: 0.00
+        (18) ID: 500103 | WikiName: Phân cấp hành chính Colombia | RealName: Phân cấp hành chính Colombia | Sig: 1     | Điểm M: 0.00
+        (19) ID: 543285 | WikiName: Tỉnh (Thụy Điển)          | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (20) ID: 580895 | WikiName: Tỉnh (Argentina)          | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (21) ID: 840912 | WikiName: Tỉnh (Việt Nam Cộng hòa)  | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+        (22) ID: 3350346 | WikiName: Tỉnh (Việt Nam)           | RealName: tỉnh                 | Sig: 1     | Điểm M: 0.00
+
+[59] Mention: "4"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49657] 4 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 49657  | WikiName: 4 (số)                    | RealName: 4                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 794155 | WikiName: 4 (album của Beyoncé)     | RealName: 4                    | Sig: 1     | Điểm M: 2.00
+
+[60] Mention: "phủ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Nu | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 188827] Phủ (đơn vị hành chính) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 188827 | WikiName: Phủ (đơn vị hành chính)   | RealName: phủ                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 190017507 | WikiName: phủ                       | RealName: phủ                  | Sig: 1     | Điểm M: 2.00
+
+[61] Mention: "Hoài Đức"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 95257] Hoài Đức (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 43082  | WikiName: Trịnh Hoài Đức            | RealName: Trịnh Hoài Đức       | Sig: 1     | Điểm M: 2.43
+        (2) ID: 95257  | WikiName: Hoài Đức                  | RealName: Hoài Đức             | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 1519249 | WikiName: Giuse Lê Đức Triệu        | RealName: Giuse Lê Đức Triệu   | Sig: 1     | Điểm M: 2.50
+        (4) ID: 3227556 | WikiName: Nguyễn Phúc Miên Lâm      | RealName: Nguyễn Phúc Miên Lâm | Sig: 1     | Điểm M: 2.43
+
+[62] Mention: "Lý Nhân"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 15361] Lý Nhân (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 15361  | WikiName: Lý Nhân                   | RealName: Lý Nhân              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 510386 | WikiName: Lý Nhân (phủ)             | RealName: Lý Nhân              | Sig: 1     | Điểm M: 2.29
+        (3) ID: 1241865 | WikiName: Lý Nhơn                   | RealName: Lý Nhơn              | Sig: 1     | Điểm M: 2.29
+        (4) ID: 7460654 | WikiName: Lý Nhân (nhà Thanh)       | RealName: Lý Nhân              | Sig: 1     | Điểm M: 2.14
+        (5) ID: 19687578 | WikiName: Ân Ngạn quân              | RealName: Ân Ngạn quân         | Sig: 1     | Điểm M: 2.00
+
+[63] Mention: "thành"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 812225] Lâu đài (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 213142 | WikiName: Thành, Dương Tuyền        | RealName: Thành, Dương Tuyền   | Sig: 1     | Điểm M: 2.00
+        (2) ID: 213228 | WikiName: Thành, Trường Trị         | RealName: Thành, Trường Trị    | Sig: 1     | Điểm M: 2.00
+        (3) ID: 213257 | WikiName: Thành, Tấn Thành          | RealName: Thành, Tấn Thành     | Sig: 1     | Điểm M: 2.00
+        (4) ID: 812225 | WikiName: Lâu đài                   | RealName: lâu đài              | Sig: 1     | Điểm M: 2.50 [EREL CHỌN]
+        (5) ID: 14203419 | WikiName: Thành (họ)                | RealName: Thành                | Sig: 1     | Điểm M: 2.00
+        (6) ID: 190022527 | WikiName: thành                     | RealName: thành                | Sig: 1     | Điểm M: 2.00
+        (7) ID: 311002959 | WikiName: thành                     | RealName: thành                | Sig: 1     | Điểm M: 2.00
+
+[64] Mention: "trị"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3435962] Trị (nước) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3435962 | WikiName: Trị (nước)                | RealName: Trị                  | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 190026638 | WikiName: trị                       | RealName: trị                  | Sig: 1     | Điểm M: 0.00
+
+[65] Mention: "sở"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 42363] Hồ Bắc (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 42363  | WikiName: Hồ Bắc                    | RealName: Hồ Bắc               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 46870  | WikiName: Sở (nước)                 | RealName: Sở                   | Sig: 1     | Điểm M: 1.50
+        (3) ID: 131483 | WikiName: Hạng Lương                | RealName: Hạng Lương           | Sig: 1     | Điểm M: 1.17
+        (4) ID: 140657 | WikiName: Sở                        | RealName: Sở                   | Sig: 1     | Điểm M: 1.33
+        (5) ID: 1395836 | WikiName: Hoàn Sở                   | RealName: Hoàn Sở              | Sig: 1     | Điểm M: 1.00
+        (6) ID: 2438967 | WikiName: Đại Sở                    | RealName: Đại Sở               | Sig: 1     | Điểm M: 1.00
+        (7) ID: 2438970 | WikiName: Trương Sở                 | RealName: Trương Sở            | Sig: 1     | Điểm M: 1.00
+
+[66] Mention: "tức"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: C | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 807029] Lợi tức (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 200861 | WikiName: Tức                       | RealName: Tức                  | Sig: 1     | Điểm M: 1.00
+        (2) ID: 807029 | WikiName: Lợi tức                   | RealName: lợi tức              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 3140444 | WikiName: Tức giận                  | RealName: tức giận             | Sig: 1     | Điểm M: 2.00
+
+[67] Mention: "tỉnh lị"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190054278] tỉnh lị (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 11354  | WikiName: Tỉnh lỵ (Việt Nam)        | RealName: tỉnh lỵ              | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190054278 | WikiName: tỉnh lị                   | RealName: tỉnh lị              | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[68] Mention: "địa phận"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 190053592] địa phận (Importance Score: 0.30)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 14729406 | WikiName: Địa chính                 | RealName: địa chính            | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190053592 | WikiName: địa phận                  | RealName: địa phận             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[69] Mention: "huyện"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 40041] Huyện (Việt Nam) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 11353  | WikiName: Huyện                     | RealName: huyện                | Sig: 1     | Điểm M: 2.00
+        (2) ID: 40041  | WikiName: Huyện (Việt Nam)          | RealName: huyện                | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[70] Mention: "Thọ Xương"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 151863] Việt Nam (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 151863 | WikiName: Việt Nam                  | RealName: Việt Nam             | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 510247 | WikiName: Thọ Xương (huyện)         | RealName: Thọ Xương            | Sig: 1     | Điểm M: 2.17
+        (3) ID: 1253312 | WikiName: Thọ Xương (phường)        | RealName: Thọ Xương            | Sig: 1     | Điểm M: 2.08
+        (4) ID: 190023704 | WikiName: thọ xương                 | RealName: Thọ Xương            | Sig: 1     | Điểm M: 2.00
+
+[71] Mention: "Vĩnh Thuận"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: Np | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 93275] Vĩnh Thuận (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (9 Candidates):
+        (1) ID: 93275  | WikiName: Vĩnh Thuận                | RealName: Vĩnh Thuận           | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 235268 | WikiName: Vĩnh Thuận, Tương Tây     | RealName: Vĩnh Thuận, Tương Tây | Sig: 1     | Điểm M: 2.40
+        (3) ID: 456057 | WikiName: Vĩnh Thuận Đông           | RealName: Vĩnh Thuận Đông      | Sig: 1     | Điểm M: 2.40
+        (4) ID: 658391 | WikiName: Vĩnh Thuận Tây            | RealName: Vĩnh Thuận Tây       | Sig: 1     | Điểm M: 2.40
+        (5) ID: 1254283 | WikiName: Vĩnh Thuận, Vĩnh Hưng     | RealName: Vĩnh Thuận, Vĩnh Hưng | Sig: 1     | Điểm M: 2.40
+        (6) ID: 1254284 | WikiName: Vĩnh Thuận, Vĩnh Thạnh (Bình Định) | RealName: Vĩnh Thuận, Vĩnh Thạnh (Bình Định) | Sig: 1     | Điểm M: 2.40
+        (7) ID: 1254285 | WikiName: Vĩnh Thuận (thị trấn)     | RealName: Vĩnh Thuận           | Sig: 1     | Điểm M: 2.40
+        (8) ID: 1378124 | WikiName: Vĩnh Thuận (xã), Vĩnh Thuận | RealName: Vĩnh Thuận (xã), Vĩnh Thuận | Sig: 1     | Điểm M: 2.60
+        (9) ID: 3217420 | WikiName: Vĩnh Thuận (huyện cũ)     | RealName: Vĩnh Thuận           | Sig: 1     | Điểm M: 2.60
+
+[72] Mention: "huyện Thọ Xương"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N+Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 11353] Huyện (Importance Score: 0.00)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 11353  | WikiName: Huyện                     | RealName: huyện                | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 40041  | WikiName: Huyện (Việt Nam)          | RealName: huyện                | Sig: 1     | Điểm M: 0.00
+
+[73] Mention: "ký"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 147814] Ký (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 147814 | WikiName: Ký                        | RealName: ký                   | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 241065 | WikiName: Ký Châu                   | RealName: Ký Châu              | Sig: 1     | Điểm M: 1.75
+        (3) ID: 311002457 | WikiName: Ký                        | RealName: Ký                   | Sig: 1     | Điểm M: 1.00
+
+[74] Mention: "chỉ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: R | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3101] Chỉ (đơn vị đo) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 3101   | WikiName: Chỉ (đơn vị đo)           | RealName: chỉ                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 12992  | WikiName: Chỉ (Phật giáo)           | RealName: chỉ                  | Sig: 1     | Điểm M: 2.00
+        (3) ID: 25397  | WikiName: Chỉ                       | RealName: Chỉ                  | Sig: 1     | Điểm M: 1.03
+        (4) ID: 531997 | WikiName: Chỉ (thực vật)            | RealName: Chỉ                  | Sig: 1     | Điểm M: 1.00
+        (5) ID: 311001972 | WikiName: Chỉ                       | RealName: Chỉ                  | Sig: 1     | Điểm M: 1.00
+
+[75] Mention: "dụ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 190004965] dụ (Importance Score: 0.20)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 236530 | WikiName: Dụ (họ)                   | RealName: Dụ                   | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190004965 | WikiName: dụ                        | RealName: dụ                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[76] Mention: "Pháp"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 2860] Pháp (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 2860   | WikiName: Pháp                      | RealName: Pháp                 | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 10363  | WikiName: Pháp (tôn giáo)           | RealName: pháp                 | Sig: 1     | Điểm M: 0.00
+        (3) ID: 37851  | WikiName: Pháp gia                  | RealName: pháp gia             | Sig: 1     | Điểm M: 0.00
+        (4) ID: 39839  | WikiName: Luật pháp                 | RealName: luật pháp            | Sig: 1     | Điểm M: 0.00
+
+--------------------------------------------------------------------------------
+[2] TẬP UMCS (Unmatched Candidate Set - Các từ/cụm từ KHÔNG có trong CSDL)
+Tổng số mentions chưa nhận diện: 15
+--------------------------------------------------------------------------------
+Danh sách các từ/cụm từ quét được nhưng không có alias trong CSDL:
+    1. "•" (Số lần xuất hiện: 2)
+    2. "bình
+•" (Số lần xuất hiện: 1)
+    3. "hiến
+•" (Số lần xuất hiện: 1)
+    4. "kỳ
+•" (Số lần xuất hiện: 1)
+    5. "nước
+•" (Số lần xuất hiện: 1)
+    6. "người
+•" (Số lần xuất hiện: 1)
+    7. "nghề
+Thời" (Số lần xuất hiện: 1)
+    8. "Đông
+Hà" (Số lần xuất hiện: 1)
+    9. "3.359,82" (Số lần xuất hiện: 1)
+   10. "8,8" (Số lần xuất hiện: 1)
+   11. "---" (Số lần xuất hiện: 1)
+   12. "---
+Trước" (Số lần xuất hiện: 1)
+   13. "河內" (Số lần xuất hiện: 1)
+   14. "Toà" (Số lần xuất hiện: 1)
+
+--------------------------------------------------------------------------------
+[3] DANH SÁCH ENTITY2 ĐƯỢC CHỌN ĐỂ KẾT NỐI VỚI ENTITY1 [1 - Hà nội]
+--------------------------------------------------------------------------------
+  [1] EntityId: 48286  | WikiName: Thành phố                      | Số lần xuất hiện: 8
+  [2] EntityId: 190028978 | WikiName: vì                             | Số lần xuất hiện: 2
+  [3] EntityId: 362397 | WikiName: Nhật Bản                       | Số lần xuất hiện: 1
+  [4] EntityId: 418566 | WikiName: Thủ đô                         | Số lần xuất hiện: 2
+  [5] EntityId: 190013591 | WikiName: ngàn                           | Số lần xuất hiện: 1
+  [6] EntityId: 3370   | WikiName: Năm chí tuyến                  | Số lần xuất hiện: 3
+  [7] EntityId: 146620 | WikiName: Văn học                        | Số lần xuất hiện: 1
+  [8] EntityId: 2010   | WikiName: Người Tày                      | Số lần xuất hiện: 1
+  [9] EntityId: 2129   | WikiName: Người Việt                     | Số lần xuất hiện: 1
+  [10] EntityId: 43379  | WikiName: Tim                            | Số lần xuất hiện: 1
+  [11] EntityId: 190003779 | WikiName: của                            | Số lần xuất hiện: 12
+  [12] EntityId: 190001864 | WikiName: cả                             | Số lần xuất hiện: 2
+  [13] EntityId: 190011759 | WikiName: lương tri                      | Số lần xuất hiện: 1
+  [14] EntityId: 190028663 | WikiName: và                             | Số lần xuất hiện: 13
+  [15] EntityId: 190016822 | WikiName: phẩm giá                       | Số lần xuất hiện: 1
+  [16] EntityId: 2607423 | WikiName: Con gái                        | Số lần xuất hiện: 3
+  [17] EntityId: 1685   | WikiName: Sao Thổ                        | Số lần xuất hiện: 1
+  [18] EntityId: 190026192 | WikiName: trăm                           | Số lần xuất hiện: 1
+  [19] EntityId: 827910 | WikiName: Pháp thuộc                     | Số lần xuất hiện: 1
+  [20] EntityId: 19755994 | WikiName: Tiểu                           | Số lần xuất hiện: 1
+  [21] EntityId: 2584   | WikiName: Paris                          | Số lần xuất hiện: 1
+  [22] EntityId: 236840 | WikiName: Phương (họ)                    | Số lần xuất hiện: 1
+  [23] EntityId: 190015878 | WikiName: nội                            | Số lần xuất hiện: 1
+  [24] EntityId: 190009824 | WikiName: là                             | Số lần xuất hiện: 15
+  [25] EntityId: 151863 | WikiName: Việt Nam                       | Số lần xuất hiện: 7
+  [26] EntityId: 190004418 | WikiName: đây                            | Số lần xuất hiện: 2
+  [27] EntityId: 49882  | WikiName: Thành phố trực thuộc trung ương (Việt Nam) | Số lần xuất hiện: 2
+  [28] EntityId: 190011232 | WikiName: lớn                            | Số lần xuất hiện: 2
+  [29] EntityId: 3435   | WikiName: Thứ Hai                        | Số lần xuất hiện: 2
+  [30] EntityId: 190028943 | WikiName: về                             | Số lần xuất hiện: 2
+  [31] EntityId: 190018516 | WikiName: quy mô                         | Số lần xuất hiện: 1
+  [32] EntityId: 83049  | WikiName: Dân số                         | Số lần xuất hiện: 3
+  [33] EntityId: 190005076 | WikiName: được                           | Số lần xuất hiện: 7
+  [34] EntityId: 190029646 | WikiName: xếp                            | Số lần xuất hiện: 1
+  [35] EntityId: 190011070 | WikiName: loại                           | Số lần xuất hiện: 1
+  [36] EntityId: 39122  | WikiName: Đô thị                         | Số lần xuất hiện: 1
+  [37] EntityId: 190004035 | WikiName: đặc biệt                       | Số lần xuất hiện: 1
+  [38] EntityId: 190003430 | WikiName: có                             | Số lần xuất hiện: 10
+  [39] EntityId: 14945763 | WikiName: Vị trí (vector)                | Số lần xuất hiện: 2
+  [40] EntityId: 19815141 | WikiName: Văn Hòa                        | Số lần xuất hiện: 1
+  [41] EntityId: 43897  | WikiName: Chính trị                      | Số lần xuất hiện: 3
+  [42] EntityId: 49660  | WikiName: 1 (số)                         | Số lần xuất hiện: 5
+  [43] EntityId: 190027001 | WikiName: trong                          | Số lần xuất hiện: 5
+  [44] EntityId: 49659  | WikiName: 2 (số)                         | Số lần xuất hiện: 4
+  [45] EntityId: 64004  | WikiName: Kinh tế                        | Số lần xuất hiện: 2
+  [46] EntityId: 16203  | WikiName: Giáo dục                       | Số lần xuất hiện: 1
+  [47] EntityId: 190018042 | WikiName: quan trọng                     | Số lần xuất hiện: 2
+  [48] EntityId: 190020979 | WikiName: tại                            | Số lần xuất hiện: 2
+  [49] EntityId: 98     | WikiName: Việt Nam Cộng hòa              | Số lần xuất hiện: 3
+  [50] EntityId: 80     | WikiName: Hà Nội                         | Số lần xuất hiện: 9
+  [51] EntityId: 190013182 | WikiName: nằm                            | Số lần xuất hiện: 3
+  [52] EntityId: 66842  | WikiName: Hướng Tây Bắc                  | Số lần xuất hiện: 1
+  [53] EntityId: 3241993 | WikiName: Vùng                           | Số lần xuất hiện: 4
+  [54] EntityId: 4067   | WikiName: Đồng bằng sông Hồng            | Số lần xuất hiện: 1
+  [55] EntityId: 190029300 | WikiName: với                            | Số lần xuất hiện: 4
+  [56] EntityId: 213115 | WikiName: Địa hình                       | Số lần xuất hiện: 1
+  [57] EntityId: 190000964 | WikiName: bao gồm                        | Số lần xuất hiện: 1
+  [58] EntityId: 284884 | WikiName: Đồng bằng                      | Số lần xuất hiện: 1
+  [59] EntityId: 190054552 | WikiName: đồi núi                        | Số lần xuất hiện: 1
+  [60] EntityId: 190016389 | WikiName: ở                              | Số lần xuất hiện: 6
+  [61] EntityId: 60770  | WikiName: Hướng bắc                      | Số lần xuất hiện: 1
+  [62] EntityId: 60764  | WikiName: Hướng tây                      | Số lần xuất hiện: 1
+  [63] EntityId: 24152  | WikiName: Diện tích                      | Số lần xuất hiện: 2
+  [64] EntityId: 86038  | WikiName: Kilômét vuông                  | Số lần xuất hiện: 1
+  [65] EntityId: 19271132 | WikiName: Phép xấp xỉ                    | Số lần xuất hiện: 1
+  [66] EntityId: 32861  | WikiName: Nhà Triệu                      | Số lần xuất hiện: 1
+  [67] EntityId: 26207  | WikiName: Người Hà Nội                   | Số lần xuất hiện: 1
+  [68] EntityId: 3442   | WikiName: Thứ Sáu                        | Số lần xuất hiện: 1
+  [69] EntityId: 3798   | WikiName: Đồng (đơn vị tiền tệ)          | Số lần xuất hiện: 1
+  [70] EntityId: 190023772 | WikiName: thời                           | Số lần xuất hiện: 1
+  [71] EntityId: 190003838 | WikiName: cũng                           | Số lần xuất hiện: 5
+  [72] EntityId: 52157  | WikiName: Mùa đông                       | Số lần xuất hiện: 1
+  [73] EntityId: 63613  | WikiName: Lê Nghi Dân                    | Số lần xuất hiện: 1
+  [74] EntityId: 13085  | WikiName: Mật độ dân số                  | Số lần xuất hiện: 1
+  [75] EntityId: 235648 | WikiName: Cao                            | Số lần xuất hiện: 1
+  [76] EntityId: 190015101 | WikiName: nhất                           | Số lần xuất hiện: 1
+  [77] EntityId: 540916 | WikiName: 34                             | Số lần xuất hiện: 1
+  [78] EntityId: 15320347 | WikiName: Đơn vị hành chính              | Số lần xuất hiện: 2
+  [79] EntityId: 640407 | WikiName: Cấp (lý thuyết nhóm)           | Số lần xuất hiện: 1
+  [80] EntityId: 3350346 | WikiName: Tỉnh (Việt Nam)                | Số lần xuất hiện: 1
+  [81] EntityId: 190015645 | WikiName: nhưng                          | Số lần xuất hiện: 1
+  [82] EntityId: 190016866 | WikiName: phân bố                        | Số lần xuất hiện: 1
+  [83] EntityId: 240628 | WikiName: Không Đồng                     | Số lần xuất hiện: 1
+  [84] EntityId: 190004532 | WikiName: đều                            | Số lần xuất hiện: 2
+  [85] EntityId: 540842 | WikiName: 126                            | Số lần xuất hiện: 1
+  [86] EntityId: 19782454 | WikiName: Đơn vị hành chính cấp xã (Việt Nam) | Số lần xuất hiện: 1
+  [87] EntityId: 190006592 | WikiName: gồm                            | Số lần xuất hiện: 2
+  [88] EntityId: 540938 | WikiName: 51                             | Số lần xuất hiện: 1
+  [89] EntityId: 114098 | WikiName: Phường (Việt Nam)              | Số lần xuất hiện: 1
+  [90] EntityId: 540887 | WikiName: 75                             | Số lần xuất hiện: 1
+  [91] EntityId: 18004  | WikiName: Xã (Việt Nam)                  | Số lần xuất hiện: 1
+  [92] EntityId: 190003978 | WikiName: đã                             | Số lần xuất hiện: 2
+  [93] EntityId: 190020266 | WikiName: sớm                            | Số lần xuất hiện: 1
+  [94] EntityId: 190026897 | WikiName: trở thành                      | Số lần xuất hiện: 1
+  [95] EntityId: 4114   | WikiName: Văn hóa                        | Số lần xuất hiện: 2
+  [96] EntityId: 190013734 | WikiName: ngay                           | Số lần xuất hiện: 1
+  [97] EntityId: 801416 | WikiName: Từ (thể loại văn học)          | Số lần xuất hiện: 1
+  [98] EntityId: 190015646 | WikiName: những                          | Số lần xuất hiện: 2
+  [99] EntityId: 190001806 | WikiName: buổi                           | Số lần xuất hiện: 1
+  [100] EntityId: 543929 | WikiName: Đầu                            | Số lần xuất hiện: 1
+  [101] EntityId: 2128   | WikiName: Lịch sử Việt Nam               | Số lần xuất hiện: 1
+  [102] EntityId: 190028685 | WikiName: vai trò                        | Số lần xuất hiện: 1
+  [103] EntityId: 190015879 | WikiName: nơi                            | Số lần xuất hiện: 3
+  [104] EntityId: 190021741 | WikiName: tập trung                      | Số lần xuất hiện: 3
+  [105] EntityId: 190015318 | WikiName: nhiều                          | Số lần xuất hiện: 6
+  [106] EntityId: 19367293 | WikiName: Địa điểm                       | Số lần xuất hiện: 2
+  [107] EntityId: 57920  | WikiName: Giải trí                       | Số lần xuất hiện: 1
+  [108] EntityId: 190050097 | WikiName: công trình                     | Số lần xuất hiện: 1
+  [109] EntityId: 6835   | WikiName: Thể thao                       | Số lần xuất hiện: 2
+  [110] EntityId: 8476   | WikiName: Xuân Diệu                      | Số lần xuất hiện: 1
+  [111] EntityId: 190050086 | WikiName: đồng thời                      | Số lần xuất hiện: 2
+  [112] EntityId: 190050472 | WikiName: lựa chọn                       | Số lần xuất hiện: 1
+  [113] EntityId: 190004463 | WikiName: để                             | Số lần xuất hiện: 2
+  [114] EntityId: 511644 | WikiName: Tổ chức                        | Số lần xuất hiện: 2
+  [115] EntityId: 14501088 | WikiName: Sự kiện                        | Số lần xuất hiện: 1
+  [116] EntityId: 98438  | WikiName: Thế giới                       | Số lần xuất hiện: 1
+  [117] EntityId: 190050090 | WikiName: làng nghề                      | Số lần xuất hiện: 1
+  [118] EntityId: 190027641 | WikiName: truyền thống                   | Số lần xuất hiện: 1
+  [119] EntityId: 49658  | WikiName: 3 (số)                         | Số lần xuất hiện: 1
+  [120] EntityId: 190007531 | WikiName: hội                            | Số lần xuất hiện: 1
+  [121] EntityId: 407002 | WikiName: Lễ hội                         | Số lần xuất hiện: 1
+  [122] EntityId: 29685  | WikiName: Miền Bắc (Việt Nam)            | Số lần xuất hiện: 1
+  [123] EntityId: 48592  | WikiName: Chỉ số phát triển con người    | Số lần xuất hiện: 1
+  [124] EntityId: 190012993 | WikiName: mức                            | Số lần xuất hiện: 1
+  [125] EntityId: 6220   | WikiName: Cao Đài                        | Số lần xuất hiện: 1
+  [126] EntityId: 190053232 | WikiName: dẫn đầu                        | Số lần xuất hiện: 1
+  [127] EntityId: 54401  | WikiName: Số                             | Số lần xuất hiện: 1
+  [128] EntityId: 190001933 | WikiName: các                            | Số lần xuất hiện: 2
+  [129] EntityId: 287887 | WikiName: Nền (địa chất)                 | Số lần xuất hiện: 1
+  [130] EntityId: 472179 | WikiName: Ẩm thực                        | Số lần xuất hiện: 1
+  [131] EntityId: 190013499 | WikiName: nét                           | Số lần xuất hiện: 1
+  [132] EntityId: 190019038 | WikiName: riêng biệt                     | Số lần xuất hiện: 1
+  [133] EntityId: 190030155 | WikiName: yếu tố                         | Số lần xuất hiện: 1
+  [134] EntityId: 19847405 | WikiName: Thu hút khách du lịch          | Số lần xuất hiện: 1
+  [135] EntityId: 190025757 | WikiName: tới                            | Số lần xuất hiện: 1
+  [136] EntityId: 25518  | WikiName: Tổ chức Giáo dục, Khoa học và Văn hóa Liên Hợp Quốc | Số lần xuất hiện: 2
+  [137] EntityId: 190053238 | WikiName: trao tặng                      | Số lần xuất hiện: 1
+  [138] EntityId: 190004252 | WikiName: danh hiệu                      | Số lần xuất hiện: 1
+  [139] EntityId: 141061 | WikiName: Tương Dương (huyện)            | Số lần xuất hiện: 1
+  [140] EntityId: 190028902 | WikiName: vào                            | Số lần xuất hiện: 1
+  [141] EntityId: 384379 | WikiName: Ngày                           | Số lần xuất hiện: 1
+  [142] EntityId: 20402  | WikiName: 16 tháng 7                     | Số lần xuất hiện: 1
+  [143] EntityId: 63316  | WikiName: 1999                           | Số lần xuất hiện: 1
+  [144] EntityId: 108424 | WikiName: Khu (Trung Quốc)               | Số lần xuất hiện: 1
+  [145] EntityId: 15644  | WikiName: Hoàng thành Thăng Long         | Số lần xuất hiện: 3
+  [146] EntityId: 190003676 | WikiName: công nhận                      | Số lần xuất hiện: 1
+  [147] EntityId: 4563   | WikiName: Di sản thế giới                | Số lần xuất hiện: 1
+  [148] EntityId: 801987 | WikiName: Tên gọi                        | Số lần xuất hiện: 5
+  [149] EntityId: 190008833 | WikiName: khi                            | Số lần xuất hiện: 2
+  [150] EntityId: 190015555 | WikiName: như                            | Số lần xuất hiện: 1
+  [151] EntityId: 190007080 | WikiName: hiện nay                       | Số lần xuất hiện: 1
+  [152] EntityId: 190026175 | WikiName: trải qua                       | Số lần xuất hiện: 1
+  [153] EntityId: 190054692 | WikiName: khác nhau                      | Số lần xuất hiện: 1
+  [154] EntityId: 190001055 | WikiName: bắt đầu                        | Số lần xuất hiện: 1
+  [155] EntityId: 190005045 | WikiName: dùng                           | Số lần xuất hiện: 1
+  [156] EntityId: 190009967 | WikiName: làm                            | Số lần xuất hiện: 2
+  [157] EntityId: 190051411 | WikiName: địa danh                       | Số lần xuất hiện: 1
+  [158] EntityId: 5998   | WikiName: Từ học                         | Số lần xuất hiện: 1
+  [159] EntityId: 11667  | WikiName: Minh Mạng                      | Số lần xuất hiện: 1
+  [160] EntityId: 120175 | WikiName: Thứ (thực vật học)             | Số lần xuất hiện: 1
+  [161] EntityId: 107820 | WikiName: 1912                           | Số lần xuất hiện: 1
+  [162] EntityId: 392164 | WikiName: 1831                           | Số lần xuất hiện: 1
+  [163] EntityId: 18005  | WikiName: Tỉnh                           | Số lần xuất hiện: 3
+  [164] EntityId: 29106  | WikiName: Tên lửa                        | Số lần xuất hiện: 2
+  [165] EntityId: 29883  | WikiName: Hà Nội (tỉnh)                  | Số lần xuất hiện: 6
+  [166] EntityId: 1250170 | WikiName: Liên Sơn, Lương Sơn            | Số lần xuất hiện: 2
+  [167] EntityId: 55567  | WikiName: Bắc Thành                      | Số lần xuất hiện: 1
+  [168] EntityId: 131775 | WikiName: Chữ viết                       | Số lần xuất hiện: 1
+  [169] EntityId: 15491616 | WikiName: Giấy phép                      | Số lần xuất hiện: 1
+  [170] EntityId: 5331   | WikiName: Chữ Hán                        | Số lần xuất hiện: 1
+  [171] EntityId: 190013932 | WikiName: nghĩa là                       | Số lần xuất hiện: 1
+  [172] EntityId: 15028499 | WikiName: Bao (đơn vị)                   | Số lần xuất hiện: 1
+  [173] EntityId: 190018216 | WikiName: quanh                          | Số lần xuất hiện: 1
+  [174] EntityId: 190001620 | WikiName: bởi                            | Số lần xuất hiện: 1
+  [175] EntityId: 36771  | WikiName: Sông                           | Số lần xuất hiện: 2
+  [176] EntityId: 190016858 | WikiName: phản ánh                       | Số lần xuất hiện: 1
+  [177] EntityId: 1364   | WikiName: Địa lý                         | Số lần xuất hiện: 1
+  [178] EntityId: 190006470 | WikiName: giữa                           | Số lần xuất hiện: 1
+  [179] EntityId: 3243   | WikiName: Sông Hồng                      | Số lần xuất hiện: 1
+  [180] EntityId: 66843  | WikiName: Hướng Đông Bắc                 | Số lần xuất hiện: 1
+  [181] EntityId: 97972  | WikiName: Sông Đáy                       | Số lần xuất hiện: 1
+  [182] EntityId: 66845  | WikiName: Hướng Tây Nam                  | Số lần xuất hiện: 1
+  [183] EntityId: 49657  | WikiName: 4 (số)                         | Số lần xuất hiện: 1
+  [184] EntityId: 188827 | WikiName: Phủ (đơn vị hành chính)        | Số lần xuất hiện: 1
+  [185] EntityId: 95257  | WikiName: Hoài Đức                       | Số lần xuất hiện: 1
+  [186] EntityId: 90043  | WikiName: Thường Tín                     | Số lần xuất hiện: 1
+  [187] EntityId: 51013  | WikiName: Ứng Hòa                        | Số lần xuất hiện: 1
+  [188] EntityId: 15361  | WikiName: Lý Nhân                        | Số lần xuất hiện: 1
+  [189] EntityId: 812225 | WikiName: Lâu đài                        | Số lần xuất hiện: 1
+  [190] EntityId: 190004341 | WikiName: đặt                            | Số lần xuất hiện: 1
+  [191] EntityId: 3435962 | WikiName: Trị (nước)                     | Số lần xuất hiện: 1
+  [192] EntityId: 42363  | WikiName: Hồ Bắc                         | Số lần xuất hiện: 1
+  [193] EntityId: 807029 | WikiName: Lợi tức                        | Số lần xuất hiện: 1
+  [194] EntityId: 190054278 | WikiName: tỉnh lị                        | Số lần xuất hiện: 1
+  [195] EntityId: 190006582 | WikiName: gọi là                         | Số lần xuất hiện: 1
+  [196] EntityId: 190023133 | WikiName: theo                           | Số lần xuất hiện: 1
+  [197] EntityId: 190026596 | WikiName: trên                           | Số lần xuất hiện: 1
+  [198] EntityId: 190053592 | WikiName: địa phận                       | Số lần xuất hiện: 1
+  [199] EntityId: 40041  | WikiName: Huyện (Việt Nam)               | Số lần xuất hiện: 1
+  [200] EntityId: 93275  | WikiName: Vĩnh Thuận                     | Số lần xuất hiện: 3
+  [201] EntityId: 11353  | WikiName: Huyện                          | Số lần xuất hiện: 3
+  [202] EntityId: 190003836 | WikiName: cùng                           | Số lần xuất hiện: 1
+  [203] EntityId: 190024426 | WikiName: thuộc                          | Số lần xuất hiện: 1
+  [204] EntityId: 3217417 | WikiName: Hoài Đức (phủ)                 | Số lần xuất hiện: 1
+  [205] EntityId: 7105   | WikiName: Ngày Julius                    | Số lần xuất hiện: 1
+  [206] EntityId: 20554  | WikiName: 1 tháng 10                     | Số lần xuất hiện: 1
+  [207] EntityId: 204710 | WikiName: 1888                           | Số lần xuất hiện: 1
+  [208] EntityId: 41744  | WikiName: Đồng Khánh                     | Số lần xuất hiện: 1
+  [209] EntityId: 147814 | WikiName: Ký                             | Số lần xuất hiện: 1
+  [210] EntityId: 3101   | WikiName: Chỉ (đơn vị đo)                | Số lần xuất hiện: 1
+  [211] EntityId: 190004965 | WikiName: dụ                             | Số lần xuất hiện: 1
+  [212] EntityId: 190002443 | WikiName: cắt                            | Số lần xuất hiện: 1
+  [213] EntityId: 190025677 | WikiName: toàn bộ                        | Số lần xuất hiện: 1
+  [214] EntityId: 190016852 | WikiName: phần                           | Số lần xuất hiện: 1
+  [215] EntityId: 1301197 | WikiName: Nhượng địa                     | Số lần xuất hiện: 1
+  [216] EntityId: 190003114 | WikiName: cho                            | Số lần xuất hiện: 1
+  [217] EntityId: 2860   | WikiName: Pháp                           | Số lần xuất hiện: 2

@@ -1,0 +1,988 @@
+
+
+### [LINK #1] Công cụ quy đổi đơn vị đo lường vàng Online | Chỉ, lượng, gram, kg ###
+URL: https://www.tierra.vn/tin-tuc/bang-quy-doi-vang
+--------------------------------------------------------------------------------
+================================================================================
+KẾT QUẢ QUÉT TẬP MCS VÀ UMCS CỦA CÁC TỪ TRONG VĂN BẢN
+THỰC THỂ NGUỒN (Entity 1): [1] chỉ (đơn vị đo)
+BÀI VIẾT #1: Công cụ quy đổi đơn vị đo lường vàng Online | Chỉ, lượng, gram, kg
+URL: https://www.tierra.vn/tin-tuc/bang-quy-doi-vang
+THỜI GIAN QUÉT: 2026-10-17 15:36:34
+================================================================================
+
+--------------------------------------------------------------------------------
+[1] TẬP MCS (Chỉ hiển thị các Mentions có > 1 Candidate trong CSDL)
+Số lượng: 52 mentions
+--------------------------------------------------------------------------------
+[1] Mention: "Công cụ"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190053696] công cụ (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 453719 | WikiName: Dụng cụ                   | RealName: dụng cụ              | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190053696 | WikiName: công cụ                   | RealName: công cụ              | Sig: 1     | Điểm M: 1.00 [EREL CHỌN]
+
+[2] Mention: "quy"
+    - Số lần xuất hiện trong doc: 19
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 261733] Quy (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 261733 | WikiName: Quy                       | RealName: Quy                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 524246 | WikiName: Bộ Rùa                    | RealName: Bộ Rùa               | Sig: 1     | Điểm M: 1.00
+
+[3] Mention: "lường"
+    - Số lần xuất hiện trong doc: 4
+    - POS Tag: N | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 190011720] lường (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 19560015 | WikiName: Lường (họ)                | RealName: Lường                | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190011720 | WikiName: lường                     | RealName: lường                | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[4] Mention: "vàng"
+    - Số lần xuất hiện trong doc: 18
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 3118] Vàng (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 3118   | WikiName: Vàng                      | RealName: vàng                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 3880   | WikiName: Vàng (màu)                | RealName: vàng                 | Sig: 1     | Điểm M: 2.50
+        (3) ID: 4203   | WikiName: Vàng kim loại (màu)       | RealName: vàng kim loại        | Sig: 1     | Điểm M: 2.33
+        (4) ID: 19850812 | WikiName: Huy chương vàng           | RealName: huy chương vàng      | Sig: 1     | Điểm M: 2.17
+
+[5] Mention: "Phân"
+    - Số lần xuất hiện trong doc: 7
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 99561] Phân bón (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 32131  | WikiName: Phân                      | RealName: phân                 | Sig: 1     | Điểm M: 1.50
+        (2) ID: 99561  | WikiName: Phân bón                  | RealName: phân bón             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[6] Mention: "Chỉ"
+    - Số lần xuất hiện trong doc: 12
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 25397] Chỉ (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 3101   | WikiName: Chỉ (đơn vị đo)           | RealName: chỉ                  | Sig: 1     | Điểm M: 2.00
+        (2) ID: 12992  | WikiName: Chỉ (Phật giáo)           | RealName: chỉ                  | Sig: 1     | Điểm M: 1.00
+        (3) ID: 25397  | WikiName: Chỉ                       | RealName: Chỉ                  | Sig: 1     | Điểm M: 2.06 [EREL CHỌN]
+        (4) ID: 531997 | WikiName: Chỉ (thực vật)            | RealName: Chỉ                  | Sig: 1     | Điểm M: 2.00
+
+[7] Mention: "Lượng"
+    - Số lần xuất hiện trong doc: 8
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2927] Lượng (kim hoàn) (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 2927   | WikiName: Lượng (kim hoàn)          | RealName: lượng                | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 620886 | WikiName: Lượng                     | RealName: Lượng                | Sig: 1     | Điểm M: 2.00
+
+[8] Mention: "Cây"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2927] Lượng (kim hoàn) (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 2927   | WikiName: Lượng (kim hoàn)          | RealName: lượng                | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 54438  | WikiName: Cây (lý thuyết đồ thị)    | RealName: cây                  | Sig: 1     | Điểm M: 1.50
+        (3) ID: 96391  | WikiName: Cây (cấu trúc dữ liệu)    | RealName: cây                  | Sig: 1     | Điểm M: 1.50
+        (4) ID: 147089 | WikiName: Thực vật có mạch          | RealName: Thực vật có mạch     | Sig: 1     | Điểm M: 2.00
+        (5) ID: 362423 | WikiName: Kilômét                   | RealName: kilômét              | Sig: 1     | Điểm M: 1.00
+        (6) ID: 384352 | WikiName: Cây                       | RealName: cây                  | Sig: 1     | Điểm M: 1.00
+
+[9] Mention: "Gam"
+    - Số lần xuất hiện trong doc: 6
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2656] Gam (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 2656   | WikiName: Gam                       | RealName: gam                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 828015 | WikiName: Âm giai                   | RealName: âm giai              | Sig: 1     | Điểm M: 1.00
+
+[10] Mention: "ĐƠN VỊ"
+    - Số lần xuất hiện trong doc: 12
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3270] Đơn vị đo (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3270   | WikiName: Đơn vị đo                 | RealName: Đơn vị đo            | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 190004874 | WikiName: đơn vị                    | RealName: đơn vị               | Sig: 1     | Điểm M: 0.00
+
+[11] Mention: "giá trị"
+    - Số lần xuất hiện trong doc: 7
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 151639] Giá trị (kinh tế học) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 151455 | WikiName: Giá trị                   | RealName: Giá trị              | Sig: 1     | Điểm M: 2.00
+        (2) ID: 151639 | WikiName: Giá trị (kinh tế học)     | RealName: giá trị              | Sig: 1     | Điểm M: 2.50 [EREL CHỌN]
+        (3) ID: 14398214 | WikiName: Giá trị quan              | RealName: giá trị quan         | Sig: 1     | Điểm M: 2.50
+
+[12] Mention: "ra"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: R | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 43966] Ra (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 8360   | WikiName: Xích kinh                 | RealName: xích kinh            | Sig: 1     | Điểm M: 2.00
+        (2) ID: 43966  | WikiName: Ra                        | RealName: Ra                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 797485 | WikiName: Ra (tỉnh)                 | RealName: Ra                   | Sig: 1     | Điểm M: 1.00
+
+[13] Mention: "mục đích"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190012995] mục đích (Importance Score: 0.65)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3270067 | WikiName: Mục đích cuối cùng        | RealName: Mục đích cuối cùng   | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190012995 | WikiName: mục đích                  | RealName: mục đích             | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[14] Mention: "thực hiện"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190024328] thực hiện (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 16384421 | WikiName: Triển khai                | RealName: triển khai           | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190024328 | WikiName: thực hiện                 | RealName: thực hiện            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[15] Mention: "Bạn"
+    - Số lần xuất hiện trong doc: 6
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 190000747] bạn (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190695 | WikiName: Tình bạn                  | RealName: tình bạn             | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190000747 | WikiName: bạn                       | RealName: bạn                  | Sig: 1     | Điểm M: 1.00 [EREL CHỌN]
+
+[16] Mention: "câu"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 520529] Câu (hành động) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 520529 | WikiName: Câu (hành động)           | RealName: câu                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 2352576 | WikiName: Câu (ngữ pháp)            | RealName: Câu                  | Sig: 1     | Điểm M: 1.00
+        (3) ID: 190002494 | WikiName: câu                       | RealName: câu                  | Sig: 1     | Điểm M: 2.00
+
+[17] Mention: "1"
+    - Số lần xuất hiện trong doc: 13
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49660] 1 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 2230   | WikiName: Hydro                     | RealName: hydro                | Sig: 1     | Điểm M: 2.00
+        (2) ID: 49660  | WikiName: 1 (số)                    | RealName: 1                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 494583 | WikiName: 1                         | RealName: 1                    | Sig: 1     | Điểm M: 2.40
+        (4) ID: 541091 | WikiName: 1 TCN                     | RealName: 1 TCN                | Sig: 1     | Điểm M: 1.00
+        (5) ID: 1239082 | WikiName: 1 (album của The Beatles) | RealName: 1                    | Sig: 1     | Điểm M: 2.00
+
+[18] Mention: "bằng"
+    - Số lần xuất hiện trong doc: 5
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19495589] Bằng (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 15491616 | WikiName: Giấy phép                 | RealName: giấy phép            | Sig: 1     | Điểm M: 2.00
+        (2) ID: 19495589 | WikiName: Bằng                      | RealName: bằng                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[19] Mention: "2"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49659] 2 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 49659  | WikiName: 2 (số)                    | RealName: 2                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 541001 | WikiName: 2                         | RealName: 2                    | Sig: 1     | Điểm M: 2.33
+        (3) ID: 541099 | WikiName: 2 TCN                     | RealName: 2 TCN                | Sig: 1     | Điểm M: 1.00
+
+[20] Mention: "ký"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: Nu | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 147814] Ký (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 147814 | WikiName: Ký                        | RealName: ký                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 241065 | WikiName: Ký Châu                   | RealName: Ký Châu              | Sig: 1     | Điểm M: 1.00
+
+[21] Mention: "một"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49660] 1 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 49660  | WikiName: 1 (số)                    | RealName: 1                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 190012909 | WikiName: một                       | RealName: một                  | Sig: 1     | Điểm M: 2.00
+
+[22] Mention: "không"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: R | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 494403] 0 (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 35669  | WikiName: 0 (số)                    | RealName: 0                    | Sig: 1     | Điểm M: 2.23
+        (2) ID: 494403 | WikiName: 0                         | RealName: 0                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 19659948 | WikiName: Không (bài hát)           | RealName: Không                | Sig: 1     | Điểm M: 1.00
+        (4) ID: 19688828 | WikiName: Không (phim)              | RealName: không                | Sig: 1     | Điểm M: 2.00
+        (5) ID: 190009227 | WikiName: không                     | RealName: không                | Sig: 1     | Điểm M: 2.00
+
+[23] Mention: "Bảng"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19568325] Table (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 19568325 | WikiName: Table                     | RealName: Table                | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 19583120 | WikiName: Bảng (thông tin)          | RealName: bảng                 | Sig: 1     | Điểm M: 1.00
+        (3) ID: 190000861 | WikiName: bảng                      | RealName: bảng                 | Sig: 1     | Điểm M: 1.00
+
+[24] Mention: "công cụ này"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+P | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 453719] Dụng cụ (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 453719 | WikiName: Dụng cụ                   | RealName: dụng cụ              | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 190053696 | WikiName: công cụ                   | RealName: công cụ              | Sig: 1     | Điểm M: 0.00
+
+[25] Mention: "thập phân"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190022878] thập phân (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 44303  | WikiName: Hệ thập phân              | RealName: hệ thập phân         | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190022878 | WikiName: thập phân                 | RealName: thập phân            | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[26] Mention: "thời gian"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2563] Thời gian (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 2563   | WikiName: Thời gian                 | RealName: thời gian            | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 444978 | WikiName: Thời gian (album của Microwave) | RealName: Thời gian            | Sig: 1     | Điểm M: 1.00
+        (3) ID: 14669608 | WikiName: Mỹ Linh Tour 2018 – Thời gian | RealName: Mỹ Linh Tour 2018 – Thời gian | Sig: 1     | Điểm M: 1.00
+
+[27] Mention: "giao dịch"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 61887] Giao dịch tài chính (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 5938   | WikiName: Giao dịch                 | RealName: Giao dịch            | Sig: 1     | Điểm M: 1.00
+        (2) ID: 5939   | WikiName: Giao dịch cơ sở dữ liệu   | RealName: Giao dịch cơ sở dữ liệu | Sig: 1     | Điểm M: 1.00
+        (3) ID: 61887  | WikiName: Giao dịch tài chính       | RealName: giao dịch tài chính  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[28] Mention: "📌"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: CH | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 39516] Mèo (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (129 Candidates):
+        (1) ID: 5969   | WikiName: Hổ                        | RealName: hổ                   | Sig: 1     | Điểm M: 2.00
+        (2) ID: 7340   | WikiName: Cá mập                    | RealName: cá mập               | Sig: 1     | Điểm M: 2.09
+        (3) ID: 9877   | WikiName: Chim                      | RealName: chim                 | Sig: 1     | Điểm M: 2.45
+        (4) ID: 10417  | WikiName: Truyền hình               | RealName: truyền hình          | Sig: 1     | Điểm M: 2.00
+        (5) ID: 10870  | WikiName: Cá sấu                    | RealName: cá sấu               | Sig: 1     | Điểm M: 2.00
+        (6) ID: 11827  | WikiName: Kiến                      | RealName: kiến                 | Sig: 1     | Điểm M: 2.00
+        (7) ID: 12138  | WikiName: Hamburger                 | RealName: hamburger            | Sig: 1     | Điểm M: 2.00
+        (8) ID: 18329  | WikiName: Khỉ                       | RealName: khỉ                  | Sig: 1     | Điểm M: 2.00
+        (9) ID: 25177  | WikiName: Tê giác                   | RealName: tê giác              | Sig: 1     | Điểm M: 2.00
+        (10) ID: 26131  | WikiName: Koala                     | RealName: Koala                | Sig: 1     | Điểm M: 1.00
+        (11) ID: 28210  | WikiName: Dương cầm                 | RealName: dương cầm            | Sig: 1     | Điểm M: 2.00
+        (12) ID: 30817  | WikiName: Chó                       | RealName: chó                  | Sig: 1     | Điểm M: 2.27
+        (13) ID: 33585  | WikiName: Pizza                     | RealName: pizza                | Sig: 1     | Điểm M: 2.00
+        (14) ID: 35512  | WikiName: Dừa                       | RealName: dừa                  | Sig: 1     | Điểm M: 2.00
+        (15) ID: 36956  | WikiName: Cá                        | RealName: cá                   | Sig: 1     | Điểm M: 2.55
+        (16) ID: 39516  | WikiName: Mèo                       | RealName: mèo                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (17) ID: 41691  | WikiName: Chim cánh cụt             | RealName: chim cánh cụt        | Sig: 1     | Điểm M: 2.00
+        (18) ID: 42871  | WikiName: Trâu                      | RealName: trâu                 | Sig: 1     | Điểm M: 2.09
+        (19) ID: 44299  | WikiName: Voi                       | RealName: voi                  | Sig: 1     | Điểm M: 2.00
+        (20) ID: 45078  | WikiName: Chi Lợn                   | RealName: Chi Lợn              | Sig: 1     | Điểm M: 1.18
+        (21) ID: 59875  | WikiName: Nho                       | RealName: nho                  | Sig: 1     | Điểm M: 2.00
+        (22) ID: 61202  | WikiName: Phân thứ bộ Cua           | RealName: Phân thứ bộ Cua      | Sig: 1     | Điểm M: 1.00
+        (23) ID: 61276  | WikiName: Tôm                       | RealName: tôm                  | Sig: 1     | Điểm M: 2.00
+        (24) ID: 61394  | WikiName: Bọ cạp                    | RealName: bọ cạp               | Sig: 1     | Điểm M: 2.00
+        (25) ID: 61408  | WikiName: Nhện                      | RealName: nhện                 | Sig: 1     | Điểm M: 2.09
+        (26) ID: 61599  | WikiName: Rắn                       | RealName: rắn                  | Sig: 1     | Điểm M: 2.00
+        (27) ID: 62109  | WikiName: Bạch tuộc                 | RealName: bạch tuộc            | Sig: 1     | Điểm M: 2.00
+        (28) ID: 79008  | WikiName: Thỏ                       | RealName: thỏ                  | Sig: 1     | Điểm M: 2.00
+        (29) ID: 80952  | WikiName: Moai                      | RealName: moai                 | Sig: 1     | Điểm M: 2.00
+        (30) ID: 87825  | WikiName: Dưa hấu                   | RealName: dưa hấu              | Sig: 1     | Điểm M: 2.00
+        (31) ID: 103065 | WikiName: Kíp Lào                   | RealName: Kíp Lào              | Sig: 1     | Điểm M: 1.00
+        (32) ID: 103202 | WikiName: Riel Campuchia            | RealName: Riel Campuchia       | Sig: 1     | Điểm M: 1.09
+        (33) ID: 103359 | WikiName: Peso Philippines          | RealName: Peso Philippines     | Sig: 1     | Điểm M: 1.00
+        (34) ID: 111446 | WikiName: Chi Gà tây                | RealName: Chi Gà tây           | Sig: 1     | Điểm M: 1.00
+        (35) ID: 121443 | WikiName: Vịt                       | RealName: vịt                  | Sig: 1     | Điểm M: 2.00
+        (36) ID: 122661 | WikiName: Dâu tây                   | RealName: dâu tây              | Sig: 1     | Điểm M: 2.00
+        (37) ID: 123707 | WikiName: Gà                        | RealName: gà                   | Sig: 1     | Điểm M: 2.36
+        (38) ID: 146082 | WikiName: SOS                       | RealName: SOS                  | Sig: 1     | Điểm M: 1.00
+        (39) ID: 172661 | WikiName: Bọ rùa                    | RealName: bọ rùa               | Sig: 1     | Điểm M: 2.00
+        (40) ID: 188994 | WikiName: Pháo hoa                  | RealName: pháo hoa             | Sig: 1     | Điểm M: 2.00
+        (41) ID: 194145 | WikiName: Bộ Dơi                    | RealName: Bộ Dơi               | Sig: 1     | Điểm M: 1.09
+        (42) ID: 223181 | WikiName: Anh đào                   | RealName: anh đào              | Sig: 1     | Điểm M: 2.00
+        (43) ID: 270495 | WikiName: Rúp Nga                   | RealName: Rúp Nga              | Sig: 1     | Điểm M: 1.00
+        (44) ID: 292053 | WikiName: Khỉ đột                   | RealName: khỉ đột              | Sig: 1     | Điểm M: 2.00
+        (45) ID: 304512 | WikiName: Dê                        | RealName: dê                   | Sig: 1     | Điểm M: 2.00
+        (46) ID: 306929 | WikiName: Bộ Cú                     | RealName: Bộ Cú                | Sig: 1     | Điểm M: 1.00
+        (47) ID: 316868 | WikiName: Ngựa                      | RealName: ngựa                 | Sig: 1     | Điểm M: 2.00
+        (48) ID: 332172 | WikiName: Bơi                       | RealName: bơi                  | Sig: 1     | Điểm M: 2.00
+        (49) ID: 396186 | WikiName: Lợn rừng                  | RealName: lợn rừng             | Sig: 1     | Điểm M: 2.00
+        (50) ID: 438360 | WikiName: Đại bàng                  | RealName: Đại bàng             | Sig: 1     | Điểm M: 1.00
+        (51) ID: 479571 | WikiName: Khủng long chân thằn lằn  | RealName: khủng long chân thằn lằn | Sig: 1     | Điểm M: 2.00
+        (52) ID: 494952 | WikiName: Dứa                       | RealName: dứa                  | Sig: 1     | Điểm M: 2.09
+        (53) ID: 524246 | WikiName: Bộ Rùa                    | RealName: Bộ Rùa               | Sig: 1     | Điểm M: 1.00
+        (54) ID: 525201 | WikiName: Cá heo                    | RealName: Cá heo               | Sig: 1     | Điểm M: 1.00
+        (55) ID: 579267 | WikiName: Kéo                       | RealName: kéo                  | Sig: 1     | Điểm M: 2.00
+        (56) ID: 795809 | WikiName: Lê (thực vật)             | RealName: lê                   | Sig: 1     | Điểm M: 2.00
+        (57) ID: 796790 | WikiName: Cá voi                    | RealName: Cá voi               | Sig: 1     | Điểm M: 1.18
+        (58) ID: 991692 | WikiName: Thằn lằn                  | RealName: thằn lằn             | Sig: 1     | Điểm M: 2.00
+        (59) ID: 1133459 | WikiName: Ong mật                   | RealName: ong mật              | Sig: 1     | Điểm M: 2.00
+        (60) ID: 1296739 | WikiName: Drachma                   | RealName: Drachma              | Sig: 1     | Điểm M: 1.00
+        (61) ID: 1739018 | WikiName: Rồng Trung Hoa            | RealName: Rồng Trung Hoa       | Sig: 1     | Điểm M: 1.18
+        (62) ID: 1745367 | WikiName: Bitcoin                   | RealName: Bitcoin              | Sig: 1     | Điểm M: 1.00
+        (63) ID: 2991862 | WikiName: Cá nhiệt đới              | RealName: Cá nhiệt đới         | Sig: 1     | Điểm M: 1.00
+        (64) ID: 3127981 | WikiName: Chó săn vịt               | RealName: Chó săn vịt          | Sig: 1     | Điểm M: 1.00
+        (65) ID: 3264469 | WikiName: Manat Azerbaijan          | RealName: Manat Azerbaijan     | Sig: 1     | Điểm M: 1.00
+        (66) ID: 3374832 | WikiName: Rupee                     | RealName: Rupee                | Sig: 1     | Điểm M: 1.00
+        (67) ID: 14521767 | WikiName: San (chữ cái)             | RealName: San                  | Sig: 1     | Điểm M: 1.00
+        (68) ID: 14521780 | WikiName: Koppa (chữ cái)           | RealName: koppa                | Sig: 1     | Điểm M: 2.00
+        (69) ID: 14628318 | WikiName: Ꞗ                         | RealName: Ꞗ                    | Sig: 1     | Điểm M: 1.00
+        (70) ID: 19220612 | WikiName: Bộ Quy (龜)                | RealName: Bộ Quy               | Sig: 1     | Điểm M: 1.00
+        (71) ID: 19526679 | WikiName: Người tuyết               | RealName: người tuyết          | Sig: 1     | Điểm M: 2.00
+        (72) ID: 19715769 | WikiName: Bánh bơ giòn              | RealName: bánh bơ giòn         | Sig: 1     | Điểm M: 2.00
+        (73) ID: 19790245 | WikiName: ꙮ                         | RealName: ꙮ                    | Sig: 1     | Điểm M: 2.00
+        (74) ID: 19805221 | WikiName: Lari Gruzia               | RealName: Lari Gruzia          | Sig: 1     | Điểm M: 1.00
+        (75) ID: 19812682 | WikiName: Ꙉ                         | RealName: Ꙉ                    | Sig: 1     | Điểm M: 1.00
+        (76) ID: 19813603 | WikiName: Ꙟ                         | RealName: Ꙟ                    | Sig: 1     | Điểm M: 1.00
+        (77) ID: 19814697 | WikiName: Ԙ                         | RealName: Ԙ                    | Sig: 1     | Điểm M: 1.00
+        (78) ID: 19814728 | WikiName: Ԝ                         | RealName: Ԝ                    | Sig: 1     | Điểm M: 1.00
+        (79) ID: 19814916 | WikiName: Ԅ                         | RealName: Ԅ                    | Sig: 1     | Điểm M: 1.00
+        (80) ID: 19815206 | WikiName: Ꚙ                         | RealName: Ꚙ                    | Sig: 1     | Điểm M: 1.00
+        (81) ID: 19815645 | WikiName: Ԑ                         | RealName: Ԑ                    | Sig: 1     | Điểm M: 1.00
+        (82) ID: 19815724 | WikiName: Ӕ                         | RealName: Ӕ                    | Sig: 1     | Điểm M: 1.00
+        (83) ID: 19815742 | WikiName: Ꙇ                         | RealName: Ꙇ                    | Sig: 1     | Điểm M: 1.00
+        (84) ID: 19816408 | WikiName: Ԭ                         | RealName: Ԭ                    | Sig: 1     | Điểm M: 1.00
+        (85) ID: 19816670 | WikiName: Ꚛ                         | RealName: Ꚛ                    | Sig: 1     | Điểm M: 1.00
+        (86) ID: 19816983 | WikiName: Ԁ                         | RealName: Ԁ                    | Sig: 1     | Điểm M: 1.00
+        (87) ID: 19817017 | WikiName: Ԃ                         | RealName: Ԃ                    | Sig: 1     | Điểm M: 1.00
+        (88) ID: 19817509 | WikiName: Ԇ                         | RealName: Ԇ                    | Sig: 1     | Điểm M: 1.00
+        (89) ID: 19817511 | WikiName: Ԏ                         | RealName: Ԏ                    | Sig: 1     | Điểm M: 1.00
+        (90) ID: 19817512 | WikiName: Ԍ                         | RealName: Ԍ                    | Sig: 1     | Điểm M: 1.00
+        (91) ID: 19817931 | WikiName: Ԉ                         | RealName: Ԉ                    | Sig: 1     | Điểm M: 1.00
+        (92) ID: 19819567 | WikiName: Ԯ                         | RealName: Ԯ                    | Sig: 1     | Điểm M: 1.00
+        (93) ID: 19819571 | WikiName: Ꚓ                         | RealName: Ꚓ                    | Sig: 1     | Điểm M: 1.00
+        (94) ID: 19819577 | WikiName: Ꚍ                         | RealName: Ꚍ                    | Sig: 1     | Điểm M: 1.00
+        (95) ID: 19820581 | WikiName: Ԋ                         | RealName: Ԋ                    | Sig: 1     | Điểm M: 1.00
+        (96) ID: 19823323 | WikiName: Ԕ                         | RealName: Ԕ                    | Sig: 1     | Điểm M: 1.00
+        (97) ID: 19826433 | WikiName: Ӵ                         | RealName: Ӵ                    | Sig: 1     | Điểm M: 1.00
+        (98) ID: 19855291 | WikiName: Ө                         | RealName: Ө                    | Sig: 1     | Điểm M: 1.00
+        (99) ID: 19855470 | WikiName: Ꚅ                         | RealName: Ꚅ                    | Sig: 1     | Điểm M: 1.00
+        (100) ID: 19856024 | WikiName: ა                         | RealName: ა                    | Sig: 1     | Điểm M: 2.00
+        (101) ID: 19856033 | WikiName: ბ                         | RealName: ბ                    | Sig: 1     | Điểm M: 2.00
+        (102) ID: 19856042 | WikiName: გ                         | RealName: გ                    | Sig: 1     | Điểm M: 2.00
+        (103) ID: 19856050 | WikiName: დ                         | RealName: დ                    | Sig: 1     | Điểm M: 2.00
+        (104) ID: 19856061 | WikiName: ე                         | RealName: ე                    | Sig: 1     | Điểm M: 2.00
+        (105) ID: 19856139 | WikiName: ვ                         | RealName: ვ                    | Sig: 1     | Điểm M: 2.00
+        (106) ID: 19856143 | WikiName: ზ                         | RealName: ზ                    | Sig: 1     | Điểm M: 2.00
+        (107) ID: 19856158 | WikiName: თ                         | RealName: თ                    | Sig: 1     | Điểm M: 2.00
+        (108) ID: 19856167 | WikiName: ი                         | RealName: ი                    | Sig: 1     | Điểm M: 2.00
+        (109) ID: 19856240 | WikiName: კ                         | RealName: კ                    | Sig: 1     | Điểm M: 2.00
+        (110) ID: 19856246 | WikiName: ლ                         | RealName: ლ                    | Sig: 1     | Điểm M: 2.00
+        (111) ID: 19856302 | WikiName: მ                         | RealName: მ                    | Sig: 1     | Điểm M: 2.00
+        (112) ID: 19856315 | WikiName: ნ                         | RealName: ნ                    | Sig: 1     | Điểm M: 2.00
+        (113) ID: 19856437 | WikiName: ჲ                         | RealName: ჲ                    | Sig: 1     | Điểm M: 2.00
+        (114) ID: 19856453 | WikiName: ო                         | RealName: ო                    | Sig: 1     | Điểm M: 2.00
+        (115) ID: 19856684 | WikiName: პ                         | RealName: პ                    | Sig: 1     | Điểm M: 2.00
+        (116) ID: 19856707 | WikiName: ჟ                         | RealName: ჟ                    | Sig: 1     | Điểm M: 2.00
+        (117) ID: 19856712 | WikiName: რ                         | RealName: რ                    | Sig: 1     | Điểm M: 2.00
+        (118) ID: 19857012 | WikiName: ს                         | RealName: ს                    | Sig: 1     | Điểm M: 2.00
+        (119) ID: 19857017 | WikiName: ტ                         | RealName: ტ                    | Sig: 1     | Điểm M: 2.00
+        (120) ID: 19857021 | WikiName: ჳ                         | RealName: ჳ                    | Sig: 1     | Điểm M: 2.00
+        (121) ID: 19857025 | WikiName: ჱ                         | RealName: ჱ                    | Sig: 1     | Điểm M: 2.00
+        (122) ID: 19857173 | WikiName: უ                         | RealName: უ                    | Sig: 1     | Điểm M: 2.00
+        (123) ID: 19857178 | WikiName: ფ                         | RealName: ფ                    | Sig: 1     | Điểm M: 2.00
+        (124) ID: 19857182 | WikiName: ქ                         | RealName: ქ                    | Sig: 1     | Điểm M: 2.00
+        (125) ID: 19857395 | WikiName: ღ                         | RealName: ღ                    | Sig: 1     | Điểm M: 2.00
+        (126) ID: 19857400 | WikiName: ყ                         | RealName: ყ                    | Sig: 1     | Điểm M: 2.00
+        (127) ID: 19857405 | WikiName: შ                         | RealName: შ                    | Sig: 1     | Điểm M: 2.00
+        (128) ID: 19857547 | WikiName: ჩ                         | RealName: ჩ                    | Sig: 1     | Điểm M: 2.00
+        (129) ID: 19857555 | WikiName: ც                         | RealName: ც                    | Sig: 1     | Điểm M: 2.00
+
+[29] Mention: "ô"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 29552] Trầu không (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 11505  | WikiName: Ô                         | RealName: Ô                    | Sig: 1     | Điểm M: 1.00
+        (2) ID: 29552  | WikiName: Trầu không                | RealName: trầu không           | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 982845 | WikiName: Ô (vật dụng)              | RealName: ô                    | Sig: 1     | Điểm M: 2.00
+
+[30] Mention: "⚠️"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: CH | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 39516] Mèo (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (129 Candidates):
+        (1) ID: 5969   | WikiName: Hổ                        | RealName: hổ                   | Sig: 1     | Điểm M: 2.00
+        (2) ID: 7340   | WikiName: Cá mập                    | RealName: cá mập               | Sig: 1     | Điểm M: 2.09
+        (3) ID: 9877   | WikiName: Chim                      | RealName: chim                 | Sig: 1     | Điểm M: 2.45
+        (4) ID: 10417  | WikiName: Truyền hình               | RealName: truyền hình          | Sig: 1     | Điểm M: 2.00
+        (5) ID: 10870  | WikiName: Cá sấu                    | RealName: cá sấu               | Sig: 1     | Điểm M: 2.00
+        (6) ID: 11827  | WikiName: Kiến                      | RealName: kiến                 | Sig: 1     | Điểm M: 2.00
+        (7) ID: 12138  | WikiName: Hamburger                 | RealName: hamburger            | Sig: 1     | Điểm M: 2.00
+        (8) ID: 18329  | WikiName: Khỉ                       | RealName: khỉ                  | Sig: 1     | Điểm M: 2.00
+        (9) ID: 25177  | WikiName: Tê giác                   | RealName: tê giác              | Sig: 1     | Điểm M: 2.00
+        (10) ID: 26131  | WikiName: Koala                     | RealName: Koala                | Sig: 1     | Điểm M: 1.00
+        (11) ID: 28210  | WikiName: Dương cầm                 | RealName: dương cầm            | Sig: 1     | Điểm M: 2.00
+        (12) ID: 30817  | WikiName: Chó                       | RealName: chó                  | Sig: 1     | Điểm M: 2.27
+        (13) ID: 33585  | WikiName: Pizza                     | RealName: pizza                | Sig: 1     | Điểm M: 2.00
+        (14) ID: 35512  | WikiName: Dừa                       | RealName: dừa                  | Sig: 1     | Điểm M: 2.00
+        (15) ID: 36956  | WikiName: Cá                        | RealName: cá                   | Sig: 1     | Điểm M: 2.55
+        (16) ID: 39516  | WikiName: Mèo                       | RealName: mèo                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (17) ID: 41691  | WikiName: Chim cánh cụt             | RealName: chim cánh cụt        | Sig: 1     | Điểm M: 2.00
+        (18) ID: 42871  | WikiName: Trâu                      | RealName: trâu                 | Sig: 1     | Điểm M: 2.09
+        (19) ID: 44299  | WikiName: Voi                       | RealName: voi                  | Sig: 1     | Điểm M: 2.00
+        (20) ID: 45078  | WikiName: Chi Lợn                   | RealName: Chi Lợn              | Sig: 1     | Điểm M: 1.18
+        (21) ID: 59875  | WikiName: Nho                       | RealName: nho                  | Sig: 1     | Điểm M: 2.00
+        (22) ID: 61202  | WikiName: Phân thứ bộ Cua           | RealName: Phân thứ bộ Cua      | Sig: 1     | Điểm M: 1.00
+        (23) ID: 61276  | WikiName: Tôm                       | RealName: tôm                  | Sig: 1     | Điểm M: 2.00
+        (24) ID: 61394  | WikiName: Bọ cạp                    | RealName: bọ cạp               | Sig: 1     | Điểm M: 2.00
+        (25) ID: 61408  | WikiName: Nhện                      | RealName: nhện                 | Sig: 1     | Điểm M: 2.09
+        (26) ID: 61599  | WikiName: Rắn                       | RealName: rắn                  | Sig: 1     | Điểm M: 2.00
+        (27) ID: 62109  | WikiName: Bạch tuộc                 | RealName: bạch tuộc            | Sig: 1     | Điểm M: 2.00
+        (28) ID: 79008  | WikiName: Thỏ                       | RealName: thỏ                  | Sig: 1     | Điểm M: 2.00
+        (29) ID: 80952  | WikiName: Moai                      | RealName: moai                 | Sig: 1     | Điểm M: 2.00
+        (30) ID: 87825  | WikiName: Dưa hấu                   | RealName: dưa hấu              | Sig: 1     | Điểm M: 2.00
+        (31) ID: 103065 | WikiName: Kíp Lào                   | RealName: Kíp Lào              | Sig: 1     | Điểm M: 1.00
+        (32) ID: 103202 | WikiName: Riel Campuchia            | RealName: Riel Campuchia       | Sig: 1     | Điểm M: 1.09
+        (33) ID: 103359 | WikiName: Peso Philippines          | RealName: Peso Philippines     | Sig: 1     | Điểm M: 1.00
+        (34) ID: 111446 | WikiName: Chi Gà tây                | RealName: Chi Gà tây           | Sig: 1     | Điểm M: 1.00
+        (35) ID: 121443 | WikiName: Vịt                       | RealName: vịt                  | Sig: 1     | Điểm M: 2.00
+        (36) ID: 122661 | WikiName: Dâu tây                   | RealName: dâu tây              | Sig: 1     | Điểm M: 2.00
+        (37) ID: 123707 | WikiName: Gà                        | RealName: gà                   | Sig: 1     | Điểm M: 2.36
+        (38) ID: 146082 | WikiName: SOS                       | RealName: SOS                  | Sig: 1     | Điểm M: 1.00
+        (39) ID: 172661 | WikiName: Bọ rùa                    | RealName: bọ rùa               | Sig: 1     | Điểm M: 2.00
+        (40) ID: 188994 | WikiName: Pháo hoa                  | RealName: pháo hoa             | Sig: 1     | Điểm M: 2.00
+        (41) ID: 194145 | WikiName: Bộ Dơi                    | RealName: Bộ Dơi               | Sig: 1     | Điểm M: 1.09
+        (42) ID: 223181 | WikiName: Anh đào                   | RealName: anh đào              | Sig: 1     | Điểm M: 2.00
+        (43) ID: 270495 | WikiName: Rúp Nga                   | RealName: Rúp Nga              | Sig: 1     | Điểm M: 1.00
+        (44) ID: 292053 | WikiName: Khỉ đột                   | RealName: khỉ đột              | Sig: 1     | Điểm M: 2.00
+        (45) ID: 304512 | WikiName: Dê                        | RealName: dê                   | Sig: 1     | Điểm M: 2.00
+        (46) ID: 306929 | WikiName: Bộ Cú                     | RealName: Bộ Cú                | Sig: 1     | Điểm M: 1.00
+        (47) ID: 316868 | WikiName: Ngựa                      | RealName: ngựa                 | Sig: 1     | Điểm M: 2.00
+        (48) ID: 332172 | WikiName: Bơi                       | RealName: bơi                  | Sig: 1     | Điểm M: 2.00
+        (49) ID: 396186 | WikiName: Lợn rừng                  | RealName: lợn rừng             | Sig: 1     | Điểm M: 2.00
+        (50) ID: 438360 | WikiName: Đại bàng                  | RealName: Đại bàng             | Sig: 1     | Điểm M: 1.00
+        (51) ID: 479571 | WikiName: Khủng long chân thằn lằn  | RealName: khủng long chân thằn lằn | Sig: 1     | Điểm M: 2.00
+        (52) ID: 494952 | WikiName: Dứa                       | RealName: dứa                  | Sig: 1     | Điểm M: 2.09
+        (53) ID: 524246 | WikiName: Bộ Rùa                    | RealName: Bộ Rùa               | Sig: 1     | Điểm M: 1.00
+        (54) ID: 525201 | WikiName: Cá heo                    | RealName: Cá heo               | Sig: 1     | Điểm M: 1.00
+        (55) ID: 579267 | WikiName: Kéo                       | RealName: kéo                  | Sig: 1     | Điểm M: 2.00
+        (56) ID: 795809 | WikiName: Lê (thực vật)             | RealName: lê                   | Sig: 1     | Điểm M: 2.00
+        (57) ID: 796790 | WikiName: Cá voi                    | RealName: Cá voi               | Sig: 1     | Điểm M: 1.18
+        (58) ID: 991692 | WikiName: Thằn lằn                  | RealName: thằn lằn             | Sig: 1     | Điểm M: 2.00
+        (59) ID: 1133459 | WikiName: Ong mật                   | RealName: ong mật              | Sig: 1     | Điểm M: 2.00
+        (60) ID: 1296739 | WikiName: Drachma                   | RealName: Drachma              | Sig: 1     | Điểm M: 1.00
+        (61) ID: 1739018 | WikiName: Rồng Trung Hoa            | RealName: Rồng Trung Hoa       | Sig: 1     | Điểm M: 1.18
+        (62) ID: 1745367 | WikiName: Bitcoin                   | RealName: Bitcoin              | Sig: 1     | Điểm M: 1.00
+        (63) ID: 2991862 | WikiName: Cá nhiệt đới              | RealName: Cá nhiệt đới         | Sig: 1     | Điểm M: 1.00
+        (64) ID: 3127981 | WikiName: Chó săn vịt               | RealName: Chó săn vịt          | Sig: 1     | Điểm M: 1.00
+        (65) ID: 3264469 | WikiName: Manat Azerbaijan          | RealName: Manat Azerbaijan     | Sig: 1     | Điểm M: 1.00
+        (66) ID: 3374832 | WikiName: Rupee                     | RealName: Rupee                | Sig: 1     | Điểm M: 1.00
+        (67) ID: 14521767 | WikiName: San (chữ cái)             | RealName: San                  | Sig: 1     | Điểm M: 1.00
+        (68) ID: 14521780 | WikiName: Koppa (chữ cái)           | RealName: koppa                | Sig: 1     | Điểm M: 2.00
+        (69) ID: 14628318 | WikiName: Ꞗ                         | RealName: Ꞗ                    | Sig: 1     | Điểm M: 1.00
+        (70) ID: 19220612 | WikiName: Bộ Quy (龜)                | RealName: Bộ Quy               | Sig: 1     | Điểm M: 1.00
+        (71) ID: 19526679 | WikiName: Người tuyết               | RealName: người tuyết          | Sig: 1     | Điểm M: 2.00
+        (72) ID: 19715769 | WikiName: Bánh bơ giòn              | RealName: bánh bơ giòn         | Sig: 1     | Điểm M: 2.00
+        (73) ID: 19790245 | WikiName: ꙮ                         | RealName: ꙮ                    | Sig: 1     | Điểm M: 2.00
+        (74) ID: 19805221 | WikiName: Lari Gruzia               | RealName: Lari Gruzia          | Sig: 1     | Điểm M: 1.00
+        (75) ID: 19812682 | WikiName: Ꙉ                         | RealName: Ꙉ                    | Sig: 1     | Điểm M: 1.00
+        (76) ID: 19813603 | WikiName: Ꙟ                         | RealName: Ꙟ                    | Sig: 1     | Điểm M: 1.00
+        (77) ID: 19814697 | WikiName: Ԙ                         | RealName: Ԙ                    | Sig: 1     | Điểm M: 1.00
+        (78) ID: 19814728 | WikiName: Ԝ                         | RealName: Ԝ                    | Sig: 1     | Điểm M: 1.00
+        (79) ID: 19814916 | WikiName: Ԅ                         | RealName: Ԅ                    | Sig: 1     | Điểm M: 1.00
+        (80) ID: 19815206 | WikiName: Ꚙ                         | RealName: Ꚙ                    | Sig: 1     | Điểm M: 1.00
+        (81) ID: 19815645 | WikiName: Ԑ                         | RealName: Ԑ                    | Sig: 1     | Điểm M: 1.00
+        (82) ID: 19815724 | WikiName: Ӕ                         | RealName: Ӕ                    | Sig: 1     | Điểm M: 1.00
+        (83) ID: 19815742 | WikiName: Ꙇ                         | RealName: Ꙇ                    | Sig: 1     | Điểm M: 1.00
+        (84) ID: 19816408 | WikiName: Ԭ                         | RealName: Ԭ                    | Sig: 1     | Điểm M: 1.00
+        (85) ID: 19816670 | WikiName: Ꚛ                         | RealName: Ꚛ                    | Sig: 1     | Điểm M: 1.00
+        (86) ID: 19816983 | WikiName: Ԁ                         | RealName: Ԁ                    | Sig: 1     | Điểm M: 1.00
+        (87) ID: 19817017 | WikiName: Ԃ                         | RealName: Ԃ                    | Sig: 1     | Điểm M: 1.00
+        (88) ID: 19817509 | WikiName: Ԇ                         | RealName: Ԇ                    | Sig: 1     | Điểm M: 1.00
+        (89) ID: 19817511 | WikiName: Ԏ                         | RealName: Ԏ                    | Sig: 1     | Điểm M: 1.00
+        (90) ID: 19817512 | WikiName: Ԍ                         | RealName: Ԍ                    | Sig: 1     | Điểm M: 1.00
+        (91) ID: 19817931 | WikiName: Ԉ                         | RealName: Ԉ                    | Sig: 1     | Điểm M: 1.00
+        (92) ID: 19819567 | WikiName: Ԯ                         | RealName: Ԯ                    | Sig: 1     | Điểm M: 1.00
+        (93) ID: 19819571 | WikiName: Ꚓ                         | RealName: Ꚓ                    | Sig: 1     | Điểm M: 1.00
+        (94) ID: 19819577 | WikiName: Ꚍ                         | RealName: Ꚍ                    | Sig: 1     | Điểm M: 1.00
+        (95) ID: 19820581 | WikiName: Ԋ                         | RealName: Ԋ                    | Sig: 1     | Điểm M: 1.00
+        (96) ID: 19823323 | WikiName: Ԕ                         | RealName: Ԕ                    | Sig: 1     | Điểm M: 1.00
+        (97) ID: 19826433 | WikiName: Ӵ                         | RealName: Ӵ                    | Sig: 1     | Điểm M: 1.00
+        (98) ID: 19855291 | WikiName: Ө                         | RealName: Ө                    | Sig: 1     | Điểm M: 1.00
+        (99) ID: 19855470 | WikiName: Ꚅ                         | RealName: Ꚅ                    | Sig: 1     | Điểm M: 1.00
+        (100) ID: 19856024 | WikiName: ა                         | RealName: ა                    | Sig: 1     | Điểm M: 2.00
+        (101) ID: 19856033 | WikiName: ბ                         | RealName: ბ                    | Sig: 1     | Điểm M: 2.00
+        (102) ID: 19856042 | WikiName: გ                         | RealName: გ                    | Sig: 1     | Điểm M: 2.00
+        (103) ID: 19856050 | WikiName: დ                         | RealName: დ                    | Sig: 1     | Điểm M: 2.00
+        (104) ID: 19856061 | WikiName: ე                         | RealName: ე                    | Sig: 1     | Điểm M: 2.00
+        (105) ID: 19856139 | WikiName: ვ                         | RealName: ვ                    | Sig: 1     | Điểm M: 2.00
+        (106) ID: 19856143 | WikiName: ზ                         | RealName: ზ                    | Sig: 1     | Điểm M: 2.00
+        (107) ID: 19856158 | WikiName: თ                         | RealName: თ                    | Sig: 1     | Điểm M: 2.00
+        (108) ID: 19856167 | WikiName: ი                         | RealName: ი                    | Sig: 1     | Điểm M: 2.00
+        (109) ID: 19856240 | WikiName: კ                         | RealName: კ                    | Sig: 1     | Điểm M: 2.00
+        (110) ID: 19856246 | WikiName: ლ                         | RealName: ლ                    | Sig: 1     | Điểm M: 2.00
+        (111) ID: 19856302 | WikiName: მ                         | RealName: მ                    | Sig: 1     | Điểm M: 2.00
+        (112) ID: 19856315 | WikiName: ნ                         | RealName: ნ                    | Sig: 1     | Điểm M: 2.00
+        (113) ID: 19856437 | WikiName: ჲ                         | RealName: ჲ                    | Sig: 1     | Điểm M: 2.00
+        (114) ID: 19856453 | WikiName: ო                         | RealName: ო                    | Sig: 1     | Điểm M: 2.00
+        (115) ID: 19856684 | WikiName: პ                         | RealName: პ                    | Sig: 1     | Điểm M: 2.00
+        (116) ID: 19856707 | WikiName: ჟ                         | RealName: ჟ                    | Sig: 1     | Điểm M: 2.00
+        (117) ID: 19856712 | WikiName: რ                         | RealName: რ                    | Sig: 1     | Điểm M: 2.00
+        (118) ID: 19857012 | WikiName: ს                         | RealName: ს                    | Sig: 1     | Điểm M: 2.00
+        (119) ID: 19857017 | WikiName: ტ                         | RealName: ტ                    | Sig: 1     | Điểm M: 2.00
+        (120) ID: 19857021 | WikiName: ჳ                         | RealName: ჳ                    | Sig: 1     | Điểm M: 2.00
+        (121) ID: 19857025 | WikiName: ჱ                         | RealName: ჱ                    | Sig: 1     | Điểm M: 2.00
+        (122) ID: 19857173 | WikiName: უ                         | RealName: უ                    | Sig: 1     | Điểm M: 2.00
+        (123) ID: 19857178 | WikiName: ფ                         | RealName: ფ                    | Sig: 1     | Điểm M: 2.00
+        (124) ID: 19857182 | WikiName: ქ                         | RealName: ქ                    | Sig: 1     | Điểm M: 2.00
+        (125) ID: 19857395 | WikiName: ღ                         | RealName: ღ                    | Sig: 1     | Điểm M: 2.00
+        (126) ID: 19857400 | WikiName: ყ                         | RealName: ყ                    | Sig: 1     | Điểm M: 2.00
+        (127) ID: 19857405 | WikiName: შ                         | RealName: შ                    | Sig: 1     | Điểm M: 2.00
+        (128) ID: 19857547 | WikiName: ჩ                         | RealName: ჩ                    | Sig: 1     | Điểm M: 2.00
+        (129) ID: 19857555 | WikiName: ც                         | RealName: ც                    | Sig: 1     | Điểm M: 2.00
+
+[31] Mention: "số dương"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: language
+    - EREL Chọn (Disambiguated): [ID: 38987] Số tự nhiên (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 38987  | WikiName: Số tự nhiên               | RealName: số tự nhiên          | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 190020141 | WikiName: số dương                  | RealName: số dương             | Sig: 1     | Điểm M: 2.00
+
+[32] Mention: "0"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 494403] 0 (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (14 Candidates):
+        (1) ID: 687    | WikiName: O                         | RealName: o                    | Sig: 1     | Điểm M: 2.08
+        (2) ID: 23432  | WikiName: Đường kính                | RealName: Đường kính           | Sig: 1     | Điểm M: 1.00
+        (3) ID: 35669  | WikiName: 0 (số)                    | RealName: 0                    | Sig: 1     | Điểm M: 2.23
+        (4) ID: 470179 | WikiName: Những cái hố (tiểu thuyết) | RealName: Những cái hố         | Sig: 1     | Điểm M: 1.00
+        (5) ID: 494403 | WikiName: 0                         | RealName: 0                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (6) ID: 494578 | WikiName: 0°                        | RealName: 0°                   | Sig: 1     | Điểm M: 2.08
+        (7) ID: 829202 | WikiName: 0 A.D.                    | RealName: 0 A.D.               | Sig: 1     | Điểm M: 1.00
+        (8) ID: 845526 | WikiName: Theta                     | RealName: theta                | Sig: 1     | Điểm M: 2.00
+        (9) ID: 1279692 | WikiName: Thập niên 0 TCN           | RealName: Thập niên 0 TCN      | Sig: 1     | Điểm M: 1.23
+        (10) ID: 1279739 | WikiName: Thập niên 0               | RealName: Thập niên 0          | Sig: 1     | Điểm M: 1.08
+        (11) ID: 2353945 | WikiName: Phi (chữ cái)             | RealName: Phi                  | Sig: 1     | Điểm M: 1.00
+        (12) ID: 19659447 | WikiName: /dev/zero                 | RealName: /dev/zero            | Sig: 1     | Điểm M: 2.08
+        (13) ID: 19659741 | WikiName: Null                      | RealName: Null                 | Sig: 1     | Điểm M: 1.08
+        (14) ID: 19736429 | WikiName: Ø                         | RealName: Ø                    | Sig: 1     | Điểm M: 1.00
+
+[33] Mention: "từ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 364426] Từ (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 5998   | WikiName: Từ học                    | RealName: từ học               | Sig: 1     | Điểm M: 2.00
+        (2) ID: 236583 | WikiName: Từ (họ)                   | RealName: Từ                   | Sig: 1     | Điểm M: 1.00
+        (3) ID: 364426 | WikiName: Từ                        | RealName: từ                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (4) ID: 801416 | WikiName: Từ (thể loại văn học)     | RealName: từ                   | Sig: 1     | Điểm M: 2.00
+        (5) ID: 1678637 | WikiName: Từ (nước)                 | RealName: Từ                   | Sig: 1     | Điểm M: 1.00
+        (6) ID: 3338594 | WikiName: Từ đường họ Mạc           | RealName: Từ đường họ Mạc      | Sig: 1     | Điểm M: 1.00
+
+[34] Mention: "menu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: language
+    - EREL Chọn (Disambiguated): [ID: 19488207] Menu (điện toán) (Importance Score: 0.35)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1328650 | WikiName: Thực đơn                  | RealName: thực đơn             | Sig: 1     | Điểm M: 2.00
+        (2) ID: 1328653 | WikiName: Menu                      | RealName: Menu                 | Sig: 1     | Điểm M: 1.00
+        (3) ID: 19488207 | WikiName: Menu (điện toán)          | RealName: menu                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+
+[35] Mention: "3"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49658] 3 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 49658  | WikiName: 3 (số)                    | RealName: 3                    | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 63673  | WikiName: Chicago (ban nhạc)        | RealName: Chicago              | Sig: 1     | Điểm M: 1.00
+        (3) ID: 541100 | WikiName: 3 TCN                     | RealName: 3 TCN                | Sig: 1     | Điểm M: 1.00
+        (4) ID: 624766 | WikiName: 3                         | RealName: 3                    | Sig: 1     | Điểm M: 2.00
+        (5) ID: 819060 | WikiName: Take That                 | RealName: Take That            | Sig: 1     | Điểm M: 1.00
+        (6) ID: 3179478 | WikiName: The Script                | RealName: The Script           | Sig: 1     | Điểm M: 1.50
+
+[36] Mention: "nút"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2360041] Nút (đơn vị) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 2360041 | WikiName: Nút (đơn vị)              | RealName: nút                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 190016375 | WikiName: nút                       | RealName: nút                  | Sig: 1     | Điểm M: 2.00
+
+[37] Mention: "Nút này"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N+P | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2360041] Nút (đơn vị) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 2360041 | WikiName: Nút (đơn vị)              | RealName: nút                  | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 190016375 | WikiName: nút                       | RealName: nút                  | Sig: 1     | Điểm M: 0.00
+
+[38] Mention: "màu"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 4116] Màu sắc (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 4116   | WikiName: Màu sắc                   | RealName: màu sắc              | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (2) ID: 4313   | WikiName: Màu                       | RealName: màu                  | Sig: 1     | Điểm M: 2.67
+        (3) ID: 866252 | WikiName: Hoa màu                   | RealName: hoa màu              | Sig: 1     | Điểm M: 3.00
+
+[39] Mention: "hiệu"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190007106] hiệu (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 63348  | WikiName: Tên hiệu                  | RealName: Tên hiệu             | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190007106 | WikiName: hiệu                      | RealName: hiệu                 | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[40] Mention: "chuột"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 138393] Chuột (máy tính) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (15 Candidates):
+        (1) ID: 53204  | WikiName: Chuột rút                 | RealName: chuột rút            | Sig: 1     | Điểm M: 2.07
+        (2) ID: 138393 | WikiName: Chuột (máy tính)          | RealName: chuột                | Sig: 1     | Điểm M: 2.14 [EREL CHỌN]
+        (3) ID: 188892 | WikiName: Bộ Gặm nhấm               | RealName: Bộ Gặm nhấm          | Sig: 1     | Điểm M: 1.50
+        (4) ID: 239335 | WikiName: Chuột Minnie              | RealName: Chuột Minnie         | Sig: 1     | Điểm M: 1.07
+        (5) ID: 527189 | WikiName: Chuột cống                | RealName: Chuột cống           | Sig: 1     | Điểm M: 1.21
+        (6) ID: 1456217 | WikiName: Họ Chuột                  | RealName: Họ Chuột             | Sig: 1     | Điểm M: 1.29
+        (7) ID: 2106248 | WikiName: Nanh chuột                | RealName: Nanh chuột           | Sig: 1     | Điểm M: 1.00
+        (8) ID: 3308449 | WikiName: Chuột (phim)              | RealName: chuột                | Sig: 1     | Điểm M: 2.00
+        (9) ID: 3354079 | WikiName: Phân họ Chuột đồng        | RealName: Phân họ Chuột đồng   | Sig: 1     | Điểm M: 1.00
+        (10) ID: 3374786 | WikiName: Chuột nhà                 | RealName: Chuột nhà            | Sig: 1     | Điểm M: 1.00
+        (11) ID: 15414710 | WikiName: Chuột nhắt                | RealName: Chuột nhắt           | Sig: 1     | Điểm M: 1.07
+        (12) ID: 17992406 | WikiName: Panzer VIII Maus          | RealName: Panzer VIII Maus     | Sig: 1     | Điểm M: 1.00
+        (13) ID: 18013876 | WikiName: Cơ nhị đầu cánh tay       | RealName: cơ nhị đầu cánh tay  | Sig: 1     | Điểm M: 2.00
+        (14) ID: 19543037 | WikiName: Chuột                     | RealName: Chuột                | Sig: 1     | Điểm M: 2.00
+        (15) ID: 19546157 | WikiName: Chuột xạ                  | RealName: Chuột xạ             | Sig: 1     | Điểm M: 1.00
+
+[41] Mention: "qua"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: V | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 190017764] qua (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1741063 | WikiName: Qua (nước)                | RealName: Qua                  | Sig: 1     | Điểm M: 1.00
+        (2) ID: 190017764 | WikiName: qua                       | RealName: qua                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[42] Mention: "thị"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 188779] Thị (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 70823  | WikiName: Thị trường                | RealName: thị trường           | Sig: 1     | Điểm M: 2.00
+        (2) ID: 188779 | WikiName: Thị                       | RealName: thị                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 321437 | WikiName: Thị trưởng                | RealName: thị trưởng           | Sig: 1     | Điểm M: 2.00
+        (4) ID: 348639 | WikiName: Thị giác                  | RealName: thị giác             | Sig: 1     | Điểm M: 2.00
+
+[43] Mention: "lưới"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 1765691] Lưới (toán học) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 76468  | WikiName: Lưới B40                  | RealName: Lưới B40             | Sig: 1     | Điểm M: 1.00
+        (2) ID: 1765691 | WikiName: Lưới (toán học)           | RealName: lưới                 | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 1765716 | WikiName: Lưới                      | RealName: Lưới                 | Sig: 1     | Điểm M: 1.00
+
+[44] Mention: "cột"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: language
+    - EREL Chọn (Disambiguated): [ID: 15761536] Cột (tàu thuyền) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 823669 | WikiName: Cột trụ                   | RealName: Cột trụ              | Sig: 1     | Điểm M: 1.00
+        (2) ID: 15761536 | WikiName: Cột (tàu thuyền)          | RealName: cột                  | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 190003701 | WikiName: cột                       | RealName: cột                  | Sig: 1     | Điểm M: 2.00
+
+[45] Mention: "Tên"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 801986] Tên (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 29106  | WikiName: Tên lửa                   | RealName: tên lửa              | Sig: 1     | Điểm M: 1.00
+        (2) ID: 801986 | WikiName: Tên                       | RealName: Tên                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (3) ID: 801987 | WikiName: Tên gọi                   | RealName: Tên gọi              | Sig: 1     | Điểm M: 2.00
+        (4) ID: 2360397 | WikiName: Mũi tên                   | RealName: Mũi tên              | Sig: 1     | Điểm M: 2.00
+        (5) ID: 2384192 | WikiName: Tên thánh                 | RealName: tên thánh            | Sig: 1     | Điểm M: 1.00
+
+[46] Mention: "thấy"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 16174546] Thấy (phim truyền hình) (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 348639 | WikiName: Thị giác                  | RealName: thị giác             | Sig: 1     | Điểm M: 2.00
+        (2) ID: 16174546 | WikiName: Thấy (phim truyền hình)   | RealName: thấy                 | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 190022973 | WikiName: thấy                      | RealName: thấy                 | Sig: 1     | Điểm M: 2.00
+
+[47] Mention: "❓"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: CH | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 39516] Mèo (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (129 Candidates):
+        (1) ID: 5969   | WikiName: Hổ                        | RealName: hổ                   | Sig: 1     | Điểm M: 2.00
+        (2) ID: 7340   | WikiName: Cá mập                    | RealName: cá mập               | Sig: 1     | Điểm M: 2.09
+        (3) ID: 9877   | WikiName: Chim                      | RealName: chim                 | Sig: 1     | Điểm M: 2.45
+        (4) ID: 10417  | WikiName: Truyền hình               | RealName: truyền hình          | Sig: 1     | Điểm M: 2.00
+        (5) ID: 10870  | WikiName: Cá sấu                    | RealName: cá sấu               | Sig: 1     | Điểm M: 2.00
+        (6) ID: 11827  | WikiName: Kiến                      | RealName: kiến                 | Sig: 1     | Điểm M: 2.00
+        (7) ID: 12138  | WikiName: Hamburger                 | RealName: hamburger            | Sig: 1     | Điểm M: 2.00
+        (8) ID: 18329  | WikiName: Khỉ                       | RealName: khỉ                  | Sig: 1     | Điểm M: 2.00
+        (9) ID: 25177  | WikiName: Tê giác                   | RealName: tê giác              | Sig: 1     | Điểm M: 2.00
+        (10) ID: 26131  | WikiName: Koala                     | RealName: Koala                | Sig: 1     | Điểm M: 1.00
+        (11) ID: 28210  | WikiName: Dương cầm                 | RealName: dương cầm            | Sig: 1     | Điểm M: 2.00
+        (12) ID: 30817  | WikiName: Chó                       | RealName: chó                  | Sig: 1     | Điểm M: 2.27
+        (13) ID: 33585  | WikiName: Pizza                     | RealName: pizza                | Sig: 1     | Điểm M: 2.00
+        (14) ID: 35512  | WikiName: Dừa                       | RealName: dừa                  | Sig: 1     | Điểm M: 2.00
+        (15) ID: 36956  | WikiName: Cá                        | RealName: cá                   | Sig: 1     | Điểm M: 2.55
+        (16) ID: 39516  | WikiName: Mèo                       | RealName: mèo                  | Sig: 1     | Điểm M: 3.00 [EREL CHỌN]
+        (17) ID: 41691  | WikiName: Chim cánh cụt             | RealName: chim cánh cụt        | Sig: 1     | Điểm M: 2.00
+        (18) ID: 42871  | WikiName: Trâu                      | RealName: trâu                 | Sig: 1     | Điểm M: 2.09
+        (19) ID: 44299  | WikiName: Voi                       | RealName: voi                  | Sig: 1     | Điểm M: 2.00
+        (20) ID: 45078  | WikiName: Chi Lợn                   | RealName: Chi Lợn              | Sig: 1     | Điểm M: 1.18
+        (21) ID: 59875  | WikiName: Nho                       | RealName: nho                  | Sig: 1     | Điểm M: 2.00
+        (22) ID: 61202  | WikiName: Phân thứ bộ Cua           | RealName: Phân thứ bộ Cua      | Sig: 1     | Điểm M: 1.00
+        (23) ID: 61276  | WikiName: Tôm                       | RealName: tôm                  | Sig: 1     | Điểm M: 2.00
+        (24) ID: 61394  | WikiName: Bọ cạp                    | RealName: bọ cạp               | Sig: 1     | Điểm M: 2.00
+        (25) ID: 61408  | WikiName: Nhện                      | RealName: nhện                 | Sig: 1     | Điểm M: 2.09
+        (26) ID: 61599  | WikiName: Rắn                       | RealName: rắn                  | Sig: 1     | Điểm M: 2.00
+        (27) ID: 62109  | WikiName: Bạch tuộc                 | RealName: bạch tuộc            | Sig: 1     | Điểm M: 2.00
+        (28) ID: 79008  | WikiName: Thỏ                       | RealName: thỏ                  | Sig: 1     | Điểm M: 2.00
+        (29) ID: 80952  | WikiName: Moai                      | RealName: moai                 | Sig: 1     | Điểm M: 2.00
+        (30) ID: 87825  | WikiName: Dưa hấu                   | RealName: dưa hấu              | Sig: 1     | Điểm M: 2.00
+        (31) ID: 103065 | WikiName: Kíp Lào                   | RealName: Kíp Lào              | Sig: 1     | Điểm M: 1.00
+        (32) ID: 103202 | WikiName: Riel Campuchia            | RealName: Riel Campuchia       | Sig: 1     | Điểm M: 1.09
+        (33) ID: 103359 | WikiName: Peso Philippines          | RealName: Peso Philippines     | Sig: 1     | Điểm M: 1.00
+        (34) ID: 111446 | WikiName: Chi Gà tây                | RealName: Chi Gà tây           | Sig: 1     | Điểm M: 1.00
+        (35) ID: 121443 | WikiName: Vịt                       | RealName: vịt                  | Sig: 1     | Điểm M: 2.00
+        (36) ID: 122661 | WikiName: Dâu tây                   | RealName: dâu tây              | Sig: 1     | Điểm M: 2.00
+        (37) ID: 123707 | WikiName: Gà                        | RealName: gà                   | Sig: 1     | Điểm M: 2.36
+        (38) ID: 146082 | WikiName: SOS                       | RealName: SOS                  | Sig: 1     | Điểm M: 1.00
+        (39) ID: 172661 | WikiName: Bọ rùa                    | RealName: bọ rùa               | Sig: 1     | Điểm M: 2.00
+        (40) ID: 188994 | WikiName: Pháo hoa                  | RealName: pháo hoa             | Sig: 1     | Điểm M: 2.00
+        (41) ID: 194145 | WikiName: Bộ Dơi                    | RealName: Bộ Dơi               | Sig: 1     | Điểm M: 1.09
+        (42) ID: 223181 | WikiName: Anh đào                   | RealName: anh đào              | Sig: 1     | Điểm M: 2.00
+        (43) ID: 270495 | WikiName: Rúp Nga                   | RealName: Rúp Nga              | Sig: 1     | Điểm M: 1.00
+        (44) ID: 292053 | WikiName: Khỉ đột                   | RealName: khỉ đột              | Sig: 1     | Điểm M: 2.00
+        (45) ID: 304512 | WikiName: Dê                        | RealName: dê                   | Sig: 1     | Điểm M: 2.00
+        (46) ID: 306929 | WikiName: Bộ Cú                     | RealName: Bộ Cú                | Sig: 1     | Điểm M: 1.00
+        (47) ID: 316868 | WikiName: Ngựa                      | RealName: ngựa                 | Sig: 1     | Điểm M: 2.00
+        (48) ID: 332172 | WikiName: Bơi                       | RealName: bơi                  | Sig: 1     | Điểm M: 2.00
+        (49) ID: 396186 | WikiName: Lợn rừng                  | RealName: lợn rừng             | Sig: 1     | Điểm M: 2.00
+        (50) ID: 438360 | WikiName: Đại bàng                  | RealName: Đại bàng             | Sig: 1     | Điểm M: 1.00
+        (51) ID: 479571 | WikiName: Khủng long chân thằn lằn  | RealName: khủng long chân thằn lằn | Sig: 1     | Điểm M: 2.00
+        (52) ID: 494952 | WikiName: Dứa                       | RealName: dứa                  | Sig: 1     | Điểm M: 2.09
+        (53) ID: 524246 | WikiName: Bộ Rùa                    | RealName: Bộ Rùa               | Sig: 1     | Điểm M: 1.00
+        (54) ID: 525201 | WikiName: Cá heo                    | RealName: Cá heo               | Sig: 1     | Điểm M: 1.00
+        (55) ID: 579267 | WikiName: Kéo                       | RealName: kéo                  | Sig: 1     | Điểm M: 2.00
+        (56) ID: 795809 | WikiName: Lê (thực vật)             | RealName: lê                   | Sig: 1     | Điểm M: 2.00
+        (57) ID: 796790 | WikiName: Cá voi                    | RealName: Cá voi               | Sig: 1     | Điểm M: 1.18
+        (58) ID: 991692 | WikiName: Thằn lằn                  | RealName: thằn lằn             | Sig: 1     | Điểm M: 2.00
+        (59) ID: 1133459 | WikiName: Ong mật                   | RealName: ong mật              | Sig: 1     | Điểm M: 2.00
+        (60) ID: 1296739 | WikiName: Drachma                   | RealName: Drachma              | Sig: 1     | Điểm M: 1.00
+        (61) ID: 1739018 | WikiName: Rồng Trung Hoa            | RealName: Rồng Trung Hoa       | Sig: 1     | Điểm M: 1.18
+        (62) ID: 1745367 | WikiName: Bitcoin                   | RealName: Bitcoin              | Sig: 1     | Điểm M: 1.00
+        (63) ID: 2991862 | WikiName: Cá nhiệt đới              | RealName: Cá nhiệt đới         | Sig: 1     | Điểm M: 1.00
+        (64) ID: 3127981 | WikiName: Chó săn vịt               | RealName: Chó săn vịt          | Sig: 1     | Điểm M: 1.00
+        (65) ID: 3264469 | WikiName: Manat Azerbaijan          | RealName: Manat Azerbaijan     | Sig: 1     | Điểm M: 1.00
+        (66) ID: 3374832 | WikiName: Rupee                     | RealName: Rupee                | Sig: 1     | Điểm M: 1.00
+        (67) ID: 14521767 | WikiName: San (chữ cái)             | RealName: San                  | Sig: 1     | Điểm M: 1.00
+        (68) ID: 14521780 | WikiName: Koppa (chữ cái)           | RealName: koppa                | Sig: 1     | Điểm M: 2.00
+        (69) ID: 14628318 | WikiName: Ꞗ                         | RealName: Ꞗ                    | Sig: 1     | Điểm M: 1.00
+        (70) ID: 19220612 | WikiName: Bộ Quy (龜)                | RealName: Bộ Quy               | Sig: 1     | Điểm M: 1.00
+        (71) ID: 19526679 | WikiName: Người tuyết               | RealName: người tuyết          | Sig: 1     | Điểm M: 2.00
+        (72) ID: 19715769 | WikiName: Bánh bơ giòn              | RealName: bánh bơ giòn         | Sig: 1     | Điểm M: 2.00
+        (73) ID: 19790245 | WikiName: ꙮ                         | RealName: ꙮ                    | Sig: 1     | Điểm M: 2.00
+        (74) ID: 19805221 | WikiName: Lari Gruzia               | RealName: Lari Gruzia          | Sig: 1     | Điểm M: 1.00
+        (75) ID: 19812682 | WikiName: Ꙉ                         | RealName: Ꙉ                    | Sig: 1     | Điểm M: 1.00
+        (76) ID: 19813603 | WikiName: Ꙟ                         | RealName: Ꙟ                    | Sig: 1     | Điểm M: 1.00
+        (77) ID: 19814697 | WikiName: Ԙ                         | RealName: Ԙ                    | Sig: 1     | Điểm M: 1.00
+        (78) ID: 19814728 | WikiName: Ԝ                         | RealName: Ԝ                    | Sig: 1     | Điểm M: 1.00
+        (79) ID: 19814916 | WikiName: Ԅ                         | RealName: Ԅ                    | Sig: 1     | Điểm M: 1.00
+        (80) ID: 19815206 | WikiName: Ꚙ                         | RealName: Ꚙ                    | Sig: 1     | Điểm M: 1.00
+        (81) ID: 19815645 | WikiName: Ԑ                         | RealName: Ԑ                    | Sig: 1     | Điểm M: 1.00
+        (82) ID: 19815724 | WikiName: Ӕ                         | RealName: Ӕ                    | Sig: 1     | Điểm M: 1.00
+        (83) ID: 19815742 | WikiName: Ꙇ                         | RealName: Ꙇ                    | Sig: 1     | Điểm M: 1.00
+        (84) ID: 19816408 | WikiName: Ԭ                         | RealName: Ԭ                    | Sig: 1     | Điểm M: 1.00
+        (85) ID: 19816670 | WikiName: Ꚛ                         | RealName: Ꚛ                    | Sig: 1     | Điểm M: 1.00
+        (86) ID: 19816983 | WikiName: Ԁ                         | RealName: Ԁ                    | Sig: 1     | Điểm M: 1.00
+        (87) ID: 19817017 | WikiName: Ԃ                         | RealName: Ԃ                    | Sig: 1     | Điểm M: 1.00
+        (88) ID: 19817509 | WikiName: Ԇ                         | RealName: Ԇ                    | Sig: 1     | Điểm M: 1.00
+        (89) ID: 19817511 | WikiName: Ԏ                         | RealName: Ԏ                    | Sig: 1     | Điểm M: 1.00
+        (90) ID: 19817512 | WikiName: Ԍ                         | RealName: Ԍ                    | Sig: 1     | Điểm M: 1.00
+        (91) ID: 19817931 | WikiName: Ԉ                         | RealName: Ԉ                    | Sig: 1     | Điểm M: 1.00
+        (92) ID: 19819567 | WikiName: Ԯ                         | RealName: Ԯ                    | Sig: 1     | Điểm M: 1.00
+        (93) ID: 19819571 | WikiName: Ꚓ                         | RealName: Ꚓ                    | Sig: 1     | Điểm M: 1.00
+        (94) ID: 19819577 | WikiName: Ꚍ                         | RealName: Ꚍ                    | Sig: 1     | Điểm M: 1.00
+        (95) ID: 19820581 | WikiName: Ԋ                         | RealName: Ԋ                    | Sig: 1     | Điểm M: 1.00
+        (96) ID: 19823323 | WikiName: Ԕ                         | RealName: Ԕ                    | Sig: 1     | Điểm M: 1.00
+        (97) ID: 19826433 | WikiName: Ӵ                         | RealName: Ӵ                    | Sig: 1     | Điểm M: 1.00
+        (98) ID: 19855291 | WikiName: Ө                         | RealName: Ө                    | Sig: 1     | Điểm M: 1.00
+        (99) ID: 19855470 | WikiName: Ꚅ                         | RealName: Ꚅ                    | Sig: 1     | Điểm M: 1.00
+        (100) ID: 19856024 | WikiName: ა                         | RealName: ა                    | Sig: 1     | Điểm M: 2.00
+        (101) ID: 19856033 | WikiName: ბ                         | RealName: ბ                    | Sig: 1     | Điểm M: 2.00
+        (102) ID: 19856042 | WikiName: გ                         | RealName: გ                    | Sig: 1     | Điểm M: 2.00
+        (103) ID: 19856050 | WikiName: დ                         | RealName: დ                    | Sig: 1     | Điểm M: 2.00
+        (104) ID: 19856061 | WikiName: ე                         | RealName: ე                    | Sig: 1     | Điểm M: 2.00
+        (105) ID: 19856139 | WikiName: ვ                         | RealName: ვ                    | Sig: 1     | Điểm M: 2.00
+        (106) ID: 19856143 | WikiName: ზ                         | RealName: ზ                    | Sig: 1     | Điểm M: 2.00
+        (107) ID: 19856158 | WikiName: თ                         | RealName: თ                    | Sig: 1     | Điểm M: 2.00
+        (108) ID: 19856167 | WikiName: ი                         | RealName: ი                    | Sig: 1     | Điểm M: 2.00
+        (109) ID: 19856240 | WikiName: კ                         | RealName: კ                    | Sig: 1     | Điểm M: 2.00
+        (110) ID: 19856246 | WikiName: ლ                         | RealName: ლ                    | Sig: 1     | Điểm M: 2.00
+        (111) ID: 19856302 | WikiName: მ                         | RealName: მ                    | Sig: 1     | Điểm M: 2.00
+        (112) ID: 19856315 | WikiName: ნ                         | RealName: ნ                    | Sig: 1     | Điểm M: 2.00
+        (113) ID: 19856437 | WikiName: ჲ                         | RealName: ჲ                    | Sig: 1     | Điểm M: 2.00
+        (114) ID: 19856453 | WikiName: ო                         | RealName: ო                    | Sig: 1     | Điểm M: 2.00
+        (115) ID: 19856684 | WikiName: პ                         | RealName: პ                    | Sig: 1     | Điểm M: 2.00
+        (116) ID: 19856707 | WikiName: ჟ                         | RealName: ჟ                    | Sig: 1     | Điểm M: 2.00
+        (117) ID: 19856712 | WikiName: რ                         | RealName: რ                    | Sig: 1     | Điểm M: 2.00
+        (118) ID: 19857012 | WikiName: ს                         | RealName: ს                    | Sig: 1     | Điểm M: 2.00
+        (119) ID: 19857017 | WikiName: ტ                         | RealName: ტ                    | Sig: 1     | Điểm M: 2.00
+        (120) ID: 19857021 | WikiName: ჳ                         | RealName: ჳ                    | Sig: 1     | Điểm M: 2.00
+        (121) ID: 19857025 | WikiName: ჱ                         | RealName: ჱ                    | Sig: 1     | Điểm M: 2.00
+        (122) ID: 19857173 | WikiName: უ                         | RealName: უ                    | Sig: 1     | Điểm M: 2.00
+        (123) ID: 19857178 | WikiName: ფ                         | RealName: ფ                    | Sig: 1     | Điểm M: 2.00
+        (124) ID: 19857182 | WikiName: ქ                         | RealName: ქ                    | Sig: 1     | Điểm M: 2.00
+        (125) ID: 19857395 | WikiName: ღ                         | RealName: ღ                    | Sig: 1     | Điểm M: 2.00
+        (126) ID: 19857400 | WikiName: ყ                         | RealName: ყ                    | Sig: 1     | Điểm M: 2.00
+        (127) ID: 19857405 | WikiName: შ                         | RealName: შ                    | Sig: 1     | Điểm M: 2.00
+        (128) ID: 19857547 | WikiName: ჩ                         | RealName: ჩ                    | Sig: 1     | Điểm M: 2.00
+        (129) ID: 19857555 | WikiName: ც                         | RealName: ც                    | Sig: 1     | Điểm M: 2.00
+
+[48] Mention: "THƯỜNG"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 237434] Thường (họ) (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 237434 | WikiName: Thường (họ)               | RealName: Thường               | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (2) ID: 19834966 | WikiName: Thường                    | RealName: thường               | Sig: 1     | Điểm M: 1.00
+
+[49] Mention: "số thập phân"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190020211] số thập phân (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 44303  | WikiName: Hệ thập phân              | RealName: hệ thập phân         | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190020211 | WikiName: số thập phân              | RealName: số thập phân         | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[50] Mention: "xác"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 1336486] Xác chết (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1336486 | WikiName: Xác chết                  | RealName: xác chết             | Sig: 1     | Điểm M: 0.00 [EREL CHỌN]
+        (2) ID: 190029558 | WikiName: xác                       | RealName: xác                  | Sig: 1     | Điểm M: 0.00
+
+[51] Mention: "tự động"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: A | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 190027752] tự động (Importance Score: 0.15)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3215668 | WikiName: Tự động hóa               | RealName: tự động hóa          | Sig: 1     | Điểm M: 2.00
+        (2) ID: 190027752 | WikiName: tự động                   | RealName: tự động              | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+
+[52] Mention: "dư"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3513812] Dư (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 236740 | WikiName: Dư (họ)                   | RealName: Dư                   | Sig: 1     | Điểm M: 1.00
+        (2) ID: 3513812 | WikiName: Dư                        | RealName: Dư                   | Sig: 1     | Điểm M: 2.00 [EREL CHỌN]
+        (3) ID: 15677620 | WikiName: Số dư                     | RealName: số dư                | Sig: 1     | Điểm M: 2.00
+
+--------------------------------------------------------------------------------
+[2] TẬP UMCS (Unmatched Candidate Set - Các từ/cụm từ KHÔNG có trong CSDL)
+Tổng số mentions chưa nhận diện: 65
+--------------------------------------------------------------------------------
+Danh sách các từ/cụm từ quét được nhưng không có alias trong CSDL:
+    1. "•" (Số lần xuất hiện: 22)
+    2. "=>" (Số lần xuất hiện: 6)
+    3. "0.375g" (Số lần xuất hiện: 3)
+    4. "3.75g" (Số lần xuất hiện: 3)
+    5. "37.5g" (Số lần xuất hiện: 3)
+    6. "1000g" (Số lần xuất hiện: 3)
+    7. "31.1035g" (Số lần xuất hiện: 3)
+    8. "hiển" (Số lần xuất hiện: 3)
+    9. "---
+
+---" (Số lần xuất hiện: 2)
+   10. "---
+•" (Số lần xuất hiện: 2)
+   11. "10.5" (Số lần xuất hiện: 2)
+   12. "0.0375" (Số lần xuất hiện: 2)
+   13. "===" (Số lần xuất hiện: 1)
+   14. "===
+Quy" (Số lần xuất hiện: 1)
+   15. "tại
+
+---" (Số lần xuất hiện: 1)
+   16. "---
+Công" (Số lần xuất hiện: 1)
+   17. "vàng
+•" (Số lần xuất hiện: 1)
+   18. "---" (Số lần xuất hiện: 1)
+   19. "0.75…" (Số lần xuất hiện: 1)
+   20. "0.75…
+•" (Số lần xuất hiện: 1)
+   21. "37.5" (Số lần xuất hiện: 1)
+   22. "Kg…
+•" (Số lần xuất hiện: 1)
+   23. "Kg…
+
+---" (Số lần xuất hiện: 1)
+
+--------------------------------------------------------------------------------
+[3] DANH SÁCH ENTITY2 ĐƯỢC CHỌN ĐỂ KẾT NỐI VỚI ENTITY1 [1 - chỉ (đơn vị đo)]
+--------------------------------------------------------------------------------
+  [1] EntityId: 190053696 | WikiName: công cụ                        | Số lần xuất hiện: 2
+  [2] EntityId: 261733 | WikiName: Quy                            | Số lần xuất hiện: 19
+  [3] EntityId: 190011720 | WikiName: lường                          | Số lần xuất hiện: 1
+  [4] EntityId: 3118   | WikiName: Vàng                           | Số lần xuất hiện: 18
+  [5] EntityId: 99561  | WikiName: Phân bón                       | Số lần xuất hiện: 1
+  [6] EntityId: 25397  | WikiName: Chỉ                            | Số lần xuất hiện: 1
+  [7] EntityId: 2927   | WikiName: Lượng (kim hoàn)               | Số lần xuất hiện: 10
+  [8] EntityId: 2656   | WikiName: Gam                            | Số lần xuất hiện: 6
+  [9] EntityId: 19560015 | WikiName: Lường (họ)                     | Số lần xuất hiện: 3
+  [10] EntityId: 3270   | WikiName: Đơn vị đo                      | Số lần xuất hiện: 12
+  [11] EntityId: 151639 | WikiName: Giá trị (kinh tế học)          | Số lần xuất hiện: 1
+  [12] EntityId: 43966  | WikiName: Ra                             | Số lần xuất hiện: 1
+  [13] EntityId: 190012995 | WikiName: mục đích                       | Số lần xuất hiện: 1
+  [14] EntityId: 190024328 | WikiName: thực hiện                      | Số lần xuất hiện: 1
+  [15] EntityId: 190000747 | WikiName: bạn                            | Số lần xuất hiện: 1
+  [16] EntityId: 520529 | WikiName: Câu (hành động)                | Số lần xuất hiện: 2
+  [17] EntityId: 49660  | WikiName: 1 (số)                         | Số lần xuất hiện: 3
+  [18] EntityId: 3101   | WikiName: Chỉ (đơn vị đo)                | Số lần xuất hiện: 11
+  [19] EntityId: 19495589 | WikiName: Bằng                           | Số lần xuất hiện: 1
+  [20] EntityId: 49659  | WikiName: 2 (số)                         | Số lần xuất hiện: 3
+  [21] EntityId: 2230   | WikiName: Hydro                          | Số lần xuất hiện: 12
+  [22] EntityId: 32131  | WikiName: Phân                           | Số lần xuất hiện: 6
+  [23] EntityId: 15491616 | WikiName: Giấy phép                      | Số lần xuất hiện: 4
+  [24] EntityId: 147814 | WikiName: Ký                             | Số lần xuất hiện: 2
+  [25] EntityId: 494403 | WikiName: 0                              | Số lần xuất hiện: 2
+  [26] EntityId: 19568325 | WikiName: Table                          | Số lần xuất hiện: 2
+  [27] EntityId: 453719 | WikiName: Dụng cụ                        | Số lần xuất hiện: 1
+  [28] EntityId: 190022878 | WikiName: thập phân                      | Số lần xuất hiện: 1
+  [29] EntityId: 2563   | WikiName: Thời gian                      | Số lần xuất hiện: 1
+  [30] EntityId: 151455 | WikiName: Giá trị                        | Số lần xuất hiện: 6
+  [31] EntityId: 16384421 | WikiName: Triển khai                     | Số lần xuất hiện: 1
+  [32] EntityId: 61887  | WikiName: Giao dịch tài chính            | Số lần xuất hiện: 1
+  [33] EntityId: 39516  | WikiName: Mèo                            | Số lần xuất hiện: 3
+  [34] EntityId: 190695 | WikiName: Tình bạn                       | Số lần xuất hiện: 5
+  [35] EntityId: 29552  | WikiName: Trầu không                     | Số lần xuất hiện: 1
+  [36] EntityId: 38987  | WikiName: Số tự nhiên                    | Số lần xuất hiện: 2
+  [37] EntityId: 5969   | WikiName: Hổ                             | Số lần xuất hiện: 1
+  [38] EntityId: 687    | WikiName: O                              | Số lần xuất hiện: 1
+  [39] EntityId: 364426 | WikiName: Từ                             | Số lần xuất hiện: 1
+  [40] EntityId: 19488207 | WikiName: Menu (điện toán)               | Số lần xuất hiện: 1
+  [41] EntityId: 49658  | WikiName: 3 (số)                         | Số lần xuất hiện: 1
+  [42] EntityId: 2360041 | WikiName: Nút (đơn vị)                   | Số lần xuất hiện: 3
+  [43] EntityId: 4116   | WikiName: Màu sắc                        | Số lần xuất hiện: 2
+  [44] EntityId: 190007106 | WikiName: hiệu                           | Số lần xuất hiện: 1
+  [45] EntityId: 138393 | WikiName: Chuột (máy tính)               | Số lần xuất hiện: 1
+  [46] EntityId: 190017764 | WikiName: qua                            | Số lần xuất hiện: 1
+  [47] EntityId: 63348  | WikiName: Tên hiệu                       | Số lần xuất hiện: 1
+  [48] EntityId: 53204  | WikiName: Chuột rút                      | Số lần xuất hiện: 1
+  [49] EntityId: 1741063 | WikiName: Qua (nước)                     | Số lần xuất hiện: 1
+  [50] EntityId: 188779 | WikiName: Thị                            | Số lần xuất hiện: 1
+  [51] EntityId: 1765691 | WikiName: Lưới (toán học)                | Số lần xuất hiện: 1
+  [52] EntityId: 15761536 | WikiName: Cột (tàu thuyền)               | Số lần xuất hiện: 1
+  [53] EntityId: 801986 | WikiName: Tên                            | Số lần xuất hiện: 1
+  [54] EntityId: 29106  | WikiName: Tên lửa                        | Số lần xuất hiện: 1
+  [55] EntityId: 16174546 | WikiName: Thấy (phim truyền hình)        | Số lần xuất hiện: 1
+  [56] EntityId: 237434 | WikiName: Thường (họ)                    | Số lần xuất hiện: 1
+  [57] EntityId: 190020211 | WikiName: số thập phân                   | Số lần xuất hiện: 1
+  [58] EntityId: 1336486 | WikiName: Xác chết                       | Số lần xuất hiện: 2
+  [59] EntityId: 190027752 | WikiName: tự động                        | Số lần xuất hiện: 1
+  [60] EntityId: 3513812 | WikiName: Dư                             | Số lần xuất hiện: 1
+  [61] EntityId: 3215668 | WikiName: Tự động hóa                    | Số lần xuất hiện: 1
+  [62] EntityId: 236740 | WikiName: Dư (họ)                        | Số lần xuất hiện: 1
+  [63] EntityId: 35669  | WikiName: 0 (số)                         | Số lần xuất hiện: 1
+

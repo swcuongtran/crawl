@@ -1,0 +1,632 @@
+
+
+### [LINK #1] Hanoi - Wikipedia ###
+URL: https://en.wikipedia.org/wiki/Hanoi
+--------------------------------------------------------------------------------
+================================================================================
+KẾT QUẢ QUÉT TẬP MCS VÀ UMCS CỦA CÁC TỪ TRONG VĂN BẢN
+THỰC THỂ NGUỒN (Entity 1): [1] Ha Noi
+BÀI VIẾT #1: Hanoi - Wikipedia
+URL: https://en.wikipedia.org/wiki/Hanoi
+THỜI GIAN QUÉT: 2026-10-27 10:10:46
+================================================================================
+
+--------------------------------------------------------------------------------
+[1] TẬP MCS (Chỉ hiển thị các Mentions có > 1 Candidate trong CSDL)
+Số lượng: 29 mentions
+--------------------------------------------------------------------------------
+[1] Mention: "Hà Nội"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 80] Hà Nội (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 80     | WikiName: Hà Nội                    | RealName: Hà Nội               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 29883  | WikiName: Hà Nội (tỉnh)             | RealName: Hà Nội               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 45446  | WikiName: Ga Hà Nội                 | RealName: Ga Hà Nội            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 55109  | WikiName: Tiểu hành tinh            | RealName: tiểu hành tinh       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 239819 | WikiName: Vùng thủ đô Hà Nội        | RealName: Vùng thủ đô Hà Nội   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 497176 | WikiName: Tháp Hà Nội               | RealName: Tháp Hà Nội          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 2421780 | WikiName: Hà Nội, Hà Nội            | RealName: Hà Nội, Hà Nội       | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 3424288 | WikiName: Hà Nội (HQ-182)           | RealName: Hà Nội               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (9) ID: 3700033 | WikiName: Đường Hà Nội, Hồng Kông   | RealName: Đường Hà Nội, Hồng Kông | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (10) ID: 11684569 | WikiName: Hà Nội và tôi             | RealName: Hà Nội và tôi        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[2] Mention: "an"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3912] AN (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 3912   | WikiName: AN                        | RealName: an                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 243701 | WikiName: An (họ)                   | RealName: An                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 543970 | WikiName: ISO 639                   | RealName: ISO 639              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 1319609 | WikiName: Șanț                      | RealName: Șanț                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[3] Mention: "as"
+    - Số lần xuất hiện trong doc: 5
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190000444] as (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1739891 | WikiName: Hội chứng Asperger        | RealName: Hội chứng Asperger   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (2) ID: 190000444 | WikiName: as                        | RealName: as                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+
+[4] Mention: "a"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 311001756] A (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 673    | WikiName: A                         | RealName: a                    | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (2) ID: 332853 | WikiName: A (diện tích)             | RealName: a                    | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 311001756 | WikiName: A                         | RealName: A                    | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+
+[5] Mention: "s"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 15716134] S (dịch vụ tàu điện ngầm Thành phố New York) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 691    | WikiName: S                         | RealName: S                    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (2) ID: 15716134 | WikiName: S (dịch vụ tàu điện ngầm Thành phố New York) | RealName: s                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+
+[6] Mention: "Thăng Long"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 734] Thăng Long (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (17 Candidates):
+        (1) ID: 734    | WikiName: Thăng Long                | RealName: Thăng Long           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 15644  | WikiName: Hoàng thành Thăng Long    | RealName: Hoàng thành Thăng Long | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 35814  | WikiName: Cầu Thăng Long            | RealName: Cầu Thăng Long       | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 37338  | WikiName: Đại lộ Thăng Long         | RealName: Đại lộ Thăng Long    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 73456  | WikiName: Thăng Long tứ trấn        | RealName: Thăng Long tứ trấn   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 93071  | WikiName: Trường Đại học Thăng Long | RealName: Trường Đại học Thăng Long | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 145681 | WikiName: Thang Long                | RealName: Thang Long           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 185585 | WikiName: Trận Thăng Long           | RealName: Trận Thăng Long      | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (9) ID: 247245 | WikiName: Ban hợp ca Thăng Long     | RealName: Ban hợp ca Thăng Long | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (10) ID: 309079 | WikiName: Thăng Long tứ quán        | RealName: Thăng Long tứ quán   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (11) ID: 543548 | WikiName: Thăng Long, Đông Hưng     | RealName: Thăng Long, Đông Hưng | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (12) ID: 1252996 | WikiName: Thăng Long, Kinh Môn      | RealName: Thăng Long, Kinh Môn | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (13) ID: 1252997 | WikiName: Thăng Long, Nông Cống     | RealName: Thăng Long, Nông Cống | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (14) ID: 1577046 | WikiName: Thăng Long (nhạc sĩ)      | RealName: Thăng Long           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (15) ID: 18468828 | WikiName: Trường Trung học phổ thông Thăng Long | RealName: Trường Trung học phổ thông Thăng Long | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (16) ID: 19748997 | WikiName: Hà Phạm Thăng Long        | RealName: Hà Phạm Thăng Long   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (17) ID: 19780818 | WikiName: Trường Tiểu học Thăng Long, Hà Nội | RealName: Trường Tiểu học Thăng Long, Hà Nội | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[7] Mention: "Ho"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 39118] Ho (Ghana) (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 29301  | WikiName: Tiếng Ho                  | RealName: Tiếng Ho             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (2) ID: 39118  | WikiName: Ho (Ghana)                | RealName: Ho                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (3) ID: 39121  | WikiName: Holmi                     | RealName: Holmi                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 364765 | WikiName: Chương trình Ra đi Có trật tự | RealName: Chương trình Ra đi Có trật tự | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 808534 | WikiName: Ho                        | RealName: ho                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 311002315 | WikiName: Ho                        | RealName: Ho                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[8] Mention: "Chi"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 10000] Chi (sinh học) (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 10000  | WikiName: Chi (sinh học)            | RealName: Chi                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 61572  | WikiName: Chi phí                   | RealName: chi phí              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 7460659 | WikiName: Chi (giải phẫu học)       | RealName: chi                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 190002890 | WikiName: chi                       | RealName: chi                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[9] Mention: "Minh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 47811] Minh (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 45917  | WikiName: Nhà Minh                  | RealName: Nhà Minh             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (2) ID: 47811  | WikiName: Minh                      | RealName: Minh                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (3) ID: 110400 | WikiName: Mani giáo                 | RealName: Mani giáo            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 335957 | WikiName: Minh (Nội Mông Cổ)        | RealName: minh                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 375318 | WikiName: Hồ Chí Minh               | RealName: Hồ Chí Minh          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 14821864 | WikiName: Minh (họ)                 | RealName: Minh                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[10] Mention: "Hoàn Kiếm"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 48595] Hoàn Kiếm (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 15360  | WikiName: Hồ Hoàn Kiếm              | RealName: Hồ Hoàn Kiếm         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (2) ID: 48595  | WikiName: Hoàn Kiếm                 | RealName: Hoàn Kiếm            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (3) ID: 119925 | WikiName: Thôn                      | RealName: thôn                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 355717 | WikiName: Phố Hồ Hoàn Kiếm          | RealName: Phố Hồ Hoàn Kiếm     | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[11] Mention: "Ba Vì"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 127783] Ba Vì (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 67264  | WikiName: Dãy núi Ba Vì             | RealName: Dãy núi Ba Vì        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (2) ID: 116507 | WikiName: Vườn quốc gia Ba Vì       | RealName: Vườn quốc gia Ba Vì  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 127783 | WikiName: Ba Vì                     | RealName: Ba Vì                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (4) ID: 1242365 | WikiName: Ba Vì, Ba Tơ              | RealName: Ba Vì, Ba Tơ         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 1242366 | WikiName: Ba Vì (xã), Ba Vì         | RealName: Ba Vì (xã), Ba Vì    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[12] Mention: "In"
+    - Số lần xuất hiện trong doc: 5
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 311002376] In (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (15 Candidates):
+        (1) ID: 3919   | WikiName: Màu gốc in ấn             | RealName: Màu gốc in ấn        | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (2) ID: 7697   | WikiName: Đồ họa in ấn              | RealName: Đồ họa in ấn         | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 7769   | WikiName: In offset                 | RealName: in offset            | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (4) ID: 7772   | WikiName: In màu                    | RealName: In màu               | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (5) ID: 8412   | WikiName: In thạch bản              | RealName: in thạch bản         | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (6) ID: 25705  | WikiName: In lụa                    | RealName: in lụa               | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (7) ID: 26676  | WikiName: In ấn                     | RealName: in ấn                | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (8) ID: 29398  | WikiName: Giấy in phun              | RealName: Giấy in phun         | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (9) ID: 41431  | WikiName: Máy in mã vạch            | RealName: Máy in mã vạch       | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (10) ID: 48124  | WikiName: Mạch in                   | RealName: mạch in              | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (11) ID: 122858 | WikiName: Ta in                     | RealName: Ta in                | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (12) ID: 125316 | WikiName: Máy in                    | RealName: Máy in               | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (13) ID: 176065 | WikiName: In                        | RealName: in                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (14) ID: 214198 | WikiName: Indi                      | RealName: indi                 | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (15) ID: 311002376 | WikiName: In                        | RealName: In                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+
+[13] Mention: "Lý"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 37993] Lý (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (8 Candidates):
+        (1) ID: 1419   | WikiName: Vật lý học                | RealName: vật lý học           | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (2) ID: 24981  | WikiName: Hải lý                    | RealName: hải lý               | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 37993  | WikiName: Lý                        | RealName: Lý                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (4) ID: 89220  | WikiName: Lý (họ)                   | RealName: Lý                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 108725 | WikiName: Lý (âm nhạc)              | RealName: lý                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 369961 | WikiName: Lý (họ người)             | RealName: Lý                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 17561032 | WikiName: Lý (họ 理)                 | RealName: Lý                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 19804517 | WikiName: Lý (đơn vị đo lường)      | RealName: Lý                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[14] Mention: "Lý Thái Tổ"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: Np | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 735] Lý Thái Tổ (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 735    | WikiName: Lý Thái Tổ                | RealName: Lý Thái Tổ           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 812510 | WikiName: Lý Thái Tổ (HQ-012)       | RealName: Lý Thái Tổ           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 15463424 | WikiName: Lý Thái Tổ (miếu hiệu)    | RealName: Lý Thái Tổ           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[15] Mention: "king"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 513867] King (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 8489   | WikiName: Vương                     | RealName: Vương                | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (2) ID: 8668   | WikiName: Martin Luther King        | RealName: Martin Luther King   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 31838  | WikiName: Stephen King              | RealName: Stephen King         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 235394 | WikiName: King City, Oregon         | RealName: King City, Oregon    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 513867 | WikiName: King                      | RealName: King                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+
+[16] Mention: "Lê Lợi"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 1250111] Lê Lợi, Vinh (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (18 Candidates):
+        (1) ID: 11686  | WikiName: Quy Nhơn                  | RealName: Quy Nhơn             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (2) ID: 14911  | WikiName: Bắc Giang (thành phố)     | RealName: Bắc Giang            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 40351  | WikiName: Sơn Tây (thị xã)          | RealName: Sơn Tây              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 41069  | WikiName: Lê Thái Tổ                | RealName: Lê Thái Tổ           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 89906  | WikiName: Ngô Quyền (quận)          | RealName: Ngô Quyền            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 841966 | WikiName: Lê Lợi, Thạch An          | RealName: Lê Lợi, Thạch An     | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 1250096 | WikiName: Lê Lợi, An Dương          | RealName: Lê Lợi, An Dương     | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 1250098 | WikiName: Lê Lợi, Chí Linh          | RealName: Lê Lợi, Chí Linh     | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (9) ID: 1250099 | WikiName: Lê Lợi, Gia Lộc           | RealName: Lê Lợi, Gia Lộc      | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (10) ID: 1250100 | WikiName: Lê Lợi, Hạ Long           | RealName: Lê Lợi, Hạ Long      | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (11) ID: 1250101 | WikiName: Lê Lợi, thành phố Hưng Yên | RealName: Lê Lợi, thành phố Hưng Yên | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (12) ID: 1250102 | WikiName: Lê Lợi, Kiến Xương        | RealName: Lê Lợi, Kiến Xương   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (13) ID: 1250103 | WikiName: Lê Lợi, thành phố Kon Tum | RealName: Lê Lợi, thành phố Kon Tum | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (14) ID: 1250108 | WikiName: Lê Lợi, Nậm Nhùn          | RealName: Lê Lợi, Nậm Nhùn     | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (15) ID: 1250110 | WikiName: Lê Lợi, Thường Tín        | RealName: Lê Lợi, Thường Tín   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (16) ID: 1250111 | WikiName: Lê Lợi, Vinh              | RealName: Lê Lợi, Vinh         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (17) ID: 19729256 | WikiName: Đường Lê Lợi, Thành phố Hồ Chí Minh | RealName: Đường Lê Lợi, Thành phố Hồ Chí Minh | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (18) ID: 190010550 | WikiName: lê lợi                    | RealName: lê lợi               | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[17] Mention: "Đông Kinh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 21968] Đông Kinh (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (11 Candidates):
+        (1) ID: 80     | WikiName: Hà Nội                    | RealName: Hà Nội               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (2) ID: 734    | WikiName: Thăng Long                | RealName: Thăng Long           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 2794   | WikiName: Ngân Xuyên                | RealName: Ngân Xuyên           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 21968  | WikiName: Đông Kinh                 | RealName: Đông Kinh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (5) ID: 30916  | WikiName: Tokyo                     | RealName: Tokyo                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 35954  | WikiName: Đông Kinh Nghĩa Thục      | RealName: Đông Kinh Nghĩa Thục | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 37345  | WikiName: Vịnh Bắc Bộ               | RealName: Vịnh Bắc Bộ          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 67377  | WikiName: Khai Phong                | RealName: Khai Phong           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (9) ID: 77286  | WikiName: Liêu Dương                | RealName: Liêu Dương           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (10) ID: 270496 | WikiName: Đông Kết                  | RealName: Đông Kết             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (11) ID: 1243688 | WikiName: Đông Kinh (phường)        | RealName: Đông Kinh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[18] Mention: "Nguyễn"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 3049] Nguyễn (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 3049   | WikiName: Nguyễn                    | RealName: Nguyễn               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 4997   | WikiName: Nhà Nguyễn                | RealName: Nhà Nguyễn           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 5298   | WikiName: Chúa Nguyễn               | RealName: Chúa Nguyễn          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 1201463 | WikiName: Nhà Lê trung hưng         | RealName: Nhà Lê trung hưng    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 3372185 | WikiName: Nguyễn (nước)             | RealName: Nguyễn               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[19] Mention: "Huế"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 866] Huế (thành phố thuộc tỉnh) (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 866    | WikiName: Huế (thành phố thuộc tỉnh) | RealName: Huế                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 11244  | WikiName: Huế                       | RealName: Huế                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 52289  | WikiName: Cố đô Huế                 | RealName: Cố đô Huế            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 65402  | WikiName: Quần thể di tích Cố đô Huế | RealName: Quần thể di tích Cố đô Huế | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 229895 | WikiName: Kinh thành Huế            | RealName: Kinh thành Huế       | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 3350346 | WikiName: Tỉnh (Việt Nam)           | RealName: tỉnh                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 17830502 | WikiName: Phố Huế                   | RealName: Phố Huế              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[20] Mention: "country"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 1361] Quốc gia (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1361   | WikiName: Quốc gia                  | RealName: quốc gia             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 208501 | WikiName: Nhạc đồng quê             | RealName: nhạc đồng quê        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 231159 | WikiName: Country                   | RealName: Country              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[21] Mention: "first"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49660] 1 (số) (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 49660  | WikiName: 1 (số)                    | RealName: 1                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 494589 | WikiName: First                     | RealName: First                | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 15151700 | WikiName: Ruth First                | RealName: Ruth First           | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[22] Mention: "Long Biên"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 16311] Long Biên (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 16311  | WikiName: Long Biên                 | RealName: Long Biên            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 34151  | WikiName: Cầu Long Biên             | RealName: Cầu Long Biên        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 117918 | WikiName: Long Biên (huyện)         | RealName: Long Biên            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 244559 | WikiName: Long Biên (phường)        | RealName: Long Biên            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 387105 | WikiName: Chợ Long Biên             | RealName: Chợ Long Biên        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[23] Mention: "p"
+    - Số lần xuất hiện trong doc: 3
+    - POS Tag: N | Loại: letter
+    - EREL Chọn (Disambiguated): [ID: 688] P (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 688    | WikiName: P                         | RealName: p                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 25697  | WikiName: Phosphor                  | RealName: phosphor             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 796316 | WikiName: P (độ phức tạp)           | RealName: p                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 19828221 | WikiName: Р                         | RealName: Р                    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[24] Mention: "time"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2563] Thời gian (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 2563   | WikiName: Thời gian                 | RealName: thời gian            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 111748 | WikiName: Time (tạp chí)            | RealName: Time                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 1542378 | WikiName: Time, Illinois            | RealName: Time, Illinois       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[25] Mention: "Tang"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190021571] tang (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 10714  | WikiName: Hàm lượng giác            | RealName: hàm lượng giác       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (2) ID: 190021571 | WikiName: tang                      | RealName: tang                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+
+[26] Mention: "long"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: N/A
+    - EREL Chọn (Disambiguated): [ID: 190011279] long (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 18333  | WikiName: Từ Hán-Việt               | RealName: Từ Hán-Việt          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (2) ID: 243484 | WikiName: Long (họ)                 | RealName: Long                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 296950 | WikiName: Long, Phrae               | RealName: Long, Phrae          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 796442 | WikiName: Long, Luangnamtha         | RealName: Long, Luangnamtha    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 190011279 | WikiName: long                      | RealName: long                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+
+[27] Mention: "Red"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: music
+    - EREL Chọn (Disambiguated): [ID: 242558] Red (album của Aikawa Nanase) (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (8 Candidates):
+        (1) ID: 242558 | WikiName: Red (album của Aikawa Nanase) | RealName: Red                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 841453 | WikiName: Red (album của Dia Frampton) | RealName: Red                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 1561850 | WikiName: Red (album của Taylor Swift) | RealName: Red                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 1610086 | WikiName: Red (bài hát của Taylor Swift) | RealName: Red                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 1617456 | WikiName: Red                       | RealName: Red                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 13505343 | WikiName: C.I.A tái xuất            | RealName: C.I.A tái xuất       | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 13555832 | WikiName: C.I.A tái xuất 2          | RealName: C.I.A tái xuất 2     | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 19627686 | WikiName: Red (Taylor's Version)    | RealName: Red                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[28] Mention: "La Thành"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 228863] La Thành (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 42197  | WikiName: Đại La                    | RealName: Đại La               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (2) ID: 66802  | WikiName: Đống Đa                   | RealName: Đống Đa              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 107042 | WikiName: Huyện (Trung Quốc)        | RealName: huyện                | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 228863 | WikiName: La Thành                  | RealName: La Thành             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (5) ID: 514357 | WikiName: La Thành Tây Đô           | RealName: La Thành Tây Đô      | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 814638 | WikiName: La Thành (tướng)          | RealName: La Thành             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[29] Mention: "La"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 311002461] La (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 104    | WikiName: Los Angeles               | RealName: Los Angeles          | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (2) ID: 11204  | WikiName: Long An                   | RealName: Long An              | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 46631  | WikiName: Louisiana                 | RealName: Louisiana            | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (4) ID: 99539  | WikiName: .la                       | RealName: .la                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (5) ID: 123483 | WikiName: La (động vật)             | RealName: la                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (6) ID: 123506 | WikiName: La                        | RealName: La                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (7) ID: 214420 | WikiName: Lanthan                   | RealName: lanthan              | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (8) ID: 236610 | WikiName: La (họ)                   | RealName: La                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (9) ID: 14714364 | WikiName: La (nốt nhạc)             | RealName: La                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (10) ID: 311002461 | WikiName: La                        | RealName: La                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+
+--------------------------------------------------------------------------------
+[2] TẬP UMCS (Unmatched Candidate Set - Các từ/cụm từ KHÔNG có trong CSDL)
+Tổng số mentions chưa nhận diện: 309
+--------------------------------------------------------------------------------
+Danh sách các từ/cụm từ quét được nhưng không có alias trong CSDL:
+    1. "the" (Số lần xuất hiện: 41)
+    2. "of" (Số lần xuất hiện: 23)
+    3. "and" (Số lần xuất hiện: 14)
+    4. "city" (Số lần xuất hiện: 10)
+    5. "Capital" (Số lần xuất hiện: 9)
+    6. "in" (Số lần xuất hiện: 9)
+    7. "was" (Số lần xuất hiện: 7)
+    8. "from" (Số lần xuất hiện: 5)
+    9. "dragon" (Số lần xuất hiện: 4)
+   10. "centrally-governed" (Số lần xuất hiện: 3)
+   11. "Vietnamese" (Số lần xuất hiện: 3)
+   12. "area" (Số lần xuất hiện: 3)
+   13. "National" (Số lần xuất hiện: 3)
+   14. "French" (Số lần xuất hiện: 3)
+   15. "renamed" (Số lần xuất hiện: 3)
+   16. "million" (Số lần xuất hiện: 2)
+   17. "had" (Số lần xuất hiện: 2)
+   18. "domestic" (Số lần xuất hiện: 2)
+   19. "hosts" (Số lần xuất hiện: 2)
+   20. "its" (Số lần xuất hiện: 2)
+   21. "Imperial" (Số lần xuất hiện: 2)
+   22. "Citadel" (Số lần xuất hiện: 2)
+   23. "Lake" (Số lần xuất hiện: 2)
+   24. "architecture" (Số lần xuất hiện: 2)
+   25. "colonial" (Số lần xuất hiện: 2)
+   26. "established" (Số lần xuất hiện: 2)
+   27. "later" (Số lần xuất hiện: 2)
+   28. "this" (Số lần xuất hiện: 2)
+   29. "DRV" (Số lần xuất hiện: 2)
+   30. "part" (Số lần xuất hiện: 2)
+   31. "Names" (Số lần xuất hiện: 2)
+   32. "gave" (Số lần xuất hiện: 2)
+   33. "By" (Số lần xuất hiện: 2)
+   34. "Vietnam
+•" (Số lần xuất hiện: 1)
+   35. "communes
+Hanoi" (Số lần xuất hiện: 1)
+   36. "/hæˈnɔɪ" (Số lần xuất hiện: 1)
+   37. "ha-NOY" (Số lần xuất hiện: 1)
+   38. "pronounced" (Số lần xuất hiện: 1)
+   39. "[haː˨˩" (Số lần xuất hiện: 1)
+   40. "noj˧˨ʔ]" (Số lần xuất hiện: 1)
+   41. "ⓘ" (Số lần xuất hiện: 1)
+   42. "second-most" (Số lần xuất hiện: 1)
+   43. "populous" (Số lần xuất hiện: 1)
+   44. "covers" (Số lần xuất hiện: 1)
+   45. "3,358.6" (Số lần xuất hiện: 1)
+   46. "1,296.8" (Số lần xuất hiện: 1)
+   47. "population" (Số lần xuất hiện: 1)
+   48. "8.7" (Số lần xuất hiện: 1)
+   49. "second-highest" (Số lần xuất hiện: 1)
+   50. "gross" (Số lần xuất hiện: 1)
+   51. "regional" (Số lần xuất hiện: 1)
+   52. "product" (Số lần xuất hiện: 1)
+   53. "all" (Số lần xuất hiện: 1)
+   54. "provinces" (Số lần xuất hiện: 1)
+   55. "cities" (Số lần xuất hiện: 1)
+   56. "at" (Số lần xuất hiện: 1)
+   57. "US$48" (Số lần xuất hiện: 1)
+   58. "billion" (Số lần xuất hiện: 1)
+   59. "behind" (Số lần xuất hiện: 1)
+   60. "foreign" (Số lần xuất hiện: 1)
+   61. "embassies" (Số lần xuất hiện: 1)
+   62. "headquarters" (Số lần xuất hiện: 1)
+   63. "Army" (Số lần xuất hiện: 1)
+   64. "VPA" (Số lần xuất hiện: 1)
+   65. "University" (Số lần xuất hiện: 1)
+   66. "system" (Số lần xuất hiện: 1)
+   67. "other" (Số lần xuất hiện: 1)
+   68. "governmental" (Số lần xuất hiện: 1)
+   69. "organizations" (Số lần xuất hiện: 1)
+   70. "18.7" (Số lần xuất hiện: 1)
+   71. "international" (Số lần xuất hiện: 1)
+   72. "visitors" (Số lần xuất hiện: 1)
+   73. "Mausoleum" (Số lần xuất hiện: 1)
+   74. "West" (Số lần xuất hiện: 1)
+   75. "Park" (Số lần xuất hiện: 1)
+   76. "near" (Số lần xuất hiện: 1)
+   77. "outskirts" (Số lần xuất hiện: 1)
+   78. "municipality" (Số lần xuất hiện: 1)
+   79. "urban" (Số lần xuất hiện: 1)
+   80. "architectural" (Số lần xuất hiện: 1)
+   81. "styles" (Số lần xuất hiện: 1)
+   82. "including" (Số lần xuất hiện: 1)
+   83. "pre-colonial" (Số lần xuất hiện: 1)
+   84. "brutalist" (Số lần xuất hiện: 1)
+   85. "apartments" (Số lần xuất hiện: 1)
+   86. "disorganized" (Số lần xuất hiện: 1)
+   87. "alleys" (Số lần xuất hiện: 1)
+   88. "tube" (Số lần xuất hiện: 1)
+   89. "houses" (Số lần xuất hiện: 1)
+   90. "stemming" (Số lần xuất hiện: 1)
+   91. "growth" (Số lần xuất hiện: 1)
+   92. "20th" (Số lần xuất hiện: 1)
+   93. "century" (Số lần xuất hiện: 1)
+   94. "under" (Số lần xuất hiện: 1)
+   95. "what" (Số lần xuất hiện: 1)
+   96. "would" (Số lần xuất hiện: 1)
+   97. "become" (Số lần xuất hiện: 1)
+   98. "central" (Số lần xuất hiện: 1)
+   99. "naming" (Số lần xuất hiện: 1)
+  100. "[tʰɐŋ" (Số lần xuất hiện: 1)
+  101. "loŋ]" (Số lần xuất hiện: 1)
+  102. "ascending" (Số lần xuất hiện: 1)
+  103. "[ɗoŋ" (Số lần xuất hiện: 1)
+  104. "kīŋ̟]" (Số lần xuất hiện: 1)
+  105. "eastern" (Số lần xuất hiện: 1)
+  106. "using" (Số lần xuất hiện: 1)
+  107. "until" (Số lần xuất hiện: 1)
+  108. "moved" (Số lần xuất hiện: 1)
+  109. "served" (Số lần xuất hiện: 1)
+  110. "protectorate" (Số lần xuất hiện: 1)
+  111. "fall" (Số lần xuất hiện: 1)
+  112. "Democratic" (Số lần xuất hiện: 1)
+  113. "Republic" (Số lần xuất hiện: 1)
+  114. "designated" (Số lần xuất hiện: 1)
+  115. "newly" (Số lần xuất hiện: 1)
+  116. "State" (Số lần xuất hiện: 1)
+  117. "became" (Số lần xuất hiện: 1)
+  118. "unified" (Số lần xuất hiện: 1)
+  119. "---" (Số lần xuất hiện: 1)
+  120. "---
+Hanoi" (Số lần xuất hiện: 1)
+  121. "referred" (Số lần xuất hiện: 1)
+  122. "龍編" (Số lần xuất hiện: 1)
+  123. "Lóngbiān" (Số lần xuất hiện: 1)
+  124. "dragons" (Số lần xuất hiện: 1)
+  125. "interweaving" (Số lần xuất hiện: 1)
+  126. "宋平" (Số lần xuất hiện: 1)
+  127. "Sòngpíng" (Số lần xuất hiện: 1)
+  128. "pacification" (Số lần xuất hiện: 1)
+  129. "龍肚" (Số lần xuất hiện: 1)
+  130. "belly" (Số lần xuất hiện: 1)
+  131. "sometime" (Số lần xuất hiện: 1)
+  132. "Bridge" (Số lần xuất hiện: 1)
+  133. "built" (Số lần xuất hiện: 1)
+  134. "during" (Số lần xuất hiện: 1)
+  135. "times" (Số lần xuất hiện: 1)
+  136. "both" (Số lần xuất hiện: 1)
+  137. "were" (Số lần xuất hiện: 1)
+  138. "used" (Số lần xuất hiện: 1)
+  139. "refer" (Số lần xuất hiện: 1)
+  140. "official" (Số lần xuất hiện: 1)
+  141. "colloquial" (Số lần xuất hiện: 1)
+  142. "discourse" (Số lần xuất hiện: 1)
+  143. "Some" (Số lần xuất hiện: 1)
+  144. "older" (Số lần xuất hiện: 1)
+  145. "feature" (Số lần xuất hiện: 1)
+  146. "龍" (Số lần xuất hiện: 1)
+  147. "transl" (Số lần xuất hiện: 1)
+  148. "linked" (Số lần xuất hiện: 1)
+  149. "curved" (Số lần xuất hiện: 1)
+  150. "formation" (Số lần xuất hiện: 1)
+  151. "around" (Số lần xuất hiện: 1)
+  152. "which" (Số lần xuất hiện: 1)
+  153. "symbolized" (Số lần xuất hiện: 1)
+  154. "recaptured" (Số lần xuất hiện: 1)
+  155. "General" (Số lần xuất hiện: 1)
+  156. "Pian" (Số lần xuất hiện: 1)
+  157. "who" (Số lần xuất hiện: 1)
+  158. "大羅" (Số lần xuất hiện: 1)
+  159. "big" (Số lần xuất hiện: 1)
+  160. "net" (Số lần xuất hiện: 1)
+  161. "nickname" (Số lần xuất hiện: 1)
+  162. "羅城" (Số lần xuất hiện: 1)
+  163. "Dàluó" (Số lần xuất hiện: 1)
+  164. "When" (Số lần xuất hiện: 1)
+  165. "named" (Số lần xuất hiện: 1)
+  166. "昇龍" (Số lần xuất hiện: 1)
+
+--------------------------------------------------------------------------------
+[3] DANH SÁCH ENTITY2 ĐƯỢC CHỌN ĐỂ KẾT NỐI VỚI ENTITY1 [1 - Ha Noi]
+--------------------------------------------------------------------------------
+  [1] EntityId: 540887 | WikiName: 75                             | Số lần xuất hiện: 1
+  [2] EntityId: 80     | WikiName: Hà Nội                         | Số lần xuất hiện: 11
+  [3] EntityId: 2615787 | WikiName: Nhà nước Hồi giáo Iraq và Levant | Số lần xuất hiện: 1
+  [4] EntityId: 151863 | WikiName: Việt Nam                       | Số lần xuất hiện: 6
+  [5] EntityId: 4706   | WikiName: Công nghệ thông tin            | Số lần xuất hiện: 7
+  [6] EntityId: 3912   | WikiName: AN                             | Số lần xuất hiện: 1
+  [7] EntityId: 86038  | WikiName: Kilômét vuông                  | Số lần xuất hiện: 1
+  [8] EntityId: 12865  | WikiName: Dặm vuông Anh                  | Số lần xuất hiện: 1
+  [9] EntityId: 190000444 | WikiName: as                             | Số lần xuất hiện: 5
+  [10] EntityId: 3347499 | WikiName: 2026                           | Số lần xuất hiện: 1
+  [11] EntityId: 1323146 | WikiName: Has (huyện)                    | Số lần xuất hiện: 2
+  [12] EntityId: 311001756 | WikiName: A                              | Số lần xuất hiện: 1
+  [13] EntityId: 3347496 | WikiName: 2023                           | Số lần xuất hiện: 1
+  [14] EntityId: 39     | WikiName: Thành phố Hồ Chí Minh          | Số lần xuất hiện: 1
+  [15] EntityId: 540884 | WikiName: 78                             | Số lần xuất hiện: 1
+  [16] EntityId: 461650 | WikiName: People (tạp chí)               | Số lần xuất hiện: 1
+  [17] EntityId: 15716134 | WikiName: S (dịch vụ tàu điện ngầm Thành phố New York) | Số lần xuất hiện: 3
+  [18] EntityId: 3291806 | WikiName: 2022                           | Số lần xuất hiện: 1
+  [19] EntityId: 734    | WikiName: Thăng Long                     | Số lần xuất hiện: 3
+  [20] EntityId: 39118  | WikiName: Ho (Ghana)                     | Số lần xuất hiện: 1
+  [21] EntityId: 10000  | WikiName: Chi (sinh học)                 | Số lần xuất hiện: 1
+  [22] EntityId: 47811  | WikiName: Minh                           | Số lần xuất hiện: 1
+  [23] EntityId: 48595  | WikiName: Hoàn Kiếm                      | Số lần xuất hiện: 1
+  [24] EntityId: 127783 | WikiName: Ba Vì                          | Số lần xuất hiện: 1
+  [25] EntityId: 311002376 | WikiName: In                             | Số lần xuất hiện: 5
+  [26] EntityId: 519911 | WikiName: 1010                           | Số lần xuất hiện: 2
+  [27] EntityId: 37993  | WikiName: Lý                             | Số lần xuất hiện: 1
+  [28] EntityId: 13389664 | WikiName: Dynasty (phim truyền hình 2017) | Số lần xuất hiện: 4
+  [29] EntityId: 24968  | WikiName: Hoàng Đế                       | Số lần xuất hiện: 1
+  [30] EntityId: 735    | WikiName: Lý Thái Tổ                     | Số lần xuất hiện: 2
+  [31] EntityId: 52300  | WikiName: Dân tộc (cộng đồng)            | Số lần xuất hiện: 1
+  [32] EntityId: 27583  | WikiName: Đại Việt                       | Số lần xuất hiện: 1
+  [33] EntityId: 530395 | WikiName: 1428                           | Số lần xuất hiện: 1
+  [34] EntityId: 513867 | WikiName: King                           | Số lần xuất hiện: 1
+  [35] EntityId: 1250111 | WikiName: Lê Lợi, Vinh                   | Số lần xuất hiện: 1
+  [36] EntityId: 190025530 | WikiName: to                             | Số lần xuất hiện: 11
+  [37] EntityId: 21968  | WikiName: Đông Kinh                      | Số lần xuất hiện: 1
+  [38] EntityId: 7833138 | WikiName: WITH (album của TVXQ)          | Số lần xuất hiện: 1
+  [39] EntityId: 1695783 | WikiName: Name (manga)                   | Số lần xuất hiện: 2
+  [40] EntityId: 37852  | WikiName: 1789                           | Số lần xuất hiện: 1
+  [41] EntityId: 250073 | WikiName: 1802                           | Số lần xuất hiện: 1
+  [42] EntityId: 3049   | WikiName: Nguyễn                         | Số lần xuất hiện: 2
+  [43] EntityId: 866    | WikiName: Huế (thành phố thuộc tỉnh)     | Số lần xuất hiện: 1
+  [44] EntityId: 392164 | WikiName: 1831                           | Số lần xuất hiện: 1
+  [45] EntityId: 1293   | WikiName: Liên bang Đông Dương           | Số lần xuất hiện: 1
+  [46] EntityId: 107810 | WikiName: 1902                           | Số lần xuất hiện: 1
+  [47] EntityId: 14007  | WikiName: 1945                           | Số lần xuất hiện: 1
+  [48] EntityId: 29685  | WikiName: Miền Bắc (Việt Nam)            | Số lần xuất hiện: 1
+  [49] EntityId: 263693 | WikiName: 1883                           | Số lần xuất hiện: 1
+  [50] EntityId: 107933 | WikiName: 1949                           | Số lần xuất hiện: 2
+  [51] EntityId: 13502177 | WikiName: After (The Walking Dead)       | Số lần xuất hiện: 1
+  [52] EntityId: 788706 | WikiName: August (công ty)               | Số lần xuất hiện: 1
+  [53] EntityId: 2429602 | WikiName: Revolution (bài hát)           | Số lần xuất hiện: 1
+  [54] EntityId: 311001499 | WikiName: Independent                    | Số lần xuất hiện: 1
+  [55] EntityId: 1361   | WikiName: Quốc gia                       | Số lần xuất hiện: 1
+  [56] EntityId: 824    | WikiName: 1954                           | Số lần xuất hiện: 2
+  [57] EntityId: 2426640 | WikiName: Again (EP của T-ara)           | Số lần xuất hiện: 1
+  [58] EntityId: 63996  | WikiName: 1976                           | Số lần xuất hiện: 2
+  [59] EntityId: 49660  | WikiName: 1 (số)                         | Số lần xuất hiện: 1
+  [60] EntityId: 16311  | WikiName: Long Biên                      | Số lần xuất hiện: 3
+  [61] EntityId: 688    | WikiName: P                              | Số lần xuất hiện: 3
+  [62] EntityId: 5554   | WikiName: Lít                            | Số lần xuất hiện: 5
+  [63] EntityId: 190023121 | WikiName: then                           | Số lần xuất hiện: 1
+  [64] EntityId: 112304 | WikiName: Tống Bình                      | Số lần xuất hiện: 1
+  [65] EntityId: 1374040 | WikiName: Song                           | Số lần xuất hiện: 1
+  [66] EntityId: 308944 | WikiName: Long Đỗ                        | Số lần xuất hiện: 1
+  [67] EntityId: 531911 | WikiName: 450                            | Số lần xuất hiện: 1
+  [68] EntityId: 2563   | WikiName: Thời gian                      | Số lần xuất hiện: 1
+  [69] EntityId: 190021571 | WikiName: tang                           | Số lần xuất hiện: 2
+  [70] EntityId: 190011279 | WikiName: long                           | Số lần xuất hiện: 1
+  [71] EntityId: 242558 | WikiName: Red (album của Aikawa Nanase)  | Số lần xuất hiện: 1
+  [72] EntityId: 3142918 | WikiName: River (bài hát của Joni Mitchell) | Số lần xuất hiện: 1
+  [73] EntityId: 673    | WikiName: A                              | Số lần xuất hiện: 1
+  [74] EntityId: 530854 | WikiName: 866                            | Số lần xuất hiện: 1
+  [75] EntityId: 11041  | WikiName: Gao                            | Số lần xuất hiện: 1
+  [76] EntityId: 42197  | WikiName: Đại La                         | Số lần xuất hiện: 1
+  [77] EntityId: 228863 | WikiName: La Thành                       | Số lần xuất hiện: 1
+  [78] EntityId: 311002461 | WikiName: La                             | Số lần xuất hiện: 1
+

@@ -1,0 +1,252 @@
+
+
+### [LINK 1] Năm – Wikipedia tiếng Việt ###
+URL: https://vi.wikipedia.org/wiki/N%C4%83m
+--------------------------------------------------
+Năm hay Niên (Tiếng Anh: year, chữ Hán: 年) là khoảng thời gian một hành tinh trong hệ Mặt Trời hoàn thành hết một vòng quay xung quanh Mặt Trời. Ngày nay, khi nói đến năm thì người ta thường đề cập đến năm Trái Đất. Một năm Trái Đất thường được tính là khoảng thời gian Trái Đất quay xong một vòng quanh Mặt Trời (khoảng 365 ngày 6 giờ). Đối với một người quan sát trên Trái Đất, điều này tương ứng với khoảng thời gian Mặt Trời hoàn thành một vòng quay dọc theo hoàng đạo.
+Trong thiên văn học, năm Julius là một đơn vị thời gian, định nghĩa là 365,25 ngày x 86.400 giây/ngày của hệ SI (không có giây nhuận).
+Do độ nghiêng trục của Trái Đất, quá trình một năm chứng kiến sự thay đổi tuần tự của các mùa, được đánh dấu bởi những thay đổi về thời tiết, các giờ ban ngày, thảm thực vật và khả năng sinh sản của chúng. Ở vùng ôn đới và ở xa địa cực, thường có bốn mùa được công nhận: xuân, hạ, thu và đông, về mặt thiên văn được đánh dấu bởi các điểm xuân phân, hạ chí, thu phân và đông chí của đường đi của Mặt Trời, mặc dù các mùa khí hậu có độ trễ so với các dấu hiệu thiên văn trên. Trong một số khu vực nhiệt đới và cận nhiệt đới chỉ có 2 mùa: mùa mưa với mùa khô.
+Một năm dương lịch là một khoảng thời gian xấp xỉ của chu kỳ quỹ đạo của Trái Đất trong một lịch cụ thể. Một năm trong lịch Gregory (cũng như trong lịch Julius) có 365 ngày (năm thường) hoặc 366 ngày (năm nhuận). Chiều dài trung bình của năm trong lịch Gregory (hiện đại) là 365,2425 ngày (có tính đến các quy tắc năm nhuận cho 1 thiên niên kỷ).
+Từ "năm" cũng được sử dụng một cách lỏng lẻo cho các khoảng thời gian liên quan nhưng không giống hệt với năm thiên văn hoặc năm dương lịch, chẳng hạn như các năm theo mùa, năm tài chính hoặc năm học, v.v... Theo nghĩa mở rộng, năm có thể có nghĩa là chu kỳ quỹ đạo của bất cứ hành tinh nào: ví dụ, một "năm sao Hỏa" hoặc "năm sao Kim" là thời gian mà sao Hỏa hoặc sao Kim đi đủ một vòng quỹ đạo riêng. Thuật ngữ này cũng được áp dụng theo nghĩa rộng hơn cho bất kỳ thời gian dài hoặc chu kỳ nào, chẳng hạn như "Great Year".
+
+--- Năm theo mùa ---
+Một năm theo mùa là thời gian giữa tái phát liên tiếp của một sự kiện theo mùa như lũ của một con sông, sự di cư của một loài chim, sự ra hoa của một loài thực vật, sương giá đầu tiên, hoặc các trò chơi đầu tiên dự kiến của một môn thể thao nào đó. Tất cả những sự kiện này có thể có sự khác biệt lớn trong hơn một tháng từ năm này sang năm khác.
+
+--- Năm dương lịch ---
+Các loại lịch dưới đây đều là các lịch tính theo chuyển động của Trái Đất xung quanh Mặt Trời, hay nói cách khác, một năm trong các loại lịch này bằng khoảng thời gian mà Trái Đất thực hiện được một vòng chuyển động quanh Mặt Trời và còn được gọi là dương lịch. Chúng đều có điểm chung là một năm thường kéo dài bằng hoặc xấp xỉ 365 ngày, và đôi khi được mở rộng để cân bằng lịch bằng cách bổ sung thêm 1 ngày dư (được gọi là ngày nhuận) để tạo thành một năm nhuận sau mỗi một khoảng thời gian nhất định, thường là vài năm.
+Nếu như vị trí của Trái Đất (hay Mặt Trời) được tính toán liên quan tới điểm phân (điểm xuân phân hay điểm thu phân) thì ngày tháng chỉ ra mùa (và như thế nó đồng bộ với xích vĩ của Mặt Trời). Những loại lịch như thế được gọi là dương lịch chí tuyến. Một năm lịch trung bình của loại lich như thế là xấp xỉ bằng một vài dạng của năm chí tuyến (thông thường hoặc là năm chí tuyến trung bình hoặc là năm xuân phân).
+
+--- Lịch Gregorius ---
+Một năm trong lịch Gregorius được chia thành 12 tháng với 365 ngày. Theo đó, cứ 4 năm thì người ta thêm một ngày vào cuối tháng Hai, tháng Hai từ 28 ngày trở thành 29 ngày và tạo thành năm nhuận có 366 ngày. Trước đó lịch Julius quy ước một năm có 365,25 ngày, song độ dài của năm mặt trời là 365,242216 ngày cho nên một năm theo lịch Julius dài hơn khoảng 0,0078 ngày so với năm mặt trời (tức là khoảng 11 phút 14 giây).
+
+--- Lịch Julius ---
+Trong lịch Julius có hai loại năm: năm "bình thường" gồm có 365 ngày và "năm nhuận" là 366 ngày. Có một chu kỳ xếp lịch đơn giản đó là cứ mỗi ba năm "bình thường" thì theo sau là một năm nhuận và mô hình này lặp lại mãi mãi mà không có ngoại lệ nào. Do đó, một năm Julius trung bình có 365,25 ngày, dẫn đến một số sai sót trong việc tính năm. Trên thực tế, một năm ngày nay được tính toán chính xác hơn theo thời gian liên quan đến năm mặt trời là 365.24217 ngày.
+
+--- Một số lịch khác ---
+
+--- Năm thiên văn ---
+Một năm thiên văn là khoảng thời gian trung bình để Mặt Trời trở lại cùng một vị trí khi so sánh với các ngôi sao của bầu trời. Năm thiên văn thực chất là chu kỳ quỹ đạo của Trái Đất. Năm thiên văn tương đương với 365,2564 ngày mặt trời trung bình. Năm thiên văn dài hơn năm chí tuyến 20 phút và 24 giây.
+
+--- Ký hiệu ---
+
+--- Ký hiệu ISO ---
+Trong phụ lục thông tin, các tiêu chuẩn quốc tế ISO 80000-3 đề xuất chữ viết tắt a (tiếng Latin: annus) để đại diện cho một năm hoặc 365 hoặc 366 ngày. Trong tiếng Anh sử dụng các từ viết tắt y, yr (year) cho "năm" hoặc ya (year ago) cho "năm trước đây".
+Các bội số của năm trong biểu diễn thời gian quá khứ hoặc tuổi thường được kí hiệu là:
+• ka (viết tắt của kiloannus), bằng 103 a, 103 năm hay một nghìn năm.
+• Ma (viết tắt của megaannus), bằng 106 a, 106 năm hay một triệu năm.
+• Ga (viết tắt của gigaannus), bằng 109 a, 109 năm hay một tỉ năm.
+• Ta (viết tắt của teraannus), bằng 1012 a, 1012 năm hay một nghìn tỉ năm.
+• Pa (viết tắt của petaannus, tránh nhầm lẫn kí hiệu này với kí hiệu của đơn vị đo áp suất Pa, viết tắt của pascal), bằng 1015 a, 1015 năm hay một triệu tỉ năm.
+• Ea (viết tắt của exaannus), bằng 1018 a, 1018 năm hay một tỉ tỉ năm.
+Kèm theo, nhất là trong văn liệu tiếng Anh, có thể có chữ viết tắt BP (cho before present) có nghĩa là "trước đây", "trước ngày nay".
+
+--- Các loại năm khác ---
+
+--- Năm tài chính ---
+Một năm tài chính là một khoảng thời gian 12 tháng sử dụng cho tính toán báo cáo tài chính hàng năm của các doanh nghiệp và các tổ chức khác. Ở nhiều khu vực pháp lý, các quy định về kế toán yêu cầu phải lập báo cáo như vậy một lần mỗi mười hai tháng, nhưng không yêu cầu mười hai tháng tạo thành một năm dương lịch.
+Ví dụ, ở Canada và Ấn Độ năm tài chính bắt đầu từ ngày 1 tháng 4; ở Anh năm tài chính bắt đầu từ 1 tháng 4 cho mục đích báo cáo thuế công ty và báo cáo tài chính của chính phủ, nhưng bắt đầu từ ngày 6 tháng 4 cho các mục đích đánh thuế cá nhân và thanh toán các lợi ích của Nhà nước; ở Úc năm tài chính bắt đầu từ ngày 1 tháng 7; trong khi tại Hoa Kỳ năm tài chính của chính phủ liên bang bắt đầu từ ngày 1 tháng 10.
+
+--- Đánh số thứ tự các năm ---
+Kỷ nguyên lịch gán số cho mỗi năm liên tiếp, sử dụng một điểm tham chiếu trong quá khứ làm đầu của thời đại.
+Tiêu chuẩn đánh số năm trên toàn thế giới là Anno Domini, đôi khi nó cũng được gọi là Common Era. Nó đã được giới thiệu vào thế kỷ thứ 6 và là hệ thống năm được định sẵn được lập ra bắt đầu từ cột mốc là ngày sinh của Chúa Giêsu.
+Hệ thống Anno Domini thường được viết tắt theo tiếng Latinh là AD cho Anno Domini, và CE cho "Common Era. Những năm trước AD 1 được viết tắt là BC cho "Before Christ" hoặc BCE thay thế cho "Before Common Era". Theo cách tính lịch này, không tồn tại "năm không" (năm 0).
+Trong các văn bản tiếng Việt, AD tương ứng với Công nguyên, tức các năm sau năm 1 TCN (đôi khi được gọi để phân biệt rõ hơn mặc dù không chính xác là sau Công nguyên) và được viết tắt là CN hoặc SCN; BC hay BCE tương ứng với trước Công nguyên và được viết tắt là TCN.
+
+--- Tham khảo ---
+
+--- Nguồn ---
+• Fraser, Julius Thomas (1987). Time, the Familiar Stranger . Amherst: Nhà in Đại học Massachusetts. ISBN 0870235761. OCLC 15790499.
+• Whitrow, Gerald James (2003). What is Time?. Oxford: Nhà in Đại học Oxford. ISBN 0198607814. OCLC 265440481.
+
+--- Liên kết ngoài ---
+• Địa chất học
+• Thiên văn học
+
+
+### [LINK 1] Năm – Wikipedia tiếng Việt ###
+URL: https://vi.wikipedia.org/wiki/N%C4%83m
+--------------------------------------------------
+Năm hay Niên (Tiếng Anh: year, chữ Hán: 年) là khoảng thời gian một hành tinh trong hệ Mặt Trời hoàn thành hết một vòng quay xung quanh Mặt Trời. Ngày nay, khi nói đến năm thì người ta thường đề cập đến năm Trái Đất. Một năm Trái Đất thường được tính là khoảng thời gian Trái Đất quay xong một vòng quanh Mặt Trời (khoảng 365 ngày 6 giờ). Đối với một người quan sát trên Trái Đất, điều này tương ứng với khoảng thời gian Mặt Trời hoàn thành một vòng quay dọc theo hoàng đạo.
+Trong thiên văn học, năm Julius là một đơn vị thời gian, định nghĩa là 365,25 ngày x 86.400 giây/ngày của hệ SI (không có giây nhuận).
+Do độ nghiêng trục của Trái Đất, quá trình một năm chứng kiến sự thay đổi tuần tự của các mùa, được đánh dấu bởi những thay đổi về thời tiết, các giờ ban ngày, thảm thực vật và khả năng sinh sản của chúng. Ở vùng ôn đới và ở xa địa cực, thường có bốn mùa được công nhận: xuân, hạ, thu và đông, về mặt thiên văn được đánh dấu bởi các điểm xuân phân, hạ chí, thu phân và đông chí của đường đi của Mặt Trời, mặc dù các mùa khí hậu có độ trễ so với các dấu hiệu thiên văn trên. Trong một số khu vực nhiệt đới và cận nhiệt đới chỉ có 2 mùa: mùa mưa với mùa khô.
+Một năm dương lịch là một khoảng thời gian xấp xỉ của chu kỳ quỹ đạo của Trái Đất trong một lịch cụ thể. Một năm trong lịch Gregory (cũng như trong lịch Julius) có 365 ngày (năm thường) hoặc 366 ngày (năm nhuận). Chiều dài trung bình của năm trong lịch Gregory (hiện đại) là 365,2425 ngày (có tính đến các quy tắc năm nhuận cho 1 thiên niên kỷ).
+Từ "năm" cũng được sử dụng một cách lỏng lẻo cho các khoảng thời gian liên quan nhưng không giống hệt với năm thiên văn hoặc năm dương lịch, chẳng hạn như các năm theo mùa, năm tài chính hoặc năm học, v.v... Theo nghĩa mở rộng, năm có thể có nghĩa là chu kỳ quỹ đạo của bất cứ hành tinh nào: ví dụ, một "năm sao Hỏa" hoặc "năm sao Kim" là thời gian mà sao Hỏa hoặc sao Kim đi đủ một vòng quỹ đạo riêng. Thuật ngữ này cũng được áp dụng theo nghĩa rộng hơn cho bất kỳ thời gian dài hoặc chu kỳ nào, chẳng hạn như "Great Year".
+
+--- Năm theo mùa ---
+Một năm theo mùa là thời gian giữa tái phát liên tiếp của một sự kiện theo mùa như lũ của một con sông, sự di cư của một loài chim, sự ra hoa của một loài thực vật, sương giá đầu tiên, hoặc các trò chơi đầu tiên dự kiến của một môn thể thao nào đó. Tất cả những sự kiện này có thể có sự khác biệt lớn trong hơn một tháng từ năm này sang năm khác.
+
+--- Năm dương lịch ---
+Các loại lịch dưới đây đều là các lịch tính theo chuyển động của Trái Đất xung quanh Mặt Trời, hay nói cách khác, một năm trong các loại lịch này bằng khoảng thời gian mà Trái Đất thực hiện được một vòng chuyển động quanh Mặt Trời và còn được gọi là dương lịch. Chúng đều có điểm chung là một năm thường kéo dài bằng hoặc xấp xỉ 365 ngày, và đôi khi được mở rộng để cân bằng lịch bằng cách bổ sung thêm 1 ngày dư (được gọi là ngày nhuận) để tạo thành một năm nhuận sau mỗi một khoảng thời gian nhất định, thường là vài năm.
+Nếu như vị trí của Trái Đất (hay Mặt Trời) được tính toán liên quan tới điểm phân (điểm xuân phân hay điểm thu phân) thì ngày tháng chỉ ra mùa (và như thế nó đồng bộ với xích vĩ của Mặt Trời). Những loại lịch như thế được gọi là dương lịch chí tuyến. Một năm lịch trung bình của loại lich như thế là xấp xỉ bằng một vài dạng của năm chí tuyến (thông thường hoặc là năm chí tuyến trung bình hoặc là năm xuân phân).
+
+--- Lịch Gregorius ---
+Một năm trong lịch Gregorius được chia thành 12 tháng với 365 ngày. Theo đó, cứ 4 năm thì người ta thêm một ngày vào cuối tháng Hai, tháng Hai từ 28 ngày trở thành 29 ngày và tạo thành năm nhuận có 366 ngày. Trước đó lịch Julius quy ước một năm có 365,25 ngày, song độ dài của năm mặt trời là 365,242216 ngày cho nên một năm theo lịch Julius dài hơn khoảng 0,0078 ngày so với năm mặt trời (tức là khoảng 11 phút 14 giây).
+
+--- Lịch Julius ---
+Trong lịch Julius có hai loại năm: năm "bình thường" gồm có 365 ngày và "năm nhuận" là 366 ngày. Có một chu kỳ xếp lịch đơn giản đó là cứ mỗi ba năm "bình thường" thì theo sau là một năm nhuận và mô hình này lặp lại mãi mãi mà không có ngoại lệ nào. Do đó, một năm Julius trung bình có 365,25 ngày, dẫn đến một số sai sót trong việc tính năm. Trên thực tế, một năm ngày nay được tính toán chính xác hơn theo thời gian liên quan đến năm mặt trời là 365.24217 ngày.
+
+--- Một số lịch khác ---
+
+--- Năm thiên văn ---
+Một năm thiên văn là khoảng thời gian trung bình để Mặt Trời trở lại cùng một vị trí khi so sánh với các ngôi sao của bầu trời. Năm thiên văn thực chất là chu kỳ quỹ đạo của Trái Đất. Năm thiên văn tương đương với 365,2564 ngày mặt trời trung bình. Năm thiên văn dài hơn năm chí tuyến 20 phút và 24 giây.
+
+--- Ký hiệu ---
+
+--- Ký hiệu ISO ---
+Trong phụ lục thông tin, các tiêu chuẩn quốc tế ISO 80000-3 đề xuất chữ viết tắt a (tiếng Latin: annus) để đại diện cho một năm hoặc 365 hoặc 366 ngày. Trong tiếng Anh sử dụng các từ viết tắt y, yr (year) cho "năm" hoặc ya (year ago) cho "năm trước đây".
+Các bội số của năm trong biểu diễn thời gian quá khứ hoặc tuổi thường được kí hiệu là:
+• ka (viết tắt của kiloannus), bằng 103 a, 103 năm hay một nghìn năm.
+• Ma (viết tắt của megaannus), bằng 106 a, 106 năm hay một triệu năm.
+• Ga (viết tắt của gigaannus), bằng 109 a, 109 năm hay một tỉ năm.
+• Ta (viết tắt của teraannus), bằng 1012 a, 1012 năm hay một nghìn tỉ năm.
+• Pa (viết tắt của petaannus, tránh nhầm lẫn kí hiệu này với kí hiệu của đơn vị đo áp suất Pa, viết tắt của pascal), bằng 1015 a, 1015 năm hay một triệu tỉ năm.
+• Ea (viết tắt của exaannus), bằng 1018 a, 1018 năm hay một tỉ tỉ năm.
+Kèm theo, nhất là trong văn liệu tiếng Anh, có thể có chữ viết tắt BP (cho before present) có nghĩa là "trước đây", "trước ngày nay".
+
+--- Các loại năm khác ---
+
+--- Năm tài chính ---
+Một năm tài chính là một khoảng thời gian 12 tháng sử dụng cho tính toán báo cáo tài chính hàng năm của các doanh nghiệp và các tổ chức khác. Ở nhiều khu vực pháp lý, các quy định về kế toán yêu cầu phải lập báo cáo như vậy một lần mỗi mười hai tháng, nhưng không yêu cầu mười hai tháng tạo thành một năm dương lịch.
+Ví dụ, ở Canada và Ấn Độ năm tài chính bắt đầu từ ngày 1 tháng 4; ở Anh năm tài chính bắt đầu từ 1 tháng 4 cho mục đích báo cáo thuế công ty và báo cáo tài chính của chính phủ, nhưng bắt đầu từ ngày 6 tháng 4 cho các mục đích đánh thuế cá nhân và thanh toán các lợi ích của Nhà nước; ở Úc năm tài chính bắt đầu từ ngày 1 tháng 7; trong khi tại Hoa Kỳ năm tài chính của chính phủ liên bang bắt đầu từ ngày 1 tháng 10.
+
+--- Đánh số thứ tự các năm ---
+Kỷ nguyên lịch gán số cho mỗi năm liên tiếp, sử dụng một điểm tham chiếu trong quá khứ làm đầu của thời đại.
+Tiêu chuẩn đánh số năm trên toàn thế giới là Anno Domini, đôi khi nó cũng được gọi là Common Era. Nó đã được giới thiệu vào thế kỷ thứ 6 và là hệ thống năm được định sẵn được lập ra bắt đầu từ cột mốc là ngày sinh của Chúa Giêsu.
+Hệ thống Anno Domini thường được viết tắt theo tiếng Latinh là AD cho Anno Domini, và CE cho "Common Era. Những năm trước AD 1 được viết tắt là BC cho "Before Christ" hoặc BCE thay thế cho "Before Common Era". Theo cách tính lịch này, không tồn tại "năm không" (năm 0).
+Trong các văn bản tiếng Việt, AD tương ứng với Công nguyên, tức các năm sau năm 1 TCN (đôi khi được gọi để phân biệt rõ hơn mặc dù không chính xác là sau Công nguyên) và được viết tắt là CN hoặc SCN; BC hay BCE tương ứng với trước Công nguyên và được viết tắt là TCN.
+
+--- Tham khảo ---
+
+--- Nguồn ---
+• Fraser, Julius Thomas (1987). Time, the Familiar Stranger . Amherst: Nhà in Đại học Massachusetts. ISBN 0870235761. OCLC 15790499.
+• Whitrow, Gerald James (2003). What is Time?. Oxford: Nhà in Đại học Oxford. ISBN 0198607814. OCLC 265440481.
+
+--- Liên kết ngoài ---
+• Địa chất học
+• Thiên văn học
+
+
+### [LINK 1] Năm – Wikipedia tiếng Việt ###
+URL: https://vi.wikipedia.org/wiki/N%C4%83m
+--------------------------------------------------
+Năm hay Niên (Tiếng Anh: year, chữ Hán: 年) là khoảng thời gian một hành tinh trong hệ Mặt Trời hoàn thành hết một vòng quay xung quanh Mặt Trời. Ngày nay, khi nói đến năm thì người ta thường đề cập đến năm Trái Đất. Một năm Trái Đất thường được tính là khoảng thời gian Trái Đất quay xong một vòng quanh Mặt Trời (khoảng 365 ngày 6 giờ). Đối với một người quan sát trên Trái Đất, điều này tương ứng với khoảng thời gian Mặt Trời hoàn thành một vòng quay dọc theo hoàng đạo.
+Trong thiên văn học, năm Julius là một đơn vị thời gian, định nghĩa là 365,25 ngày x 86.400 giây/ngày của hệ SI (không có giây nhuận).
+Do độ nghiêng trục của Trái Đất, quá trình một năm chứng kiến sự thay đổi tuần tự của các mùa, được đánh dấu bởi những thay đổi về thời tiết, các giờ ban ngày, thảm thực vật và khả năng sinh sản của chúng. Ở vùng ôn đới và ở xa địa cực, thường có bốn mùa được công nhận: xuân, hạ, thu và đông, về mặt thiên văn được đánh dấu bởi các điểm xuân phân, hạ chí, thu phân và đông chí của đường đi của Mặt Trời, mặc dù các mùa khí hậu có độ trễ so với các dấu hiệu thiên văn trên. Trong một số khu vực nhiệt đới và cận nhiệt đới chỉ có 2 mùa: mùa mưa với mùa khô.
+Một năm dương lịch là một khoảng thời gian xấp xỉ của chu kỳ quỹ đạo của Trái Đất trong một lịch cụ thể. Một năm trong lịch Gregory (cũng như trong lịch Julius) có 365 ngày (năm thường) hoặc 366 ngày (năm nhuận). Chiều dài trung bình của năm trong lịch Gregory (hiện đại) là 365,2425 ngày (có tính đến các quy tắc năm nhuận cho 1 thiên niên kỷ).
+Từ "năm" cũng được sử dụng một cách lỏng lẻo cho các khoảng thời gian liên quan nhưng không giống hệt với năm thiên văn hoặc năm dương lịch, chẳng hạn như các năm theo mùa, năm tài chính hoặc năm học, v.v... Theo nghĩa mở rộng, năm có thể có nghĩa là chu kỳ quỹ đạo của bất cứ hành tinh nào: ví dụ, một "năm sao Hỏa" hoặc "năm sao Kim" là thời gian mà sao Hỏa hoặc sao Kim đi đủ một vòng quỹ đạo riêng. Thuật ngữ này cũng được áp dụng theo nghĩa rộng hơn cho bất kỳ thời gian dài hoặc chu kỳ nào, chẳng hạn như "Great Year".
+
+--- Năm theo mùa ---
+Một năm theo mùa là thời gian giữa tái phát liên tiếp của một sự kiện theo mùa như lũ của một con sông, sự di cư của một loài chim, sự ra hoa của một loài thực vật, sương giá đầu tiên, hoặc các trò chơi đầu tiên dự kiến của một môn thể thao nào đó. Tất cả những sự kiện này có thể có sự khác biệt lớn trong hơn một tháng từ năm này sang năm khác.
+
+--- Năm dương lịch ---
+Các loại lịch dưới đây đều là các lịch tính theo chuyển động của Trái Đất xung quanh Mặt Trời, hay nói cách khác, một năm trong các loại lịch này bằng khoảng thời gian mà Trái Đất thực hiện được một vòng chuyển động quanh Mặt Trời và còn được gọi là dương lịch. Chúng đều có điểm chung là một năm thường kéo dài bằng hoặc xấp xỉ 365 ngày, và đôi khi được mở rộng để cân bằng lịch bằng cách bổ sung thêm 1 ngày dư (được gọi là ngày nhuận) để tạo thành một năm nhuận sau mỗi một khoảng thời gian nhất định, thường là vài năm.
+Nếu như vị trí của Trái Đất (hay Mặt Trời) được tính toán liên quan tới điểm phân (điểm xuân phân hay điểm thu phân) thì ngày tháng chỉ ra mùa (và như thế nó đồng bộ với xích vĩ của Mặt Trời). Những loại lịch như thế được gọi là dương lịch chí tuyến. Một năm lịch trung bình của loại lich như thế là xấp xỉ bằng một vài dạng của năm chí tuyến (thông thường hoặc là năm chí tuyến trung bình hoặc là năm xuân phân).
+
+--- Lịch Gregorius ---
+Một năm trong lịch Gregorius được chia thành 12 tháng với 365 ngày. Theo đó, cứ 4 năm thì người ta thêm một ngày vào cuối tháng Hai, tháng Hai từ 28 ngày trở thành 29 ngày và tạo thành năm nhuận có 366 ngày. Trước đó lịch Julius quy ước một năm có 365,25 ngày, song độ dài của năm mặt trời là 365,242216 ngày cho nên một năm theo lịch Julius dài hơn khoảng 0,0078 ngày so với năm mặt trời (tức là khoảng 11 phút 14 giây).
+
+--- Lịch Julius ---
+Trong lịch Julius có hai loại năm: năm "bình thường" gồm có 365 ngày và "năm nhuận" là 366 ngày. Có một chu kỳ xếp lịch đơn giản đó là cứ mỗi ba năm "bình thường" thì theo sau là một năm nhuận và mô hình này lặp lại mãi mãi mà không có ngoại lệ nào. Do đó, một năm Julius trung bình có 365,25 ngày, dẫn đến một số sai sót trong việc tính năm. Trên thực tế, một năm ngày nay được tính toán chính xác hơn theo thời gian liên quan đến năm mặt trời là 365.24217 ngày.
+
+--- Một số lịch khác ---
+
+--- Năm thiên văn ---
+Một năm thiên văn là khoảng thời gian trung bình để Mặt Trời trở lại cùng một vị trí khi so sánh với các ngôi sao của bầu trời. Năm thiên văn thực chất là chu kỳ quỹ đạo của Trái Đất. Năm thiên văn tương đương với 365,2564 ngày mặt trời trung bình. Năm thiên văn dài hơn năm chí tuyến 20 phút và 24 giây.
+
+--- Ký hiệu ---
+
+--- Ký hiệu ISO ---
+Trong phụ lục thông tin, các tiêu chuẩn quốc tế ISO 80000-3 đề xuất chữ viết tắt a (tiếng Latin: annus) để đại diện cho một năm hoặc 365 hoặc 366 ngày. Trong tiếng Anh sử dụng các từ viết tắt y, yr (year) cho "năm" hoặc ya (year ago) cho "năm trước đây".
+Các bội số của năm trong biểu diễn thời gian quá khứ hoặc tuổi thường được kí hiệu là:
+• ka (viết tắt của kiloannus), bằng 103 a, 103 năm hay một nghìn năm.
+• Ma (viết tắt của megaannus), bằng 106 a, 106 năm hay một triệu năm.
+• Ga (viết tắt của gigaannus), bằng 109 a, 109 năm hay một tỉ năm.
+• Ta (viết tắt của teraannus), bằng 1012 a, 1012 năm hay một nghìn tỉ năm.
+• Pa (viết tắt của petaannus, tránh nhầm lẫn kí hiệu này với kí hiệu của đơn vị đo áp suất Pa, viết tắt của pascal), bằng 1015 a, 1015 năm hay một triệu tỉ năm.
+• Ea (viết tắt của exaannus), bằng 1018 a, 1018 năm hay một tỉ tỉ năm.
+Kèm theo, nhất là trong văn liệu tiếng Anh, có thể có chữ viết tắt BP (cho before present) có nghĩa là "trước đây", "trước ngày nay".
+
+--- Các loại năm khác ---
+
+--- Năm tài chính ---
+Một năm tài chính là một khoảng thời gian 12 tháng sử dụng cho tính toán báo cáo tài chính hàng năm của các doanh nghiệp và các tổ chức khác. Ở nhiều khu vực pháp lý, các quy định về kế toán yêu cầu phải lập báo cáo như vậy một lần mỗi mười hai tháng, nhưng không yêu cầu mười hai tháng tạo thành một năm dương lịch.
+Ví dụ, ở Canada và Ấn Độ năm tài chính bắt đầu từ ngày 1 tháng 4; ở Anh năm tài chính bắt đầu từ 1 tháng 4 cho mục đích báo cáo thuế công ty và báo cáo tài chính của chính phủ, nhưng bắt đầu từ ngày 6 tháng 4 cho các mục đích đánh thuế cá nhân và thanh toán các lợi ích của Nhà nước; ở Úc năm tài chính bắt đầu từ ngày 1 tháng 7; trong khi tại Hoa Kỳ năm tài chính của chính phủ liên bang bắt đầu từ ngày 1 tháng 10.
+
+--- Đánh số thứ tự các năm ---
+Kỷ nguyên lịch gán số cho mỗi năm liên tiếp, sử dụng một điểm tham chiếu trong quá khứ làm đầu của thời đại.
+Tiêu chuẩn đánh số năm trên toàn thế giới là Anno Domini, đôi khi nó cũng được gọi là Common Era. Nó đã được giới thiệu vào thế kỷ thứ 6 và là hệ thống năm được định sẵn được lập ra bắt đầu từ cột mốc là ngày sinh của Chúa Giêsu.
+Hệ thống Anno Domini thường được viết tắt theo tiếng Latinh là AD cho Anno Domini, và CE cho "Common Era. Những năm trước AD 1 được viết tắt là BC cho "Before Christ" hoặc BCE thay thế cho "Before Common Era". Theo cách tính lịch này, không tồn tại "năm không" (năm 0).
+Trong các văn bản tiếng Việt, AD tương ứng với Công nguyên, tức các năm sau năm 1 TCN (đôi khi được gọi để phân biệt rõ hơn mặc dù không chính xác là sau Công nguyên) và được viết tắt là CN hoặc SCN; BC hay BCE tương ứng với trước Công nguyên và được viết tắt là TCN.
+
+--- Tham khảo ---
+
+--- Nguồn ---
+• Fraser, Julius Thomas (1987). Time, the Familiar Stranger . Amherst: Nhà in Đại học Massachusetts. ISBN 0870235761. OCLC 15790499.
+• Whitrow, Gerald James (2003). What is Time?. Oxford: Nhà in Đại học Oxford. ISBN 0198607814. OCLC 265440481.
+
+--- Liên kết ngoài ---
+• Địa chất học
+• Thiên văn học
+
+
+### [LINK 1] Năm – Wikipedia tiếng Việt ###
+URL: https://vi.wikipedia.org/wiki/N%C4%83m
+--------------------------------------------------
+Năm hay Niên (Tiếng Anh: year, chữ Hán: 年) là khoảng thời gian một hành tinh trong hệ Mặt Trời hoàn thành hết một vòng quay xung quanh Mặt Trời. Ngày nay, khi nói đến năm thì người ta thường đề cập đến năm Trái Đất. Một năm Trái Đất thường được tính là khoảng thời gian Trái Đất quay xong một vòng quanh Mặt Trời (khoảng 365 ngày 6 giờ). Đối với một người quan sát trên Trái Đất, điều này tương ứng với khoảng thời gian Mặt Trời hoàn thành một vòng quay dọc theo hoàng đạo.
+Trong thiên văn học, năm Julius là một đơn vị thời gian, định nghĩa là 365,25 ngày x 86.400 giây/ngày của hệ SI (không có giây nhuận).
+Do độ nghiêng trục của Trái Đất, quá trình một năm chứng kiến sự thay đổi tuần tự của các mùa, được đánh dấu bởi những thay đổi về thời tiết, các giờ ban ngày, thảm thực vật và khả năng sinh sản của chúng. Ở vùng ôn đới và ở xa địa cực, thường có bốn mùa được công nhận: xuân, hạ, thu và đông, về mặt thiên văn được đánh dấu bởi các điểm xuân phân, hạ chí, thu phân và đông chí của đường đi của Mặt Trời, mặc dù các mùa khí hậu có độ trễ so với các dấu hiệu thiên văn trên. Trong một số khu vực nhiệt đới và cận nhiệt đới chỉ có 2 mùa: mùa mưa với mùa khô.
+Một năm dương lịch là một khoảng thời gian xấp xỉ của chu kỳ quỹ đạo của Trái Đất trong một lịch cụ thể. Một năm trong lịch Gregory (cũng như trong lịch Julius) có 365 ngày (năm thường) hoặc 366 ngày (năm nhuận). Chiều dài trung bình của năm trong lịch Gregory (hiện đại) là 365,2425 ngày (có tính đến các quy tắc năm nhuận cho 1 thiên niên kỷ).
+Từ "năm" cũng được sử dụng một cách lỏng lẻo cho các khoảng thời gian liên quan nhưng không giống hệt với năm thiên văn hoặc năm dương lịch, chẳng hạn như các năm theo mùa, năm tài chính hoặc năm học, v.v... Theo nghĩa mở rộng, năm có thể có nghĩa là chu kỳ quỹ đạo của bất cứ hành tinh nào: ví dụ, một "năm sao Hỏa" hoặc "năm sao Kim" là thời gian mà sao Hỏa hoặc sao Kim đi đủ một vòng quỹ đạo riêng. Thuật ngữ này cũng được áp dụng theo nghĩa rộng hơn cho bất kỳ thời gian dài hoặc chu kỳ nào, chẳng hạn như "Great Year".
+
+--- Năm theo mùa ---
+Một năm theo mùa là thời gian giữa tái phát liên tiếp của một sự kiện theo mùa như lũ của một con sông, sự di cư của một loài chim, sự ra hoa của một loài thực vật, sương giá đầu tiên, hoặc các trò chơi đầu tiên dự kiến của một môn thể thao nào đó. Tất cả những sự kiện này có thể có sự khác biệt lớn trong hơn một tháng từ năm này sang năm khác.
+
+--- Năm dương lịch ---
+Các loại lịch dưới đây đều là các lịch tính theo chuyển động của Trái Đất xung quanh Mặt Trời, hay nói cách khác, một năm trong các loại lịch này bằng khoảng thời gian mà Trái Đất thực hiện được một vòng chuyển động quanh Mặt Trời và còn được gọi là dương lịch. Chúng đều có điểm chung là một năm thường kéo dài bằng hoặc xấp xỉ 365 ngày, và đôi khi được mở rộng để cân bằng lịch bằng cách bổ sung thêm 1 ngày dư (được gọi là ngày nhuận) để tạo thành một năm nhuận sau mỗi một khoảng thời gian nhất định, thường là vài năm.
+Nếu như vị trí của Trái Đất (hay Mặt Trời) được tính toán liên quan tới điểm phân (điểm xuân phân hay điểm thu phân) thì ngày tháng chỉ ra mùa (và như thế nó đồng bộ với xích vĩ của Mặt Trời). Những loại lịch như thế được gọi là dương lịch chí tuyến. Một năm lịch trung bình của loại lich như thế là xấp xỉ bằng một vài dạng của năm chí tuyến (thông thường hoặc là năm chí tuyến trung bình hoặc là năm xuân phân).
+
+--- Lịch Gregorius ---
+Một năm trong lịch Gregorius được chia thành 12 tháng với 365 ngày. Theo đó, cứ 4 năm thì người ta thêm một ngày vào cuối tháng Hai, tháng Hai từ 28 ngày trở thành 29 ngày và tạo thành năm nhuận có 366 ngày. Trước đó lịch Julius quy ước một năm có 365,25 ngày, song độ dài của năm mặt trời là 365,242216 ngày cho nên một năm theo lịch Julius dài hơn khoảng 0,0078 ngày so với năm mặt trời (tức là khoảng 11 phút 14 giây).
+
+--- Lịch Julius ---
+Trong lịch Julius có hai loại năm: năm "bình thường" gồm có 365 ngày và "năm nhuận" là 366 ngày. Có một chu kỳ xếp lịch đơn giản đó là cứ mỗi ba năm "bình thường" thì theo sau là một năm nhuận và mô hình này lặp lại mãi mãi mà không có ngoại lệ nào. Do đó, một năm Julius trung bình có 365,25 ngày, dẫn đến một số sai sót trong việc tính năm. Trên thực tế, một năm ngày nay được tính toán chính xác hơn theo thời gian liên quan đến năm mặt trời là 365.24217 ngày.
+
+--- Một số lịch khác ---
+
+--- Năm thiên văn ---
+Một năm thiên văn là khoảng thời gian trung bình để Mặt Trời trở lại cùng một vị trí khi so sánh với các ngôi sao của bầu trời. Năm thiên văn thực chất là chu kỳ quỹ đạo của Trái Đất. Năm thiên văn tương đương với 365,2564 ngày mặt trời trung bình. Năm thiên văn dài hơn năm chí tuyến 20 phút và 24 giây.
+
+--- Ký hiệu ---
+
+--- Ký hiệu ISO ---
+Trong phụ lục thông tin, các tiêu chuẩn quốc tế ISO 80000-3 đề xuất chữ viết tắt a (tiếng Latin: annus) để đại diện cho một năm hoặc 365 hoặc 366 ngày. Trong tiếng Anh sử dụng các từ viết tắt y, yr (year) cho "năm" hoặc ya (year ago) cho "năm trước đây".
+Các bội số của năm trong biểu diễn thời gian quá khứ hoặc tuổi thường được kí hiệu là:
+• ka (viết tắt của kiloannus), bằng 103 a, 103 năm hay một nghìn năm.
+• Ma (viết tắt của megaannus), bằng 106 a, 106 năm hay một triệu năm.
+• Ga (viết tắt của gigaannus), bằng 109 a, 109 năm hay một tỉ năm.
+• Ta (viết tắt của teraannus), bằng 1012 a, 1012 năm hay một nghìn tỉ năm.
+• Pa (viết tắt của petaannus, tránh nhầm lẫn kí hiệu này với kí hiệu của đơn vị đo áp suất Pa, viết tắt của pascal), bằng 1015 a, 1015 năm hay một triệu tỉ năm.
+• Ea (viết tắt của exaannus), bằng 1018 a, 1018 năm hay một tỉ tỉ năm.
+Kèm theo, nhất là trong văn liệu tiếng Anh, có thể có chữ viết tắt BP (cho before present) có nghĩa là "trước đây", "trước ngày nay".
+
+--- Các loại năm khác ---
+
+--- Năm tài chính ---
+Một năm tài chính là một khoảng thời gian 12 tháng sử dụng cho tính toán báo cáo tài chính hàng năm của các doanh nghiệp và các tổ chức khác. Ở nhiều khu vực pháp lý, các quy định về kế toán yêu cầu phải lập báo cáo như vậy một lần mỗi mười hai tháng, nhưng không yêu cầu mười hai tháng tạo thành một năm dương lịch.
+Ví dụ, ở Canada và Ấn Độ năm tài chính bắt đầu từ ngày 1 tháng 4; ở Anh năm tài chính bắt đầu từ 1 tháng 4 cho mục đích báo cáo thuế công ty và báo cáo tài chính của chính phủ, nhưng bắt đầu từ ngày 6 tháng 4 cho các mục đích đánh thuế cá nhân và thanh toán các lợi ích của Nhà nước; ở Úc năm tài chính bắt đầu từ ngày 1 tháng 7; trong khi tại Hoa Kỳ năm tài chính của chính phủ liên bang bắt đầu từ ngày 1 tháng 10.
+
+--- Đánh số thứ tự các năm ---
+Kỷ nguyên lịch gán số cho mỗi năm liên tiếp, sử dụng một điểm tham chiếu trong quá khứ làm đầu của thời đại.
+Tiêu chuẩn đánh số năm trên toàn thế giới là Anno Domini, đôi khi nó cũng được gọi là Common Era. Nó đã được giới thiệu vào thế kỷ thứ 6 và là hệ thống năm được định sẵn được lập ra bắt đầu từ cột mốc là ngày sinh của Chúa Giêsu.
+Hệ thống Anno Domini thường được viết tắt theo tiếng Latinh là AD cho Anno Domini, và CE cho "Common Era. Những năm trước AD 1 được viết tắt là BC cho "Before Christ" hoặc BCE thay thế cho "Before Common Era". Theo cách tính lịch này, không tồn tại "năm không" (năm 0).
+Trong các văn bản tiếng Việt, AD tương ứng với Công nguyên, tức các năm sau năm 1 TCN (đôi khi được gọi để phân biệt rõ hơn mặc dù không chính xác là sau Công nguyên) và được viết tắt là CN hoặc SCN; BC hay BCE tương ứng với trước Công nguyên và được viết tắt là TCN.
+
+--- Tham khảo ---
+
+--- Nguồn ---
+• Fraser, Julius Thomas (1987). Time, the Familiar Stranger . Amherst: Nhà in Đại học Massachusetts. ISBN 0870235761. OCLC 15790499.
+• Whitrow, Gerald James (2003). What is Time?. Oxford: Nhà in Đại học Oxford. ISBN 0198607814. OCLC 265440481.
+
+--- Liên kết ngoài ---
+• Địa chất học
+• Thiên văn học
