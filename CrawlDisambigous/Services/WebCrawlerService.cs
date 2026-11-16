@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CrawlDisambigous.Services
 {
-    public class WebCrawlerService
+    public class WebCrawlerService 
     {
         private readonly HttpClient _client;
         private readonly UrlFilterService _urlFilter;
