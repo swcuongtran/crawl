@@ -1,5 +1,26 @@
 # Danh sách blacklist các domain cần bỏ qua (1 domain mỗi dòng)
-# Bạn có thể thêm bất kỳ tên miền nào vào đây (ví dụ: example.com)
+# Sàn thương mại điện tử & mua sắm
+cellphones.com.vn
+chotot.com
+congcutot.vn
+dienmaycholon.vn
+dienmayxanh.com
+download.com.vn
+fptshop.com.vn
+glosbe.com
+hoanghamobile.com
+lazada.vn
+meta.vn
+phongvu.vn
+sendo.vn
+shopee.vn
+taimienphi.vn
+thegioididong.com
+tiki.vn
+tr-ex.me
+vatgia.com
+vdict.com
+websosanh.vn
 163.com
 baidu.com
 bilibili.com

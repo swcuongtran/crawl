@@ -35,7 +35,16 @@ namespace CrawlDisambigous.Services
             // Trang web người lớn & spam
             "mejav.tv", "xvideos.com", "pornhub.com", "xhamster.com", "xnxx.com", "jav.com", "javhd.com",
             // Trung tâm trợ giúp quốc tế & trang hỗ trợ không phải bài viết thực thể
-            "support.google.com", "support.microsoft.com", "support.apple.com", "help.twitter.com"
+            "support.google.com", "support.microsoft.com", "support.apple.com", "help.twitter.com",
+            // Sàn thương mại điện tử, mua bán, rao vặt (nội dung chỉ có giá & thông số sản phẩm, không có văn bản giải thích)
+            "shopee.vn", "tiki.vn", "lazada.vn", "sendo.vn",
+            "meta.vn", "vatgia.com", "chotot.com", "websosanh.vn",
+            "dienmayxanh.com", "thegioididong.com", "fptshop.com.vn", "cellphones.com.vn",
+            "hoanghamobile.com", "phongvu.vn", "congcutot.vn", "dienmaycholon.vn",
+            // Trang tải phần mềm, app store, mod apk (không có bài viết thực thể)
+            "taimienphi.vn", "download.com.vn", "softonic.com", "apkpure.com",
+            // Trang tra từ điển thuần hoặc dịch tự động ngắn cụt
+            "tr-ex.me", "vdict.com", "glosbe.com"
         };
 
 

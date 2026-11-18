@@ -75,7 +75,7 @@ namespace CrawlDisambigous.Services
                 Index = idx + 1,
                 Title = r.Title,
                 Url = r.Url,
-                Snippet = ""
+                Snippet = r.Snippet ?? ""
             }).ToList();
 
             session.Status = "ready_to_crawl";

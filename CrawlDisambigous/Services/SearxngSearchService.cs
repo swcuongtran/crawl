@@ -1,9 +1,11 @@
 using CrawlDisambigous.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -13,6 +15,53 @@ namespace CrawlDisambigous.Services
 {
     public class SearxngSearchService
     {
+        private static readonly string[] NewsDomains = new[]
+        {
+            "vnexpress.net", "tuoitre.vn", "dantri.com.vn", "thanhnien.vn", "vietnamnet.vn",
+            "vtv.vn", "laodong.vn", "tienphong.vn", "plo.vn", "vov.vn", "cand.com.vn",
+            "baochinhphu.vn", "znews.vn", "cafef.vn", "cafebiz.vn", "vietnamplus.vn",
+            "nhandan.vn", "kinhtedothi.vn", "sggp.org.vn", "baogiaothong.vn", "congluan.vn"
+        };
+
+        private static readonly string[] KnowledgeDomains = new[]
+        {
+            "thuvienphapluat.vn", "luatvietnam.vn", "luatminhkhue.vn", "luatduonggia.vn",
+            "genk.vn", "tinhte.vn", "quantrimang.com", "vietnix.vn", "base.vn",
+            "topcv.vn", "glints.com", "monkey.edu.vn", "careerbuilder.vn", "viblo.asia"
+        };
+
+        private static readonly string[] ArticlePathIndicators = new[]
+        {
+            "/wiki/", "/blog/", "/bai-viet/", "/kien-thuc/", "/giai-thich/",
+            "/la-gi", "/khai-niem/", "/dinh-nghia/", "/article/", "/post/",
+            "/news/", "/goc-nhin/", "/phan-tich/", "/huong-dan/", "/kinh-nghiem/",
+            "/y-nghia/", "/chuyen-de/", "/chuyen-muc/", "/tin-tuc/", "/thong-tin/"
+        };
+
+        private static readonly string[] ExplanatoryKeywords = new[]
+        {
+            "là gì", "khái niệm", "định nghĩa", "tổng quan", "phân loại",
+            "đánh giá", "ý nghĩa", "nguồn gốc", "lịch sử", "hướng dẫn",
+            "chi tiết", "toàn diện", "vai trò", "tìm hiểu", "nguyên lý",
+            "đặc điểm", "cơ chế", "bản chất", "ứng dụng", "báo cáo", "nghiên cứu"
+        };
+
+        private static readonly string[] CommercialPathIndicators = new[]
+        {
+            "/san-pham/", "/product/", "/products/", "/item/", "/items/",
+            "/shop/", "/store/", "/cart/", "/checkout/", "/mua-ban/",
+            "/gia-re/", "/danh-muc/", "/catalog/", "/catalogue/", "/bao-gia/",
+            "/tai-ve/", "/download/", "/downloads/", "/game-app/"
+        };
+
+        private static readonly string[] CommercialKeywords = new[]
+        {
+            "giá rẻ", "chính hãng", "báo giá", "khuyến mãi", "mua ngay",
+            "giảm giá", "freeship", "bán chạy", "thương hiệu", "đặt mua",
+            "mua online", "shop", "giá tốt nhất", "mua bán", "giá ưu đãi",
+            "liên hệ báo giá", "thông số kỹ thuật"
+        };
+
         private readonly HttpClient _httpClient;
         private readonly UrlFilterService _urlFilter;
         private readonly string _baseUrl;
@@ -61,15 +110,20 @@ namespace CrawlDisambigous.Services
             int targetCount = 10,
             string? engines = "bing,google,wikipedia,duckduckgo")
         {
-            // 1. Nếu SearXNG (Docker) đang bật, tìm kiếm siêu tốc qua SearXNG API (100ms)
+            // 1. Tự động tìm kiếm bài viết Wikipedia tương ứng (chạy nền, timeout 2s, không bắt buộc)
+            var wikiTask = TryGetWikipediaArticleAsync(query);
+
+            // 2. Lấy mẫu nhiều hơn (over-fetch) để hệ thống lọc và ưu tiên các bài viết dài, giải thích, báo chí
+            int overfetchCount = Math.Max(targetCount * 2 + 5, 25);
+            List<SearchResult> rawResults = new();
+
+            // Nếu SearXNG (Docker) đang bật, tìm kiếm qua SearXNG API
             if (await IsAvailableAsync(timeoutSeconds: 1))
             {
                 try
                 {
                     Console.WriteLine($"[SEARCH] Tìm kiếm qua SearXNG ({_baseUrl}) cho '{query}'...");
-                    var searxResults = await SearchViaSearxngApiAsync(query, targetCount, engines);
-                    if (searxResults.Count > 0)
-                        return searxResults;
+                    rawResults = await SearchViaSearxngApiAsync(query, overfetchCount, engines);
                 }
                 catch (Exception ex)
                 {
@@ -77,9 +131,212 @@ namespace CrawlDisambigous.Services
                 }
             }
 
-            // 2. Nếu SearXNG chưa bật (Docker chưa bật): Tự động tìm kiếm qua Web Search Fallback trực tiếp
-            Console.WriteLine($"[SEARCH] SearXNG chưa bật -> Tự động tìm kiếm qua Web Search Fallback cho '{query}'...");
-            return await SearchViaWebFallbackAsync(query, targetCount);
+            // Nếu SearXNG chưa bật hoặc không trả kết quả: Dùng Web Search Fallback trực tiếp
+            if (rawResults.Count == 0)
+            {
+                Console.WriteLine($"[SEARCH] SearXNG chưa bật -> Tự động tìm kiếm qua Web Search Fallback cho '{query}'...");
+                rawResults = await SearchViaWebFallbackAsync(query, overfetchCount);
+            }
+
+            // Đợi kết quả Wikipedia (nếu có bài sẽ ghim đầu, nếu không có hoặc timeout thì bỏ qua an toàn)
+            SearchResult? wikiResult = null;
+            try
+            {
+                wikiResult = await wikiTask;
+            }
+            catch { }
+
+            // 3. Chấm điểm chất lượng nội dung, ưu tiên bài văn bản dài/giải thích và chọn top targetCount
+            return RankAndSelectResults(rawResults, wikiResult, targetCount);
+        }
+
+        private async Task<SearchResult?> TryGetWikipediaArticleAsync(string query, CancellationToken cancellationToken = default)
+        {
+            try
+            {
+                using var cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+                cts.CancelAfter(TimeSpan.FromSeconds(2));
+
+                string encoded = Uri.EscapeDataString(query.Trim());
+                string url = $"https://vi.wikipedia.org/w/api.php?action=opensearch&search={encoded}&limit=1&namespace=0&format=json";
+
+                using var request = new HttpRequestMessage(HttpMethod.Get, url);
+                request.Headers.TryAddWithoutValidation("User-Agent", "ErelDisambiguationStudio/1.0 (Windows NT 10.0; Win64; x64)");
+                request.Headers.TryAddWithoutValidation("Accept", "application/json");
+
+                using var response = await _httpClient.SendAsync(request, cts.Token);
+                if (!response.IsSuccessStatusCode)
+                    return null;
+
+                string json = await response.Content.ReadAsStringAsync(cts.Token);
+                using var doc = JsonDocument.Parse(json);
+                var root = doc.RootElement;
+
+                // Chuẩn OpenSearch JSON: [ query, [titles], [descriptions], [urls] ]
+                if (root.ValueKind == JsonValueKind.Array && root.GetArrayLength() >= 4)
+                {
+                    var titles = root[1];
+                    var snippets = root[2];
+                    var urls = root[3];
+
+                    if (urls.GetArrayLength() > 0 && titles.GetArrayLength() > 0)
+                    {
+                        string? wikiUrl = urls[0].GetString();
+                        string? wikiTitle = titles[0].GetString();
+                        string? wikiSnippet = snippets.GetArrayLength() > 0 ? snippets[0].GetString() : null;
+
+                        if (!string.IsNullOrWhiteSpace(wikiUrl) && !string.IsNullOrWhiteSpace(wikiTitle))
+                        {
+                            Console.WriteLine($"[WIKI MATCH] Đã tìm thấy bài viết Wikipedia: {wikiTitle} -> {wikiUrl}");
+                            return new SearchResult
+                            {
+                                Position = 1,
+                                Title = $"{wikiTitle} – Wikipedia tiếng Việt",
+                                Url = wikiUrl.Trim(),
+                                Snippet = string.IsNullOrWhiteSpace(wikiSnippet)
+                                    ? $"Bách khoa toàn thư mở Wikipedia – Khái niệm và giải thích tổng quan về '{wikiTitle}'."
+                                    : wikiSnippet.Trim(),
+                                QualityScore = 1000.0 // Ưu tiên cao nhất
+                            };
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[WIKI NOTICE] Không lấy được link Wiki: {ex.Message}");
+            }
+            return null;
+        }
+
+        private double CalculateQualityScore(string url, string title, string? snippet)
+        {
+            double score = 10.0;
+
+            if (string.IsNullOrWhiteSpace(url))
+                return -100.0;
+
+            if (Uri.TryCreate(url, UriKind.Absolute, out Uri? uri))
+            {
+                string host = uri.Host.ToLowerInvariant();
+                string path = uri.AbsolutePath.ToLowerInvariant();
+
+                // 1. Wikipedia (bách khoa toàn thư, giải thích chi tiết)
+                if (host.Contains("wikipedia.org"))
+                {
+                    return 500.0;
+                }
+
+                // 2. Báo chí chính thống (đoạn văn chuẩn, tin tức phân tích)
+                if (NewsDomains.Any(d => host.Equals(d, StringComparison.OrdinalIgnoreCase) || host.EndsWith("." + d, StringComparison.OrdinalIgnoreCase)))
+                {
+                    score += 50.0;
+                }
+
+                // 3. Trang kiến thức, kỹ thuật, pháp luật, blog học thuật
+                if (KnowledgeDomains.Any(d => host.Equals(d, StringComparison.OrdinalIgnoreCase) || host.EndsWith("." + d, StringComparison.OrdinalIgnoreCase)))
+                {
+                    score += 40.0;
+                }
+
+                // 4. URL path báo hiệu bài viết / blog / giải thích chuyên sâu
+                if (ArticlePathIndicators.Any(p => path.Contains(p, StringComparison.OrdinalIgnoreCase)))
+                {
+                    score += 30.0;
+                }
+
+                // 5. URL path báo hiệu trang bán hàng, thương mại điện tử
+                if (CommercialPathIndicators.Any(p => path.Contains(p, StringComparison.OrdinalIgnoreCase)))
+                {
+                    score -= 50.0;
+                }
+            }
+
+            string combinedText = $"{title} {snippet}".ToLowerInvariant();
+
+            // 6. Tiêu đề / tóm tắt chứa từ khóa giải thích, định nghĩa
+            foreach (var kw in ExplanatoryKeywords)
+            {
+                if (combinedText.Contains(kw))
+                {
+                    score += 20.0;
+                    break;
+                }
+            }
+
+            // 7. Độ dài đoạn trích dẫn (snippet dài chứng minh có đoạn văn hoàn chỉnh)
+            if (!string.IsNullOrWhiteSpace(snippet) && snippet.Length >= 70)
+            {
+                score += 15.0;
+            }
+
+            // 8. Trừ điểm nặng nếu có từ khóa thương mại / bán lẻ
+            foreach (var cw in CommercialKeywords)
+            {
+                if (combinedText.Contains(cw))
+                {
+                    score -= 40.0;
+                    break;
+                }
+            }
+
+            return score;
+        }
+
+        private List<SearchResult> RankAndSelectResults(
+            List<SearchResult> rawResults,
+            SearchResult? wikiResult,
+            int targetCount)
+        {
+            var finalResults = new List<SearchResult>();
+            var seenUrls = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+            // 1. Nếu có bài viết Wikipedia, luôn ghim vào vị trí đầu tiên
+            if (wikiResult != null && !string.IsNullOrWhiteSpace(wikiResult.Url))
+            {
+                seenUrls.Add(wikiResult.Url);
+                finalResults.Add(wikiResult);
+            }
+
+            // 2. Chấm điểm chất lượng từng link ứng viên
+            var scoredResults = new List<SearchResult>();
+            foreach (var item in rawResults)
+            {
+                if (string.IsNullOrWhiteSpace(item.Url) || !seenUrls.Add(item.Url))
+                    continue;
+
+                if (_urlFilter.IsBlacklisted(item.Url))
+                    continue;
+
+                item.QualityScore = CalculateQualityScore(item.Url, item.Title, item.Snippet);
+                scoredResults.Add(item);
+            }
+
+            // 3. Sắp xếp các link theo điểm chất lượng giảm dần (bài báo & bài giải thích lên trước)
+            var sortedCandidates = scoredResults
+                .OrderByDescending(x => x.QualityScore)
+                .ToList();
+
+            // 4. Ưu tiên chọn các link có điểm dương (bài báo, kiến thức, giải thích)
+            foreach (var item in sortedCandidates)
+            {
+                if (finalResults.Count >= targetCount)
+                    break;
+
+                // Nếu đã có đủ bài viết tốt, bỏ qua các link có điểm âm (trang bán hàng/tải app)
+                if (item.QualityScore < 0 && sortedCandidates.Count(x => x.QualityScore >= 0) >= targetCount)
+                    continue;
+
+                finalResults.Add(item);
+            }
+
+            // 5. Đánh số thứ tự Position 1..N
+            for (int i = 0; i < finalResults.Count; i++)
+            {
+                finalResults[i].Position = i + 1;
+            }
+
+            return finalResults;
         }
 
         private async Task<List<SearchResult>> SearchViaSearxngApiAsync(string query, int targetCount, string? engines)
@@ -117,7 +374,8 @@ namespace CrawlDisambigous.Services
                 {
                     Position = results.Count + 1,
                     Title = item.Title.Trim(),
-                    Url = cleanUrl
+                    Url = cleanUrl,
+                    Snippet = item.Content?.Trim() ?? ""
                 });
             }
 
@@ -150,7 +408,7 @@ namespace CrawlDisambigous.Services
                     var doc = new HtmlAgilityPack.HtmlDocument();
                     doc.LoadHtml(html);
 
-                    var resultNodes = doc.DocumentNode.SelectNodes("//div[contains(@class, 'result')]//h2/a");
+                    var resultNodes = doc.DocumentNode.SelectNodes("//div[contains(@class, 'result')]");
                     if (resultNodes != null)
                     {
                         foreach (var node in resultNodes)
@@ -158,8 +416,12 @@ namespace CrawlDisambigous.Services
                             if (results.Count >= targetCount)
                                 break;
 
-                            string href = DecodeDuckDuckGoRedirect(node.GetAttributeValue("href", "").Trim());
-                            string title = WebUtility.HtmlDecode(node.InnerText).Trim();
+                            var linkNode = node.SelectSingleNode(".//h2/a") ?? node.SelectSingleNode(".//a[contains(@class, 'result__a')]");
+                            if (linkNode == null)
+                                continue;
+
+                            string href = DecodeDuckDuckGoRedirect(linkNode.GetAttributeValue("href", "").Trim());
+                            string title = WebUtility.HtmlDecode(linkNode.InnerText).Trim();
 
                             if (!Uri.TryCreate(href, UriKind.Absolute, out Uri? uri))
                                 continue;
@@ -170,11 +432,15 @@ namespace CrawlDisambigous.Services
                             if (_urlFilter.IsBlacklisted(href) || !seenUrls.Add(href))
                                 continue;
 
+                            var snippetNode = node.SelectSingleNode(".//*[contains(@class, 'result__snippet')]");
+                            string snippet = snippetNode != null ? WebUtility.HtmlDecode(snippetNode.InnerText).Trim() : "";
+
                             results.Add(new SearchResult
                             {
                                 Position = results.Count + 1,
                                 Title = title,
-                                Url = href
+                                Url = href,
+                                Snippet = snippet
                             });
                         }
                     }

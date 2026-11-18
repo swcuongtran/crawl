@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +13,9 @@ namespace CrawlDisambigous.Models
         public string Title { get; set; } = string.Empty;
 
         public string Url { get; set; } = string.Empty;
+
+        public string Snippet { get; set; } = string.Empty;
+
+        public double QualityScore { get; set; }
     }
 }

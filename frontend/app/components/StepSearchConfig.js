@@ -153,8 +153,20 @@ export default function StepSearchConfig({
                       }}
                     />
                     <div style={{ minWidth: 0 }}>
-                      <p className="link-title">[{item.index}] {item.title}</p>
+                      <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
+                        <p className="link-title">[{item.index}] {item.title}</p>
+                        {item.url && item.url.includes("wikipedia.org") && (
+                          <span style={{ fontSize: "11px", padding: "2px 8px", borderRadius: "6px", background: "rgba(59, 130, 246, 0.2)", color: "#60a5fa", fontWeight: "600", border: "1px solid rgba(59, 130, 246, 0.4)" }}>
+                            Wikipedia
+                          </span>
+                        )}
+                      </div>
                       <p className="link-url">{item.url}</p>
+                      {item.snippet && (
+                        <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "4px", lineHeight: "1.4", overflow: "hidden", textOverflow: "ellipsis", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" }}>
+                          {item.snippet}
+                        </p>
+                      )}
                     </div>
                   </div>
 
