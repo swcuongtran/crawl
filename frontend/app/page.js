@@ -132,8 +132,13 @@ export default function Home() {
   const initSelections = (groups) => {
     const initial = {};
     (groups || []).forEach((g) => {
-      const rec = g.candidates.find((c) => c.entityId === g.erelSelectedEntityId);
-      initial[g.mention] = {
+      const rec = g.candidates?.find((c) => c.entityId === g.erelSelectedEntityId);
+      const key = g.id || `${g.mention}_p${g.paragraphIndex}`;
+      initial[key] = {
+        id: g.id || key,
+        mention: g.mention,
+        paragraphIndex: g.paragraphIndex || 1,
+        contextSentence: g.contextSentence || "",
         selectedEntityId: g.erelSelectedEntityId,
         selectedWikiName: rec ? rec.wikiName : "",
         mentionCount: g.totalCount,
@@ -166,37 +171,40 @@ export default function Home() {
       } catch (err) {
         console.error("Polling error:", err);
       }
-    }, 1500);
+    }, 1200);
   };
 
-  const handleSearch = async (e) => {
-    if (e) e.preventDefault();
-    if (!wikiName.trim()) return;
+  const handleSearch = async () => {
+    if (!wikiName.trim()) {
+      setSearchError("Vui lòng nhập tên thực thể Wikipedia.");
+      return;
+    }
 
     setIsSearching(true);
     setSearchError("");
     setSearchResults([]);
+    setSelectedUrls([]);
 
     try {
       const res = await fetch(`${BACKEND_URL}/search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          entityId: Number(entityId),
           wikiName: wikiName.trim(),
-          entityId: Number(entityId) || 1,
-          searchCount: Number(searchCount) || 10,
+          count: Number(searchCount),
         }),
       });
 
       if (!res.ok) {
-        const err = await res.json();
-        throw new Error(err.error || "Lỗi khi tìm kiếm link.");
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.error || "Lỗi khi tìm kiếm trên SearXNG/Bing.");
       }
 
       const data = await res.json();
-      setSessionId(data.sessionId);
-      setSearchResults(data.searchResults || []);
-      setSelectedUrls((data.searchResults || []).map((r) => r.url));
+      setSearchResults(data);
+      // Auto-select all results by default
+      setSelectedUrls(data.map((r) => r.url));
     } catch (err) {
       setSearchError(err.message);
     } finally {
@@ -211,27 +219,32 @@ export default function Home() {
   };
 
   const handleStartCrawl = async () => {
-    if (selectedUrls.length === 0) return;
+    if (selectedUrls.length === 0) {
+      alert("Vui lòng chọn ít nhất 1 URL để cào dữ liệu.");
+      return;
+    }
 
     setIsStartingCrawl(true);
-    setActiveStep(2);
-
     try {
       const res = await fetch(`${BACKEND_URL}/crawl/start`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          sessionId,
+          entityId: Number(entityId),
           wikiName: wikiName.trim(),
-          entityId: Number(entityId) || 1,
           selectedUrls,
         }),
       });
 
-      if (!res.ok) throw new Error("Không thể khởi động quá trình cào.");
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.error || "Không thể khởi động tiến trình cào.");
+      }
 
       const data = await res.json();
       setSession(data);
+      setSessionId(data.sessionId);
+      setActiveStep(2);
       startPolling(data.sessionId);
     } catch (err) {
       alert(err.message);
@@ -240,10 +253,22 @@ export default function Home() {
     }
   };
 
-  const handleSelectCandidate = (mention, count, candidateId, candidateWikiName) => {
+  const handleSelectCandidate = (
+    key,
+    count,
+    candidateId,
+    candidateWikiName,
+    mention,
+    paragraphIndex,
+    contextSentence
+  ) => {
     setUserSelections((prev) => ({
       ...prev,
-      [mention]: {
+      [key]: {
+        id: key,
+        mention: mention || prev[key]?.mention || key,
+        paragraphIndex: paragraphIndex || prev[key]?.paragraphIndex || 1,
+        contextSentence: contextSentence || prev[key]?.contextSentence || "",
         selectedEntityId: candidateId,
         selectedWikiName: candidateWikiName,
         mentionCount: count,
@@ -255,7 +280,12 @@ export default function Home() {
     if (!session?.ambiguousGroups) return;
     const cleared = {};
     session.ambiguousGroups.forEach((g) => {
-      cleared[g.mention] = {
+      const key = g.id || `${g.mention}_p${g.paragraphIndex}`;
+      cleared[key] = {
+        id: key,
+        mention: g.mention,
+        paragraphIndex: g.paragraphIndex || 1,
+        contextSentence: g.contextSentence || "",
         selectedEntityId: 0,
         selectedWikiName: "",
         mentionCount: g.totalCount,
@@ -265,15 +295,18 @@ export default function Home() {
   };
 
   const handleConfirmReview = async () => {
-    if (!session) return;
+    if (!session?.sessionId) return;
     setIsSubmittingReview(true);
 
     try {
-      const selectionsList = Object.keys(userSelections).map((mention) => ({
-        mention,
-        mentionCount: userSelections[mention].mentionCount,
-        selectedEntityId: userSelections[mention].selectedEntityId,
-        selectedWikiName: userSelections[mention].selectedWikiName,
+      const selectionsList = Object.keys(userSelections).map((key) => ({
+        id: userSelections[key].id || key,
+        mention: userSelections[key].mention || key,
+        paragraphIndex: userSelections[key].paragraphIndex || 1,
+        contextSentence: userSelections[key].contextSentence || "",
+        mentionCount: userSelections[key].mentionCount,
+        selectedEntityId: userSelections[key].selectedEntityId,
+        selectedWikiName: userSelections[key].selectedWikiName,
       }));
 
       const res = await fetch(`${BACKEND_URL}/review/confirm`, {
@@ -285,6 +318,8 @@ export default function Home() {
         }),
       });
 
+      if (!res.ok) throw new Error("Lỗi khi lưu kết quả phân định.");
+
       const updated = await res.json();
       setSession(updated);
       setSelectedFileType("SessionResult");
@@ -294,6 +329,15 @@ export default function Home() {
     } finally {
       setIsSubmittingReview(false);
     }
+  };
+
+  const handleResetSession = () => {
+    if (pollingRef.current) clearInterval(pollingRef.current);
+    setActiveStep(1);
+    setSessionId(null);
+    setSession(null);
+    setUserSelections({});
+    setSelectedUrls([]);
   };
 
   const loadFile = (type) => {
