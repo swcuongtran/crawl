@@ -242,7 +242,8 @@ namespace CrawlDisambigous.Services
         private static readonly string[] ProtectedContentSubstrings = new[]
         {
             "mw-content-text", "bodycontent", "entry-content", "post-content", "theme-post-content",
-            "article-content", "detail-content", "main-detail", "fck_detail", "theme-post-title", "page-title"
+            "article-content", "detail-content", "main-detail", "fck_detail", "theme-post-title", "page-title",
+            "quotebox", "pullquote", "templatequote"
         };
 
         private static readonly string[] SafeClassPrefixes = new[]
@@ -306,7 +307,7 @@ namespace CrawlDisambigous.Services
             while (current != null && current != root && current.Name != "#document")
             {
                 if (current.Name == "form" || current.Name == "button" || current.Name == "nav" ||
-                    current.Name == "aside" || current.Name == "footer" || current.Name == "header" ||
+                    (current.Name == "aside" && !IsQuoteBox(current)) || current.Name == "footer" || current.Name == "header" ||
                     current.Name == "dialog" || current.Name == "fieldset" || current.Name == "select" ||
                     current.Name == "datalist")
                 {
@@ -482,9 +483,9 @@ namespace CrawlDisambigous.Services
                 // 3. Vùng chứa nội dung chính bài viết (ưu tiên container có nhiều đoạn văn bản nhất, tránh popup/modal/form)
                 HtmlNode contentRoot = FindBestContentRoot(doc);
 
-                // 4. Bóc tách các thẻ nội dung: h2, h3, h4, p, ul, ol, li, blockquote, table
-                var contentNodes = contentRoot.SelectNodes(".//h2|.//h3|.//h4|.//p|.//ul|.//ol|.//li|.//blockquote|.//table") ??
-                                   doc.DocumentNode.SelectNodes("//p|//ul|//ol|//table");
+                // 4. Bóc tách các thẻ nội dung: h2, h3, h4, p, ul, ol, li, blockquote, table, quotebox, aside
+                var contentNodes = contentRoot.SelectNodes(".//h2|.//h3|.//h4|.//p|.//ul|.//ol|.//li|.//blockquote|.//table|.//div[contains(@class,'quotebox') or contains(@class,'pullquote') or contains(@class,'quote-box')]|.//aside") ??
+                                   doc.DocumentNode.SelectNodes("//p|//ul|//ol|//table|//blockquote");
 
                 bool inReferenceSection = false;
 
@@ -493,6 +494,10 @@ namespace CrawlDisambigous.Services
                     foreach (var node in contentNodes)
                     {
                         if (HasGarbageAncestor(node, contentRoot))
+                            continue;
+
+                        // Bỏ qua các thẻ con nằm trong khối trích dẫn / quotebox (vì khối cha đã trích xuất toàn bộ)
+                        if (node.Ancestors().Any(a => IsQuoteBox(a) && a != node))
                             continue;
 
                         string id = node.GetAttributeValue("id", "");
@@ -535,6 +540,21 @@ namespace CrawlDisambigous.Services
                         // Nếu đang nằm trong vùng Tham khảo / Chú thích / Liên kết ngoài -> Bỏ qua toàn bộ nội dung con
                         if (inReferenceSection)
                             continue;
+
+                        // Bóc tách khối trích dẫn / Quote box / Blockquote / Hộp chú thích bên cạnh: gom thành 1 đoạn văn riêng chứa nhiều câu
+                        if (IsQuoteBox(node))
+                        {
+                            var quoteSentences = ExtractQuoteBoxSentences(node);
+                            if (quoteSentences.Count > 0)
+                            {
+                                string quoteBlock = string.Join(" ", quoteSentences);
+                                if (quoteBlock.Length >= 15 && !lines.Contains(quoteBlock) && !IsBoilerplateOrAdText(quoteBlock))
+                                {
+                                    lines.Add(quoteBlock);
+                                }
+                            }
+                            continue;
+                        }
 
                         // Bóc tách bảng dữ liệu / Infobox / Wikitable: gom các hàng thành 1 khối phân tách bằng dấu chấm '.'
                         // Chỉ xuống dòng \r\n khi ĐÓNG THẺ </table>
@@ -614,23 +634,22 @@ namespace CrawlDisambigous.Services
                             continue;
                         }
 
-                        // Bỏ qua các thẻ <li> nằm trong <ul> hoặc <ol> (đã được khối ul/ol xử lý ở trên)
-                        if (node.Name == "li" && (node.Ancestors("ul").Any() || node.Ancestors("ol").Any()))
+                        // Bỏ qua các thẻ nằm trong danh sách <ul> hoặc <ol> (đã được khối ul/ol ở trên xử lý)
+                        if (node.Ancestors("ul").Any() || node.Ancestors("ol").Any())
                             continue;
 
-                        string text = CleanText(node.InnerText);
-                        if (string.IsNullOrWhiteSpace(text) || IsBoilerplateOrAdText(text))
+                        // Bỏ qua các thẻ con nằm trong khối aside hoặc thẻ aside không phải quote
+                        if (node.Ancestors("aside").Any() || (node.Name == "aside" && !IsQuoteBox(node)))
                             continue;
 
-                        if (node.Name == "li")
+                        // Bóc tách đoạn văn từ node (tự động phân tách các đoạn con qua thẻ <br>, \r\n hoặc nhiều dòng)
+                        var paragraphs = ExtractParagraphsFromTextNode(node);
+                        foreach (var para in paragraphs)
                         {
-                            if (text.Length >= 10 && !lines.Contains(text))
-                                lines.Add(text);
-                        }
-                        else
-                        {
-                            if (text.Length >= 15 && !lines.Contains(text))
-                                lines.Add(text);
+                            if (!lines.Contains(para))
+                            {
+                                lines.Add(para);
+                            }
                         }
                     }
                 }
@@ -647,6 +666,54 @@ namespace CrawlDisambigous.Services
             }
         }
 
+        /// <summary>
+        /// Bóc tách các đoạn văn độc lập từ một thẻ văn bản (<p>, <div>, <li>).
+        /// Tự động nhận diện ranh giới ngắt đoạn qua thẻ <br>, <br/>, ký tự xuống dòng kép hoặc đơn.
+        /// Mỗi đoạn văn con được chuẩn hóa kết thúc bằng dấu chấm và thêm như 1 đoạn độc lập vào lines.
+        /// </summary>
+        private static List<string> ExtractParagraphsFromTextNode(HtmlNode node)
+        {
+            var paragraphs = new List<string>();
+            if (node == null) return paragraphs;
+
+            // Clone node để xử lý thẻ <br> mà không ảnh hưởng DOM gốc
+            var clone = node.CloneNode(true);
+
+            // Thay thế các thẻ <br> thành ký tự xuống dòng \n để nhận diện ngắt đoạn
+            var brNodes = clone.SelectNodes(".//br");
+            if (brNodes != null)
+            {
+                foreach (var br in brNodes)
+                {
+                    br.ParentNode?.ReplaceChild(clone.OwnerDocument.CreateTextNode("\n"), br);
+                }
+            }
+
+            string rawText = WebUtility.HtmlDecode(clone.InnerText);
+            var rawLines = rawText.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (var line in rawLines)
+            {
+                string clean = CleanText(line);
+                if (string.IsNullOrWhiteSpace(clean) || IsBoilerplateOrAdText(clean))
+                    continue;
+
+                // Đảm bảo đoạn văn kết thúc bằng dấu chấm câu nếu chưa có
+                if (!clean.EndsWith(".") && !clean.EndsWith("!") && !clean.EndsWith("?"))
+                {
+                    clean += ".";
+                }
+
+                int minLen = (node.Name == "li") ? 8 : 10;
+                if (clean.Length >= minLen && !paragraphs.Contains(clean))
+                {
+                    paragraphs.Add(clean);
+                }
+            }
+
+            return paragraphs;
+        }
+
         private static string CleanText(string raw)
         {
             if (string.IsNullOrWhiteSpace(raw))
@@ -655,6 +722,8 @@ namespace CrawlDisambigous.Services
             string text = WebUtility.HtmlDecode(raw).Trim();
             // Xóa các chú thích nguồn Wikipedia [1], [2], [cần dẫn nguồn], [citation needed]
             text = Regex.Replace(text, @"\[\d+\]|\[cần dẫn nguồn\]|\[citation needed\]", "");
+            // Xóa các nhãn toggle ẩn/hiện của Wikipedia [ẩn], [hiện], [show], [hide]
+            text = Regex.Replace(text, @"\[(ẩn|hiện|show|hide)\]", "", RegexOptions.IgnoreCase);
             // Xóa các chuỗi gạch ngang, bằng, sao trang trí (---, ===, ___, ***) gây dính chữ và nhiễu EREL
             text = Regex.Replace(text, @"[-=_~*]{2,}", " ");
             // Xóa ký tự bullet đầu dòng nếu có
@@ -731,6 +800,7 @@ namespace CrawlDisambigous.Services
                 var grid = new Dictionary<(int r, int c), string>();
                 var isHeaderGrid = new Dictionary<(int r, int c), bool>();
                 var rowSpanOriginGrid = new Dictionary<(int r, int c), (int originR, int span)>();
+                var cellSentencesGrid = new Dictionary<(int r, int c), List<string>>();
                 int maxCols = 0;
 
                 for (int r = 0; r < trNodes.Count; r++)
@@ -750,6 +820,7 @@ namespace CrawlDisambigous.Services
                         int colSpan = GetColSpan(cell);
                         bool isTh = cell.Name == "th";
                         string cellText = CleanTableCell(cell);
+                        List<string> cellSentences = ExtractCellSentences(cell);
 
                         for (int dr = 0; dr < rowSpan; dr++)
                         {
@@ -758,6 +829,7 @@ namespace CrawlDisambigous.Services
                                 int targetR = r + dr;
                                 int targetC = c + dc;
                                 grid[(targetR, targetC)] = cellText;
+                                cellSentencesGrid[(targetR, targetC)] = cellSentences;
                                 isHeaderGrid[(targetR, targetC)] = isTh;
                                 rowSpanOriginGrid[(targetR, targetC)] = (r, rowSpan);
                                 if (targetC + 1 > maxCols)
@@ -890,50 +962,156 @@ namespace CrawlDisambigous.Services
                     }
 
                     // Trường hợp bảng dữ liệu nhiều cột (Wikitable): ghép các cột có tên cột tương ứng
-                    var rowParts = new List<string>();
+                    bool hasComplexCell = false;
                     for (int c = 0; c < maxCols; c++)
                     {
-                        // Nếu cột này là cột Năm đang được nhóm (spanned > 1), không lặp lại trong từng hàng
                         if (c == yearColIdx && isYearSpanned)
                             continue;
-
                         string header = (c < colHeaders.Count) ? colHeaders[c] : "";
                         if (!string.IsNullOrWhiteSpace(header) && IsTrivialHeader(header))
                             continue;
 
-                        if (grid.TryGetValue((r, c), out string? cellText) &&
-                            !string.IsNullOrWhiteSpace(cellText) &&
-                            !IsTrivialCellValue(cellText))
+                        if (cellSentencesGrid.TryGetValue((r, c), out var sList) && sList.Count > 1)
                         {
-                            if (!string.IsNullOrWhiteSpace(header) &&
-                                !header.Equals(cellText, StringComparison.OrdinalIgnoreCase))
-                            {
-                                rowParts.Add($"{header}: {cellText}");
-                            }
-                            else if (!IsTrivialHeader(cellText))
-                            {
-                                rowParts.Add(cellText);
-                            }
+                            hasComplexCell = true;
+                            break;
                         }
                     }
 
-                    // Bỏ qua các dòng chỉ có 1 trường thông tin phụ (như chỉ có mỗi "Năm: 2018" mà không có nội dung chính)
-                    if (colHeaders.Count >= 2 && rowParts.Count == 1 &&
-                        (rowParts[0].StartsWith("Năm:", StringComparison.OrdinalIgnoreCase) ||
-                         rowParts[0].StartsWith("STT:", StringComparison.OrdinalIgnoreCase)))
+                    if (!hasComplexCell)
                     {
-                        continue;
-                    }
-
-                    if (rowParts.Count > 0)
-                    {
-                        string rowSentence = string.Join(" - ", rowParts);
-                        if (!rowSentence.EndsWith("."))
-                            rowSentence += ".";
-
-                        if (rowSentence.Length >= 8 && !IsBoilerplateOrAdText(rowSentence) && !tableLines.Contains(rowSentence))
+                        var rowParts = new List<string>();
+                        for (int c = 0; c < maxCols; c++)
                         {
-                            tableLines.Add(rowSentence);
+                            // Nếu cột này là cột Năm đang được nhóm (spanned > 1), không lặp lại trong từng hàng
+                            if (c == yearColIdx && isYearSpanned)
+                                continue;
+
+                            string header = (c < colHeaders.Count) ? colHeaders[c] : "";
+                            if (!string.IsNullOrWhiteSpace(header) && IsTrivialHeader(header))
+                                continue;
+
+                            if (grid.TryGetValue((r, c), out string? cellText) &&
+                                !string.IsNullOrWhiteSpace(cellText) &&
+                                !IsTrivialCellValue(cellText))
+                            {
+                                if (!string.IsNullOrWhiteSpace(header) &&
+                                    !header.Equals(cellText, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    rowParts.Add($"{header}: {cellText}");
+                                }
+                                else if (!IsTrivialHeader(cellText))
+                                {
+                                    rowParts.Add(cellText);
+                                }
+                            }
+                        }
+
+                        // Bỏ qua các dòng chỉ có 1 trường thông tin phụ (như chỉ có mỗi "Năm: 2018" mà không có nội dung chính)
+                        if (colHeaders.Count >= 2 && rowParts.Count == 1 &&
+                            (rowParts[0].StartsWith("Năm:", StringComparison.OrdinalIgnoreCase) ||
+                             rowParts[0].StartsWith("STT:", StringComparison.OrdinalIgnoreCase)))
+                        {
+                            continue;
+                        }
+
+                        if (rowParts.Count > 0)
+                        {
+                            string rowSentence = string.Join(" - ", rowParts);
+                            if (!rowSentence.EndsWith("."))
+                                rowSentence += ".";
+
+                            if (rowSentence.Length >= 8 && !IsBoilerplateOrAdText(rowSentence) && !tableLines.Contains(rowSentence))
+                            {
+                                tableLines.Add(rowSentence);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        // Hàng có chứa ô phức tạp (danh sách li, tracklist, br...):
+                        // Tách thành nhiều câu trong 1 đoạn (1 paragraph)
+                        var simpleParts = new List<string>();
+                        var complexColumnSentences = new List<List<string>>();
+
+                        for (int c = 0; c < maxCols; c++)
+                        {
+                            if (c == yearColIdx && isYearSpanned)
+                                continue;
+
+                            string header = (c < colHeaders.Count) ? colHeaders[c] : "";
+                            if (!string.IsNullOrWhiteSpace(header) && IsTrivialHeader(header))
+                                continue;
+
+                            bool isComplex = cellSentencesGrid.TryGetValue((r, c), out var sList) && sList.Count > 1;
+
+                            if (!isComplex)
+                            {
+                                if (grid.TryGetValue((r, c), out string? cellText) &&
+                                    !string.IsNullOrWhiteSpace(cellText) &&
+                                    !IsTrivialCellValue(cellText))
+                                {
+                                    if (!string.IsNullOrWhiteSpace(header) &&
+                                        !header.Equals(cellText, StringComparison.OrdinalIgnoreCase))
+                                    {
+                                        simpleParts.Add($"{header}: {cellText}");
+                                    }
+                                    else if (!IsTrivialHeader(cellText))
+                                    {
+                                        simpleParts.Add(cellText);
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                var formattedSentences = new List<string>();
+                                foreach (var rawS in sList!)
+                                {
+                                    string s = rawS.Trim();
+                                    if (string.IsNullOrWhiteSpace(s) || IsTrivialCellValue(s) || IsBoilerplateOrAdText(s))
+                                        continue;
+
+                                    if (!IsGenericDetailHeader(header) && !s.Contains(':'))
+                                    {
+                                        s = $"{header}: {s}";
+                                    }
+
+                                    formattedSentences.Add(s);
+                                }
+                                if (formattedSentences.Count > 0)
+                                {
+                                    complexColumnSentences.Add(formattedSentences);
+                                }
+                            }
+                        }
+
+                        // Xuất câu giới thiệu từ các cột đơn giản (ví dụ: "Tựa đề: Tam Thái Tử.")
+                        if (simpleParts.Count > 0)
+                        {
+                            string introSentence = string.Join(" - ", simpleParts);
+                            if (!introSentence.EndsWith("."))
+                                introSentence += ".";
+
+                            if (introSentence.Length >= 5 && !IsBoilerplateOrAdText(introSentence) && !tableLines.Contains(introSentence))
+                            {
+                                tableLines.Add(introSentence);
+                            }
+                        }
+
+                        // Xuất từng câu chi tiết trong ô phức tạp (ví dụ từng mục phát hành, hãng đĩa, danh sách bài hát...)
+                        foreach (var sGroup in complexColumnSentences)
+                        {
+                            foreach (var s in sGroup)
+                            {
+                                string cleanS = s.Trim();
+                                if (!cleanS.EndsWith("."))
+                                    cleanS += ".";
+
+                                if (cleanS.Length >= 5 && !IsBoilerplateOrAdText(cleanS) && !tableLines.Contains(cleanS))
+                                {
+                                    tableLines.Add(cleanS);
+                                }
+                            }
                         }
                     }
                 }
@@ -976,7 +1154,17 @@ namespace CrawlDisambigous.Services
                    h == "hình ảnh" || h == "ảnh" || h == "hình" || h == "logo" || h == "biểu trưng" ||
                    h == "image" || h == "photo" || h == "picture" || h == "icon" ||
                    h == "thao tác" || h == "hành động" || h == "chức năng" ||
-                   h == "ct" || h == "chú thích" || h == "nguồn" || h == "tham khảo";
+                   h == "ct" || h == "chú thích" || h == "nguồn" || h == "tham khảo" ||
+                   h == "tk" || h == "ref" || h == "refs" || h == "dẫn nguồn" || h == "tham chiếu";
+        }
+
+        private static bool IsGenericDetailHeader(string header)
+        {
+            if (string.IsNullOrWhiteSpace(header))
+                return true;
+
+            string h = header.Trim().ToLowerInvariant();
+            return h == "chi tiết" || h == "thông tin" || h == "nội dung" || h == "details" || h == "ghi chú";
         }
 
         private static bool IsTrivialCellValue(string value)
@@ -994,8 +1182,10 @@ namespace CrawlDisambigous.Services
             if (cell == null)
                 return "";
 
+            var cellClone = cell.CloneNode(true);
+
             // Xóa các thẻ chú thích [1], [2], [cần dẫn nguồn] của Wikipedia
-            var refNodes = cell.SelectNodes(".//sup[contains(@class,'reference')]|.//span[contains(@class,'reference')]");
+            var refNodes = cellClone.SelectNodes(".//sup[contains(@class,'reference')]|.//span[contains(@class,'reference')]");
             if (refNodes != null)
             {
                 foreach (var r in refNodes)
@@ -1003,7 +1193,7 @@ namespace CrawlDisambigous.Services
             }
 
             // Xóa các phần tử ẩn
-            var hiddenNodes = cell.SelectNodes(".//*[@style and (contains(@style,'display:none') or contains(@style,'display: none'))]");
+            var hiddenNodes = cellClone.SelectNodes(".//*[@style and (contains(@style,'display:none') or contains(@style,'display: none'))]");
             if (hiddenNodes != null)
             {
                 foreach (var h in hiddenNodes)
@@ -1011,17 +1201,17 @@ namespace CrawlDisambigous.Services
             }
 
             // Thay thế <br> bằng dấu phẩy
-            var brNodes = cell.SelectNodes(".//br");
+            var brNodes = cellClone.SelectNodes(".//br");
             if (brNodes != null)
             {
                 foreach (var br in brNodes)
                 {
-                    br.ParentNode?.ReplaceChild(cell.OwnerDocument.CreateTextNode(", "), br);
+                    br.ParentNode?.ReplaceChild(cellClone.OwnerDocument.CreateTextNode(", "), br);
                 }
             }
 
             // Xử lý danh sách con bên trong ô bảng
-            var liNodes = cell.SelectNodes(".//li");
+            var liNodes = cellClone.SelectNodes(".//li");
             if (liNodes != null && liNodes.Count > 0)
             {
                 var liTexts = new List<string>();
@@ -1037,8 +1227,281 @@ namespace CrawlDisambigous.Services
                 }
             }
 
-            string rawText = CleanText(cell.InnerText);
+            string rawText = CleanText(cellClone.InnerText);
             return rawText.Trim(',', ';', ':', '-', '•').Trim();
+        }
+
+        private static List<string> ExtractCellSentences(HtmlNode cell)
+        {
+            var sentences = new List<string>();
+            if (cell == null)
+                return sentences;
+
+            var cellClone = cell.CloneNode(true);
+
+            var refNodes = cellClone.SelectNodes(".//sup[contains(@class,'reference')]|.//span[contains(@class,'reference')]");
+            if (refNodes != null)
+            {
+                foreach (var r in refNodes)
+                    r.Remove();
+            }
+
+            var hiddenNodes = cellClone.SelectNodes(".//*[@style and (contains(@style,'display:none') or contains(@style,'display: none'))]");
+            if (hiddenNodes != null)
+            {
+                foreach (var h in hiddenNodes)
+                    h.Remove();
+            }
+
+            var toggleNodes = cellClone.SelectNodes(".//*[contains(@class,'NavToggle') or contains(@class,'mw-collapsible-toggle')]");
+            if (toggleNodes != null)
+            {
+                foreach (var t in toggleNodes)
+                    t.Remove();
+            }
+
+            // Chuẩn hóa thẻ <br> thành ký tự xuống dòng \n
+            var brNodes = cellClone.SelectNodes(".//br");
+            if (brNodes != null)
+            {
+                foreach (var br in brNodes)
+                {
+                    br.ParentNode?.ReplaceChild(cellClone.OwnerDocument.CreateTextNode("\n"), br);
+                }
+            }
+
+            var blockElements = cellClone.SelectNodes("./ul|./ol|./div|./p|./table");
+            if (blockElements == null || blockElements.Count == 0)
+            {
+                string fullText = WebUtility.HtmlDecode(cellClone.InnerText);
+                var lines = fullText.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                foreach (var line in lines)
+                {
+                    string t = CleanText(line).Trim(',', ';', ':', '-', '•').Trim();
+                    if (!string.IsNullOrWhiteSpace(t) && t.Length >= 2 && !sentences.Contains(t))
+                        sentences.Add(t);
+                }
+                return sentences;
+            }
+
+            foreach (var node in cellClone.ChildNodes)
+            {
+                if (node.NodeType == HtmlNodeType.Text)
+                {
+                    string textPart = WebUtility.HtmlDecode(node.InnerText);
+                    var lines = textPart.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+                    foreach (var line in lines)
+                    {
+                        string t = CleanText(line).Trim(',', ';', ':', '-', '•').Trim();
+                        if (!string.IsNullOrWhiteSpace(t) && t.Length >= 2 && !sentences.Contains(t))
+                            sentences.Add(t);
+                    }
+                    continue;
+                }
+
+                if (node.NodeType != HtmlNodeType.Element)
+                    continue;
+
+                var elem = node;
+                string cls = elem.GetAttributeValue("class", "");
+                bool isCollapsible = cls.Contains("mw-collapsible") || cls.Contains("NavFrame") || cls.Contains("toccolours");
+
+                if (isCollapsible)
+                {
+                    string headTitle = "";
+                    var headNode = elem.SelectSingleNode(".//*[contains(@class,'NavHead')]") ??
+                                   elem.SelectSingleNode(".//*[contains(@style,'bold') or contains(@style,'font-weight')]") ??
+                                   elem.SelectSingleNode(".//b|.//strong");
+                    if (headNode != null)
+                    {
+                        headTitle = CleanText(headNode.InnerText);
+                        headTitle = Regex.Replace(headTitle, @"\[(ẩn|hiện|show|hide)\]", "", RegexOptions.IgnoreCase).Trim();
+                    }
+
+                    var colLis = elem.SelectNodes(".//li");
+                    if (colLis != null && colLis.Count > 0)
+                    {
+                        var liTexts = new List<string>();
+                        foreach (var li in colLis)
+                        {
+                            string t = CleanText(li.InnerText);
+                            t = Regex.Replace(t, @"^\d+[\.\:\-\s]+\s*", "").Trim();
+                            if (!string.IsNullOrWhiteSpace(t) && !liTexts.Contains(t))
+                                liTexts.Add(t);
+                        }
+
+                        if (liTexts.Count > 0)
+                        {
+                            string combined = string.Join(", ", liTexts);
+                            if (!string.IsNullOrWhiteSpace(headTitle))
+                                sentences.Add($"{headTitle}: {combined}");
+                            else
+                                sentences.Add(combined);
+                        }
+                    }
+                    else
+                    {
+                        string collText = CleanText(elem.InnerText);
+                        if (!string.IsNullOrWhiteSpace(collText))
+                            sentences.Add(collText);
+                    }
+                }
+                else if (elem.Name == "ul" || elem.Name == "ol")
+                {
+                    var lis = elem.SelectNodes("./li|.//li");
+                    if (lis != null)
+                    {
+                        foreach (var li in lis)
+                        {
+                            string t = CleanText(li.InnerText).Trim(',', ';', ':', '-', '•').Trim();
+                            if (!string.IsNullOrWhiteSpace(t) && !sentences.Contains(t))
+                                sentences.Add(t);
+                        }
+                    }
+                }
+                else if (elem.Name == "p" || elem.Name == "div")
+                {
+                    var innerLists = elem.SelectNodes(".//ul|.//ol");
+                    if (innerLists != null && innerLists.Count > 0)
+                    {
+                        var subSentences = ExtractCellSentences(elem);
+                        foreach (var s in subSentences)
+                        {
+                            if (!string.IsNullOrWhiteSpace(s) && !sentences.Contains(s))
+                                sentences.Add(s);
+                        }
+                    }
+                    else
+                    {
+                        string t = CleanText(elem.InnerText).Trim(',', ';', ':', '-', '•').Trim();
+                        if (!string.IsNullOrWhiteSpace(t) && !sentences.Contains(t))
+                            sentences.Add(t);
+                    }
+                }
+                else
+                {
+                    string t = CleanText(elem.InnerText).Trim(',', ';', ':', '-', '•').Trim();
+                    if (!string.IsNullOrWhiteSpace(t) && !sentences.Contains(t))
+                        sentences.Add(t);
+                }
+            }
+
+            return sentences;
+        }
+
+        private static bool IsQuoteBox(HtmlNode node)
+        {
+            if (node == null) return false;
+            if (node.Name == "blockquote") return true;
+            string cls = node.GetAttributeValue("class", "").ToLowerInvariant();
+            string role = node.GetAttributeValue("role", "").ToLowerInvariant();
+            if (role == "doc-pullquote") return true;
+            return cls.Contains("quotebox") || cls.Contains("pullquote") || cls.Contains("quote-box") ||
+                   cls.Contains("templatequote") || cls.Contains("callout-quote");
+        }
+
+        private static List<string> SplitIntoSentences(string text)
+        {
+            var result = new List<string>();
+            if (string.IsNullOrWhiteSpace(text)) return result;
+
+            string pattern = @"(?<=[\.\!\?])\s+(?=[\p{Lu}""“«\d])";
+            var parts = Regex.Split(text, pattern);
+            foreach (var part in parts)
+            {
+                string p = part.Trim();
+                if (!string.IsNullOrWhiteSpace(p))
+                    result.Add(p);
+            }
+            return result;
+        }
+
+        private static List<string> ExtractQuoteBoxSentences(HtmlNode quoteNode)
+        {
+            var sentences = new List<string>();
+            if (quoteNode == null) return sentences;
+
+            var clone = quoteNode.CloneNode(true);
+
+            // 1. Xóa các chú thích [1], [2], [cần dẫn nguồn]
+            var refNodes = clone.SelectNodes(".//sup[contains(@class,'reference')]|.//span[contains(@class,'reference')]");
+            if (refNodes != null)
+            {
+                foreach (var r in refNodes) r.Remove();
+            }
+
+            // 2. Xóa các style, script và phần tử ẩn
+            var styleNodes = clone.SelectNodes(".//style|.//script");
+            if (styleNodes != null)
+            {
+                foreach (var s in styleNodes) s.Remove();
+            }
+            var hiddenNodes = clone.SelectNodes(".//*[@style and (contains(@style,'display:none') or contains(@style,'display: none'))]");
+            if (hiddenNodes != null)
+            {
+                foreach (var h in hiddenNodes) h.Remove();
+            }
+
+            // 3. Trích xuất phần chữ ký / tác giả / nguồn trích dẫn (<cite>, .templatequotecite, v.v.)
+            var citeTexts = new List<string>();
+            var citeNodes = clone.SelectNodes(".//cite|.//*[contains(@class,'templatequotecite') or contains(@class,'quotebox-cite')]");
+            if (citeNodes != null)
+            {
+                foreach (var c in citeNodes)
+                {
+                    string cText = CleanText(c.InnerText);
+                    if (!string.IsNullOrWhiteSpace(cText) && cText.Length >= 2)
+                    {
+                        if (!cText.EndsWith(".") && !cText.EndsWith("!") && !cText.EndsWith("?"))
+                            cText += ".";
+                        if (!citeTexts.Contains(cText))
+                            citeTexts.Add(cText);
+                    }
+                    c.Remove();
+                }
+            }
+
+            // 4. Chuẩn hóa thẻ <br> thành ký tự xuống dòng
+            var brNodes = clone.SelectNodes(".//br");
+            if (brNodes != null)
+            {
+                foreach (var br in brNodes)
+                {
+                    br.ParentNode?.ReplaceChild(clone.OwnerDocument.CreateTextNode("\n"), br);
+                }
+            }
+
+            // 5. Tách câu trong phần thân của trích dẫn
+            string bodyRaw = WebUtility.HtmlDecode(clone.InnerText);
+            var rawLines = bodyRaw.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            foreach (var line in rawLines)
+            {
+                string cleanLine = CleanText(line);
+                if (string.IsNullOrWhiteSpace(cleanLine) || IsBoilerplateOrAdText(cleanLine))
+                    continue;
+
+                var sents = SplitIntoSentences(cleanLine);
+                foreach (var s in sents)
+                {
+                    string trimmed = s.Trim();
+                    if (!string.IsNullOrWhiteSpace(trimmed))
+                    {
+                        if (!trimmed.EndsWith(".") && !trimmed.EndsWith("!") && !trimmed.EndsWith("?"))
+                            trimmed += ".";
+                        if (trimmed.Length >= 5 && !sentences.Contains(trimmed))
+                            sentences.Add(trimmed);
+                    }
+                }
+            }
+
+            // 6. Nối phần nguồn / chữ ký vào cuối danh sách câu
+            foreach (var cite in citeTexts)
+            {
+                if (!sentences.Contains(cite))
+                    sentences.Add(cite);
+            }
+
+            return sentences;
         }
 
         /// <summary>

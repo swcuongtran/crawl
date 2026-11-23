@@ -19,6 +19,18 @@ namespace CrawlDisambigous.Models
 
         [JsonIgnore]
         public string? ErrorMessage { get; set; }
+
+        [JsonIgnore]
+        public string InputText { get; set; } = "";
+
+        [JsonIgnore]
+        public string RawRequestJson { get; set; } = "";
+
+        [JsonIgnore]
+        public string RawResponseJson { get; set; } = "";
+
+        [JsonIgnore]
+        public int? HttpStatusCode { get; set; }
     }
 
     public class McsMentionDto
@@ -52,6 +64,12 @@ namespace CrawlDisambigous.Models
 
         [JsonPropertyName("maxCharIdx")]
         public int MaxCharIdx { get; set; }
+
+        [JsonPropertyName("paragraphIndex")]
+        public int ParagraphIndex { get; set; } = 1;
+
+        [JsonPropertyName("contextSentence")]
+        public string ContextSentence { get; set; } = "";
 
         [JsonPropertyName("isCoreferenced")]
         public bool IsCoreferenced { get; set; }

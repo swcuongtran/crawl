@@ -384,6 +384,162 @@ namespace CrawlDisambigous.Services
 
         private async Task<List<SearchResult>> SearchViaWebFallbackAsync(string query, int targetCount)
         {
+            // 1. Thử Bing trước vì tốc độ nhanh, kết quả tiếng Việt phong phú và không bị chặn captcha
+            var results = await SearchViaBingFallbackAsync(query, targetCount);
+            if (results.Count >= targetCount)
+                return results;
+
+            // 2. Nếu Bing trả về ít hơn targetCount, bổ sung thêm từ DuckDuckGo
+            try
+            {
+                var ddgResults = await SearchViaDuckDuckGoFallbackAsync(query, targetCount - results.Count);
+                var seenUrls = new HashSet<string>(results.Select(r => r.Url), StringComparer.OrdinalIgnoreCase);
+                foreach (var item in ddgResults)
+                {
+                    if (seenUrls.Add(item.Url))
+                    {
+                        item.Position = results.Count + 1;
+                        results.Add(item);
+                        if (results.Count >= targetCount)
+                            break;
+                    }
+                }
+            }
+            catch { }
+
+            return results;
+        }
+
+        private async Task<List<SearchResult>> SearchViaBingFallbackAsync(string query, int targetCount)
+        {
+            var results = new List<SearchResult>();
+            var seenUrls = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+            try
+            {
+                int pageOffset = 1;
+                while (results.Count < targetCount && pageOffset <= 31)
+                {
+                    string encodedQuery = Uri.EscapeDataString(query);
+                    string url = $"https://www.bing.com/search?q={encodedQuery}&first={pageOffset}&setlang=vi";
+
+                    using var request = new HttpRequestMessage(HttpMethod.Get, url);
+                    request.Headers.TryAddWithoutValidation("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36");
+                    request.Headers.TryAddWithoutValidation("Accept-Language", "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7");
+                    request.Headers.TryAddWithoutValidation("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
+
+                    using var response = await _httpClient.SendAsync(request);
+                    if (!response.IsSuccessStatusCode)
+                        break;
+
+                    string html = await response.Content.ReadAsStringAsync();
+                    var doc = new HtmlAgilityPack.HtmlDocument();
+                    doc.LoadHtml(html);
+
+                    var resultNodes = doc.DocumentNode.SelectNodes("//li[contains(@class, 'b_algo')]");
+                    if (resultNodes == null || resultNodes.Count == 0)
+                        break;
+
+                    int addedThisPage = 0;
+                    foreach (var node in resultNodes)
+                    {
+                        if (results.Count >= targetCount)
+                            break;
+
+                        var linkNode = node.SelectSingleNode(".//h2/a") ?? node.SelectSingleNode(".//a");
+                        if (linkNode == null)
+                            continue;
+
+                        string rawHref = linkNode.GetAttributeValue("href", "").Trim();
+                        string href = DecodeBingRedirect(rawHref);
+                        string title = WebUtility.HtmlDecode(linkNode.InnerText).Trim();
+
+                        if (string.IsNullOrWhiteSpace(href) || !Uri.TryCreate(href, UriKind.Absolute, out Uri? uri))
+                            continue;
+
+                        if (uri.Scheme != Uri.UriSchemeHttp && uri.Scheme != Uri.UriSchemeHttps)
+                            continue;
+
+                        if (_urlFilter.IsBlacklisted(href) || !seenUrls.Add(href))
+                            continue;
+
+                        var snippetNode = node.SelectSingleNode(".//p") ?? node.SelectSingleNode(".//*[contains(@class, 'b_caption')]//p");
+                        string snippet = snippetNode != null ? WebUtility.HtmlDecode(snippetNode.InnerText).Trim() : "";
+
+                        results.Add(new SearchResult
+                        {
+                            Position = results.Count + 1,
+                            Title = title,
+                            Url = href,
+                            Snippet = snippet
+                        });
+                        addedThisPage++;
+                    }
+
+                    if (addedThisPage == 0)
+                        break;
+
+                    pageOffset += 10;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[BING SEARCH FALLBACK ERROR] {ex.Message}");
+            }
+
+            return results;
+        }
+
+        private static string DecodeBingRedirect(string href)
+        {
+            if (string.IsNullOrWhiteSpace(href))
+                return string.Empty;
+
+            if (!href.StartsWith("https://www.bing.com/ck/a", StringComparison.OrdinalIgnoreCase)
+                && !href.StartsWith("http://www.bing.com/ck/a", StringComparison.OrdinalIgnoreCase))
+            {
+                return href;
+            }
+
+            int uIdx = href.IndexOf("u=", StringComparison.OrdinalIgnoreCase);
+            if (uIdx == -1)
+                return href;
+
+            string encoded = href.Substring(uIdx + 2);
+            int ampIdx = encoded.IndexOf('&');
+            if (ampIdx != -1)
+                encoded = encoded.Substring(0, ampIdx);
+
+            if (encoded.Length > 2 && (encoded.StartsWith("a1", StringComparison.OrdinalIgnoreCase) || encoded.StartsWith("a0", StringComparison.OrdinalIgnoreCase)))
+            {
+                encoded = encoded.Substring(2);
+            }
+
+            try
+            {
+                encoded = encoded.Replace('-', '+').Replace('_', '/');
+                int padding = (4 - (encoded.Length % 4)) % 4;
+                if (padding > 0)
+                    encoded += new string('=', padding);
+
+                byte[] bytes = Convert.FromBase64String(encoded);
+                string decodedUrl = System.Text.Encoding.UTF8.GetString(bytes);
+                if (Uri.TryCreate(decodedUrl, UriKind.Absolute, out Uri? uri) &&
+                    (uri.Scheme == Uri.UriSchemeHttp || uri.Scheme == Uri.UriSchemeHttps))
+                {
+                    return decodedUrl;
+                }
+            }
+            catch
+            {
+                // Fallback nếu không parse được
+            }
+
+            return href;
+        }
+
+        private async Task<List<SearchResult>> SearchViaDuckDuckGoFallbackAsync(string query, int targetCount)
+        {
             var results = new List<SearchResult>();
             var seenUrls = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 

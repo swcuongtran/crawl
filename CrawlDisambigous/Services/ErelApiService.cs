@@ -1,7 +1,8 @@
 using CrawlDisambigous.Models;
 using System;
 using System.Net.Http;
-using System.Net.Http.Json;
+using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,16 +12,32 @@ namespace CrawlDisambigous.Services
     public class ErelApiService
     {
         public const string DefaultErelUrl = "http://103.98.152.201:3000/";
-        private const string ExtractEntitiesDetailEndpoint = "api/extract-entities-detail";
+        public const string ExtractEntitiesDetailEndpoint = "api/extract-entities-detail";
 
         private static readonly JsonSerializerOptions JsonOptions = new()
         {
             PropertyNameCaseInsensitive = true
         };
 
+        private static readonly JsonSerializerOptions PrettyRequestJsonOptions = new()
+        {
+            WriteIndented = true,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        };
+
         private readonly HttpClient _client;
 
         public string BaseUrl => _client.BaseAddress?.ToString() ?? DefaultErelUrl;
+        public string ExtractEndpointUrl => new Uri(new Uri(BaseUrl), ExtractEntitiesDetailEndpoint).ToString();
+
+        public static string BuildRequestJson(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text))
+                return "{}";
+
+            var request = new { message = text, text };
+            return JsonSerializer.Serialize(request, PrettyRequestJsonOptions);
+        }
 
         public ErelApiService(string? baseUrl = null)
         {
@@ -55,30 +72,65 @@ namespace CrawlDisambigous.Services
             if (string.IsNullOrWhiteSpace(text))
                 return new ErelScanResponseDto();
 
-            var request = new { message = text, text };
+            string rawRequestJson = BuildRequestJson(text);
 
             try
             {
-                using var response = await _client.PostAsJsonAsync(ExtractEntitiesDetailEndpoint, request);
+                using var content = new StringContent(rawRequestJson, Encoding.UTF8, "application/json");
+                using var response = await _client.PostAsync(ExtractEntitiesDetailEndpoint, content);
+                int statusCode = (int)response.StatusCode;
+                string responseString = await response.Content.ReadAsStringAsync();
+
                 if (!response.IsSuccessStatusCode)
                 {
-                    string errDetail = $"Remote EREL tại {_client.BaseAddress} trả về mã lỗi HTTP {(int)response.StatusCode} ({response.StatusCode}).";
-                    Console.WriteLine($"[EREL REMOTE ERROR] {errDetail}");
-                    return new ErelScanResponseDto { ErrorMessage = errDetail };
+                    string errDetail = $"EREL tại {_client.BaseAddress} trả về mã lỗi HTTP {statusCode} ({response.StatusCode}).";
+                    Console.WriteLine($"[EREL ERROR] {errDetail}");
+                    return new ErelScanResponseDto
+                    {
+                        ErrorMessage = errDetail,
+                        RawRequestJson = rawRequestJson,
+                        RawResponseJson = responseString ?? "",
+                        HttpStatusCode = statusCode
+                    };
                 }
 
-                string responseString = await response.Content.ReadAsStringAsync();
                 if (string.IsNullOrWhiteSpace(responseString))
-                    return new ErelScanResponseDto();
+                {
+                    return new ErelScanResponseDto
+                    {
+                        RawRequestJson = rawRequestJson,
+                        RawResponseJson = "",
+                        HttpStatusCode = statusCode
+                    };
+                }
 
-                return JsonSerializer.Deserialize<ErelScanResponseDto>(responseString, JsonOptions)
+                var dto = JsonSerializer.Deserialize<ErelScanResponseDto>(responseString, JsonOptions)
                     ?? new ErelScanResponseDto();
+                dto.InputText = text;
+                dto.RawRequestJson = rawRequestJson;
+                dto.RawResponseJson = responseString;
+                dto.HttpStatusCode = statusCode;
+
+                // Tự động tính chỉ số đoạn (ParagraphIndex) và trích xuất câu văn ngữ cảnh (ContextSentence) cho từng mention
+                foreach (var m in dto.Mcs)
+                {
+                    var (pIdx, sentence) = EntityAggregationHelper.ExtractContext(text, m.MinCharIdx, m.MaxCharIdx);
+                    m.ParagraphIndex = pIdx;
+                    m.ContextSentence = sentence;
+                }
+
+                return dto;
             }
             catch (Exception ex)
             {
-                string errDetail = $"Lỗi kết nối/timeout tới Remote EREL tại {_client.BaseAddress}: {ex.Message}";
-                Console.WriteLine($"[EREL REMOTE ERROR] {errDetail}");
-                return new ErelScanResponseDto { ErrorMessage = errDetail };
+                string errDetail = $"Lỗi kết nối/timeout tới EREL tại {_client.BaseAddress}: {ex.Message}";
+                Console.WriteLine($"[EREL ERROR] {errDetail}");
+                return new ErelScanResponseDto
+                {
+                    ErrorMessage = errDetail,
+                    RawRequestJson = rawRequestJson,
+                    RawResponseJson = ""
+                };
             }
         }
     }

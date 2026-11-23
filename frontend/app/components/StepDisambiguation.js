@@ -164,7 +164,13 @@ export default function StepDisambiguation({
                   color: "#e2e8f0",
                 }}
               >
-                <strong>&quot;{sc.mention}&quot;</strong> → [{sc.entityId}] {sc.wikiName} (x{sc.totalCount})
+                <strong>&quot;{sc.mention}&quot;</strong>
+                {sc.paragraphIndex > 0 && (
+                  <span style={{ color: "#38bdf8", marginLeft: "4px", fontSize: "11px", fontWeight: "600" }}>
+                    (Đoạn {sc.paragraphIndex})
+                  </span>
+                )}{" "}
+                → [{sc.entityId}] {sc.wikiName} (x{sc.totalCount})
               </span>
             ))}
           </div>
@@ -174,26 +180,50 @@ export default function StepDisambiguation({
       {/* Ambiguous Mention Cards */}
       <div>
         {filteredAmbiguousGroups.map((group, gIdx) => {
-          const currentSel = userSelections[group.mention]?.selectedEntityId ?? group.erelSelectedEntityId;
+          const groupKey = group.id || `${group.mention}_p${group.paragraphIndex}`;
+          const currentSel = userSelections[groupKey]?.selectedEntityId ?? group.erelSelectedEntityId;
 
           return (
-            <div key={group.mention} className="mention-card">
-              <div className="mention-header">
-                <div className="mention-title-row">
-                  <span style={{ fontSize: "14px", color: "var(--text-muted)", fontWeight: "600" }}>
-                    #{gIdx + 1}
-                  </span>
-                  <span className="mention-name">&quot;{group.mention}&quot;</span>
-                  <span className="badge-count">Xuất hiện {group.totalCount} lần</span>
+            <div key={groupKey} className="mention-card">
+              <div className="mention-header" style={{ flexDirection: "column", alignItems: "stretch", gap: "10px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "8px" }}>
+                  <div className="mention-title-row" style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
+                    <span style={{ fontSize: "14px", color: "var(--text-muted)", fontWeight: "600" }}>
+                      #{gIdx + 1}
+                    </span>
+                    <span className="mention-name">&quot;{group.mention}&quot;</span>
+                    {group.paragraphIndex > 0 && (
+                      <span className="chip chip-http" style={{ color: "#38bdf8", fontWeight: "700", background: "rgba(56, 189, 248, 0.15)" }}>
+                        Đoạn {group.paragraphIndex}
+                      </span>
+                    )}
+                    <span className="badge-count">Xuất hiện {group.totalCount} lần</span>
+                  </div>
+
+                  <div style={{ display: "flex", gap: "8px" }}>
+                    <span className="chip chip-http">POS: {group.posTag || "N/A"}</span>
+                    <span className="chip chip-http">Loại: {group.category || "N/A"}</span>
+                    <span className="chip chip-playwright">
+                      {group.candidates?.length} Ứng viên trong KB
+                    </span>
+                  </div>
                 </div>
 
-                <div style={{ display: "flex", gap: "8px" }}>
-                  <span className="chip chip-http">POS: {group.posTag || "N/A"}</span>
-                  <span className="chip chip-http">Loại: {group.category || "N/A"}</span>
-                  <span className="chip chip-playwright">
-                    {group.candidates?.length} Ứng viên trong KB
-                  </span>
-                </div>
+                {group.contextSentence && (
+                  <div
+                    style={{
+                      fontSize: "13px",
+                      color: "#cbd5e1",
+                      background: "rgba(15, 23, 42, 0.6)",
+                      borderLeft: "3px solid #38bdf8",
+                      padding: "8px 12px",
+                      borderRadius: "6px",
+                      lineHeight: "1.5",
+                    }}
+                  >
+                    <strong style={{ color: "#38bdf8" }}>Ngữ cảnh (Đoạn {group.paragraphIndex}):</strong> &quot;{group.contextSentence}&quot;
+                  </div>
+                )}
               </div>
 
               <div className="candidate-options">
@@ -209,17 +239,20 @@ export default function StepDisambiguation({
                       }`}
                       onClick={() =>
                         onSelectCandidate(
-                          group.mention,
+                          groupKey,
                           group.totalCount,
                           cand.entityId,
-                          cand.wikiName
+                          cand.wikiName,
+                          group.mention,
+                          group.paragraphIndex,
+                          group.contextSentence
                         )
                       }
                     >
                       <div className="candidate-info">
                         <input
                           type="radio"
-                          name={`mention-${group.mention}`}
+                          name={`mention-${groupKey}`}
                           checked={isSelected}
                           onChange={() => {}}
                           style={{ accentColor: "var(--primary)", width: "16px", height: "16px" }}
@@ -285,13 +318,23 @@ export default function StepDisambiguation({
 
                 <div
                   className={`candidate-row ${currentSel === 0 ? "is-selected" : ""}`}
-                  onClick={() => onSelectCandidate(group.mention, group.totalCount, 0, "")}
+                  onClick={() =>
+                    onSelectCandidate(
+                      groupKey,
+                      group.totalCount,
+                      0,
+                      "",
+                      group.mention,
+                      group.paragraphIndex,
+                      group.contextSentence
+                    )
+                  }
                   style={{ opacity: 0.8 }}
                 >
                   <div className="candidate-info">
                     <input
                       type="radio"
-                      name={`mention-${group.mention}`}
+                      name={`mention-${groupKey}`}
                       checked={currentSel === 0}
                       onChange={() => {}}
                       style={{ accentColor: "var(--error)", width: "16px", height: "16px" }}

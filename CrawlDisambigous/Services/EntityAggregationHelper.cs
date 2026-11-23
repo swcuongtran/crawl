@@ -69,15 +69,63 @@ namespace CrawlDisambigous.Services
             }
         }
 
+        public static (int ParagraphIndex, string ContextSentence) ExtractContext(string inputText, int minCharIdx, int maxCharIdx)
+        {
+            if (string.IsNullOrEmpty(inputText) || minCharIdx < 0 || minCharIdx >= inputText.Length)
+                return (1, "");
+
+            // 1. Tính ParagraphIndex (đoạn 1, 2, ...) bằng cách đếm ký tự xuống dòng trước minCharIdx
+            int paragraphIndex = 1;
+            for (int i = 0; i < minCharIdx; i++)
+            {
+                if (inputText[i] == '\n')
+                    paragraphIndex++;
+            }
+
+            // 2. Tìm ranh giới của câu chứa mention
+            int sentStart = 0;
+            for (int i = minCharIdx - 1; i >= 0; i--)
+            {
+                char c = inputText[i];
+                if (c == '.' || c == '!' || c == '?' || c == '\n' || c == '\r')
+                {
+                    sentStart = i + 1;
+                    break;
+                }
+            }
+
+            int sentEnd = inputText.Length;
+            for (int i = Math.Max(minCharIdx, maxCharIdx); i < inputText.Length; i++)
+            {
+                char c = inputText[i];
+                if (c == '.' || c == '!' || c == '?' || c == '\n' || c == '\r')
+                {
+                    sentEnd = i + 1;
+                    break;
+                }
+            }
+
+            if (sentEnd > sentStart)
+            {
+                string rawSent = inputText.Substring(sentStart, sentEnd - sentStart);
+                string cleanSent = System.Text.RegularExpressions.Regex.Replace(rawSent.Trim(), @"\s+", " ");
+                return (paragraphIndex, cleanSent);
+            }
+
+            return (paragraphIndex, "");
+        }
+
         public static List<AmbiguousMentionGroup> BuildAmbiguousGroups(
             IEnumerable<ErelScanResponseDto> scans,
             int? excludeSourceEntityId = null)
         {
+            int counter = 1;
             return scans
                 .SelectMany(s => s.Mcs)
                 .Where(m => (!excludeSourceEntityId.HasValue || m.SelectedEntityId != excludeSourceEntityId.Value)
                             && (m.Candidates?.Count ?? 0) > 1)
-                .GroupBy(m => m.Mention.Trim(), StringComparer.OrdinalIgnoreCase)
+                // Phân nhóm CHUẨN THEO ĐOẠN VĂN: Cùng 1 đoạn thì gom các câu lại, khác đoạn mới tách riêng
+                .GroupBy(m => $"{m.Mention.Trim().ToLowerInvariant()}__p{m.ParagraphIndex}")
                 .Select(g =>
                 {
                     var rep = g.First();
@@ -94,7 +142,10 @@ namespace CrawlDisambigous.Services
 
                     return new AmbiguousMentionGroup
                     {
-                        Mention = g.Key,
+                        Id = $"amb_{counter++}",
+                        Mention = rep.Mention.Trim(),
+                        ParagraphIndex = rep.ParagraphIndex,
+                        ContextSentence = rep.ContextSentence,
                         TotalCount = g.Count(),
                         PosTag = rep.PosTag,
                         Category = rep.Category,
@@ -102,7 +153,8 @@ namespace CrawlDisambigous.Services
                         Candidates = allCandidates
                     };
                 })
-                .OrderByDescending(g => g.TotalCount)
+                .OrderBy(g => g.ParagraphIndex)
+                .ThenBy(g => g.Mention)
                 .ToList();
         }
 
@@ -113,15 +165,19 @@ namespace CrawlDisambigous.Services
             return scans
                 .SelectMany(s => s.Mcs)
                 .Where(m => m.SelectedEntityId > 0 && m.SelectedEntityId != sourceEntityId && (m.Candidates?.Count ?? 0) == 1)
-                .GroupBy(m => m.Mention.Trim(), StringComparer.OrdinalIgnoreCase)
+                // Gom chuẩn theo đoạn văn
+                .GroupBy(m => $"{m.Mention.Trim().ToLowerInvariant()}__p{m.ParagraphIndex}")
                 .Select(g => new SingleCandidateMentionGroup
                 {
-                    Mention = g.Key,
+                    Mention = g.First().Mention.Trim(),
+                    ParagraphIndex = g.First().ParagraphIndex,
+                    ContextSentence = g.First().ContextSentence,
                     TotalCount = g.Count(),
                     EntityId = g.First().SelectedEntityId,
                     WikiName = g.First().SelectedWikiName
                 })
-                .OrderByDescending(g => g.TotalCount)
+                .OrderBy(g => g.ParagraphIndex)
+                .ThenByDescending(g => g.TotalCount)
                 .ToList();
         }
 
