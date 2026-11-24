@@ -13,6 +13,21 @@ using System.Threading.Tasks;
 Console.OutputEncoding = Encoding.UTF8;
 Console.InputEncoding = Encoding.UTF8;
 
+// Tự động dọn dẹp các tiến trình cũ đang chạy ngầm chiếm cổng 5000
+try
+{
+    var currentPid = System.Diagnostics.Process.GetCurrentProcess().Id;
+    foreach (var p in System.Diagnostics.Process.GetProcessesByName("CrawlDisambigous"))
+    {
+        if (p.Id != currentPid)
+        {
+            p.Kill(entireProcessTree: true);
+            p.WaitForExit(1000);
+        }
+    }
+}
+catch { }
+
 // Kiểm tra nếu người dùng muốn chạy chế độ Console CLI truyền thống
 if (args.Length > 0 && args[0].Equals("--console", StringComparison.OrdinalIgnoreCase))
 {

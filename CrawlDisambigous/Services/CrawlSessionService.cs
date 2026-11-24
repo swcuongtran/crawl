@@ -210,6 +210,14 @@ namespace CrawlDisambigous.Services
 
             link.ErelDurationMs = Math.Round(erelSw.Elapsed.TotalMilliseconds, 1);
             link.TotalDurationMs = Math.Round(link.CrawlDurationMs + link.ErelDurationMs, 1);
+
+            scanResult.DocIndex = linkIndex;
+            scanResult.DocTitle = link.Title;
+            foreach (var m in scanResult.Mcs)
+            {
+                m.DocIndex = linkIndex;
+                m.DocTitle = link.Title;
+            }
             session.AllDocScans.Add(scanResult);
 
             link.McsCount = scanResult.Mcs.Count;

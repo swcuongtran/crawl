@@ -351,9 +351,10 @@ namespace CrawlDisambigous.Services
                 for (int i = 0; i < ambiguousMentions.Count; i++)
                 {
                     var m = ambiguousMentions[i];
+                    string docPrefix = m.DocIndex > 0 ? $"Bài {m.DocIndex} - " : "";
                     string contextInfo = !string.IsNullOrWhiteSpace(m.ContextSentence)
-                        ? $" (Đoạn {m.ParagraphIndex}: \"{m.ContextSentence}\")"
-                        : (m.ParagraphIndex > 0 ? $" (Đoạn {m.ParagraphIndex})" : "");
+                        ? $" ({docPrefix}Đoạn {m.ParagraphIndex}: \"{m.ContextSentence}\")"
+                        : (m.ParagraphIndex > 0 ? $" ({docPrefix}Đoạn {m.ParagraphIndex})" : "");
 
                     sb.AppendLine($"[{i + 1}] Mention: \"{m.Mention}\"{contextInfo} | Xuất hiện: {m.TotalCount} lần | POS: {m.PosTag ?? "N/A"} | Loại: {m.Category ?? "N/A"}");
 

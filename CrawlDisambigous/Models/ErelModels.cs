@@ -21,6 +21,12 @@ namespace CrawlDisambigous.Models
         public string? ErrorMessage { get; set; }
 
         [JsonIgnore]
+        public int DocIndex { get; set; } = 1;
+
+        [JsonIgnore]
+        public string DocTitle { get; set; } = "";
+
+        [JsonIgnore]
         public string InputText { get; set; } = "";
 
         [JsonIgnore]
@@ -64,6 +70,12 @@ namespace CrawlDisambigous.Models
 
         [JsonPropertyName("maxCharIdx")]
         public int MaxCharIdx { get; set; }
+
+        [JsonPropertyName("docIndex")]
+        public int DocIndex { get; set; } = 1;
+
+        [JsonPropertyName("docTitle")]
+        public string DocTitle { get; set; } = "";
 
         [JsonPropertyName("paragraphIndex")]
         public int ParagraphIndex { get; set; } = 1;

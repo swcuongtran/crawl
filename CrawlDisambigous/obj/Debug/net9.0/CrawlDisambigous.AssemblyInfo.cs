@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrawlDisambigous")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+977c286e46b8a297d1716ddf8b10445e033eb5c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b97436fe726ac49a5d361d35cdd239f48f78bca9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrawlDisambigous")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrawlDisambigous")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

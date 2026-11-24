@@ -1,0 +1,993 @@
+================================================================================
+KẾT QUẢ QUÉT TẬP MCS VÀ UMCS CỦA CÁC TỪ TRONG VĂN BẢN
+THỰC THỂ NGUỒN (Entity 1): [1] hiếu thứ hai
+BÀI VIẾT #2: Hiếu Thứ Hai - từ sinh viên kinh tế đến rapper hút fan
+URL: https://vnexpress.net/hieu-thu-hai-tu-sinh-vien-kinh-te-den-rapper-hut-fan-4771487.html
+THỜI GIAN QUÉT: 2026-11-24 15:02:37
+================================================================================
+
+--------------------------------------------------------------------------------
+[1] TẬP MCS (Chỉ hiển thị các Mentions có > 1 Candidate trong CSDL)
+Số lượng: 75 mentions
+--------------------------------------------------------------------------------
+[1] Mention: "Hiếu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 1254961] Hiếu (Importance Score: 0.60)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1254961 | WikiName: Hiếu                      | RealName: Hiếu                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1113377577 | WikiName: hiếu                      | RealName: hiếu                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[2] Mention: "từ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 364426] Từ (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 364426 | WikiName: Từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 972162404 | WikiName: từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 801416 | WikiName: Từ (thể loại văn học)     | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 5998   | WikiName: Từ học                    | RealName: từ học               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 236583 | WikiName: Từ (họ)                   | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1678637 | WikiName: Từ (nước)                 | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 3338594 | WikiName: Từ đường họ Mạc           | RealName: Từ đường họ Mạc      | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[3] Mention: "kinh tế"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 64004] Kinh tế (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 64004  | WikiName: Kinh tế                   | RealName: kinh tế              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1632109343 | WikiName: kinh tế                   | RealName: kinh tế              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[4] Mention: "Hai"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190006760] hai (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190006760 | WikiName: hai                       | RealName: hai                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 49659  | WikiName: 2 (số)                    | RealName: 2                    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[5] Mention: "King of Rap"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19551698] King of Rap (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 19551698 | WikiName: King of Rap               | RealName: King of Rap          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 33529  | WikiName: Eminem                    | RealName: Eminem               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 319723 | WikiName: Jay-Z                     | RealName: Jay-Z                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[6] Mention: "say"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 685803641] say (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 685803641 | WikiName: say                       | RealName: say                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190019877 | WikiName: say                       | RealName: say                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 1330846237 | WikiName: say                       | RealName: say                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (4) ID: 1749489 | WikiName: Say rượu                  | RealName: say rượu             | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[7] Mention: "trai"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 297732] Trai (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (9 Candidates):
+        (1) ID: 297732 | WikiName: Trai                      | RealName: trai                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 2832689 | WikiName: Con trai                  | RealName: con trai             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 294326 | WikiName: Nam giới                  | RealName: nam giới             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 1193658000 | WikiName: trai                      | RealName: trai                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 30785  | WikiName: Chi Thài lài              | RealName: Chi Thài lài         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 7703739 | WikiName: Fagraea                   | RealName: Fagraea              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 2357360 | WikiName: Garcinia fagraeoides      | RealName: Garcinia fagraeoides | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (8) ID: 467551 | WikiName: Trai (động vật)           | RealName: Trai                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (9) ID: 2434632 | WikiName: Unionoida                 | RealName: Unionoida            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[8] Mention: "trình diễn"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: event
+    - EREL Chọn (Disambiguated): [ID: 18533390] Trình diễn (Importance Score: 0.60)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 18533390 | WikiName: Trình diễn                | RealName: trình diễn           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1014702598 | WikiName: trình diễn                | RealName: trình diễn           | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[9] Mention: "say"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 685803641] say (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 685803641 | WikiName: say                       | RealName: say                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190019877 | WikiName: say                       | RealName: say                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 1330846237 | WikiName: say                       | RealName: say                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (4) ID: 1749489 | WikiName: Say rượu                  | RealName: say rượu             | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[10] Mention: "hình"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 11533643] Hình (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 11533643 | WikiName: Hình                      | RealName: hình                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1355   | WikiName: Hình học                  | RealName: hình học             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 330879 | WikiName: Bộ Hình                   | RealName: Bộ Hình              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 243532 | WikiName: Hình (họ)                 | RealName: Hình                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 384019 | WikiName: Hình (nước)               | RealName: Hình                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 2417179 | WikiName: Hình ảnh                  | RealName: Hình ảnh             | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[11] Mention: "anh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 853] Anh (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 853    | WikiName: Anh                       | RealName: Anh                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 10171  | WikiName: Đế quốc Anh               | RealName: Đế quốc Anh          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 880397 | WikiName: Quần đảo Anh              | RealName: Quần đảo Anh         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 796    | WikiName: Tiếng Anh                 | RealName: Tiếng Anh            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 511786 | WikiName: Vương quốc Anh            | RealName: Vương quốc Anh       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1302316 | WikiName: Vương quốc Thịnh vượng chung | RealName: Vương quốc Thịnh vượng chung | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[12] Mention: "số"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 54401] Số (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 54401  | WikiName: Số                        | RealName: số                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1851057596 | WikiName: số                        | RealName: số                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[13] Mention: "Hai"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190006760] hai (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190006760 | WikiName: hai                       | RealName: hai                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 49659  | WikiName: 2 (số)                    | RealName: 2                    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[14] Mention: "quen"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 851512233] quen (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 851512233 | WikiName: quen                      | RealName: quen                 | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190018339 | WikiName: quen                      | RealName: quen                 | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 736225083 | WikiName: quen                      | RealName: quen                 | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[15] Mention: "tên"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 29106] Tên lửa (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 29106  | WikiName: Tên lửa                   | RealName: tên lửa              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 2384192 | WikiName: Tên thánh                 | RealName: tên thánh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 2360397 | WikiName: Mũi tên                   | RealName: Mũi tên              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 801986 | WikiName: Tên                       | RealName: Tên                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 801987 | WikiName: Tên gọi                   | RealName: Tên gọi              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[16] Mention: "từ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 364426] Từ (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 364426 | WikiName: Từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 972162404 | WikiName: từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 801416 | WikiName: Từ (thể loại văn học)     | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 5998   | WikiName: Từ học                    | RealName: từ học               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 236583 | WikiName: Từ (họ)                   | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1678637 | WikiName: Từ (nước)                 | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 3338594 | WikiName: Từ đường họ Mạc           | RealName: Từ đường họ Mạc      | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[17] Mention: "hát"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 971547193] hát (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 971547193 | WikiName: hát                       | RealName: hát                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 2418330 | WikiName: Hát                       | RealName: hát                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[18] Mention: "đau"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 152898] Đau (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 152898 | WikiName: Đau                       | RealName: đau                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1333654656 | WikiName: đau                       | RealName: đau                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[19] Mention: "Đức Phúc"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 3359894] Đức Phúc (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 3359894 | WikiName: Đức Phúc                  | RealName: Đức Phúc             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 19905676 | WikiName: Đức Phúc (xã)             | RealName: Đức Phúc             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[20] Mention: "tên"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 29106] Tên lửa (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 29106  | WikiName: Tên lửa                   | RealName: tên lửa              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 2384192 | WikiName: Tên thánh                 | RealName: tên thánh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 2360397 | WikiName: Mũi tên                   | RealName: Mũi tên              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 801986 | WikiName: Tên                       | RealName: Tên                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 801987 | WikiName: Tên gọi                   | RealName: Tên gọi              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[21] Mention: "tuổi"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190028265] tuổi (Importance Score: 0.60)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190028265 | WikiName: tuổi                      | RealName: tuổi                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 154376 | WikiName: Tuổi thọ                  | RealName: tuổi thọ             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[22] Mention: "Anh"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 853] Anh (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 853    | WikiName: Anh                       | RealName: Anh                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 10171  | WikiName: Đế quốc Anh               | RealName: Đế quốc Anh          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 880397 | WikiName: Quần đảo Anh              | RealName: Quần đảo Anh         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 796    | WikiName: Tiếng Anh                 | RealName: Tiếng Anh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 511786 | WikiName: Vương quốc Anh            | RealName: Vương quốc Anh       | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 1302316 | WikiName: Vương quốc Thịnh vượng chung | RealName: Vương quốc Thịnh vượng chung | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[23] Mention: "đi học"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1896235370] đi học (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1896235370 | WikiName: đi học                    | RealName: đi học               | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 3150329 | WikiName: Đi học                    | RealName: Đi học               | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[24] Mention: "lớp"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 56540] Lớp (lập trình máy tính) (Importance Score: 0.55)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 56540  | WikiName: Lớp (lập trình máy tính)  | RealName: lớp                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 119344 | WikiName: Lớp (sinh học)            | RealName: lớp                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 817191 | WikiName: Lớp học                   | RealName: lớp học              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 56541  | WikiName: Lớp                       | RealName: Lớp                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[25] Mention: "hai"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190006760] hai (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190006760 | WikiName: hai                       | RealName: hai                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 49659  | WikiName: 2 (số)                    | RealName: 2                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[26] Mention: "Hiếu"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 1254961] Hiếu (Importance Score: 0.60)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1254961 | WikiName: Hiếu                      | RealName: Hiếu                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1113377577 | WikiName: hiếu                      | RealName: hiếu                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[27] Mention: "học"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1403812046] học (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1403812046 | WikiName: học                       | RealName: học                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 1761463 | WikiName: Học                       | RealName: học                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[28] Mention: "kém"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1377347827] kém (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1377347827 | WikiName: kém                       | RealName: kém                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 190008357 | WikiName: kém                      | RealName: kém                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 1634457509 | WikiName: kém                       | RealName: kém                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[29] Mention: "bạn"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 190000747] bạn (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190000747 | WikiName: bạn                       | RealName: bạn                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 190695 | WikiName: Tình bạn                  | RealName: tình bạn             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[30] Mention: "lại"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: R | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1225372954] lại (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 1225372954 | WikiName: lại                       | RealName: lại                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 242469 | WikiName: Bộ Lại                    | RealName: Bộ Lại               | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 19909685 | WikiName: Lại                       | RealName: Lại                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 237444 | WikiName: Lại (họ)                  | RealName: Lại                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[31] Mention: "tên này"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N+P | Loại: technology
+    - EREL Chọn (Disambiguated): [ID: 29106] Tên lửa (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 29106  | WikiName: Tên lửa                   | RealName: tên lửa              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 2384192 | WikiName: Tên thánh                 | RealName: tên thánh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 2360397 | WikiName: Mũi tên                   | RealName: Mũi tên              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 801986 | WikiName: Tên                       | RealName: Tên                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 801987 | WikiName: Tên gọi                   | RealName: Tên gọi              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[32] Mention: "Anh"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 853] Anh (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 853    | WikiName: Anh                       | RealName: Anh                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 10171  | WikiName: Đế quốc Anh               | RealName: Đế quốc Anh          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 880397 | WikiName: Quần đảo Anh              | RealName: Quần đảo Anh         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 796    | WikiName: Tiếng Anh                 | RealName: Tiếng Anh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 511786 | WikiName: Vương quốc Anh            | RealName: Vương quốc Anh       | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 1302316 | WikiName: Vương quốc Thịnh vượng chung | RealName: Vương quốc Thịnh vượng chung | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[33] Mention: "mê"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1973128875] mê (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1973128875 | WikiName: mê                        | RealName: mê                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190012467 | WikiName: mê                        | RealName: mê                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 1260368702 | WikiName: mê                        | RealName: mê                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[34] Mention: "hip hop"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 442065] Hip hop (Importance Score: 0.30)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 442065 | WikiName: Hip hop                   | RealName: hip hop              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 3177702 | WikiName: HipHop for PHP            | RealName: HipHop for PHP       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 19469141 | WikiName: Nhảy hip hop              | RealName: Nhảy hip hop         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 19469159 | WikiName: Thời trang hip hop        | RealName: Thời trang hip hop   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[35] Mention: "từ"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 364426] Từ (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 364426 | WikiName: Từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 972162404 | WikiName: từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 801416 | WikiName: Từ (thể loại văn học)     | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 5998   | WikiName: Từ học                    | RealName: từ học               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 236583 | WikiName: Từ (họ)                   | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1678637 | WikiName: Từ (nước)                 | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 3338594 | WikiName: Từ đường họ Mạc           | RealName: Từ đường họ Mạc      | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[36] Mention: "đi học"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1896235370] đi học (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1896235370 | WikiName: đi học                    | RealName: đi học               | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 3150329 | WikiName: Đi học                    | RealName: Đi học               | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[37] Mention: "thành lập"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1198936037] thành lập (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1198936037 | WikiName: thành lập                 | RealName: thành lập            | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 1250170 | WikiName: Liên Sơn, Lương Sơn       | RealName: Liên Sơn, Lương Sơn  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[38] Mention: "nhóm"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 17175] Nhóm (toán học) (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (28 Candidates):
+        (1) ID: 17175  | WikiName: Nhóm (toán học)           | RealName: nhóm                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 91959  | WikiName: Địa tầng                  | RealName: địa tầng             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 500871 | WikiName: Liên đoàn bay             | RealName: liên đoàn bay        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 1542   | WikiName: Mạng máy tính             | RealName: mạng máy tính        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 1680767061 | WikiName: nhóm                      | RealName: nhóm                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 77651  | WikiName: Nhóm (bảng tuần hoàn)     | RealName: nhóm                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 88944  | WikiName: Nhóm chỏm cây             | RealName: nhóm chỏm cây        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 84439  | WikiName: Nhóm cơ bản               | RealName: nhóm cơ bản          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (9) ID: 17648  | WikiName: Nhóm con                  | RealName: nhóm con             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (10) ID: 89746  | WikiName: Nhóm cyclic               | RealName: nhóm cyclic          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (11) ID: 56146  | WikiName: Nhóm giao hoán            | RealName: nhóm giao hoán       | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (12) ID: 32911  | WikiName: Nhóm hoán vị              | RealName: nhóm hoán vị         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (13) ID: 18291  | WikiName: Nhóm hữu hạn              | RealName: nhóm hữu hạn         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (14) ID: 814254 | WikiName: Nhóm lợi ích              | RealName: nhóm lợi ích         | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (15) ID: 40118  | WikiName: Nhóm máu                  | RealName: nhóm máu             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (16) ID: 739440 | WikiName: Nhóm xã hội               | RealName: nhóm xã hội          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (17) ID: 228365 | WikiName: Nửa nhóm                  | RealName: nửa nhóm             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (18) ID: 324792 | WikiName: Cụm tập đoàn quân         | RealName: Cụm tập đoàn quân    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (19) ID: 273501 | WikiName: Google Groups             | RealName: Google Groups        | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (20) ID: 45887  | WikiName: Ngữ hệ                    | RealName: Ngữ hệ               | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (21) ID: 55911  | WikiName: Nhóm                      | RealName: Nhóm                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (22) ID: 5034   | WikiName: Nhóm chức                 | RealName: Nhóm chức            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (23) ID: 2439607 | WikiName: Nhóm Địa phương           | RealName: Nhóm Địa phương      | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (24) ID: 108726 | WikiName: Nhóm Lie                  | RealName: Nhóm Lie             | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (25) ID: 3231433 | WikiName: Nhóm lũy linh             | RealName: Nhóm lũy linh        | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (26) ID: 3231799 | WikiName: Nhóm symplectic           | RealName: Nhóm symplectic      | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (27) ID: 735148 | WikiName: Sắc tộc                   | RealName: Sắc tộc              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (28) ID: 641870 | WikiName: Tập đoàn                  | RealName: Tập đoàn             | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[39] Mention: "Hai"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190006760] hai (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190006760 | WikiName: hai                       | RealName: hai                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 49659  | WikiName: 2 (số)                    | RealName: 2                    | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[40] Mention: "năm"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: datetime
+    - EREL Chọn (Disambiguated): [ID: 15406090] Năm (lịch) (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 15406090 | WikiName: Năm (lịch)                | RealName: năm                  | M: 3.00 | Me: 1.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 49656  | WikiName: 5 (số)                    | RealName: 5                    | M: 2.17 | Me: 0.17 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 384353 | WikiName: Năm                       | RealName: năm                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 3370   | WikiName: Năm chí tuyến             | RealName: năm chí tuyến        | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 23781  | WikiName: Năm Julius (thiên văn)    | RealName: Năm Julius           | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 13874  | WikiName: Năm thiên văn             | RealName: Năm thiên văn        | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[41] Mention: "King of Rap"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19551698] King of Rap (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 19551698 | WikiName: King of Rap               | RealName: King of Rap          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 33529  | WikiName: Eminem                    | RealName: Eminem               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 319723 | WikiName: Jay-Z                     | RealName: Jay-Z                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[42] Mention: "chú ý"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1425670903] chú ý (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1425670903 | WikiName: chú ý                     | RealName: chú ý                | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 15186964 | WikiName: Chú ý                     | RealName: chú ý                | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[43] Mention: "biệt danh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190001323] biệt danh (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190001323 | WikiName: biệt danh                 | RealName: biệt danh            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 12573424 | WikiName: Biệt hiệu                 | RealName: biệt hiệu            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[44] Mention: "anh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 853] Anh (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 853    | WikiName: Anh                       | RealName: Anh                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 10171  | WikiName: Đế quốc Anh               | RealName: Đế quốc Anh          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 880397 | WikiName: Quần đảo Anh              | RealName: Quần đảo Anh         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 796    | WikiName: Tiếng Anh                 | RealName: Tiếng Anh            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 511786 | WikiName: Vương quốc Anh            | RealName: Vương quốc Anh       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1302316 | WikiName: Vương quốc Thịnh vượng chung | RealName: Vương quốc Thịnh vượng chung | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[45] Mention: "giải"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1086099408] giải (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1086099408 | WikiName: giải                      | RealName: giải                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 184639 | WikiName: Giải New Guinea           | RealName: Giải New Guinea      | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[46] Mention: "biểu diễn"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 798520004] biểu diễn (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 798520004 | WikiName: biểu diễn                 | RealName: biểu diễn            | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190001335 | WikiName: biểu diễn                 | RealName: biểu diễn            | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 18533390 | WikiName: Trình diễn                | RealName: trình diễn           | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[47] Mention: "Cua"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 689864646] cua (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 689864646 | WikiName: cua                       | RealName: cua                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190003777 | WikiName: cua                       | RealName: cua                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 1473810533 | WikiName: cua                       | RealName: cua                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (4) ID: 61202  | WikiName: Phân thứ bộ Cua           | RealName: Phân thứ bộ Cua      | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[48] Mention: "bốn"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190001654] bốn (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190001654 | WikiName: bốn                       | RealName: bốn                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 49657  | WikiName: 4 (số)                    | RealName: 4                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[49] Mention: "King of Rap"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19551698] King of Rap (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 19551698 | WikiName: King of Rap               | RealName: King of Rap          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 33529  | WikiName: Eminem                    | RealName: Eminem               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 319723 | WikiName: Jay-Z                     | RealName: Jay-Z                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[50] Mention: "anh"
+    - Số lần xuất hiện trong doc: 2
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 853] Anh (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 853    | WikiName: Anh                       | RealName: Anh                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 10171  | WikiName: Đế quốc Anh               | RealName: Đế quốc Anh          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 880397 | WikiName: Quần đảo Anh              | RealName: Quần đảo Anh         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 796    | WikiName: Tiếng Anh                 | RealName: Tiếng Anh            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 511786 | WikiName: Vương quốc Anh            | RealName: Vương quốc Anh       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1302316 | WikiName: Vương quốc Thịnh vượng chung | RealName: Vương quốc Thịnh vượng chung | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[51] Mention: "thuộc"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1955668689] thuộc (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 1955668689 | WikiName: thuộc                     | RealName: thuộc                | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190024426 | WikiName: thuộc                     | RealName: thuộc                | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 1378536057 | WikiName: thuộc                     | RealName: thuộc                | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[52] Mention: "trai"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 297732] Trai (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (9 Candidates):
+        (1) ID: 297732 | WikiName: Trai                      | RealName: trai                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 2832689 | WikiName: Con trai                  | RealName: con trai             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 294326 | WikiName: Nam giới                  | RealName: nam giới             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 1193658000 | WikiName: trai                      | RealName: trai                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 30785  | WikiName: Chi Thài lài              | RealName: Chi Thài lài         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 7703739 | WikiName: Fagraea                   | RealName: Fagraea              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 2357360 | WikiName: Garcinia fagraeoides      | RealName: Garcinia fagraeoides | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (8) ID: 467551 | WikiName: Trai (động vật)           | RealName: Trai                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (9) ID: 2434632 | WikiName: Unionoida                 | RealName: Unionoida            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[53] Mention: "sống"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1712990395] sống (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (4 Candidates):
+        (1) ID: 1712990395 | WikiName: sống                      | RealName: sống                 | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 190020413 | WikiName: sống                      | RealName: sống                 | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (3) ID: 1068150346 | WikiName: sống                      | RealName: sống                 | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (4) ID: 12801  | WikiName: Sự sống                   | RealName: sự sống              | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[54] Mention: "mặc"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1088007921] mặc (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1088007921 | WikiName: mặc                       | RealName: mặc                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 2424675 | WikiName: Mặc (họ)                  | RealName: Mặc                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[55] Mention: "King of Rap"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 19551698] King of Rap (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 19551698 | WikiName: King of Rap               | RealName: King of Rap          | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 33529  | WikiName: Eminem                    | RealName: Eminem               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 319723 | WikiName: Jay-Z                     | RealName: Jay-Z                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[56] Mention: "du lịch"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 24260] Du lịch (Importance Score: 0.40)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 24260  | WikiName: Du lịch                   | RealName: du lịch              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 949992006 | WikiName: du lịch                   | RealName: du lịch              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[57] Mention: "trải nghiệm"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 740041311] trải nghiệm (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 740041311 | WikiName: trải nghiệm               | RealName: trải nghiệm          | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 544482 | WikiName: Kinh nghiệm               | RealName: kinh nghiệm          | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[58] Mention: "ba"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 49658] 3 (số) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 49658  | WikiName: 3 (số)                    | RealName: 3                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 525856 | WikiName: Cha                       | RealName: cha                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 18913538 | WikiName: BA                        | RealName: BA                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 1242336 | WikiName: Ba (xã)                   | RealName: Ba                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 19168718 | WikiName: Cử nhân Khoa học Xã hội   | RealName: Cử nhân Khoa học Xã hội | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[59] Mention: "triệu"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 46330] Triệu (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 46330  | WikiName: Triệu                     | RealName: triệu                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1730257044 | WikiName: triệu                     | RealName: triệu                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 27216  | WikiName: Bà Triệu                  | RealName: Bà Triệu             | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 42129  | WikiName: Hán Triệu                 | RealName: Hán Triệu            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 42234  | WikiName: Hậu Triệu                 | RealName: Hậu Triệu            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 33493  | WikiName: Ngũ Hồ thập lục quốc      | RealName: Ngũ Hồ thập lục quốc | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 32861  | WikiName: Nhà Triệu                 | RealName: Nhà Triệu            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (8) ID: 235219 | WikiName: Triệu (họ)                | RealName: Triệu                | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (9) ID: 1297730 | WikiName: Triệu (Ngũ đại)           | RealName: Triệu                | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (10) ID: 378510 | WikiName: Triệu (nước)              | RealName: Triệu                | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[60] Mention: "Cao"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: A | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 236607] Cao (họ) (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (10 Candidates):
+        (1) ID: 236607 | WikiName: Cao (họ)                  | RealName: Cao                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 6220   | WikiName: Cao Đài                   | RealName: Cao Đài              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 16393608 | WikiName: Thanh Cao, Lương Sơn      | RealName: Thanh Cao, Lương Sơn | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 78110  | WikiName: Triệu Cao                 | RealName: Triệu Cao            | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 19412  | WikiName: Calci oxide               | RealName: calci oxide          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1257872390 | WikiName: cao                       | RealName: cao                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 235648 | WikiName: Cao                       | RealName: cao                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (8) ID: 304758 | WikiName: Cao lanh                  | RealName: cao lanh             | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (9) ID: 61584  | WikiName: Cao lầu                   | RealName: cao lầu              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (10) ID: 48787  | WikiName: Thạch cao                 | RealName: thạch cao            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[61] Mention: "m"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Nu | Loại: letter
+    - EREL Chọn (Disambiguated): [ID: 685] M (Importance Score: 0.25)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 685    | WikiName: M                         | RealName: m                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 46437  | WikiName: 1000 (số)                 | RealName: 1000                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 3247740 | WikiName: M (album của Big Bang)    | RealName: m                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 2199487 | WikiName: M (phim 1931)             | RealName: m                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 7635213 | WikiName: M (trợ lý ảo)             | RealName: m                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 587456 | WikiName: Metrernis                 | RealName: Metrernis            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[62] Mention: "nữ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 190016184] nữ (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 190016184 | WikiName: nữ                        | RealName: nữ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 835808064 | WikiName: nữ                        | RealName: nữ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 199477 | WikiName: Phụ nữ                    | RealName: phụ nữ               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[63] Mention: "hình"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 11533643] Hình (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 11533643 | WikiName: Hình                      | RealName: hình                 | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 1355   | WikiName: Hình học                  | RealName: hình học             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 330879 | WikiName: Bộ Hình                   | RealName: Bộ Hình              | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 243532 | WikiName: Hình (họ)                 | RealName: Hình                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 384019 | WikiName: Hình (nước)               | RealName: Hình                 | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 2417179 | WikiName: Hình ảnh                  | RealName: Hình ảnh             | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[64] Mention: "anh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 853] Anh (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 853    | WikiName: Anh                       | RealName: Anh                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 10171  | WikiName: Đế quốc Anh               | RealName: Đế quốc Anh          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 880397 | WikiName: Quần đảo Anh              | RealName: Quần đảo Anh         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 796    | WikiName: Tiếng Anh                 | RealName: Tiếng Anh            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 511786 | WikiName: Vương quốc Anh            | RealName: Vương quốc Anh       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1302316 | WikiName: Vương quốc Thịnh vượng chung | RealName: Vương quốc Thịnh vượng chung | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[65] Mention: "chỉ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: R | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 25397] Chỉ (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (5 Candidates):
+        (1) ID: 25397  | WikiName: Chỉ                       | RealName: Chỉ                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 12992  | WikiName: Chỉ (Phật giáo)           | RealName: chỉ                  | M: 3.00 | Me: 1.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 3101   | WikiName: Chỉ (đơn vị đo)           | RealName: chỉ                  | M: 2.75 | Me: 0.75 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 1674796358 | WikiName: chỉ                       | RealName: chỉ                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 531997 | WikiName: Chỉ (thực vật)            | RealName: Chỉ                  | M: 1.75 | Me: 0.75 | Mc: 0.00 | Ms: 1.00
+
+[66] Mention: "mốt"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: language
+    - EREL Chọn (Disambiguated): [ID: 288215] Mốt (Importance Score: 0.10)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 288215 | WikiName: Mốt                       | RealName: mốt                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 952621727 | WikiName: mốt                       | RealName: mốt                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[67] Mention: "mặc"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1088007921] mặc (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1088007921 | WikiName: mặc                       | RealName: mặc                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 2424675 | WikiName: Mặc (họ)                  | RealName: Mặc                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[68] Mention: "anh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: person
+    - EREL Chọn (Disambiguated): [ID: 853] Anh (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 853    | WikiName: Anh                       | RealName: Anh                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 10171  | WikiName: Đế quốc Anh               | RealName: Đế quốc Anh          | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 880397 | WikiName: Quần đảo Anh              | RealName: Quần đảo Anh         | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (4) ID: 796    | WikiName: Tiếng Anh                 | RealName: Tiếng Anh            | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (5) ID: 511786 | WikiName: Vương quốc Anh            | RealName: Vương quốc Anh       | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1302316 | WikiName: Vương quốc Thịnh vượng chung | RealName: Vương quốc Thịnh vượng chung | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[69] Mention: "từ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: E | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 364426] Từ (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (7 Candidates):
+        (1) ID: 364426 | WikiName: Từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 972162404 | WikiName: từ                        | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 801416 | WikiName: Từ (thể loại văn học)     | RealName: từ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 5998   | WikiName: Từ học                    | RealName: từ học               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 236583 | WikiName: Từ (họ)                   | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (6) ID: 1678637 | WikiName: Từ (nước)                 | RealName: Từ                   | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (7) ID: 3338594 | WikiName: Từ đường họ Mạc           | RealName: Từ đường họ Mạc      | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[70] Mention: "Mỹ"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: Np | Loại: location
+    - EREL Chọn (Disambiguated): [ID: 311001143] Mỹ (Importance Score: 1.00)
+    - Danh sách ứng viên trong KB (12 Candidates):
+        (1) ID: 311001143 | WikiName: Mỹ                        | RealName: Mỹ                   | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 855    | WikiName: Bắc Mỹ                    | RealName: Bắc Mỹ               | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (3) ID: 83574  | WikiName: Châu Mỹ                   | RealName: Châu Mỹ              | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (4) ID: 8720   | WikiName: Đô la Mỹ                  | RealName: Đô la Mỹ             | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (5) ID: 57     | WikiName: Hoa Kỳ                    | RealName: Hoa Kỳ               | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (6) ID: 1071696375 | WikiName: Mỹ                        | RealName: Mỹ                   | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (7) ID: 13324  | WikiName: Mỹ học                    | RealName: Mỹ học               | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (8) ID: 47452  | WikiName: Nam Mỹ                    | RealName: Nam Mỹ               | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (9) ID: 78103  | WikiName: Trung Mỹ                  | RealName: Trung Mỹ             | M: 1.00 | Me: 0.00 | Mc: 1.00 | Ms: 0.00
+        (10) ID: 1974050129 | WikiName: mỹ                        | RealName: mỹ                   | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (11) ID: 7698   | WikiName: Mỹ thuật                  | RealName: mỹ thuật             | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+        (12) ID: 829260 | WikiName: Thẩm mỹ viện              | RealName: thẩm mỹ viện         | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[71] Mention: "mặc"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: V | Loại: verb
+    - EREL Chọn (Disambiguated): [ID: 1088007921] mặc (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 1088007921 | WikiName: mặc                       | RealName: mặc                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00 [EREL CHỌN]
+        (2) ID: 2424675 | WikiName: Mặc (họ)                  | RealName: Mặc                  | M: 0.00 | Me: 0.00 | Mc: 0.00 | Ms: 0.00
+
+[72] Mention: "cây"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 54438] Cây (lý thuyết đồ thị) (Importance Score: 0.50)
+    - Danh sách ứng viên trong KB (6 Candidates):
+        (1) ID: 54438  | WikiName: Cây (lý thuyết đồ thị)    | RealName: cây                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 384352 | WikiName: Cây                       | RealName: cây                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 96391  | WikiName: Cây (cấu trúc dữ liệu)    | RealName: cây                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 362423 | WikiName: Kilômét                   | RealName: kilômét              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 2927   | WikiName: Lượng (kim hoàn)          | RealName: lượng                | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 147089 | WikiName: Thực vật có mạch          | RealName: Thực vật có mạch     | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[73] Mention: "một"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: M | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 190012909] một (Importance Score: 0.05)
+    - Danh sách ứng viên trong KB (2 Candidates):
+        (1) ID: 190012909 | WikiName: một                       | RealName: một                  | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 49660  | WikiName: 1 (số)                    | RealName: 1                    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+
+[74] Mention: "sự kiện"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 14501088] Sự kiện (Importance Score: 0.75)
+    - Danh sách ứng viên trong KB (11 Candidates):
+        (1) ID: 14501088 | WikiName: Sự kiện                   | RealName: sự kiện              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 150285 | WikiName: Biến cố (lý thuyết xác suất) | RealName: biến cố              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (3) ID: 782412 | WikiName: Bữa tiệc                  | RealName: bữa tiệc             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (4) ID: 6905   | WikiName: Chân trời sự kiện         | RealName: chân trời sự kiện    | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (5) ID: 3416276 | WikiName: Hội thảo                  | RealName: hội thảo             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (6) ID: 407002 | WikiName: Lễ hội                    | RealName: lễ hội               | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (7) ID: 15324139 | WikiName: Sự kiện (điện toán)       | RealName: sự kiện              | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (8) ID: 19923656 | WikiName: Sự kiện truyền thông      | RealName: sự kiện truyền thông | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (9) ID: 6835   | WikiName: Thể thao                  | RealName: thể thao             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (10) ID: 13484353 | WikiName: Tổ chức sự kiện           | RealName: tổ chức sự kiện      | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00
+        (11) ID: 476652 | WikiName: Sự kiện tuyệt chủng       | RealName: Sự kiện tuyệt chủng  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+[75] Mention: "Ảnh"
+    - Số lần xuất hiện trong doc: 1
+    - POS Tag: N | Loại: unknown
+    - EREL Chọn (Disambiguated): [ID: 2417179] Hình ảnh (Importance Score: 0.60)
+    - Danh sách ứng viên trong KB (3 Candidates):
+        (1) ID: 2417179 | WikiName: Hình ảnh                  | RealName: Hình ảnh             | M: 2.00 | Me: 0.00 | Mc: 1.00 | Ms: 1.00 [EREL CHỌN]
+        (2) ID: 190000383 | WikiName: ảnh                       | RealName: ảnh                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+        (3) ID: 19430516 | WikiName: Ảnh (toán học)            | RealName: ảnh                  | M: 1.00 | Me: 0.00 | Mc: 0.00 | Ms: 1.00
+
+--------------------------------------------------------------------------------
+[2] TẬP UMCS (Unmatched Candidate Set - Các từ/cụm từ KHÔNG có trong CSDL)
+Tổng số mentions chưa nhận diện: 31
+--------------------------------------------------------------------------------
+Danh sách các từ/cụm từ quét được nhưng không có alias trong CSDL:
+    1. "Hiếu" (Số lần xuất hiện: 2)
+    2. "Thứ" (Số lần xuất hiện: 2)
+    3. "hi" (Số lần xuất hiện: 2)
+    4. "show" (Số lần xuất hiện: 2)
+    5. "Vie" (Số lần xuất hiện: 2)
+    6. "Gerdnang" (Số lần xuất hiện: 2)
+    7. "từ" (Số lần xuất hiện: 1)
+    8. "đến" (Số lần xuất hiện: 1)
+    9. "giả" (Số lần xuất hiện: 1)
+   10. "hút" (Số lần xuất hiện: 1)
+   11. "khấu" (Số lần xuất hiện: 1)
+   12. "thuộc" (Số lần xuất hiện: 1)
+   13. "với" (Số lần xuất hiện: 1)
+   14. "2:33" (Số lần xuất hiện: 1)
+   15. "HurryKng" (Số lần xuất hiện: 1)
+   16. "Manbo" (Số lần xuất hiện: 1)
+   17. "Negav" (Số lần xuất hiện: 1)
+   18. "REX" (Số lần xuất hiện: 1)
+   19. "top" (Số lần xuất hiện: 1)
+   20. "Viva" (Số lần xuất hiện: 1)
+   21. "típ" (Số lần xuất hiện: 1)
+   22. "gu" (Số lần xuất hiện: 1)
+   23. "1,77" (Số lần xuất hiện: 1)
+   24. "vẻ" (Số lần xuất hiện: 1)
+   25. "crop-top" (Số lần xuất hiện: 1)
+
+--------------------------------------------------------------------------------
+[3] DANH SÁCH ENTITY2 ĐƯỢC CHỌN ĐỂ KẾT NỐI VỚI ENTITY1 [1 - hiếu thứ hai]
+--------------------------------------------------------------------------------
+  [1] EntityId: 1254961 | WikiName: Hiếu                           | Số lần xuất hiện: 3
+  [2] EntityId: 3435   | WikiName: Thứ Hai                        | Số lần xuất hiện: 2
+  [3] EntityId: 15873094 | WikiName: Dấu gạch nối                   | Số lần xuất hiện: 4
+  [4] EntityId: 364426 | WikiName: Từ                             | Số lần xuất hiện: 5
+  [5] EntityId: 795962 | WikiName: Sinh viên                      | Số lần xuất hiện: 2
+  [6] EntityId: 64004  | WikiName: Kinh tế                        | Số lần xuất hiện: 1
+  [7] EntityId: 190004501 | WikiName: đến                            | Số lần xuất hiện: 1
+  [8] EntityId: 2393259 | WikiName: Rap                            | Số lần xuất hiện: 8
+  [9] EntityId: 785131317 | WikiName: hút                            | Số lần xuất hiện: 2
+  [10] EntityId: 1239201 | WikiName: Người hâm mộ                   | Số lần xuất hiện: 3
+  [11] EntityId: 190006760 | WikiName: hai                            | Số lần xuất hiện: 4
+  [12] EntityId: 134127 | WikiName: Hot (bài hát)                  | Số lần xuất hiện: 2
+  [13] EntityId: 14452646 | WikiName: Boy (chó)                      | Số lần xuất hiện: 2
+  [14] EntityId: 19551698 | WikiName: King of Rap                    | Số lần xuất hiện: 4
+  [15] EntityId: 190051188 | WikiName: anh trai                       | Số lần xuất hiện: 2
+  [16] EntityId: 685803641 | WikiName: say                            | Số lần xuất hiện: 2
+  [17] EntityId: 1086282441 | WikiName: được                           | Số lần xuất hiện: 6
+  [18] EntityId: 190008608 | WikiName: khán                           | Số lần xuất hiện: 1
+  [19] EntityId: 1547015162 | WikiName: yêu thích                      | Số lần xuất hiện: 3
+  [20] EntityId: 190028978 | WikiName: vì                             | Số lần xuất hiện: 1
+  [21] EntityId: 1299999264 | WikiName: điển                           | Số lần xuất hiện: 1
+  [22] EntityId: 297732 | WikiName: Trai                           | Số lần xuất hiện: 2
+  [23] EntityId: 18533390 | WikiName: Trình diễn                     | Số lần xuất hiện: 1
+  [24] EntityId: 470592 | WikiName: Sân khấu                       | Số lần xuất hiện: 1
+  [25] EntityId: 1185846231 | WikiName: quan tâm                       | Số lần xuất hiện: 1
+  [26] EntityId: 190008833 | WikiName: khi                            | Số lần xuất hiện: 3
+  [27] EntityId: 544616741 | WikiName: tham gia                       | Số lần xuất hiện: 3
+  [28] EntityId: 1976389607 | WikiName: nhờ                            | Số lần xuất hiện: 2
+  [29] EntityId: 1414652271 | WikiName: ngoại                          | Số lần xuất hiện: 2
+  [30] EntityId: 11533643 | WikiName: Hình                           | Số lần xuất hiện: 2
+  [31] EntityId: 1819818656 | WikiName: sáng                           | Số lần xuất hiện: 1
+  [32] EntityId: 19551920 | WikiName: Khả Năng                       | Số lần xuất hiện: 1
+  [33] EntityId: 1958770198 | WikiName: làm chủ                        | Số lần xuất hiện: 1
+  [34] EntityId: 190019583 | WikiName: sân                            | Số lần xuất hiện: 1
+  [35] EntityId: 190001933 | WikiName: các                            | Số lần xuất hiện: 2
+  [36] EntityId: 190025163 | WikiName: tiết mục                       | Số lần xuất hiện: 1
+  [37] EntityId: 1772834391 | WikiName: có                             | Số lần xuất hiện: 4
+  [38] EntityId: 853    | WikiName: Anh                            | Số lần xuất hiện: 10
+  [39] EntityId: 190011703 | WikiName: luôn                           | Số lần xuất hiện: 1
+  [40] EntityId: 721424857 | WikiName: nhận                           | Số lần xuất hiện: 2
+  [41] EntityId: 54401  | WikiName: Số                             | Số lần xuất hiện: 1
+  [42] EntityId: 190054205 | WikiName: điểm cao                       | Số lần xuất hiện: 1
+  [43] EntityId: 851512233 | WikiName: quen                           | Số lần xuất hiện: 1
+  [44] EntityId: 29106  | WikiName: Tên lửa                        | Số lần xuất hiện: 4
+  [45] EntityId: 19793152 | WikiName: Hieuthuhai                     | Số lần xuất hiện: 7
+  [46] EntityId: 857234867 | WikiName: xuất hiện                      | Số lần xuất hiện: 2
+  [47] EntityId: 971547193 | WikiName: hát                            | Số lần xuất hiện: 1
+  [48] EntityId: 190000694 | WikiName: bài                            | Số lần xuất hiện: 2
+  [49] EntityId: 190015876 | WikiName: nỗi                            | Số lần xuất hiện: 1
+  [50] EntityId: 152898 | WikiName: Đau                            | Số lần xuất hiện: 1
+  [51] EntityId: 997656913 | WikiName: ngây dại                       | Số lần xuất hiện: 1
+  [52] EntityId: 1509642738 | WikiName: cùng                           | Số lần xuất hiện: 2
+  [53] EntityId: 3359894 | WikiName: Đức Phúc                       | Số lần xuất hiện: 1
+  [54] EntityId: 14298550 | WikiName: Công Dương                     | Số lần xuất hiện: 1
+  [55] EntityId: 8374   | WikiName: Video                          | Số lần xuất hiện: 2
+  [56] EntityId: 190052006 | WikiName: thật là                        | Số lần xuất hiện: 1
+  [57] EntityId: 540939 | WikiName: 25                             | Số lần xuất hiện: 1
+  [58] EntityId: 190028265 | WikiName: tuổi                           | Số lần xuất hiện: 1
+  [59] EntityId: 1093480583 | WikiName: cho biết                       | Số lần xuất hiện: 1
+  [60] EntityId: 190023772 | WikiName: thời                           | Số lần xuất hiện: 2
+  [61] EntityId: 1896235370 | WikiName: đi học                         | Số lần xuất hiện: 2
+  [62] EntityId: 1625200474 | WikiName: trong                          | Số lần xuất hiện: 2
+  [63] EntityId: 56540  | WikiName: Lớp (lập trình máy tính)       | Số lần xuất hiện: 1
+  [64] EntityId: 46840  | WikiName: Người                          | Số lần xuất hiện: 2
+  [65] EntityId: 504004961 | WikiName: là                             | Số lần xuất hiện: 3
+  [66] EntityId: 1403812046 | WikiName: học                            | Số lần xuất hiện: 1
+  [67] EntityId: 1377347827 | WikiName: kém                            | Số lần xuất hiện: 1
+  [68] EntityId: 1788136941 | WikiName: hơn                            | Số lần xuất hiện: 1
+  [69] EntityId: 190000747 | WikiName: bạn                            | Số lần xuất hiện: 1
+  [70] EntityId: 1238119469 | WikiName: còn                            | Số lần xuất hiện: 1
+  [71] EntityId: 1225372954 | WikiName: lại                            | Số lần xuất hiện: 1
+  [72] EntityId: 190013469 | WikiName: nên                            | Số lần xuất hiện: 1
+  [73] EntityId: 1733729343 | WikiName: tự                             | Số lần xuất hiện: 2
+  [74] EntityId: 927779523 | WikiName: gọi                            | Số lần xuất hiện: 1
+  [75] EntityId: 190012632 | WikiName: mình                           | Số lần xuất hiện: 2
+  [76] EntityId: 190019847 | WikiName: sau đó                         | Số lần xuất hiện: 1
+  [77] EntityId: 520268058 | WikiName: lấy                            | Số lần xuất hiện: 1
+  [78] EntityId: 190009967 | WikiName: làm                            | Số lần xuất hiện: 1
+  [79] EntityId: 7794857 | WikiName: Nghệ danh                      | Số lần xuất hiện: 1
+  [80] EntityId: 1973128875 | WikiName: mê                             | Số lần xuất hiện: 1
+  [81] EntityId: 442065 | WikiName: Hip hop                        | Số lần xuất hiện: 1
+  [82] EntityId: 1536563 | WikiName: 2018                           | Số lần xuất hiện: 1
+  [83] EntityId: 190028663 | WikiName: và                             | Số lần xuất hiện: 2
+  [84] EntityId: 1198936037 | WikiName: thành lập                      | Số lần xuất hiện: 1
+  [85] EntityId: 17175  | WikiName: Nhóm (toán học)                | Số lần xuất hiện: 2
+  [86] EntityId: 3291806 | WikiName: 2022                           | Số lần xuất hiện: 1
+  [87] EntityId: 579920371 | WikiName: thêm                           | Số lần xuất hiện: 1
+  [88] EntityId: 15406090 | WikiName: Năm (lịch)                     | Số lần xuất hiện: 2
+  [89] EntityId: 1837732205 | WikiName: sau                            | Số lần xuất hiện: 2
+  [90] EntityId: 190004206 | WikiName: đang                           | Số lần xuất hiện: 1
+  [91] EntityId: 190003874 | WikiName: cuối                           | Số lần xuất hiện: 1
+  [92] EntityId: 25817  | WikiName: Đại học Kinh tế Thành phố Hồ Chí Minh | Số lần xuất hiện: 1
+  [93] EntityId: 1425670903 | WikiName: chú ý                          | Số lần xuất hiện: 1
+  [94] EntityId: 1228809615 | WikiName: với                            | Số lần xuất hiện: 1
+  [95] EntityId: 190001323 | WikiName: biệt danh                      | Số lần xuất hiện: 1
+  [96] EntityId: 190003353 | WikiName: chung kết                      | Số lần xuất hiện: 1
+  [97] EntityId: 1378891321 | WikiName: vào                            | Số lần xuất hiện: 1
+  [98] EntityId: 540989 | WikiName: 8                              | Số lần xuất hiện: 1
+  [99] EntityId: 1117062705 | WikiName: giành                          | Số lần xuất hiện: 1
+  [100] EntityId: 1086099408 | WikiName: giải                           | Số lần xuất hiện: 1
+  [101] EntityId: 190023213 | WikiName: thí sinh                       | Số lần xuất hiện: 1
+  [102] EntityId: 1891475284 | WikiName: nhất                           | Số lần xuất hiện: 1
+  [103] EntityId: 798520004 | WikiName: biểu diễn                      | Số lần xuất hiện: 1
+  [104] EntityId: 689864646 | WikiName: cua                            | Số lần xuất hiện: 1
+  [105] EntityId: 190001654 | WikiName: bốn                            | Số lần xuất hiện: 1
+  [106] EntityId: 190005925 | WikiName: giám khảo                      | Số lần xuất hiện: 1
+  [107] EntityId: 1126238690 | WikiName: chọn                           | Số lần xuất hiện: 1
+  [108] EntityId: 190020979 | WikiName: tại                            | Số lần xuất hiện: 1
+  [109] EntityId: 93601  | WikiName: Ca sĩ                          | Số lần xuất hiện: 2
+  [110] EntityId: 190028215 | WikiName: từng                           | Số lần xuất hiện: 3
+  [111] EntityId: 1098808988 | WikiName: nói                            | Số lần xuất hiện: 1
+  [112] EntityId: 1955668689 | WikiName: thuộc                          | Số lần xuất hiện: 1
+  [113] EntityId: 1890776839 | WikiName: ngoan                          | Số lần xuất hiện: 1
+  [114] EntityId: 1386577775 | WikiName: ít                             | Số lần xuất hiện: 1
+  [115] EntityId: 950889719 | WikiName: đi                             | Số lần xuất hiện: 1
+  [116] EntityId: 799265 | WikiName: Quán bar                       | Số lần xuất hiện: 1
+  [117] EntityId: 1712990395 | WikiName: sống                           | Số lần xuất hiện: 1
+  [118] EntityId: 593694312 | WikiName: khép kín                       | Số lần xuất hiện: 1
+  [119] EntityId: 1491443754 | WikiName: so với                         | Số lần xuất hiện: 1
+  [120] EntityId: 190015318 | WikiName: nhiều                          | Số lần xuất hiện: 4
+  [121] EntityId: 1088007921 | WikiName: mặc                            | Số lần xuất hiện: 3
+  [122] EntityId: 190003779 | WikiName: của                            | Số lần xuất hiện: 3
+  [123] EntityId: 190003838 | WikiName: cũng                           | Số lần xuất hiện: 1
+  [124] EntityId: 1076142663 | WikiName: khá                            | Số lần xuất hiện: 1
+  [125] EntityId: 1710355116 | WikiName: hiền                           | Số lần xuất hiện: 1
+  [126] EntityId: 1236565745 | WikiName: ngoài                          | Số lần xuất hiện: 2
+  [127] EntityId: 44365  | WikiName: Dự án                          | Số lần xuất hiện: 1
+  [128] EntityId: 47317  | WikiName: Âm nhạc                        | Số lần xuất hiện: 1
+  [129] EntityId: 469422 | WikiName: Thực tế                        | Số lần xuất hiện: 1
+  [130] EntityId: 967889651 | WikiName: về                             | Số lần xuất hiện: 1
+  [131] EntityId: 24260  | WikiName: Du lịch                        | Số lần xuất hiện: 1
+  [132] EntityId: 740041311 | WikiName: trải nghiệm                    | Số lần xuất hiện: 1
+  [133] EntityId: 3637894 | WikiName: 2 Ngày & 1 Đêm                 | Số lần xuất hiện: 1
+  [134] EntityId: 1178052003 | WikiName: hiện                           | Số lần xuất hiện: 1
+  [135] EntityId: 49658  | WikiName: 3 (số)                         | Số lần xuất hiện: 1
+  [136] EntityId: 46330  | WikiName: Triệu                          | Số lần xuất hiện: 1
+  [137] EntityId: 19342238 | WikiName: Theo dõi trên mạng             | Số lần xuất hiện: 1
+  [138] EntityId: 7497   | WikiName: Xã hội                         | Số lần xuất hiện: 1
+  [139] EntityId: 236607 | WikiName: Cao (họ)                       | Số lần xuất hiện: 1
+  [140] EntityId: 685    | WikiName: M                              | Số lần xuất hiện: 1
+  [141] EntityId: 892281841 | WikiName: lần                            | Số lần xuất hiện: 1
+  [142] EntityId: 623931330 | WikiName: mời                            | Số lần xuất hiện: 1
+  [143] EntityId: 922034102 | WikiName: làm mẫu                        | Số lần xuất hiện: 1
+  [144] EntityId: 197200 | WikiName: Thời trang                     | Số lần xuất hiện: 2
+  [145] EntityId: 784595397 | WikiName: thu hút                        | Số lần xuất hiện: 1
+  [146] EntityId: 190016184 | WikiName: nữ                             | Số lần xuất hiện: 1
+  [147] EntityId: 190015645 | WikiName: nhưng                          | Số lần xuất hiện: 1
+  [148] EntityId: 25397  | WikiName: Chỉ                            | Số lần xuất hiện: 1
+  [149] EntityId: 190016389 | WikiName: ở                              | Số lần xuất hiện: 2
+  [150] EntityId: 190012993 | WikiName: mức                            | Số lần xuất hiện: 1
+  [151] EntityId: 1378203315 | WikiName: ưa nhìn                        | Số lần xuất hiện: 1
+  [152] EntityId: 19363588 | WikiName: Người lăng xê                  | Số lần xuất hiện: 1
+  [153] EntityId: 288215 | WikiName: Mốt                            | Số lần xuất hiện: 1
+  [154] EntityId: 294326 | WikiName: Nam giới                       | Số lần xuất hiện: 1
+  [155] EntityId: 190017403 | WikiName: phong cách                     | Số lần xuất hiện: 1
+  [156] EntityId: 903489865 | WikiName: ảnh hưởng                      | Số lần xuất hiện: 1
+  [157] EntityId: 311001143 | WikiName: Mỹ                             | Số lần xuất hiện: 1
+  [158] EntityId: 11709342 | WikiName: G-Eazy                         | Số lần xuất hiện: 1
+  [159] EntityId: 54438  | WikiName: Cây (lý thuyết đồ thị)         | Số lần xuất hiện: 1
+  [160] EntityId: 138762 | WikiName: Hàng hiệu                      | Số lần xuất hiện: 1
+  [161] EntityId: 123390 | WikiName: Louis Vuitton                  | Số lần xuất hiện: 1
+  [162] EntityId: 190012909 | WikiName: một                            | Số lần xuất hiện: 1
+  [163] EntityId: 14501088 | WikiName: Sự kiện                        | Số lần xuất hiện: 1
+  [164] EntityId: 2417179 | WikiName: Hình ảnh                       | Số lần xuất hiện: 1

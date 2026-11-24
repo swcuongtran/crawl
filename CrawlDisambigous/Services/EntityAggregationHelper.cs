@@ -74,12 +74,23 @@ namespace CrawlDisambigous.Services
             if (string.IsNullOrEmpty(inputText) || minCharIdx < 0 || minCharIdx >= inputText.Length)
                 return (1, "");
 
-            // 1. Tính ParagraphIndex (đoạn 1, 2, ...) bằng cách đếm ký tự xuống dòng trước minCharIdx
+            // 1. Tính ParagraphIndex (đoạn 1, 2, ...) bằng cách đếm các khối phân tách dòng trước minCharIdx
             int paragraphIndex = 1;
+            bool lastWasNewline = false;
             for (int i = 0; i < minCharIdx; i++)
             {
                 if (inputText[i] == '\n')
-                    paragraphIndex++;
+                {
+                    if (!lastWasNewline)
+                    {
+                        paragraphIndex++;
+                        lastWasNewline = true;
+                    }
+                }
+                else if (!char.IsWhiteSpace(inputText[i]))
+                {
+                    lastWasNewline = false;
+                }
             }
 
             // 2. Tìm ranh giới của câu chứa mention
@@ -119,32 +130,52 @@ namespace CrawlDisambigous.Services
             IEnumerable<ErelScanResponseDto> scans,
             int? excludeSourceEntityId = null)
         {
-            int counter = 1;
-            return scans
-                .SelectMany(s => s.Mcs)
+            var allMcs = scans
+                .SelectMany(s =>
+                {
+                    foreach (var m in s.Mcs)
+                    {
+                        if (m.DocIndex == 0 && s.DocIndex > 0) m.DocIndex = s.DocIndex;
+                        if (string.IsNullOrEmpty(m.DocTitle) && !string.IsNullOrEmpty(s.DocTitle)) m.DocTitle = s.DocTitle;
+                    }
+                    return s.Mcs;
+                })
                 .Where(m => (!excludeSourceEntityId.HasValue || m.SelectedEntityId != excludeSourceEntityId.Value)
-                            && (m.Candidates?.Count ?? 0) > 1)
-                // Phân nhóm CHUẨN THEO ĐOẠN VĂN: Cùng 1 đoạn thì gom các câu lại, khác đoạn mới tách riêng
-                .GroupBy(m => $"{m.Mention.Trim().ToLowerInvariant()}__p{m.ParagraphIndex}")
+                            && (m.Candidates?.Count ?? 0) > 1);
+
+            // Gom nhóm theo Bài viết, Đoạn văn, và Từ
+            var groups = allMcs
+                .GroupBy(m => $"{m.DocIndex}__p{m.ParagraphIndex}__{m.Mention.Trim().ToLowerInvariant()}")
                 .Select(g =>
                 {
-                    var rep = g.First();
-                    var allCandidates = g
-                        .SelectMany(m => m.Candidates ?? new List<EntityCandidateDto>())
-                        .GroupBy(c => c.EntityId)
-                        .Select(cg => cg.First())
-                        .ToList();
+                    // Lấy từ xuất hiện sớm nhất trong đoạn làm đại diện
+                    var rep = g.OrderBy(m => m.MinCharIdx).First();
 
                     long defaultSelectedId = g
                         .GroupBy(m => m.SelectedEntityId)
                         .OrderByDescending(cg => cg.Count())
                         .First().Key;
 
+                    // Sắp xếp các ứng viên (candidates / aliases) bên trong thẻ:
+                    // 1. Ứng viên EREL gợi ý lên đầu tiên
+                    // 2. Điểm M cao nhất xếp trước
+                    // 3. Tên WikiName theo alphabet
+                    var allCandidates = g
+                        .SelectMany(m => m.Candidates ?? new List<EntityCandidateDto>())
+                        .GroupBy(c => c.EntityId)
+                        .Select(cg => cg.First())
+                        .OrderByDescending(c => c.EntityId == defaultSelectedId)
+                        .ThenByDescending(c => c.M)
+                        .ThenBy(c => c.WikiName)
+                        .ToList();
+
                     return new AmbiguousMentionGroup
                     {
-                        Id = $"amb_{counter++}",
+                        DocIndex = rep.DocIndex > 0 ? rep.DocIndex : 1,
+                        DocTitle = rep.DocTitle ?? "",
                         Mention = rep.Mention.Trim(),
                         ParagraphIndex = rep.ParagraphIndex,
+                        MinCharIdx = rep.MinCharIdx,
                         ContextSentence = rep.ContextSentence,
                         TotalCount = g.Count(),
                         PosTag = rep.PosTag,
@@ -153,31 +184,62 @@ namespace CrawlDisambigous.Services
                         Candidates = allCandidates
                     };
                 })
-                .OrderBy(g => g.ParagraphIndex)
-                .ThenBy(g => g.Mention)
+                // SẮP XẾP CHUẨN ĐỌC TỰ NHIÊN:
+                // 1. Thứ tự bài viết (Bài 1 -> Bài 2 -> ...)
+                // 2. Thứ tự đoạn văn từ đầu đến cuối (Đoạn 1 -> Đoạn 2 -> ...)
+                // 3. Thứ tự vị trí xuất hiện của từ trong câu/văn bản (Từ đầu câu -> từ cuối câu)
+                .OrderBy(g => g.DocIndex)
+                .ThenBy(g => g.ParagraphIndex)
+                .ThenBy(g => g.MinCharIdx)
                 .ToList();
+
+            // Đánh ID tuần tự amb_1, amb_2... sau khi đã sắp xếp hoàn chỉnh
+            int counter = 1;
+            foreach (var grp in groups)
+            {
+                grp.Id = $"amb_{counter++}";
+            }
+
+            return groups;
         }
 
         public static List<SingleCandidateMentionGroup> BuildSingleCandidateSummary(
             IEnumerable<ErelScanResponseDto> scans,
             int sourceEntityId)
         {
-            return scans
-                .SelectMany(s => s.Mcs)
-                .Where(m => m.SelectedEntityId > 0 && m.SelectedEntityId != sourceEntityId && (m.Candidates?.Count ?? 0) == 1)
-                // Gom chuẩn theo đoạn văn
-                .GroupBy(m => $"{m.Mention.Trim().ToLowerInvariant()}__p{m.ParagraphIndex}")
-                .Select(g => new SingleCandidateMentionGroup
+            var singleCandidates = scans
+                .SelectMany(s =>
                 {
-                    Mention = g.First().Mention.Trim(),
-                    ParagraphIndex = g.First().ParagraphIndex,
-                    ContextSentence = g.First().ContextSentence,
-                    TotalCount = g.Count(),
-                    EntityId = g.First().SelectedEntityId,
-                    WikiName = g.First().SelectedWikiName
+                    foreach (var m in s.Mcs)
+                    {
+                        if (m.DocIndex == 0 && s.DocIndex > 0) m.DocIndex = s.DocIndex;
+                        if (string.IsNullOrEmpty(m.DocTitle) && !string.IsNullOrEmpty(s.DocTitle)) m.DocTitle = s.DocTitle;
+                    }
+                    return s.Mcs;
                 })
-                .OrderBy(g => g.ParagraphIndex)
-                .ThenByDescending(g => g.TotalCount)
+                .Where(m => m.SelectedEntityId > 0 && m.SelectedEntityId != sourceEntityId && (m.Candidates?.Count ?? 0) == 1);
+
+            return singleCandidates
+                .GroupBy(m => $"{m.DocIndex}__p{m.ParagraphIndex}__{m.Mention.Trim().ToLowerInvariant()}")
+                .Select(g =>
+                {
+                    var rep = g.OrderBy(m => m.MinCharIdx).First();
+                    return new SingleCandidateMentionGroup
+                    {
+                        DocIndex = rep.DocIndex > 0 ? rep.DocIndex : 1,
+                        DocTitle = rep.DocTitle ?? "",
+                        Mention = rep.Mention.Trim(),
+                        ParagraphIndex = rep.ParagraphIndex,
+                        MinCharIdx = rep.MinCharIdx,
+                        ContextSentence = rep.ContextSentence,
+                        TotalCount = g.Count(),
+                        EntityId = rep.SelectedEntityId,
+                        WikiName = rep.SelectedWikiName
+                    };
+                })
+                .OrderBy(g => g.DocIndex)
+                .ThenBy(g => g.ParagraphIndex)
+                .ThenBy(g => g.MinCharIdx)
                 .ToList();
         }
 

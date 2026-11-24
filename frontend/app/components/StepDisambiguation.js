@@ -165,6 +165,11 @@ export default function StepDisambiguation({
                 }}
               >
                 <strong>&quot;{sc.mention}&quot;</strong>
+                {sc.docIndex > 0 && (
+                  <span style={{ color: "#c084fc", marginLeft: "4px", fontSize: "11px", fontWeight: "600" }}>
+                    (Bài {sc.docIndex})
+                  </span>
+                )}
                 {sc.paragraphIndex > 0 && (
                   <span style={{ color: "#38bdf8", marginLeft: "4px", fontSize: "11px", fontWeight: "600" }}>
                     (Đoạn {sc.paragraphIndex})
@@ -192,6 +197,11 @@ export default function StepDisambiguation({
                       #{gIdx + 1}
                     </span>
                     <span className="mention-name">&quot;{group.mention}&quot;</span>
+                    {group.docIndex > 0 && (
+                      <span className="chip" style={{ color: "#c084fc", fontWeight: "700", background: "rgba(192, 132, 252, 0.15)", border: "1px solid rgba(192, 132, 252, 0.3)" }}>
+                        Bài {group.docIndex}
+                      </span>
+                    )}
                     {group.paragraphIndex > 0 && (
                       <span className="chip chip-http" style={{ color: "#38bdf8", fontWeight: "700", background: "rgba(56, 189, 248, 0.15)" }}>
                         Đoạn {group.paragraphIndex}
@@ -221,7 +231,7 @@ export default function StepDisambiguation({
                       lineHeight: "1.5",
                     }}
                   >
-                    <strong style={{ color: "#38bdf8" }}>Ngữ cảnh (Đoạn {group.paragraphIndex}):</strong> &quot;{group.contextSentence}&quot;
+                    <strong style={{ color: "#38bdf8" }}>Ngữ cảnh (Bài {group.docIndex || 1} - Đoạn {group.paragraphIndex}):</strong> &quot;{group.contextSentence}&quot;
                   </div>
                 )}
               </div>
