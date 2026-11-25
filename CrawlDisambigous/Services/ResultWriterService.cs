@@ -356,7 +356,8 @@ namespace CrawlDisambigous.Services
                         ? $" ({docPrefix}Đoạn {m.ParagraphIndex}: \"{m.ContextSentence}\")"
                         : (m.ParagraphIndex > 0 ? $" ({docPrefix}Đoạn {m.ParagraphIndex})" : "");
 
-                    sb.AppendLine($"[{i + 1}] Mention: \"{m.Mention}\"{contextInfo} | Xuất hiện: {m.TotalCount} lần | POS: {m.PosTag ?? "N/A"} | Loại: {m.Category ?? "N/A"}");
+                    string dbBadge = m.AllCandidatesInDisamLink ? " [★ ĐÃ CÓ ĐỦ TRONG DISAMLINK_NEW]" : "";
+                    sb.AppendLine($"[{i + 1}] Mention: \"{m.Mention}\"{contextInfo} | Xuất hiện: {m.TotalCount} lần | POS: {m.PosTag ?? "N/A"} | Loại: {m.Category ?? "N/A"}{dbBadge}");
 
                     for (int cIdx = 0; cIdx < m.Candidates.Count; cIdx++)
                     {
@@ -364,8 +365,9 @@ namespace CrawlDisambigous.Services
                         bool isErelSelected = (c.EntityId == m.ErelSelectedEntityId);
                         string checkMark = isErelSelected ? "[x]" : "[ ]";
                         string erelTag = isErelSelected ? " [EREL GỢI Ý]" : "";
+                        string inDbTag = c.IsInDisamLink ? " [TRONG DB]" : "";
 
-                        sb.AppendLine($"    {checkMark} ({cIdx + 1}) ID: {c.EntityId,-8} | WikiName: {c.WikiName,-28} | RealName: {c.RealName,-20} | M={c.M:F2} | Me={c.Me:F2} | Mc={c.Mc:F2} | Ms={c.Ms:F2}{erelTag}");
+                        sb.AppendLine($"    {checkMark} ({cIdx + 1}) ID: {c.EntityId,-8} | WikiName: {c.WikiName,-28} | RealName: {c.RealName,-20} | M={c.M:F2} | Me={c.Me:F2} | Mc={c.Mc:F2} | Ms={c.Ms:F2}{erelTag}{inDbTag}");
                     }
                     sb.AppendLine();
                 }

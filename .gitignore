@@ -1,0 +1,35 @@
+## Build results & outputs
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio & Rider
+.vs/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+.vscode/
+
+## Playwright
+.playwright/
+
+## Data & Output Folders
+Output/
+CrawlerData/
+
+## Node & Next.js (Frontend fallback)
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env*.local
+
+## OS generated
+.DS_Store
+Thumbs.db

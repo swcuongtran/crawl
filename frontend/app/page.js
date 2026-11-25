@@ -15,6 +15,7 @@ export default function Home() {
     backend: false,
     erel: false,
     searxng: false,
+    disamLink: false,
     outputFolder: "",
   });
 
@@ -39,6 +40,8 @@ export default function Home() {
   const [mentionFilter, setMentionFilter] = useState("");
   const [showSingleCandidates, setShowSingleCandidates] = useState(false);
   const [isSubmittingReview, setIsSubmittingReview] = useState(false);
+  const [isRecheckingDb, setIsRecheckingDb] = useState(false);
+  const [isRescanningErel, setIsRescanningErel] = useState(false);
 
   // Step 4: Results & Exports
   const [activeResultTab, setActiveResultTab] = useState("entities");
@@ -61,6 +64,7 @@ export default function Home() {
               backend: true,
               erel: data.erelConnected,
               searxng: data.searxngConnected,
+              disamLink: data.disamLinkConnected,
               outputFolder: data.outputFolder || "D:\\CrawlerData",
             });
           }
@@ -129,22 +133,40 @@ export default function Home() {
     };
   }, [activeStep, activeResultTab, selectedFileType, session?.outputFiles, health.outputFolder]);
 
-  const initSelections = (groups) => {
-    const initial = {};
-    (groups || []).forEach((g) => {
-      const rec = g.candidates?.find((c) => c.entityId === g.erelSelectedEntityId);
-      const key = g.id || `${g.mention}_p${g.paragraphIndex}`;
-      initial[key] = {
-        id: g.id || key,
-        mention: g.mention,
-        paragraphIndex: g.paragraphIndex || 1,
-        contextSentence: g.contextSentence || "",
-        selectedEntityId: g.erelSelectedEntityId,
-        selectedWikiName: rec ? rec.wikiName : "",
-        mentionCount: g.totalCount,
-      };
+  const initSelections = (groups, forceResetAll = false) => {
+    setUserSelections((prev) => {
+      const next = {};
+      (groups || []).forEach((g) => {
+        const rec = g.candidates?.find((c) => c.entityId === g.erelSelectedEntityId);
+        const key = g.id || `${g.mention}_p${g.paragraphIndex}`;
+        const prevSel = prev ? prev[key] : null;
+
+        // Nếu người dùng đã tự chọn thủ công từ này, giữ nguyên 100% lựa chọn của họ
+        if (!forceResetAll && prevSel && prevSel.isManual) {
+          const stillExists = prevSel.selectedEntityId === 0 || g.candidates?.some((c) => c.entityId === prevSel.selectedEntityId);
+          if (stillExists) {
+            next[key] = {
+              ...prevSel,
+              mentionCount: g.totalCount,
+            };
+            return;
+          }
+        }
+
+        // Nếu là từ chưa can thiệp thủ công (hoặc forceResetAll): nhận theo gợi ý mới nhất của EREL
+        next[key] = {
+          id: g.id || key,
+          mention: g.mention,
+          paragraphIndex: g.paragraphIndex || 1,
+          contextSentence: g.contextSentence || "",
+          selectedEntityId: g.erelSelectedEntityId,
+          selectedWikiName: rec ? rec.wikiName : "",
+          mentionCount: g.totalCount,
+          isManual: false,
+        };
+      });
+      return next;
     });
-    setUserSelections(initial);
   };
 
   const startPolling = (sid) => {
@@ -273,6 +295,7 @@ export default function Home() {
         selectedEntityId: candidateId,
         selectedWikiName: candidateWikiName,
         mentionCount: count,
+        isManual: true, // Đánh dấu là người dùng tự chọn thủ công!
       },
     }));
   };
@@ -290,6 +313,7 @@ export default function Home() {
         selectedEntityId: 0,
         selectedWikiName: "",
         mentionCount: g.totalCount,
+        isManual: true,
       };
     });
     setUserSelections(cleared);
@@ -329,6 +353,49 @@ export default function Home() {
       alert(err.message);
     } finally {
       setIsSubmittingReview(false);
+    }
+  };
+
+  const handleRecheckDisamLink = async () => {
+    if (!session?.sessionId) return;
+    setIsRecheckingDb(true);
+    try {
+      const res = await fetch(`${BACKEND_URL}/disamlink/recheck/${session.sessionId}`, {
+        method: "POST",
+      });
+      if (res.ok) {
+        const updated = await res.json();
+        setSession(updated);
+      }
+    } catch (err) {
+      console.error("Recheck DB error:", err);
+    } finally {
+      setIsRecheckingDb(false);
+    }
+  };
+
+  const handleRescanErel = async () => {
+    if (!session?.sessionId) return;
+    setIsRescanningErel(true);
+    try {
+      const res = await fetch(`${BACKEND_URL}/erel/rescan/${session.sessionId}`, {
+        method: "POST",
+      });
+      if (res.ok) {
+        const updated = await res.json();
+        setSession(updated);
+        if (updated.ambiguousGroups) {
+          initSelections(updated.ambiguousGroups);
+        }
+      } else {
+        const errData = await res.json();
+        alert("Lỗi quét lại EREL: " + (errData.error || res.statusText));
+      }
+    } catch (err) {
+      console.error("Rescan EREL error:", err);
+      alert("Lỗi kết nối khi quét lại EREL: " + err.message);
+    } finally {
+      setIsRescanningErel(false);
     }
   };
 
@@ -384,6 +451,10 @@ export default function Home() {
           <div className="status-badge">
             <span className={`dot-pulse ${health.searxng ? "online" : "offline"}`}></span>
             <span>{health.searxng ? "SearXNG Active" : "Bing Fallback"}</span>
+          </div>
+          <div className="status-badge">
+            <span className={`dot-pulse ${health.disamLink ? "online" : "offline"}`}></span>
+            <span>SQL {health.disamLink ? "DisAmLink Active" : "DisAmLink Offline"}</span>
           </div>
         </div>
       </header>
@@ -444,9 +515,13 @@ export default function Home() {
           setShowSingleCandidates={setShowSingleCandidates}
           isSubmittingReview={isSubmittingReview}
           onSelectCandidate={handleSelectCandidate}
-          onSelectAllErel={() => session?.ambiguousGroups && initSelections(session.ambiguousGroups)}
+          onSelectAllErel={() => session?.ambiguousGroups && initSelections(session.ambiguousGroups, true)}
           onClearAll={clearAllSelections}
           onConfirmReview={handleConfirmReview}
+          onRecheckDisamLink={handleRecheckDisamLink}
+          isRecheckingDb={isRecheckingDb}
+          onRescanErel={handleRescanErel}
+          isRescanningErel={isRescanningErel}
         />
       )}
 

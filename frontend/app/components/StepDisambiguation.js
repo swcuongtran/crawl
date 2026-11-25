@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 const SCORE_METRICS = [
   {
     key: "m",
@@ -55,10 +57,20 @@ export default function StepDisambiguation({
   onSelectAllErel,
   onClearAll,
   onConfirmReview,
+  onRecheckDisamLink,
+  isRecheckingDb,
+  onRescanErel,
+  isRescanningErel,
 }) {
-  const filteredAmbiguousGroups = (session.ambiguousGroups || []).filter((g) =>
-    g.mention.toLowerCase().includes(mentionFilter.toLowerCase())
-  );
+  const [onlyFullyInDb, setOnlyFullyInDb] = useState(false);
+
+  const fullyInDbCount = (session.ambiguousGroups || []).filter((g) => g.allCandidatesInDisamLink).length;
+
+  const filteredAmbiguousGroups = (session.ambiguousGroups || []).filter((g) => {
+    const matchesText = g.mention.toLowerCase().includes(mentionFilter.toLowerCase());
+    const matchesDb = !onlyFullyInDb || g.allCandidatesInDisamLink;
+    return matchesText && matchesDb;
+  });
 
   const selectedCount = Object.values(userSelections).filter(
     (s) => s.selectedEntityId > 0
@@ -114,16 +126,80 @@ export default function StepDisambiguation({
             justifyContent: "space-between",
             alignItems: "center",
             gap: "16px",
+            flexWrap: "wrap",
           }}
         >
-          <input
-            type="text"
-            className="input-field"
-            placeholder="Lọc mention theo từ khóa..."
-            value={mentionFilter}
-            onChange={(e) => setMentionFilter(e.target.value)}
-            style={{ maxWidth: "360px" }}
-          />
+          <div style={{ display: "flex", alignItems: "center", gap: "10px", flex: 1, minWidth: "280px", flexWrap: "wrap" }}>
+            <input
+              type="text"
+              className="input-field"
+              placeholder="Lọc mention theo từ khóa..."
+              value={mentionFilter}
+              onChange={(e) => setMentionFilter(e.target.value)}
+              style={{ maxWidth: "320px" }}
+            />
+
+            <button
+              type="button"
+              className={`btn ${onlyFullyInDb ? "btn-primary" : "btn-secondary"}`}
+              onClick={() => setOnlyFullyInDb(!onlyFullyInDb)}
+              title="Lọc hiển thị các mention mà tất cả candidates đều đã có trong cột EntityID1 của DisAmLinkData_New"
+              style={{
+                fontSize: "12px",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "6px",
+                padding: "8px 14px",
+                borderColor: onlyFullyInDb ? "#10b981" : "rgba(16, 185, 129, 0.4)",
+                color: onlyFullyInDb ? "#ffffff" : "#34d399",
+                background: onlyFullyInDb ? "#059669" : "rgba(16, 185, 129, 0.1)",
+              }}
+            >
+              <span>{onlyFullyInDb ? "✓ Đang lọc:" : "🔍 Lọc:"}</span>
+              <span>Đã có đủ trong DB (<strong>{fullyInDbCount}/{session.ambiguousGroups?.length || 0}</strong>)</span>
+            </button>
+
+            <button
+              type="button"
+              className="btn btn-primary"
+              onClick={onRescanErel}
+              disabled={isRescanningErel}
+              title="Gửi lại toàn bộ nội dung bài báo sang server EREL để phân tích lại, cập nhật điểm số và gợi ý mới nhất, đồng thời đồng bộ lại bảng DisAmLinkData_New"
+              style={{
+                fontSize: "12px",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "6px",
+                padding: "8px 14px",
+                background: isRescanningErel ? "rgba(99, 102, 241, 0.5)" : "linear-gradient(135deg, #6366f1 0%, #38bdf8 100%)",
+                color: "#ffffff",
+                border: "none",
+                fontWeight: "700",
+              }}
+            >
+              <span>{isRescanningErel ? "⏳ Đang quét lại EREL..." : "⚡ Quét lại toàn bộ EREL & DB"}</span>
+            </button>
+
+            <button
+              type="button"
+              className="btn btn-secondary"
+              onClick={onRecheckDisamLink}
+              disabled={isRecheckingDb}
+              title="Chỉ quét lại database SQL Server ngay lập tức (xóa cache 5 phút) để cập nhật các thay đổi mới nhất từ bảng DisAmLinkData_New"
+              style={{
+                fontSize: "12px",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "6px",
+                padding: "8px 14px",
+                borderColor: "rgba(56, 189, 248, 0.4)",
+                color: "#38bdf8",
+                background: "rgba(56, 189, 248, 0.08)",
+              }}
+            >
+              <span>{isRecheckingDb ? "⏳ Đang quét DB..." : "🔄 Chỉ quét lại DB"}</span>
+            </button>
+          </div>
 
           <button
             type="button"
@@ -189,7 +265,10 @@ export default function StepDisambiguation({
           const currentSel = userSelections[groupKey]?.selectedEntityId ?? group.erelSelectedEntityId;
 
           return (
-            <div key={groupKey} className="mention-card">
+            <div
+              key={groupKey}
+              className={`mention-card ${group.allCandidatesInDisamLink ? "is-fully-in-db" : ""}`}
+            >
               <div className="mention-header" style={{ flexDirection: "column", alignItems: "stretch", gap: "10px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "8px" }}>
                   <div className="mention-title-row" style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
@@ -208,6 +287,14 @@ export default function StepDisambiguation({
                       </span>
                     )}
                     <span className="badge-count">Xuất hiện {group.totalCount} lần</span>
+                    {group.allCandidatesInDisamLink && (
+                      <span
+                        className="mention-db-complete-badge"
+                        title="Tất cả ứng viên của mention này đều đã có trong cột EntityID1 của bảng DisAmLinkData_New"
+                      >
+                        ★ ĐÃ CÓ ĐỦ TRONG DISAMLINK_NEW
+                      </span>
+                    )}
                   </div>
 
                   <div style={{ display: "flex", gap: "8px" }}>
@@ -298,6 +385,23 @@ export default function StepDisambiguation({
                         >
                           ID: {cand.entityId}
                         </span>
+
+                        {cand.isInDisamLink ? (
+                          <span
+                            className="candidate-db-badge-in"
+                            title="ID này đã tồn tại ở cột EntityID1 trong bảng DisAmLinkData_New"
+                          >
+                            ✓ Có trong DisAmLink
+                          </span>
+                        ) : (
+                          <span
+                            className="candidate-db-badge-out"
+                            title="ID này chưa có ở cột EntityID1 trong bảng DisAmLinkData_New"
+                          >
+                            Chưa có trong DB
+                          </span>
+                        )}
+
                         <div style={{ display: "inline-flex", gap: "6px", alignItems: "center", fontSize: "12px", fontFamily: "var(--font-mono)", flexWrap: "wrap" }}>
                           {SCORE_METRICS.map((m) => (
                             <span

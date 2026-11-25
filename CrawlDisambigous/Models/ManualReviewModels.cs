@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace CrawlDisambigous.Models
 {
@@ -15,6 +16,10 @@ namespace CrawlDisambigous.Models
         public string? PosTag { get; set; }
         public string? Category { get; set; }
         public long ErelSelectedEntityId { get; set; }
+
+        [JsonPropertyName("allCandidatesInDisamLink")]
+        public bool AllCandidatesInDisamLink { get; set; }
+
         public List<EntityCandidateDto> Candidates { get; set; } = new();
     }
 

@@ -124,6 +124,9 @@ namespace CrawlDisambigous.Models
 
         [JsonPropertyName("isSelected")]
         public bool IsSelected { get; set; }
+
+        [JsonPropertyName("isInDisamLink")]
+        public bool IsInDisamLink { get; set; }
     }
 
     public class UmcsMentionDto

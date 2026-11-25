@@ -54,6 +54,7 @@ builder.Services.AddSingleton<SearxngSearchService>();
 builder.Services.AddSingleton<WebCrawlerService>();
 builder.Services.AddSingleton<ErelApiService>();
 builder.Services.AddSingleton<ResultWriterService>();
+builder.Services.AddSingleton<DisamLinkService>();
 builder.Services.AddSingleton<CrawlSessionService>();
 
 var app = builder.Build();
@@ -65,6 +66,7 @@ app.MapGet("/api/health", async (CrawlSessionService sessionService) =>
 {
     bool erelOnline = await sessionService.CheckErelConnectionAsync(timeoutSeconds: 2);
     bool searxngOnline = await sessionService.CheckSearxngConnectionAsync(timeoutSeconds: 1);
+    bool dbOnline = await sessionService.CheckDisamLinkConnectionAsync(timeoutSeconds: 2);
     return Results.Ok(new
     {
         status = "healthy",
@@ -72,8 +74,9 @@ app.MapGet("/api/health", async (CrawlSessionService sessionService) =>
         erelServer = sessionService.ErelServerUrl,
         searxngConnected = searxngOnline,
         searxngServer = sessionService.SearxngServerUrl,
+        disamLinkConnected = dbOnline,
         outputFolder = sessionService.OutputFolder,
-        version = "2.0.0 (SearXNG & Remote EREL Edition)"
+        version = "2.1.0 (DisAmLink Pipeline Edition)"
     });
 });
 
@@ -119,6 +122,44 @@ app.MapGet("/api/session/{sessionId}", (string sessionId, CrawlSessionService se
         return Results.NotFound(new { error = $"Không tìm thấy phiên làm việc: {sessionId}" });
 
     return Results.Ok(session);
+});
+
+// API 3b: Quét lại Database DisAmLinkData_New ngay lập tức (forceRefresh) cho session hiện tại
+app.MapPost("/api/disamlink/recheck/{sessionId}", async (string sessionId, CrawlSessionService sessionService) =>
+{
+    try
+    {
+        var session = await sessionService.RecheckDisamLinkAsync(sessionId);
+        return Results.Ok(session);
+    }
+    catch (KeyNotFoundException ex)
+    {
+        return Results.NotFound(new { error = ex.Message });
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"[DISAMLINK RECHECK ERROR] {ex.Message}");
+        return Results.Json(new { error = ex.Message }, statusCode: 500);
+    }
+});
+
+// API 3c: Quét lại toàn bộ văn bản qua EREL + cập nhật DisAmLinkData_New cho session hiện tại
+app.MapPost("/api/erel/rescan/{sessionId}", async (string sessionId, CrawlSessionService sessionService) =>
+{
+    try
+    {
+        var session = await sessionService.RescanErelAsync(sessionId);
+        return Results.Ok(session);
+    }
+    catch (KeyNotFoundException ex)
+    {
+        return Results.NotFound(new { error = ex.Message });
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"[EREL RESCAN ERROR] {ex.Message}");
+        return Results.Json(new { error = ex.Message }, statusCode: 500);
+    }
 });
 
 // API 4: Người dùng xác nhận lựa chọn candidate cho các mention nhập nhằng (> 1 candidate)

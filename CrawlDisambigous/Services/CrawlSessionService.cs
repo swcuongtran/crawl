@@ -17,6 +17,7 @@ namespace CrawlDisambigous.Services
         private readonly ErelApiService _erelService;
         private readonly ResultWriterService _writerService;
         private readonly UrlFilterService _urlFilter;
+        private readonly DisamLinkService _disamLinkService;
         private readonly string _defaultOutputFolder;
 
         public CrawlSessionService(
@@ -24,13 +25,15 @@ namespace CrawlDisambigous.Services
             WebCrawlerService? crawlerService = null,
             ErelApiService? erelService = null,
             ResultWriterService? writerService = null,
-            UrlFilterService? filterService = null)
+            UrlFilterService? filterService = null,
+            DisamLinkService? disamLinkService = null)
         {
             _urlFilter = filterService ?? new UrlFilterService();
             _searxngService = searxngService ?? new SearxngSearchService(_urlFilter);
             _crawlerService = crawlerService ?? new WebCrawlerService(_urlFilter);
             _erelService = erelService ?? new ErelApiService();
             _writerService = writerService ?? new ResultWriterService();
+            _disamLinkService = disamLinkService ?? new DisamLinkService();
 
             _defaultOutputFolder = EntityAggregationHelper.GetDefaultOutputFolder();
             Directory.CreateDirectory(_defaultOutputFolder);
@@ -41,6 +44,7 @@ namespace CrawlDisambigous.Services
         public string SearxngServerUrl => _searxngService.BaseUrl;
         public Task<bool> CheckErelConnectionAsync(int timeoutSeconds = 2) => _erelService.CheckHealthAsync(timeoutSeconds);
         public Task<bool> CheckSearxngConnectionAsync(int timeoutSeconds = 1) => _searxngService.IsAvailableAsync(timeoutSeconds);
+        public Task<bool> CheckDisamLinkConnectionAsync(int timeoutSeconds = 2) => _disamLinkService.CheckHealthAsync(timeoutSeconds);
 
         public CrawlSession? GetSession(string sessionId)
         {
@@ -141,6 +145,10 @@ namespace CrawlDisambigous.Services
                 session.UmcsTerms = EntityAggregationHelper.BuildUmcsTerms(session.AllDocScans);
                 session.AmbiguousGroups = EntityAggregationHelper.BuildAmbiguousGroups(session.AllDocScans, session.Source.EntityId);
                 session.SingleCandidateSummary = EntityAggregationHelper.BuildSingleCandidateSummary(session.AllDocScans, session.Source.EntityId);
+
+                // Pipeline kiểm tra bảng [EREL].[dbo].[DisAmLinkData_New]:
+                // Kiểm tra từng candidate có EntityID1 trong DB hay chưa, nếu tất cả candidate đều có -> AllCandidatesInDisamLink = true
+                await _disamLinkService.EnrichDisambiguationGroupsAsync(session.AmbiguousGroups);
 
                 if (session.AmbiguousGroups.Count > 0)
                 {
@@ -339,6 +347,90 @@ namespace CrawlDisambigous.Services
             {
                 session.CurrentMessage = $"Hoàn tất cào và phân định! Đã xuất file riêng: {sessionResultFileName} ({session.FinalResults.Count} thực thể liên kết).";
             }
+        }
+
+        public async Task<CrawlSession> RescanErelAsync(string sessionId)
+        {
+            if (!_sessions.TryGetValue(sessionId, out var session))
+                throw new KeyNotFoundException($"Session {sessionId} không tồn tại.");
+
+            session.CurrentMessage = "Đang quét lại toàn bộ văn bản qua EREL...";
+            var newDocScans = new List<ErelScanResponseDto>();
+            var singleCandidateMap = new Dictionary<int, EntityCountResult>();
+
+            for (int i = 0; i < session.CrawledLinks.Count; i++)
+            {
+                var link = session.CrawledLinks[i];
+                if (string.IsNullOrWhiteSpace(link.FullText) || link.Status != "success")
+                    continue;
+
+                string erelText = EntityCrawlerService.PrepareTextForErel(link.FullText, maxChars: 0);
+                var erelSw = System.Diagnostics.Stopwatch.StartNew();
+                var scanResult = await _erelService.ScanAndExtractAsync(erelText);
+                erelSw.Stop();
+
+                link.ErelDurationMs = Math.Round(erelSw.Elapsed.TotalMilliseconds, 1);
+                link.TotalDurationMs = Math.Round(link.CrawlDurationMs + link.ErelDurationMs, 1);
+                link.McsCount = scanResult.Mcs.Count;
+                link.UmcsCount = scanResult.Umcs.Count;
+
+                scanResult.DocIndex = i + 1;
+                scanResult.DocTitle = link.Title;
+                foreach (var m in scanResult.Mcs)
+                {
+                    m.DocIndex = i + 1;
+                    m.DocTitle = link.Title;
+                }
+
+                newDocScans.Add(scanResult);
+
+                var erelEntitiesForDoc = EntityAggregationHelper.BuildEntitiesForDoc(scanResult, session.Source.EntityId);
+                var searchItem = new SearchResult { Title = link.Title, Url = link.Url };
+                await _writerService.SaveScanResultAsync(_defaultOutputFolder, session.Source, i + 1, searchItem, scanResult, erelEntitiesForDoc);
+                EntityAggregationHelper.AccumulateSingleCandidates(scanResult, session.Source.EntityId, singleCandidateMap);
+            }
+
+            session.AllDocScans = newDocScans;
+            session.UmcsTerms = EntityAggregationHelper.BuildUmcsTerms(session.AllDocScans);
+            session.AmbiguousGroups = EntityAggregationHelper.BuildAmbiguousGroups(session.AllDocScans, session.Source.EntityId);
+            session.SingleCandidateSummary = EntityAggregationHelper.BuildSingleCandidateSummary(session.AllDocScans, session.Source.EntityId);
+
+            // Kiểm tra lại DisAmLinkData_New với forceRefresh = true
+            await _disamLinkService.EnrichDisambiguationGroupsAsync(session.AmbiguousGroups, forceRefresh: true);
+
+            session.Status = "awaiting_review";
+            session.CurrentMessage = $"Đã quét lại toàn bộ EREL ({newDocScans.Count} bài viết). Phát hiện {session.AmbiguousGroups.Count} mentions cần bạn xác nhận.";
+            session.OutputFiles["ManualReview"] = await _writerService.SaveManualReviewFileAsync(
+                _defaultOutputFolder,
+                session.Source,
+                session.AmbiguousGroups,
+                session.SingleCandidateSummary
+            );
+
+            return session;
+        }
+
+        public async Task<CrawlSession> RecheckDisamLinkAsync(string sessionId)
+        {
+            if (!_sessions.TryGetValue(sessionId, out var session))
+                throw new KeyNotFoundException($"Session {sessionId} không tồn tại.");
+
+            if (session.AmbiguousGroups != null && session.AmbiguousGroups.Count > 0)
+            {
+                await _disamLinkService.EnrichDisambiguationGroupsAsync(session.AmbiguousGroups, forceRefresh: true);
+
+                if (session.OutputFiles.ContainsKey("ManualReview"))
+                {
+                    session.OutputFiles["ManualReview"] = await _writerService.SaveManualReviewFileAsync(
+                        _defaultOutputFolder,
+                        session.Source,
+                        session.AmbiguousGroups,
+                        session.SingleCandidateSummary
+                    );
+                }
+            }
+
+            return session;
         }
 
         public string ReadFileContent(string relativeOrFullPath)
