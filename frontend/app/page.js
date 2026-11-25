@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import StepSearchConfig from "./components/StepSearchConfig";
 import StepCrawlProgress from "./components/StepCrawlProgress";
 import StepDisambiguation from "./components/StepDisambiguation";
@@ -55,7 +55,7 @@ export default function Home() {
     let isCancelled = false;
     const fetchHealth = () => {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 5000);
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
       fetch(`${BACKEND_URL}/health`, { signal: controller.signal })
         .then((res) => (res.ok ? res.json() : Promise.reject()))
         .then((data) => {
@@ -183,12 +183,15 @@ export default function Home() {
         if (data.status === "awaiting_review") {
           clearInterval(pollingRef.current);
           initSelections(data.ambiguousGroups);
+          setIsRescanningErel(false);
           setActiveStep(3);
         } else if (data.status === "completed") {
           clearInterval(pollingRef.current);
+          setIsRescanningErel(false);
           setActiveStep(4);
         } else if (data.status === "error") {
           clearInterval(pollingRef.current);
+          setIsRescanningErel(false);
         }
       } catch (err) {
         console.error("Polling error:", err);
@@ -276,7 +279,7 @@ export default function Home() {
     }
   };
 
-  const handleSelectCandidate = (
+  const handleSelectCandidate = useCallback((
     key,
     count,
     candidateId,
@@ -298,7 +301,7 @@ export default function Home() {
         isManual: true, // Đánh dấu là người dùng tự chọn thủ công!
       },
     }));
-  };
+  }, []);
 
   const clearAllSelections = () => {
     if (!session?.ambiguousGroups) return;
@@ -381,20 +384,35 @@ export default function Home() {
       const res = await fetch(`${BACKEND_URL}/erel/rescan/${session.sessionId}`, {
         method: "POST",
       });
-      if (res.ok) {
-        const updated = await res.json();
-        setSession(updated);
-        if (updated.ambiguousGroups) {
-          initSelections(updated.ambiguousGroups);
+      if (!res.ok) {
+        let errorMsg = res.statusText || `Mã lỗi HTTP ${res.status}`;
+        try {
+          const errData = await res.json();
+          if (errData && errData.error) errorMsg = errData.error;
+        } catch {
+          const txt = await res.text().catch(() => "");
+          if (txt) errorMsg = txt;
         }
-      } else {
-        const errData = await res.json();
-        alert("Lỗi quét lại EREL: " + (errData.error || res.statusText));
+        alert("Lỗi khi bắt đầu quét lại EREL: " + errorMsg);
+        setIsRescanningErel(false);
+        return;
       }
+
+      const initialData = await res.json();
+      setSession(initialData);
+
+      if (initialData.status === "awaiting_review") {
+        if (initialData.ambiguousGroups) {
+          initSelections(initialData.ambiguousGroups);
+        }
+        setIsRescanningErel(false);
+        return;
+      }
+
+      startPolling(initialData.sessionId);
     } catch (err) {
       console.error("Rescan EREL error:", err);
       alert("Lỗi kết nối khi quét lại EREL: " + err.message);
-    } finally {
       setIsRescanningErel(false);
     }
   };

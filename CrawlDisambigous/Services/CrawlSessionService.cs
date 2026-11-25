@@ -349,65 +349,93 @@ namespace CrawlDisambigous.Services
             }
         }
 
+        public CrawlSession StartRescanErel(string sessionId)
+        {
+            if (!_sessions.TryGetValue(sessionId, out var session))
+                throw new KeyNotFoundException($"Session {sessionId} không tồn tại.");
+
+            session.Status = "rescanning";
+            session.CurrentMessage = "Bắt đầu quét lại toàn bộ văn bản qua EREL...";
+            _ = Task.Run(() => ExecuteRescanErelAsync(session));
+            return session;
+        }
+
         public async Task<CrawlSession> RescanErelAsync(string sessionId)
         {
             if (!_sessions.TryGetValue(sessionId, out var session))
                 throw new KeyNotFoundException($"Session {sessionId} không tồn tại.");
 
-            session.CurrentMessage = "Đang quét lại toàn bộ văn bản qua EREL...";
-            var newDocScans = new List<ErelScanResponseDto>();
-            var singleCandidateMap = new Dictionary<int, EntityCountResult>();
+            await ExecuteRescanErelAsync(session);
+            return session;
+        }
 
-            for (int i = 0; i < session.CrawledLinks.Count; i++)
+        private async Task ExecuteRescanErelAsync(CrawlSession session)
+        {
+            try
             {
-                var link = session.CrawledLinks[i];
-                if (string.IsNullOrWhiteSpace(link.FullText) || link.Status != "success")
-                    continue;
+                var newDocScans = new List<ErelScanResponseDto>();
+                var singleCandidateMap = new Dictionary<int, EntityCountResult>();
 
-                string erelText = EntityCrawlerService.PrepareTextForErel(link.FullText, maxChars: 0);
-                var erelSw = System.Diagnostics.Stopwatch.StartNew();
-                var scanResult = await _erelService.ScanAndExtractAsync(erelText);
-                erelSw.Stop();
+                var validLinks = session.CrawledLinks
+                    .Where(l => !string.IsNullOrWhiteSpace(l.FullText) && l.Status == "success")
+                    .ToList();
 
-                link.ErelDurationMs = Math.Round(erelSw.Elapsed.TotalMilliseconds, 1);
-                link.TotalDurationMs = Math.Round(link.CrawlDurationMs + link.ErelDurationMs, 1);
-                link.McsCount = scanResult.Mcs.Count;
-                link.UmcsCount = scanResult.Umcs.Count;
-
-                scanResult.DocIndex = i + 1;
-                scanResult.DocTitle = link.Title;
-                foreach (var m in scanResult.Mcs)
+                for (int i = 0; i < validLinks.Count; i++)
                 {
-                    m.DocIndex = i + 1;
-                    m.DocTitle = link.Title;
+                    var link = validLinks[i];
+                    session.CurrentMessage = $"Đang quét lại EREL bài {i + 1}/{validLinks.Count}: {link.Title}...";
+
+                    string erelText = EntityCrawlerService.PrepareTextForErel(link.FullText, maxChars: 0);
+                    var erelSw = System.Diagnostics.Stopwatch.StartNew();
+                    var scanResult = await _erelService.ScanAndExtractAsync(erelText);
+                    erelSw.Stop();
+
+                    link.ErelDurationMs = Math.Round(erelSw.Elapsed.TotalMilliseconds, 1);
+                    link.TotalDurationMs = Math.Round(link.CrawlDurationMs + link.ErelDurationMs, 1);
+                    link.McsCount = scanResult.Mcs.Count;
+                    link.UmcsCount = scanResult.Umcs.Count;
+
+                    scanResult.DocIndex = link.Index;
+                    scanResult.DocTitle = link.Title;
+                    foreach (var m in scanResult.Mcs)
+                    {
+                        m.DocIndex = link.Index;
+                        m.DocTitle = link.Title;
+                    }
+
+                    newDocScans.Add(scanResult);
+
+                    var erelEntitiesForDoc = EntityAggregationHelper.BuildEntitiesForDoc(scanResult, session.Source.EntityId);
+                    var searchItem = new SearchResult { Title = link.Title, Url = link.Url };
+                    await _writerService.SaveScanResultAsync(_defaultOutputFolder, session.Source, link.Index, searchItem, scanResult, erelEntitiesForDoc);
+                    EntityAggregationHelper.AccumulateSingleCandidates(scanResult, session.Source.EntityId, singleCandidateMap);
                 }
 
-                newDocScans.Add(scanResult);
+                session.AllDocScans = newDocScans;
+                session.UmcsTerms = EntityAggregationHelper.BuildUmcsTerms(session.AllDocScans);
+                session.AmbiguousGroups = EntityAggregationHelper.BuildAmbiguousGroups(session.AllDocScans, session.Source.EntityId);
+                session.SingleCandidateSummary = EntityAggregationHelper.BuildSingleCandidateSummary(session.AllDocScans, session.Source.EntityId);
 
-                var erelEntitiesForDoc = EntityAggregationHelper.BuildEntitiesForDoc(scanResult, session.Source.EntityId);
-                var searchItem = new SearchResult { Title = link.Title, Url = link.Url };
-                await _writerService.SaveScanResultAsync(_defaultOutputFolder, session.Source, i + 1, searchItem, scanResult, erelEntitiesForDoc);
-                EntityAggregationHelper.AccumulateSingleCandidates(scanResult, session.Source.EntityId, singleCandidateMap);
+                // Kiểm tra lại DisAmLinkData_New với forceRefresh = true
+                session.CurrentMessage = "Đang kiểm tra cơ sở dữ liệu DisAmLinkData_New...";
+                await _disamLinkService.EnrichDisambiguationGroupsAsync(session.AmbiguousGroups, forceRefresh: true);
+
+                session.OutputFiles["ManualReview"] = await _writerService.SaveManualReviewFileAsync(
+                    _defaultOutputFolder,
+                    session.Source,
+                    session.AmbiguousGroups,
+                    session.SingleCandidateSummary
+                );
+
+                session.Status = "awaiting_review";
+                session.CurrentMessage = $"Đã quét lại toàn bộ EREL ({newDocScans.Count} bài viết). Phát hiện {session.AmbiguousGroups.Count} mentions cần bạn xác nhận.";
             }
-
-            session.AllDocScans = newDocScans;
-            session.UmcsTerms = EntityAggregationHelper.BuildUmcsTerms(session.AllDocScans);
-            session.AmbiguousGroups = EntityAggregationHelper.BuildAmbiguousGroups(session.AllDocScans, session.Source.EntityId);
-            session.SingleCandidateSummary = EntityAggregationHelper.BuildSingleCandidateSummary(session.AllDocScans, session.Source.EntityId);
-
-            // Kiểm tra lại DisAmLinkData_New với forceRefresh = true
-            await _disamLinkService.EnrichDisambiguationGroupsAsync(session.AmbiguousGroups, forceRefresh: true);
-
-            session.Status = "awaiting_review";
-            session.CurrentMessage = $"Đã quét lại toàn bộ EREL ({newDocScans.Count} bài viết). Phát hiện {session.AmbiguousGroups.Count} mentions cần bạn xác nhận.";
-            session.OutputFiles["ManualReview"] = await _writerService.SaveManualReviewFileAsync(
-                _defaultOutputFolder,
-                session.Source,
-                session.AmbiguousGroups,
-                session.SingleCandidateSummary
-            );
-
-            return session;
+            catch (Exception ex)
+            {
+                Console.WriteLine($"[EREL RESCAN ERROR] {ex}");
+                session.Status = "awaiting_review";
+                session.CurrentMessage = $"Lỗi khi quét lại EREL: {ex.Message}";
+            }
         }
 
         public async Task<CrawlSession> RecheckDisamLinkAsync(string sessionId)

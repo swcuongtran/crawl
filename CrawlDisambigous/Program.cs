@@ -64,9 +64,9 @@ app.UseCors("AllowAll");
 // API Health & Config
 app.MapGet("/api/health", async (CrawlSessionService sessionService) =>
 {
-    bool erelOnline = await sessionService.CheckErelConnectionAsync(timeoutSeconds: 2);
+    bool erelOnline = await sessionService.CheckErelConnectionAsync(timeoutSeconds: 3);
     bool searxngOnline = await sessionService.CheckSearxngConnectionAsync(timeoutSeconds: 1);
-    bool dbOnline = await sessionService.CheckDisamLinkConnectionAsync(timeoutSeconds: 2);
+    bool dbOnline = await sessionService.CheckDisamLinkConnectionAsync(timeoutSeconds: 4);
     return Results.Ok(new
     {
         status = "healthy",
@@ -143,12 +143,12 @@ app.MapPost("/api/disamlink/recheck/{sessionId}", async (string sessionId, Crawl
     }
 });
 
-// API 3c: Quét lại toàn bộ văn bản qua EREL + cập nhật DisAmLinkData_New cho session hiện tại
-app.MapPost("/api/erel/rescan/{sessionId}", async (string sessionId, CrawlSessionService sessionService) =>
+// API 3c: Khởi chạy quét lại toàn bộ văn bản qua EREL + cập nhật DisAmLinkData_New trong background
+app.MapPost("/api/erel/rescan/{sessionId}", (string sessionId, CrawlSessionService sessionService) =>
 {
     try
     {
-        var session = await sessionService.RescanErelAsync(sessionId);
+        var session = sessionService.StartRescanErel(sessionId);
         return Results.Ok(session);
     }
     catch (KeyNotFoundException ex)

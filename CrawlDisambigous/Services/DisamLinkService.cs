@@ -15,10 +15,11 @@ namespace CrawlDisambigous.Services
     {
         private readonly string[] _connectionStrings = new[]
         {
-            "Server=103.98.152.201,1433;Database=EREL;User Id=team_admin;Password=ThayVinh2005;TrustServerCertificate=True;MultipleActiveResultSets=True;Connect Timeout=20;",
-            "Server=103.98.152.201,1433;Database=EREL;User Id=teamadmin;Password=ThayVinh2005;TrustServerCertificate=True;MultipleActiveResultSets=True;Connect Timeout=20;"
+            "Server=103.98.152.201,1433;Database=EREL;User Id=teamadmin;Password=ThayVinh2005;TrustServerCertificate=True;MultipleActiveResultSets=True;Connect Timeout=20;",
+            "Server=103.98.152.201,1433;Database=EREL;User Id=team_admin;Password=ThayVinh2005;TrustServerCertificate=True;MultipleActiveResultSets=True;Connect Timeout=20;"
         };
 
+        private string? _cachedWorkingConnStr;
         private HashSet<long>? _cachedDistinctEntity1Ids;
         private DateTime _lastCacheTime = DateTime.MinValue;
         private readonly TimeSpan _cacheDuration = TimeSpan.FromMinutes(5);
@@ -26,16 +27,22 @@ namespace CrawlDisambigous.Services
 
         public async Task<bool> CheckHealthAsync(int timeoutSeconds = 3)
         {
-            foreach (var connStr in _connectionStrings)
+            // Ưu tiên chuỗi kết nối đã hoạt động thành công gần nhất
+            var candidates = _cachedWorkingConnStr != null
+                ? new[] { _cachedWorkingConnStr }
+                : _connectionStrings;
+
+            foreach (var connStr in candidates)
             {
                 try
                 {
                     var builder = new SqlConnectionStringBuilder(connStr)
                     {
-                        ConnectTimeout = timeoutSeconds
+                        ConnectTimeout = Math.Max(timeoutSeconds, 3)
                     };
                     using var conn = new SqlConnection(builder.ConnectionString);
                     await conn.OpenAsync();
+                    _cachedWorkingConnStr = connStr;
                     return true;
                 }
                 catch
@@ -43,18 +50,31 @@ namespace CrawlDisambigous.Services
                     // Thử chuỗi kết nối tiếp theo nếu có
                 }
             }
+
+            // Nếu chuỗi cache bị lỗi, thử lại toàn bộ danh sách
+            if (_cachedWorkingConnStr != null)
+            {
+                _cachedWorkingConnStr = null;
+                return await CheckHealthAsync(timeoutSeconds);
+            }
+
             return false;
         }
 
         private async Task<SqlConnection> OpenWorkingConnectionAsync()
         {
+            var candidates = _cachedWorkingConnStr != null
+                ? new[] { _cachedWorkingConnStr }
+                : _connectionStrings;
+
             Exception? lastEx = null;
-            foreach (var connStr in _connectionStrings)
+            foreach (var connStr in candidates)
             {
                 try
                 {
                     var conn = new SqlConnection(connStr);
                     await conn.OpenAsync();
+                    _cachedWorkingConnStr = connStr;
                     return conn;
                 }
                 catch (Exception ex)
@@ -62,6 +82,13 @@ namespace CrawlDisambigous.Services
                     lastEx = ex;
                 }
             }
+
+            if (_cachedWorkingConnStr != null)
+            {
+                _cachedWorkingConnStr = null;
+                return await OpenWorkingConnectionAsync();
+            }
+
             throw lastEx ?? new InvalidOperationException("Không thể kết nối tới cơ sở dữ liệu DisAmLinkData_New.");
         }
 

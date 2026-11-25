@@ -20,6 +20,10 @@ try {
         console.log(`[Auto-Clean] Đã tự động giải phóng cổng 3001 (PID: ${pid})`);
       } catch {}
     }
+  } else if (process.platform === "darwin") {
+    try {
+      execSync("lsof -ti:3001 | xargs kill -9", { stdio: "ignore" });
+    } catch {}
   } else {
     try {
       execSync("fuser -k 3001/tcp", { stdio: "ignore" });
